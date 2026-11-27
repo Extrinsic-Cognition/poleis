@@ -62,3 +62,9 @@ cargo test --manifest-path poleis/press/Cargo.toml --lib
 node --test tools/warm-launch/warm-launch.test.mjs
 (cd tools/warm-day0 && node --test $(find . -name '*.test.mjs'))
 ```
+
+## License
+
+- **On-chain programs (`poleis/program/*`), tooling & core crates:** [GPL-3.0](LICENSE)
+- **Integrator SDKs (`poleis/client/`, `poleis/seat-wasm/`):** [Apache-2.0](LICENSE-APACHE)
+- See [NOTICE](NOTICE). *(Confirm `poleis/provenance.json` before flipping this repository public.)*

@@ -1,0 +1,6 @@
+Poleis Protocol
+Copyright 2026 Extrinsic Cognition, Inc.
+
+Licensing split (pending owner confirmation of poleis/provenance.json prior to public release):
+- On-chain Solana programs (poleis/program/*), press, door, seal, pure-Rust math crates, and launch tools: GPL-3.0 (see LICENSE).
+- Integrator client SDKs (poleis/client/, poleis/seat-wasm/): Apache-2.0 (see LICENSE-APACHE).
