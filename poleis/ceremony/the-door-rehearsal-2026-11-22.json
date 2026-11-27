@@ -1,0 +1,88 @@
+{
+  "said": [
+    {
+      "is": {
+        "authority": "11111111111111111111111111111111",
+        "bytes": 328249,
+        "deploySlot": 0,
+        "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+        "programData": "EmiU8AQkB2sswTxVB6aCmsAJftoowZGGDXuytm6X65R3",
+        "sha256": "d18a2cdc0e0a52f55cb363cf517a4e72e9fca4fd6950c12897ee13c2385c52ac"
+      },
+      "what": "the stake pool program"
+    },
+    {
+      "is": {
+        "epoch": 0,
+        "mint": "FUKMe3Rf4hVkRp2LeinSXigE8DrJaQzmzgEvFSVJCLAr",
+        "pool": "BseME7dkwzGiE1UjAzCVDYrBiaSASyAYTXR4pqaqyjBD",
+        "reserve": "8mvzVK7WoxamMG1xBDNtUBWHCxjxH6amkMWrDzVderio",
+        "signature": "6XJ8hVATu6L5gHXqN4FgfCGEi6iNpxzSX8ngrwJP1ctyxVmBpbhJTJjx3VfQ65j87YskDfvb6otfkTW9g39iGcH"
+      },
+      "what": "the pool born"
+    },
+    {
+      "is": {
+        "lamports": 25000000000,
+        "receipts": 25000000000,
+        "signature": "2xjbxHDtteZBF3TQKCnNynCNXDQcyob1nfkZpd6XNHrmDnrTTiY2se5Ncy7xuGDrAiU3n7u9EmK74KGS4bSdSeA7",
+        "the staker paid": 25002044280,
+        "worth": 25000000000
+      },
+      "what": "the stake"
+    },
+    {
+      "is": {
+        "first": "embertide.light/1 wish 5",
+        "first_signature": "p3YzvFujcuXJYNMowbyBujF1LaT5V1yiBxe3pDJXL99yfKCHXXaVmKR62cTWSG6w5k4iFYQ8eSc9kokEZ1frLHp",
+        "read_back": "Some(Futarchy)",
+        "then": "embertide.light/1 futarchy",
+        "then_signature": "49GUKGw3q858ecQcoC2RV2om8NxinizXraitfkrrnJurwK7SbTV5zJsNugc3JHURsv4ZxAuSjiqHMNcgAuA25Jft"
+      },
+      "what": "the light"
+    },
+    {
+      "is": {
+        "paying when the epoch turned": true,
+        "waited (ms)": 538
+      },
+      "what": "the epoch's rewards"
+    },
+    {
+      "is": {
+        "its words": [
+          "Program log: Error: First update old validator stake account balances and then pool stake balance.",
+          "Program SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy failed: custom program error: 0x11"
+        ],
+        "pool's epoch after": 1,
+        "pool's epoch before": 0,
+        "receipts": 26000000000,
+        "refused without the update": {
+          "InstructionError": [
+            1,
+            {
+              "Custom": 17
+            }
+          ]
+        },
+        "with the door's update": "2zrcaB73vMMZy8eU2g6hJB3g2htGqHAe8ns67v6Y5zUvJ1zqZ4wGpRaPdJz1QS1TpH77HyD8J9khUQD5YxT685Gm"
+      },
+      "what": "an epoch turned"
+    },
+    {
+      "is": {
+        "fee": 5000,
+        "lamports back": 26000000000,
+        "receipts burned": 26000000000,
+        "signature": "nfyT4jP4HZxRZgTHVZMdCXE1WQZvyQNVtYecSiwJY6ipDsrGu72dN6raP3X72npqnQnarfV5vS9SMzBDRGgPJnn",
+        "the pool after": {
+          "supply": 0,
+          "total_lamports": 0
+        }
+      },
+      "what": "the way out"
+    }
+  ],
+  "schema": "embertide.door-rehearsal/1",
+  "validator": "solana-test-validator, local, 32 slots an epoch"
+}

@@ -1,0 +1,102 @@
+{
+ "cluster": "localnet",
+ "note": "THE LAUNCH PRESS's rehearsal on a validator of this machine (poleis/ceremony/the-launch-press-rehearsal.sh): the numbers are the rehearsal's, the ones THE TWO PROGRAMS IN ONE WORLD runs on (the estate's genesis, the market's law and bar), never his; every STAND-IN is an address (his posiverse's agents, its chairs; the floor's permit issuer; the door's miner; the board's crediter; the dollar; the board's judge is the swarm, root 0's own hand, derived) the rehearsal's stand-ins were made at on the local chain (their own process, their seed in the script's memory), filled from --stand-ins. THE WHOLE TREE DECIDES: root 0's floor is the minted Lyssajudrons, six stand-in people each minting one seat on the curve inside its window by the issuer's permit; no key of his is a param. The opening is the founding's own instant.",
+ "priorityMicroLamports": 0,
+ "genesis": {
+  "charter": "c1128b90432bb12cb6d4711c6eee3bb703365bc81535295db942842ae82942ac",
+  "name": "THE DYSON SOCIETY (a rehearsal)",
+  "desc": "the launch press, rehearsed on a local chain",
+  "defaultMint": "STAND-IN: the rehearsal's dollar",
+  "planCap": 10000000000,
+  "planPeriod": 1000000,
+  "dollarCap": 60000000,
+  "window": 1000,
+  "rung": 1
+ },
+ "floor": {
+  "note": "THE FLOOR IS THE MINTED LYSSAJUDRONS: the curve of root 0's NFT genesis (Poleis's open_nft_genesis), its capacity the rung's hexagons (genesis.rung), its genesis hash the cluster's own; the window opens opensAfterSlots after the founding's slot (more than a blockhash's 150, so the founding always lands before it) and closes windowSlots after; the rehearsal's issuer is a stand-in key that signs each person's permit",
+  "startLamports": 1000000,
+  "stepLamports": 100000,
+  "opensAfterSlots": 200,
+  "windowSlots": 700,
+  "issuer": "STAND-IN: the rehearsal's permit issuer"
+ },
+ "posiverse": {
+  "name": "THE FIRST POSIVERSE (a rehearsal)",
+  "desc": "",
+  "chair": 2,
+  "agents": [
+   "STAND-IN: the rehearsal's agent 1",
+   "STAND-IN: the rehearsal's agent 2",
+   "STAND-IN: the rehearsal's agent 3"
+  ],
+  "charter": "e7abb977e12486b45b0947b33a43ead9d146d76c38d3b5df47c7107c31c8de4e",
+  "window": 1000,
+  "planCap": 1000000000,
+  "planPeriod": 1000000
+ },
+ "fund": {
+  "feeBps": 250,
+  "cycleSlots": 1000,
+  "rangeLo": 2000,
+  "rangeHi": 8000,
+  "optionFee": 1000000,
+  "chairQuorum": 7
+ },
+ "warm": {
+  "name": "SWARM",
+  "symbol": "$WARM",
+  "uri": "https://optimism.fit/app/warm-token.json",
+  "dollar": "STAND-IN: the rehearsal's dollar",
+  "opening": "the founding",
+  "miner": "STAND-IN: the rehearsal's miner, the mint door's crank key"
+ },
+ "router": {
+  "monthCap": 40000000
+ },
+ "market": {
+  "board": 77,
+  "stepSlots": 10,
+  "maxStepBp": 100,
+  "thresholdBp": 300,
+  "feeBp": 30,
+  "poolBase": 1000000000,
+  "poolQuote": 1000000000,
+  "judgeSlots": 5000,
+  "crediter": "STAND-IN: the rehearsal's crediter",
+  "split": [
+   "treasury"
+  ],
+  "plan": [
+   "treasury",
+   "act"
+  ],
+  "barBp": 1000
+ },
+ "acts": {
+  "nonce": 1
+ },
+ "seal": {
+  "note": "THE LAUNCH NAMES THE SEAL'S ROAD: the rehearsal's road names its own validator (the sitting's --rpc, on this machine; seal.rpc is mainnet's word) and unit 1 of the sitting's own Poleis, the branch that runs the house (THE BRANCH VOTES ITS OWN CODE, his Nov 23 2026 \"Yes, fix it\"). ANY MEMBER PROPOSES, THE SWARM DECIDES (his Nov 23 2026 17:52 UTC \"the swarm votes on updates, you dont have it linear with me and keystones\", and his \"Yes, build it\" to \"Take your key and your press out of the update road?\"): the road names nobody who may propose; agent 1 and agent 2, two of unit 1's agents, each propose a release, the agents seal both in unit 1 with no seat holder asked, and the lane's lander ships by both seals, the second with no commit named (the newest the swarm sealed); a seal.proposers line is refused."
+ },
+ "pool": {
+  "note": "THE POOL IS BORN AT THE LAUNCH (his \"Yes, add it\", Nov 22 2026 01:18:14 UTC): the SPL stake pool born by root 0's raw act, act 5. Its list holds 10 validators, as devnet's did; its seeds are the tag and one letter (the pool p, its list l, its reserve r, its mint m), their base the deployer. No program hash is named: a rehearsal records the stake pool program's bytes where it first reads them, and its chain has the program only under LAUNCH_POOL_FROM_MAINNET=1 (a read of mainnet that waits for his word).",
+  "maxValidators": 10,
+  "tag": "lp1"
+ },
+ "engine": {
+  "note": "THE STAKE EARNS (Nov 25 2026, his \"Yes, build them\" to \"Build the three missing links now?\"): the engine's rule, data and never code. The rehearsal's one validator is the local validator's own vote account, named by the word THIS VALIDATOR, which the engine resolves only on a validator of this machine; the engine's key is the one the engine's rehearsal makes (poleis/ceremony/the-engine-rehearsal.sh), so these params write no ninth act (THIS REHEARSAL). A tenth of the pool stays in the reserve, so a staker leaves at once up to it.",
+  "staker": "THIS REHEARSAL: the engine's key the engine's rehearsal makes",
+  "reserveBp": 1000,
+  "validators": [
+   {
+    "vote": "THIS VALIDATOR: the local validator's own vote account",
+    "weight": 1
+   }
+  ]
+ },
+ "light": {
+  "note": "THE LIGHT PAYS A WISH (Nov 25 2026): root 0's plan of her pool's token, the tenth act. The light's own rehearsals vote it on their own tree (poleis/ceremony/the-stake-pays-its-snowtracer-rehearsal.sh), so these params write no tenth act (THIS REHEARSAL).",
+  "planCap": "THIS REHEARSAL: the light's rehearsal votes root 0's plan on its own tree"
+ }
+}

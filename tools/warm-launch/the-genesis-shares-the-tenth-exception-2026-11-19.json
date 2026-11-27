@@ -1,0 +1,40 @@
+{
+  "base": "82f2ed115fcbc783f893c8386fc2c084c5695973",
+  "approval": "Yes, pass +214",
+  "chat": "claude-93958ebc, this lane's own chat, his answer there: \"Yes, pass +214\" (Nov 19 2026 19:12:18 UTC), to \"Pass +214 lines of JavaScript for the $WARM launch?\"",
+  "date": "2026-11-19",
+  "asked": "Pass +214 lines of JavaScript for the $WARM launch?",
+  "scope": "lane/the-genesis-shares-the-tenth only: the genesis alone and the share in tools/warm-launch (mainnet.mjs, genesis-share.mjs, chain.mjs's transferChecked), its devnet rehearsal (rehearse-genesis.mjs) and its tests, and the mint page's one link to the token's file (app/warm.html), at these bytes; no general JavaScript allowance",
+  "net": 214,
+  "cap": 214,
+  "files": {
+    "embertide-app/ui/intro/dyson-society/app/warm.html": {
+      "before": "330d80c3d652d573f8de29a771ff13d39816a3bc",
+      "after": "5b38acea2e1b42b243115167d47e969ead90e057"
+    },
+    "tools/embertide-mesh/tests/the-javascript-only-shrinks.test.mjs": {
+      "before": "d34fd256fd99a349d9c8835d4077cf436ffb7b50",
+      "after": "8b08735d73bc6a01cb1bb3aa1d8f7f64b8e23364"
+    },
+    "tools/warm-launch/chain.mjs": {
+      "before": "85820d8f0af138a1f9d0a8781ea25f720d90ca96",
+      "after": "6217322a5e106184fee83aa3633e2e14676e7afd"
+    },
+    "tools/warm-launch/genesis-share.mjs": {
+      "before": null,
+      "after": "a6cc045c87b23270539057d457dfbab5a677638a"
+    },
+    "tools/warm-launch/mainnet.mjs": {
+      "before": "5d6e2d6b4930270c0cf16601570cc96aee56ab40",
+      "after": "f7f8668861760d5ab776067eeca9f19a79a4e2b5"
+    },
+    "tools/warm-launch/rehearse-genesis.mjs": {
+      "before": null,
+      "after": "50c6ecd4a6f55c543d48499e5ce53eb5e49b3301"
+    },
+    "tools/warm-launch/warm-launch.test.mjs": {
+      "before": "3aa27ad1ab0ceb31defe5008a95d24e35d507ee2",
+      "after": "73a80638e0eec06871e4f197f2af5853214d7b5a"
+    }
+  }
+}

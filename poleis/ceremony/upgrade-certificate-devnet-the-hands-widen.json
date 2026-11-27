@@ -1,0 +1,62 @@
+{
+ "what": "THE HANDS WIDEN: the Poleis program upgraded by its own seal (the-hands-widen)",
+ "at": "2026-10-29T21:24:35.367Z",
+ "cluster": "https://api.devnet.solana.com",
+ "program": "4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84",
+ "upgradeAddress": "F8vHRCKKD1nQbk6xZAkDqMFMZG6VnPXyv7D4HDuHK5yL",
+ "build": {
+  "path": "~/.embertide/poleis-rehearsal/api.devnet.solana.com/build/the-hands-widen/poleis_treasury.so",
+  "bytes": 401872,
+  "sha256": "a5bf9c1a096e9000f34f525e6edf58e77f701567fab626ae3867faf3efae72aa"
+ },
+ "buffer": {
+  "buffer": "6zmUiF4GWnqUm82663MaJ1JqS7ZxLE7KgHTHjziqYkYq",
+  "dataLen": 401872
+ },
+ "voters": [
+  "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+  "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+  "MnmbJV3u9hGvoVEchPWp9qKktkHwWhS1DHdrxJWHe7c"
+ ],
+ "proposal": "e922f762869afe7cae1125c42187a3fd5085fe6e22cd81ae9119346b1363606a",
+ "read": {
+  "authority": "F8vHRCKKD1nQbk6xZAkDqMFMZG6VnPXyv7D4HDuHK5yL",
+  "lastDeploySlot": 516549040,
+  "dataLen": 411992,
+  "sha256": "a5bf9c1a096e9000f34f525e6edf58e77f701567fab626ae3867faf3efae72aa"
+ },
+ "transactions": [
+  {
+   "step": "propose: CODEX Upgrade, by a chair",
+   "signature": "2CCNs4SBq6WbH7tg7hzjCEr7phfJ3bHufTi6tCP5oC4A9ZDUmnwAEixaWFSkGLB2ta7sDaNyU5hkEBDrNkMSmUv3",
+   "slot": 516549017,
+   "fee": 5000,
+   "cu": 14134,
+   "bytes": 487
+  },
+  {
+   "step": "attest: the named keys, PRO",
+   "signature": "4NsAJNuv6NykbALq6Z7PGYYAWC31eJZnZVXDRwGjZhbPBDps7EhWFLRqk67imfwbLsNgpbMSPbwruDDGjEcHCL3H",
+   "slot": 516549024,
+   "fee": 20000,
+   "cu": 7341,
+   "bytes": 907
+  },
+  {
+   "step": "seal",
+   "signature": "3Z35RrBZBobK9DzaikfFjoeN1phm6L776kbzf8ir2M7NdCBNczX7NkkB1KHgoZgiTitXTEcKAHP6Fs3v6RhLhrdF",
+   "slot": 516549032,
+   "fee": 5000,
+   "cu": 8527,
+   "bytes": 343
+  },
+  {
+   "step": "execute: the loader replaces the code",
+   "signature": "22GGyG5jzEcW13ewd3BXBhhzafcfJaH6g2pzDNfRxLDcwiaFmQdGzvBnQcvaTfq4oZrjXLy3nM93ypxMXbA3h78Q",
+   "slot": 516549040,
+   "fee": 5000,
+   "cu": 20127,
+   "bytes": 576
+  }
+ ]
+}

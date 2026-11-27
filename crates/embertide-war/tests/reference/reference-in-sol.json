@@ -1,0 +1,2143 @@
+[
+ {
+  "name": "The war as before, now on the clock, in SOL",
+  "minutes": 195,
+  "winner": "crow",
+  "how": "beat its line at minute 148; the last stand failed",
+  "opponents_in_range": true,
+  "stakers": 2,
+  "stand_reserve": {},
+  "refused": 0,
+  "burn": true,
+  "burned_share": {
+   "crow": 0.4301141298415252,
+   "wolf": 0.6238390091355636
+  },
+  "mcap_change": {
+   "crow": 0.24844913029382035,
+   "wolf": -0.10049627797202584
+  },
+  "stake_share_of_mcap": 0.06279069771379975,
+  "dump_tax_at_once": 0.19900621039749394,
+  "groups": {
+   "deserted (crow)": {
+    "mean": 0.5,
+    "worst": 0.5,
+    "best": 0.5,
+    "n": 10
+   },
+   "changed sides (wolf to crow)": {
+    "mean": 0.4650611435,
+    "worst": 0.426924011,
+    "best": 0.506196773,
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "mean": 1.328419791,
+    "worst": 1.132136128,
+    "best": 1.55316755,
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "mean": 1.0623965462,
+    "worst": 0.868744518,
+    "best": 1.293491867,
+    "n": 10
+   },
+   "staked (crow)": {
+    "mean": 1.0647136295,
+    "worst": 1.043149809,
+    "best": 1.08627745,
+    "n": 2
+   }
+  },
+  "lives_on": {
+   "deserted (crow)": {
+    "worth": {
+     "mean": 0.5,
+     "worst": 0.5,
+     "best": 0.5
+    },
+    "alone_now": {
+     "mean": 0.5,
+     "worst": 0.5,
+     "best": 0.5
+    },
+    "alone_after": {
+     "mean": 0.5,
+     "worst": 0.5,
+     "best": 0.5
+    },
+    "backed": {
+     "mean": 0.5,
+     "worst": 0.5,
+     "best": 0.5
+    },
+    "n": 10
+   },
+   "changed sides (wolf to crow)": {
+    "worth": {
+     "mean": 0.824872280835469,
+     "worst": 0.7572289960759477,
+     "best": 0.8978339565167444
+    },
+    "alone_now": {
+     "mean": 0.6421400812,
+     "worst": 0.590116773,
+     "best": 0.698181924
+    },
+    "alone_after": {
+     "mean": 0.8042084012,
+     "worst": 0.739055045,
+     "best": 0.874394521
+    },
+    "backed": {
+     "mean": 0.5684371544016443,
+     "worst": 0.521822718207792,
+     "best": 0.6187166076797117
+    },
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "worth": {
+     "mean": 2.3561991308666865,
+     "worst": 2.0080536132369695,
+     "best": 2.7548310074938023
+    },
+    "alone_now": {
+     "mean": 1.7914823417499999,
+     "worst": 1.535361193,
+     "best": 2.082877243
+    },
+    "alone_after": {
+     "mean": 2.243630622875,
+     "worst": 1.922867622,
+     "best": 2.608570041
+    },
+    "backed": {
+     "mean": 1.6237072820496887,
+     "worst": 1.3837927498766804,
+     "best": 1.8984130454367147
+    },
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "worth": {
+     "mean": 1.8843575168128694,
+     "worst": 1.5408796913345404,
+     "best": 2.294247973127019
+    },
+    "alone_now": {
+     "mean": 1.4428298936000001,
+     "worst": 1.186523637,
+     "best": 1.746642855
+    },
+    "alone_after": {
+     "mean": 1.8069825514999998,
+     "worst": 1.485987724,
+     "best": 2.187474197
+    },
+    "backed": {
+     "mean": 1.2985511207232676,
+     "worst": 1.061853195176282,
+     "best": 1.5810154124892806
+    },
+    "n": 10
+   },
+   "staked (crow)": {
+    "worth": {
+     "mean": 1.8884672939676634,
+     "worst": 1.8502198551450442,
+     "best": 1.926714732790283
+    },
+    "alone_now": {
+     "mean": 1.446519141,
+     "worst": 1.418058574,
+     "best": 1.474979708
+    },
+    "alone_after": {
+     "mean": 1.8116029194999999,
+     "worst": 1.775959253,
+     "best": 1.847246586
+    },
+    "backed": {
+     "mean": 1.3013832561766856,
+     "worst": 1.2750261269669851,
+     "best": 1.327740385386386
+    },
+    "n": 2
+   }
+  },
+  "owns_of_the_winner": {
+   "deserted (crow)": 0.0,
+   "changed sides (wolf to crow)": 0.1659074345969925,
+   "stayed, last ten in (crow)": 0.3791238593260256,
+   "stayed, last ten in (wolf)": 0.3790028210929057,
+   "staked (crow)": 0.07596588498407626
+  },
+  "together": 33.031362484,
+  "brought": 40.0,
+  "per_fighter": {
+   "crow0": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf0": {
+    "holds": 6358673560923,
+    "backed_lamports": 618716607,
+    "took_lamports": 0
+   },
+   "crow1": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf1": {
+    "holds": 6234903759693,
+    "backed_lamports": 606673462,
+    "took_lamports": 0
+   },
+   "crow2": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf2": {
+    "holds": 6114712844269,
+    "backed_lamports": 594978552,
+    "took_lamports": 0
+   },
+   "crow3": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf3": {
+    "holds": 5997964150756,
+    "backed_lamports": 583618579,
+    "took_lamports": 0
+   },
+   "crow4": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf4": {
+    "holds": 5884527476907,
+    "backed_lamports": 572580876,
+    "took_lamports": 0
+   },
+   "crow5": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf5": {
+    "holds": 5774278718940,
+    "backed_lamports": 561853365,
+    "took_lamports": 0
+   },
+   "crow6": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf6": {
+    "holds": 5667099531952,
+    "backed_lamports": 551424532,
+    "took_lamports": 0
+   },
+   "crow7": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf7": {
+    "holds": 5562877012181,
+    "backed_lamports": 541283392,
+    "took_lamports": 0
+   },
+   "crow8": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf8": {
+    "holds": 5461503399548,
+    "backed_lamports": 531419457,
+    "took_lamports": 0
+   },
+   "crow9": {
+    "holds": 0,
+    "backed_lamports": 0,
+    "took_lamports": 500000000
+   },
+   "wolf9": {
+    "holds": 5362875798987,
+    "backed_lamports": 521822718,
+    "took_lamports": 0
+   },
+   "crow10": {
+    "holds": 19510368220112,
+    "backed_lamports": 1898413045,
+    "took_lamports": 0
+   },
+   "wolf10": {
+    "holds": 16248409656415,
+    "backed_lamports": 1581015412,
+    "took_lamports": 0
+   },
+   "crow11": {
+    "holds": 18589524883394,
+    "backed_lamports": 1808812429,
+    "took_lamports": 0
+   },
+   "wolf11": {
+    "holds": 15481523065882,
+    "backed_lamports": 1506395216,
+    "took_lamports": 0
+   },
+   "crow12": {
+    "holds": 17732370999295,
+    "backed_lamports": 1725408974,
+    "took_lamports": 0
+   },
+   "wolf12": {
+    "holds": 14767677622767,
+    "backed_lamports": 1436936070,
+    "took_lamports": 0
+   },
+   "crow13": {
+    "holds": 16933165546739,
+    "backed_lamports": 1647644063,
+    "took_lamports": 0
+   },
+   "wolf13": {
+    "holds": 14102092153222,
+    "backed_lamports": 1372172754,
+    "took_lamports": 0
+   },
+   "crow14": {
+    "holds": 16186800124052,
+    "backed_lamports": 1575020633,
+    "took_lamports": 0
+   },
+   "wolf14": {
+    "holds": 13480512334513,
+    "backed_lamports": 1311691311,
+    "took_lamports": 0
+   },
+   "crow15": {
+    "holds": 15488717100629,
+    "backed_lamports": 1507095215,
+    "took_lamports": 0
+   },
+   "wolf15": {
+    "holds": 12899142530991,
+    "backed_lamports": 1255122413,
+    "took_lamports": 0
+   },
+   "crow16": {
+    "holds": 14834839862289,
+    "backed_lamports": 1443471143,
+    "took_lamports": 0
+   },
+   "wolf16": {
+    "holds": 12354587701800,
+    "backed_lamports": 1202135715,
+    "took_lamports": 0
+   },
+   "crow17": {
+    "holds": 14221513150319,
+    "backed_lamports": 1383792749,
+    "took_lamports": 0
+   },
+   "wolf17": {
+    "holds": 11843803714698,
+    "backed_lamports": 1152435014,
+    "took_lamports": 0
+   },
+   "crow18": {
+    "holds": 13645451858788,
+    "backed_lamports": 1327740385,
+    "took_lamports": 0
+   },
+   "wolf18": {
+    "holds": 11364054703997,
+    "backed_lamports": 1105754102,
+    "took_lamports": 0
+   },
+   "crow19": {
+    "holds": 13103696946871,
+    "backed_lamports": 1275026126,
+    "took_lamports": 0
+   },
+   "wolf19": {
+    "holds": 10912876353958,
+    "backed_lamports": 1061853195,
+    "took_lamports": 0
+   }
+  },
+  "settled": {
+   "pot_in": 14753086400,
+   "bought_with": 14753086400,
+   "coins_bought": 133454679838248,
+   "winner_reserve": 34262307520,
+   "winner_chest": 0,
+   "all_held": 352120544784887,
+   "m0": {
+    "crow": 32759233769,
+    "wolf": 32759233769
+   },
+   "mcap_end": {
+    "crow": 40898236908,
+    "wolf": 29467052706
+   },
+   "stake_need": 1637961688.45,
+   "stakers": [
+    "crow19",
+    "crow18"
+   ],
+   "minutes": 195
+  }
+ },
+ {
+  "name": "A clean push: nobody deserts, the crow sends twenty in its first hour, in SOL",
+  "minutes": 195,
+  "winner": "crow",
+  "how": "beat its line at minute 60; the last stand failed",
+  "opponents_in_range": true,
+  "stakers": 2,
+  "stand_reserve": {},
+  "refused": 0,
+  "burn": true,
+  "burned_share": {
+   "crow": 0.0,
+   "wolf": 0.0
+  },
+  "mcap_change": {
+   "crow": 1.7940446639388552,
+   "wolf": 0.0
+  },
+  "stake_share_of_mcap": 0.06279069771379975,
+  "dump_tax_at_once": 0.6420959146049342,
+  "groups": {
+   "stayed, first ten in (crow)": {
+    "mean": 2.2047156352000004,
+    "worst": 1.700780633,
+    "best": 2.837144024,
+    "n": 10
+   },
+   "stayed, first ten in (wolf)": {
+    "mean": 0.5253035534,
+    "worst": 0.40523417,
+    "best": 0.675988238,
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "mean": 1.3843563296249999,
+    "worst": 1.179807637,
+    "best": 1.618567672,
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "mean": 0.3167463113,
+    "worst": 0.259010275,
+    "best": 0.385645811,
+    "n": 10
+   },
+   "staked (crow)": {
+    "mean": 1.1095461405,
+    "worst": 1.08707432,
+    "best": 1.132017961,
+    "n": 2
+   },
+   "came in during the fight (crow)": {
+    "mean": 0.76268979825,
+    "worst": 0.553808989,
+    "best": 1.044755125,
+    "n": 20
+   }
+  },
+  "lives_on": {
+   "stayed, first ten in (crow)": {
+    "worth": {
+     "mean": 6.54178768862698,
+     "worst": 5.046521933058264,
+     "best": 8.418316425188975
+    },
+    "alone_now": {
+     "mean": 2.1012737865,
+     "worst": 1.649570696,
+     "best": 2.656492492
+    },
+    "alone_after": {
+     "mean": 6.0074792166,
+     "worst": 4.716073524,
+     "best": 7.59483297
+    },
+    "backed": {
+     "mean": 2.204715636651555,
+     "worst": 1.7007806346056746,
+     "best": 2.8371440255026386
+    },
+    "n": 10
+   },
+   "stayed, first ten in (wolf)": {
+    "worth": {
+     "mean": 1.5586700908938478,
+     "worst": 1.2024026419831468,
+     "best": 2.005778642195017
+    },
+    "alone_now": {
+     "mean": 0.5288659015,
+     "worst": 0.409779562,
+     "best": 0.67753723
+    },
+    "alone_after": {
+     "mean": 1.5120118722,
+     "worst": 1.171547571,
+     "best": 1.937058776
+    },
+    "backed": {
+     "mean": 0.5253035539121905,
+     "worst": 0.4052341703079301,
+     "best": 0.6759882384744932
+    },
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "worth": {
+     "mean": 4.107634132555786,
+     "worst": 3.5007013854130995,
+     "best": 4.802581296107283
+    },
+    "alone_now": {
+     "mean": 1.35559693025,
+     "worst": 1.163403483,
+     "best": 1.573914939
+    },
+    "alone_after": {
+     "mean": 3.8756112775,
+     "worst": 3.326135931,
+     "best": 4.499775965
+    },
+    "backed": {
+     "mean": 1.3843563308289106,
+     "worst": 1.1798076383747516,
+     "best": 1.6185676735162193
+    },
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "worth": {
+     "mean": 0.9398432564096894,
+     "worst": 0.7685300554264359,
+     "best": 1.144280459963924
+    },
+    "alone_now": {
+     "mean": 0.3211801996,
+     "worst": 0.263181199,
+     "best": 0.390222884
+    },
+    "alone_after": {
+     "mean": 0.9182446319,
+     "worst": 0.752427216,
+     "best": 1.115635612
+    },
+    "backed": {
+     "mean": 0.31674631186981517,
+     "worst": 0.2590102753382043,
+     "best": 0.3856458116461429
+    },
+    "n": 10
+   },
+   "staked (crow)": {
+    "worth": {
+     "mean": 3.292222891222063,
+     "worst": 3.225544959322121,
+     "best": 3.358900823122005
+    },
+    "alone_now": {
+     "mean": 1.0965745255,
+     "worst": 1.075157213,
+     "best": 1.117991838
+    },
+    "alone_after": {
+     "mean": 3.1350739315,
+     "worst": 3.073842472,
+     "best": 3.196305391
+    },
+    "backed": {
+     "mean": 1.1095461413763648,
+     "worst": 1.0870743208165257,
+     "best": 1.1320179619362036
+    },
+    "n": 2
+   },
+   "came in during the fight (crow)": {
+    "worth": {
+     "mean": 2.2630377608860446,
+     "worst": 1.643250843137923,
+     "best": 3.099976299240487
+    },
+    "alone_now": {
+     "mean": 0.76159284785,
+     "worst": 0.557297672,
+     "best": 1.034710508
+    },
+    "alone_after": {
+     "mean": 2.1773712855,
+     "worst": 1.593297458,
+     "best": 2.958206546
+    },
+    "backed": {
+     "mean": 0.7626897990640191,
+     "worst": 0.553808989415158,
+     "best": 1.04475512589116
+    },
+    "n": 20
+   }
+  },
+  "owns_of_the_winner": {
+   "stayed, first ten in (crow)": 0.3735831432523936,
+   "stayed, first ten in (wolf)": 0.0890112763613446,
+   "stayed, last ten in (crow)": 0.18766036974741218,
+   "stayed, last ten in (wolf)": 0.05367181183585454,
+   "staked (crow)": 0.03760192273217484,
+   "came in during the fight (crow)": 0.25847147607082027
+  },
+  "together": 59.015393882,
+  "brought": 60.0,
+  "per_fighter": {
+   "crow0": {
+    "holds": 34199203120618,
+    "backed_lamports": 2837144025,
+    "took_lamports": 0
+   },
+   "wolf0": {
+    "holds": 8148426328354,
+    "backed_lamports": 675988238,
+    "took_lamports": 0
+   },
+   "crow1": {
+    "holds": 32086511038933,
+    "backed_lamports": 2661876441,
+    "took_lamports": 0
+   },
+   "wolf1": {
+    "holds": 7645048640828,
+    "backed_lamports": 634228347,
+    "took_lamports": 0
+   },
+   "crow2": {
+    "holds": 30163723863235,
+    "backed_lamports": 2502363246,
+    "took_lamports": 0
+   },
+   "wolf2": {
+    "holds": 7186918385832,
+    "backed_lamports": 596222154,
+    "took_lamports": 0
+   },
+   "crow3": {
+    "holds": 28408743568125,
+    "backed_lamports": 2356771203,
+    "took_lamports": 0
+   },
+   "wolf3": {
+    "holds": 6768770407589,
+    "backed_lamports": 561532865,
+    "took_lamports": 0
+   },
+   "crow4": {
+    "holds": 26802595524017,
+    "backed_lamports": 2223526188,
+    "took_lamports": 0
+   },
+   "wolf4": {
+    "holds": 6386083741947,
+    "backed_lamports": 529785424,
+    "took_lamports": 0
+   },
+   "crow5": {
+    "holds": 25328913297828,
+    "backed_lamports": 2101270453,
+    "took_lamports": 0
+   },
+   "wolf5": {
+    "holds": 6034958863126,
+    "backed_lamports": 500656328,
+    "took_lamports": 0
+   },
+   "crow6": {
+    "holds": 23973519945849,
+    "backed_lamports": 1988827887,
+    "took_lamports": 0
+   },
+   "wolf6": {
+    "holds": 5712017921035,
+    "backed_lamports": 473865354,
+    "took_lamports": 0
+   },
+   "crow7": {
+    "holds": 22724085683158,
+    "backed_lamports": 1885175619,
+    "took_lamports": 0
+   },
+   "wolf7": {
+    "holds": 5414323176343,
+    "backed_lamports": 449168789,
+    "took_lamports": 0
+   },
+   "crow8": {
+    "holds": 21569846411808,
+    "backed_lamports": 1789420667,
+    "took_lamports": 0
+   },
+   "wolf8": {
+    "holds": 5139309935984,
+    "backed_lamports": 426353866,
+    "took_lamports": 0
+   },
+   "crow9": {
+    "holds": 20501371049074,
+    "backed_lamports": 1700780634,
+    "took_lamports": 0
+   },
+   "wolf9": {
+    "holds": 4884731115940,
+    "backed_lamports": 405234170,
+    "took_lamports": 0
+   },
+   "crow10": {
+    "holds": 19510368220112,
+    "backed_lamports": 1618567673,
+    "took_lamports": 0
+   },
+   "wolf10": {
+    "holds": 4648611183130,
+    "backed_lamports": 385645811,
+    "took_lamports": 0
+   },
+   "crow11": {
+    "holds": 18589524883394,
+    "backed_lamports": 1542175099,
+    "took_lamports": 0
+   },
+   "wolf11": {
+    "holds": 4429207705723,
+    "backed_lamports": 367444239,
+    "took_lamports": 0
+   },
+   "crow12": {
+    "holds": 17732370999295,
+    "backed_lamports": 1471066160,
+    "took_lamports": 0
+   },
+   "wolf12": {
+    "holds": 4224979108583,
+    "backed_lamports": 350501565,
+    "took_lamports": 0
+   },
+   "crow13": {
+    "holds": 16933165546739,
+    "backed_lamports": 1404764587,
+    "took_lamports": 0
+   },
+   "wolf13": {
+    "holds": 4034557515179,
+    "backed_lamports": 334704311,
+    "took_lamports": 0
+   },
+   "crow14": {
+    "holds": 16186800124052,
+    "backed_lamports": 1342846589,
+    "took_lamports": 0
+   },
+   "wolf14": {
+    "holds": 3856725779178,
+    "backed_lamports": 319951504,
+    "took_lamports": 0
+   },
+   "crow15": {
+    "holds": 15488717100629,
+    "backed_lamports": 1284934067,
+    "took_lamports": 0
+   },
+   "wolf15": {
+    "holds": 3690397982961,
+    "backed_lamports": 306153057,
+    "took_lamports": 0
+   },
+   "crow16": {
+    "holds": 14834839862289,
+    "backed_lamports": 1230688830,
+    "took_lamports": 0
+   },
+   "wolf16": {
+    "holds": 3534602817628,
+    "backed_lamports": 293228389,
+    "took_lamports": 0
+   },
+   "crow17": {
+    "holds": 14221513150319,
+    "backed_lamports": 1179807638,
+    "took_lamports": 0
+   },
+   "wolf17": {
+    "holds": 3388469367967,
+    "backed_lamports": 281105252,
+    "took_lamports": 0
+   },
+   "crow18": {
+    "holds": 13645451858788,
+    "backed_lamports": 1132017961,
+    "took_lamports": 0
+   },
+   "wolf18": {
+    "holds": 3251214912706,
+    "backed_lamports": 269718710,
+    "took_lamports": 0
+   },
+   "crow19": {
+    "holds": 13103696946871,
+    "backed_lamports": 1087074320,
+    "took_lamports": 0
+   },
+   "wolf19": {
+    "holds": 3122134420035,
+    "backed_lamports": 259010275,
+    "took_lamports": 0
+   },
+   "crow-new0": {
+    "holds": 12593577358248,
+    "backed_lamports": 1044755125,
+    "took_lamports": 0
+   },
+   "crow-new1": {
+    "holds": 12112677030045,
+    "backed_lamports": 1004859942,
+    "took_lamports": 0
+   },
+   "crow-new2": {
+    "holds": 11658806228462,
+    "backed_lamports": 967207110,
+    "took_lamports": 0
+   },
+   "crow-new3": {
+    "holds": 11229976574530,
+    "backed_lamports": 931631676,
+    "took_lamports": 0
+   },
+   "crow-new4": {
+    "holds": 10824379226886,
+    "backed_lamports": 897983580,
+    "took_lamports": 0
+   },
+   "crow-new5": {
+    "holds": 10440365773555,
+    "backed_lamports": 866126069,
+    "took_lamports": 0
+   },
+   "crow-new6": {
+    "holds": 10076431455022,
+    "backed_lamports": 835934311,
+    "took_lamports": 0
+   },
+   "crow-new7": {
+    "holds": 9731200399095,
+    "backed_lamports": 807294163,
+    "took_lamports": 0
+   },
+   "crow-new8": {
+    "holds": 9403412596507,
+    "backed_lamports": 780101096,
+    "took_lamports": 0
+   },
+   "crow-new9": {
+    "holds": 9091912386580,
+    "backed_lamports": 754259238,
+    "took_lamports": 0
+   },
+   "crow-new10": {
+    "holds": 8795638256148,
+    "backed_lamports": 729680526,
+    "took_lamports": 0
+   },
+   "crow-new11": {
+    "holds": 8513613783280,
+    "backed_lamports": 706283956,
+    "took_lamports": 0
+   },
+   "crow-new12": {
+    "holds": 8244939581307,
+    "backed_lamports": 683994916,
+    "took_lamports": 0
+   },
+   "crow-new13": {
+    "holds": 7988786118833,
+    "backed_lamports": 662744588,
+    "took_lamports": 0
+   },
+   "crow-new14": {
+    "holds": 7744387308548,
+    "backed_lamports": 642469419,
+    "took_lamports": 0
+   },
+   "crow-new15": {
+    "holds": 7511034772165,
+    "backed_lamports": 623110642,
+    "took_lamports": 0
+   },
+   "crow-new16": {
+    "holds": 7288072701216,
+    "backed_lamports": 604613851,
+    "took_lamports": 0
+   },
+   "crow-new17": {
+    "holds": 7074893243976,
+    "backed_lamports": 586928620,
+    "took_lamports": 0
+   },
+   "crow-new18": {
+    "holds": 6870932357853,
+    "backed_lamports": 570008155,
+    "took_lamports": 0
+   },
+   "crow-new19": {
+    "holds": 6675666074329,
+    "backed_lamports": 553808989,
+    "took_lamports": 0
+   }
+  },
+  "settled": {
+   "pot_in": 19753086400,
+   "bought_with": 19753086400,
+   "coins_bought": 101501489310078,
+   "winner_reserve": 59015393935,
+   "winner_chest": 0,
+   "all_held": 711377154731786,
+   "m0": {
+    "crow": 32759233769,
+    "wolf": 32759233769
+   },
+   "mcap_end": {
+    "crow": 91530762307,
+    "wolf": 32759233769
+   },
+   "stake_need": 1637961688.45,
+   "stakers": [
+    "crow19",
+    "crow18"
+   ],
+   "minutes": 195
+  }
+ },
+ {
+  "name": "A clean push of 10, and the wolf answers 15 in its last stand, in SOL",
+  "minutes": 195,
+  "winner": "crow",
+  "how": "beat its line at minute 125; the last stand failed",
+  "opponents_in_range": true,
+  "stakers": 2,
+  "stand_reserve": {
+   "wolf": 15
+  },
+  "refused": 0,
+  "burn": true,
+  "burned_share": {
+   "crow": 0.0,
+   "wolf": 0.0
+  },
+  "mcap_change": {
+   "crow": 0.7977667489808864,
+   "wolf": 1.2710918107432612
+  },
+  "stake_share_of_mcap": 0.06279069771379975,
+  "dump_tax_at_once": 0.4437543131961488,
+  "groups": {
+   "stayed, first ten in (crow)": {
+    "mean": 2.3224957627,
+    "worst": 1.791639589,
+    "best": 2.988709686,
+    "n": 10
+   },
+   "stayed, first ten in (wolf)": {
+    "mean": 0.7946360161999999,
+    "worst": 0.613004927,
+    "best": 1.022579415,
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "mean": 1.458311293375,
+    "worst": 1.242835219,
+    "best": 1.705034654,
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "mean": 0.4791477717,
+    "worst": 0.391809444,
+    "best": 0.583373269,
+    "n": 10
+   },
+   "staked (crow)": {
+    "mean": 1.168820218,
+    "worst": 1.14514791,
+    "best": 1.192492526,
+    "n": 2
+   },
+   "came in during the fight (crow)": {
+    "mean": 0.9365081249999999,
+    "worst": 0.794553209,
+    "best": 1.100567943,
+    "n": 10
+   },
+   "came in for the last stand (wolf)": {
+    "mean": 0.29591726626666665,
+    "worst": 0.231562443,
+    "best": 0.376556521,
+    "n": 15
+   }
+  },
+  "lives_on": {
+   "stayed, first ten in (crow)": {
+    "worth": {
+     "mean": 7.259406931660662,
+     "worst": 5.600113920742328,
+     "best": 9.34178660615568
+    },
+    "alone_now": {
+     "mean": 3.6570959055000003,
+     "worst": 2.873432602,
+     "best": 4.619358764
+    },
+    "alone_after": {
+     "mean": 6.6416751328000005,
+     "worst": 5.218459224,
+     "best": 8.38924683
+    },
+    "backed": {
+     "mean": 2.322495763872164,
+     "worst": 1.7916395899231239,
+     "best": 2.988709687174273
+    },
+    "n": 10
+   },
+   "stayed, first ten in (wolf)": {
+    "worth": {
+     "mean": 2.483787613034592,
+     "worst": 1.9160647307505771,
+     "best": 3.1962685208877852
+    },
+    "alone_now": {
+     "mean": 1.3148105476,
+     "worst": 1.020989545,
+     "best": 1.680669938
+    },
+    "alone_after": {
+     "mean": 2.3878357974,
+     "worst": 1.854225606,
+     "best": 3.052275364
+    },
+    "backed": {
+     "mean": 0.794636016955089,
+     "worst": 0.6130049275878078,
+     "best": 1.022579415900256
+    },
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "worth": {
+     "mean": 4.55823226217541,
+     "worst": 3.8847203719440393,
+     "best": 5.329413550280236
+    },
+    "alone_now": {
+     "mean": 2.362500561,
+     "worst": 2.028272976,
+     "best": 2.742005169
+    },
+    "alone_after": {
+     "mean": 4.29055229425,
+     "worst": 3.683559452,
+     "best": 4.979773026
+    },
+    "backed": {
+     "mean": 1.458311294477338,
+     "worst": 1.2428352195437538,
+     "best": 1.7050346551680735
+    },
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "worth": {
+     "mean": 1.497668462429931,
+     "worst": 1.2246757303326712,
+     "best": 1.8234452876849796
+    },
+    "alone_now": {
+     "mean": 0.8013477095999999,
+     "worst": 0.657327244,
+     "best": 0.972577976
+    },
+    "alone_after": {
+     "mean": 1.4553326719,
+     "worst": 1.193776189,
+     "best": 1.766305048
+    },
+    "backed": {
+     "mean": 0.4791477723212231,
+     "worst": 0.39180944429630066,
+     "best": 0.5833732694927241
+    },
+    "n": 10
+   },
+   "staked (crow)": {
+    "worth": {
+     "mean": 3.6533722607138763,
+     "worst": 3.5793799112121105,
+     "best": 3.7273646102156417
+    },
+    "alone_now": {
+     "mean": 1.9119838195,
+     "worst": 1.87471165,
+     "best": 1.949255989
+    },
+    "alone_after": {
+     "mean": 3.4723659749999998,
+     "worst": 3.404675751,
+     "best": 3.540056199
+    },
+    "backed": {
+     "mean": 1.1688202189562382,
+     "worst": 1.1451479107505473,
+     "best": 1.1924925271619289
+    },
+    "n": 2
+   },
+   "came in during the fight (crow)": {
+    "worth": {
+     "mean": 2.9272361598854837,
+     "worst": 2.4835287845080978,
+     "best": 3.4400366544780665
+    },
+    "alone_now": {
+     "mean": 1.5429978432,
+     "worst": 1.315565179,
+     "best": 1.804312799
+    },
+    "alone_after": {
+     "mean": 2.8022481964,
+     "worst": 2.389206289,
+     "best": 3.276823949
+    },
+    "backed": {
+     "mean": 0.9365081259650825,
+     "worst": 0.7945532101690789,
+     "best": 1.1005679434700886
+    },
+    "n": 10
+   },
+   "came in for the last stand (wolf)": {
+    "worth": {
+     "mean": 0.924946297550586,
+     "worst": 0.7237929281734126,
+     "best": 1.1769997895437823
+    },
+    "alone_now": {
+     "mean": 0.49791396806666666,
+     "worst": 0.390544766,
+     "best": 0.632055076
+    },
+    "alone_after": {
+     "mean": 0.9042647239333335,
+     "worst": 0.709270833,
+     "best": 1.147879244
+    },
+    "backed": {
+     "mean": 0.29591726680888236,
+     "worst": 0.23156244379578167,
+     "best": 0.37655652190702166
+    },
+    "n": 15
+   }
+  },
+  "owns_of_the_winner": {
+   "stayed, first ten in (crow)": 0.36419442452580086,
+   "stayed, first ten in (wolf)": 0.12460819580567496,
+   "stayed, last ten in (crow)": 0.18294417615166286,
+   "stayed, last ten in (wolf)": 0.07513595930629755,
+   "staked (crow)": 0.036656928605732275,
+   "came in during the fight (crow)": 0.14685539724341254,
+   "came in for the last stand (wolf)": 0.0696049183614189
+  },
+  "together": 63.770766533,
+  "brought": 65.0,
+  "per_fighter": {
+   "crow0": {
+    "holds": 34199203120618,
+    "backed_lamports": 2988709687,
+    "took_lamports": 0
+   },
+   "wolf0": {
+    "holds": 11701170341640,
+    "backed_lamports": 1022579415,
+    "took_lamports": 0
+   },
+   "crow1": {
+    "holds": 32086511038933,
+    "backed_lamports": 2804078973,
+    "took_lamports": 0
+   },
+   "wolf1": {
+    "holds": 10978318120785,
+    "backed_lamports": 959408486,
+    "took_lamports": 0
+   },
+   "crow2": {
+    "holds": 30163723863235,
+    "backed_lamports": 2636044278,
+    "took_lamports": 0
+   },
+   "wolf2": {
+    "holds": 10320441380376,
+    "backed_lamports": 901915843,
+    "took_lamports": 0
+   },
+   "crow3": {
+    "holds": 28408743568125,
+    "backed_lamports": 2482674429,
+    "took_lamports": 0
+   },
+   "wolf3": {
+    "holds": 9719979337244,
+    "backed_lamports": 849440739,
+    "took_lamports": 0
+   },
+   "crow4": {
+    "holds": 26802595524017,
+    "backed_lamports": 2342311211,
+    "took_lamports": 0
+   },
+   "wolf4": {
+    "holds": 9170439870148,
+    "backed_lamports": 801415821,
+    "took_lamports": 0
+   },
+   "crow5": {
+    "holds": 25328913297828,
+    "backed_lamports": 2213524340,
+    "took_lamports": 0
+   },
+   "wolf5": {
+    "holds": 8666223245648,
+    "backed_lamports": 757351721,
+    "took_lamports": 0
+   },
+   "crow6": {
+    "holds": 23973519945849,
+    "backed_lamports": 2095074877,
+    "took_lamports": 0
+   },
+   "wolf6": {
+    "holds": 8202478858520,
+    "backed_lamports": 716824539,
+    "took_lamports": 0
+   },
+   "crow7": {
+    "holds": 22724085683158,
+    "backed_lamports": 1985885307,
+    "took_lamports": 0
+   },
+   "wolf7": {
+    "holds": 7774988104221,
+    "backed_lamports": 679465605,
+    "took_lamports": 0
+   },
+   "crow8": {
+    "holds": 21569846411808,
+    "backed_lamports": 1885014943,
+    "took_lamports": 0
+   },
+   "wolf8": {
+    "holds": 7380068074025,
+    "backed_lamports": 644953067,
+    "took_lamports": 0
+   },
+   "crow9": {
+    "holds": 20501371049074,
+    "backed_lamports": 1791639589,
+    "took_lamports": 0
+   },
+   "wolf9": {
+    "holds": 7014491946970,
+    "backed_lamports": 613004927,
+    "took_lamports": 0
+   },
+   "crow10": {
+    "holds": 19510368220112,
+    "backed_lamports": 1705034655,
+    "took_lamports": 0
+   },
+   "wolf10": {
+    "holds": 6675422850248,
+    "backed_lamports": 583373269,
+    "took_lamports": 0
+   },
+   "crow11": {
+    "holds": 18589524883394,
+    "backed_lamports": 1624561043,
+    "took_lamports": 0
+   },
+   "wolf11": {
+    "holds": 6360358645305,
+    "backed_lamports": 555839427,
+    "took_lamports": 0
+   },
+   "crow12": {
+    "holds": 17732370999295,
+    "backed_lamports": 1549653329,
+    "took_lamports": 0
+   },
+   "wolf12": {
+    "holds": 6067085624542,
+    "backed_lamports": 530209944,
+    "took_lamports": 0
+   },
+   "crow13": {
+    "holds": 16933165546739,
+    "backed_lamports": 1479809799,
+    "took_lamports": 0
+   },
+   "wolf13": {
+    "holds": 5793639512206,
+    "backed_lamports": 506313158,
+    "took_lamports": 0
+   },
+   "crow14": {
+    "holds": 16186800124052,
+    "backed_lamports": 1414584023,
+    "took_lamports": 0
+   },
+   "wolf14": {
+    "holds": 5538272481660,
+    "backed_lamports": 483996324,
+    "took_lamports": 0
+   },
+   "crow15": {
+    "holds": 15488717100629,
+    "backed_lamports": 1353577704,
+    "took_lamports": 0
+   },
+   "wolf15": {
+    "holds": 5299425151186,
+    "backed_lamports": 463123167,
+    "took_lamports": 0
+   },
+   "crow16": {
+    "holds": 14834839862289,
+    "backed_lamports": 1296434582,
+    "took_lamports": 0
+   },
+   "wolf16": {
+    "holds": 5075702717615,
+    "backed_lamports": 443571793,
+    "took_lamports": 0
+   },
+   "crow17": {
+    "holds": 14221513150319,
+    "backed_lamports": 1242835219,
+    "took_lamports": 0
+   },
+   "wolf17": {
+    "holds": 4865854543477,
+    "backed_lamports": 425232908,
+    "took_lamports": 0
+   },
+   "crow18": {
+    "holds": 13645451858788,
+    "backed_lamports": 1192492527,
+    "took_lamports": 0
+   },
+   "wolf18": {
+    "holds": 4668756638135,
+    "backed_lamports": 408008284,
+    "took_lamports": 0
+   },
+   "crow19": {
+    "holds": 13103696946871,
+    "backed_lamports": 1145147910,
+    "took_lamports": 0
+   },
+   "wolf19": {
+    "holds": 4483396573300,
+    "backed_lamports": 391809444,
+    "took_lamports": 0
+   },
+   "crow-new0": {
+    "holds": 12593577358248,
+    "backed_lamports": 1100567943,
+    "took_lamports": 0
+   },
+   "crow-new1": {
+    "holds": 12112677030045,
+    "backed_lamports": 1058541482,
+    "took_lamports": 0
+   },
+   "crow-new2": {
+    "holds": 11658806228462,
+    "backed_lamports": 1018877164,
+    "took_lamports": 0
+   },
+   "crow-new3": {
+    "holds": 11229976574530,
+    "backed_lamports": 981401223,
+    "took_lamports": 0
+   },
+   "crow-new4": {
+    "holds": 10824379226886,
+    "backed_lamports": 945955580,
+    "took_lamports": 0
+   },
+   "crow-new5": {
+    "holds": 10440365773555,
+    "backed_lamports": 912396181,
+    "took_lamports": 0
+   },
+   "crow-new6": {
+    "holds": 10076431455022,
+    "backed_lamports": 880591521,
+    "took_lamports": 0
+   },
+   "crow-new7": {
+    "holds": 9731200399095,
+    "backed_lamports": 850421362,
+    "took_lamports": 0
+   },
+   "crow-new8": {
+    "holds": 9403412596507,
+    "backed_lamports": 821775589,
+    "took_lamports": 0
+   },
+   "crow-new9": {
+    "holds": 9091912386580,
+    "backed_lamports": 794553210,
+    "took_lamports": 0
+   },
+   "wolf-stand0": {
+    "holds": 4308860453846,
+    "backed_lamports": 376556521,
+    "took_lamports": 0
+   },
+   "wolf-stand1": {
+    "holds": 4144321630008,
+    "backed_lamports": 362177275,
+    "took_lamports": 0
+   },
+   "wolf-stand2": {
+    "holds": 3989030889938,
+    "backed_lamports": 348606229,
+    "took_lamports": 0
+   },
+   "wolf-stand3": {
+    "holds": 3842307914829,
+    "backed_lamports": 335783931,
+    "took_lamports": 0
+   },
+   "wolf-stand4": {
+    "holds": 3703533814211,
+    "backed_lamports": 323656295,
+    "took_lamports": 0
+   },
+   "wolf-stand5": {
+    "holds": 3572144588122,
+    "backed_lamports": 312174032,
+    "took_lamports": 0
+   },
+   "wolf-stand6": {
+    "holds": 3447625386920,
+    "backed_lamports": 301292148,
+    "took_lamports": 0
+   },
+   "wolf-stand7": {
+    "holds": 3329505459435,
+    "backed_lamports": 290969505,
+    "took_lamports": 0
+   },
+   "wolf-stand8": {
+    "holds": 3217353696704,
+    "backed_lamports": 281168427,
+    "took_lamports": 0
+   },
+   "wolf-stand9": {
+    "holds": 3110774692364,
+    "backed_lamports": 271854359,
+    "took_lamports": 0
+   },
+   "wolf-stand10": {
+    "holds": 3009405252387,
+    "backed_lamports": 262995561,
+    "took_lamports": 0
+   },
+   "wolf-stand11": {
+    "holds": 2912911296492,
+    "backed_lamports": 254562838,
+    "took_lamports": 0
+   },
+   "wolf-stand12": {
+    "holds": 2820985101820,
+    "backed_lamports": 246529296,
+    "took_lamports": 0
+   },
+   "wolf-stand13": {
+    "holds": 2733342846314,
+    "backed_lamports": 238870134,
+    "took_lamports": 0
+   },
+   "wolf-stand14": {
+    "holds": 2649722415149,
+    "backed_lamports": 231562443,
+    "took_lamports": 0
+   }
+  },
+  "settled": {
+   "pot_in": 34567901200,
+   "bought_with": 34567901200,
+   "coins_bought": 196548339455808,
+   "winner_reserve": 63770766587,
+   "winner_chest": 0,
+   "all_held": 729716040679853,
+   "m0": {
+    "crow": 32759233769,
+    "wolf": 32759233769
+   },
+   "mcap_end": {
+    "crow": 58893461192,
+    "wolf": 74399227539
+   },
+   "stake_need": 1637961688.45,
+   "stakers": [
+    "crow19",
+    "crow18"
+   ],
+   "minutes": 195
+  }
+ },
+ {
+  "name": "A clean push of 10, and the wolf answers 20 in its last stand, in SOL",
+  "minutes": 195,
+  "winner": "wolf",
+  "how": "revived in its last stand at minute 126",
+  "opponents_in_range": true,
+  "stakers": 2,
+  "stand_reserve": {
+   "wolf": 20
+  },
+  "refused": 0,
+  "burn": true,
+  "burned_share": {
+   "crow": 0.0,
+   "wolf": 0.0
+  },
+  "mcap_change": {
+   "crow": 0.7977667489808864,
+   "wolf": 1.7940446639388552
+  },
+  "stake_share_of_mcap": 0.06279069771379975,
+  "dump_tax_at_once": 0.6420959146049342,
+  "groups": {
+   "stayed, first ten in (crow)": {
+    "mean": 0.6264393134999999,
+    "worst": 0.483253185,
+    "best": 0.806135053,
+    "n": 10
+   },
+   "stayed, first ten in (wolf)": {
+    "mean": 2.4463158966000003,
+    "worst": 1.887157978,
+    "best": 3.148047946,
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "mean": 0.3933456155,
+    "worst": 0.335225947,
+    "best": 0.459893514,
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "mean": 1.4750738541000001,
+    "worst": 1.206199633,
+    "best": 1.79593584,
+    "n": 10
+   },
+   "staked (crow)": {
+    "mean": 0.3467883305,
+    "worst": 0.339764769,
+    "best": 0.353811892,
+    "n": 2
+   },
+   "came in during the fight (crow)": {
+    "mean": 0.2526013249,
+    "worst": 0.214312282,
+    "best": 0.296852652,
+    "n": 10
+   },
+   "came in for the last stand (wolf)": {
+    "mean": 0.8462679485499999,
+    "worst": 0.614497267,
+    "best": 1.159242956,
+    "n": 20
+   }
+  },
+  "lives_on": {
+   "stayed, first ten in (crow)": {
+    "worth": {
+     "mean": 2.062447126722196,
+     "worst": 1.5910306411917712,
+     "best": 2.6540654251366758
+    },
+    "alone_now": {
+     "mean": 0.6974310039,
+     "worst": 0.540836452,
+     "best": 0.892736176
+    },
+    "alone_after": {
+     "mean": 1.9939344830999999,
+     "worst": 1.546235319,
+     "best": 2.552306157
+    },
+    "backed": {
+     "mean": 0.6264393141348957,
+     "worst": 0.48325318536518597,
+     "best": 0.8061350533790955
+    },
+    "n": 10
+   },
+   "stayed, first ten in (wolf)": {
+    "worth": {
+     "mean": 8.054087731898253,
+     "worst": 6.213153395433841,
+     "best": 10.364423651538994
+    },
+    "alone_now": {
+     "mean": 2.5673648797,
+     "worst": 2.019040299,
+     "best": 3.239932207
+    },
+    "alone_after": {
+     "mean": 7.3400197796,
+     "worst": 5.772376122,
+     "best": 9.262869752
+    },
+    "backed": {
+     "mean": 2.4463158979358486,
+     "worst": 1.8871579790926365,
+     "best": 3.148047947290781
+    },
+    "n": 10
+   },
+   "stayed, last ten in (crow)": {
+    "worth": {
+     "mean": 1.2950249408190935,
+     "worst": 1.103675609407156,
+     "best": 1.5141228157290574
+    },
+    "alone_now": {
+     "mean": 0.4414573365,
+     "worst": 0.377001376,
+     "best": 0.515088018
+    },
+    "alone_after": {
+     "mean": 1.262113387,
+     "worst": 1.077835713,
+     "best": 1.472621313
+    },
+    "backed": {
+     "mean": 0.3933456160903415,
+     "worst": 0.3352259472868217,
+     "best": 0.45989351480187934
+    },
+    "n": 8
+   },
+   "stayed, last ten in (wolf)": {
+    "worth": {
+     "mean": 4.856435037523587,
+     "worst": 3.9712114367036424,
+     "best": 5.912819696926009
+    },
+    "alone_now": {
+     "mean": 1.5976632105,
+     "worst": 1.318653989,
+     "best": 1.926955781
+    },
+    "alone_after": {
+     "mean": 4.5676715683,
+     "worst": 3.769992507,
+     "best": 5.509109226
+    },
+    "backed": {
+     "mean": 1.4750738550480833,
+     "worst": 1.2061996336589582,
+     "best": 1.7959358412413495
+    },
+    "n": 10
+   },
+   "staked (crow)": {
+    "worth": {
+     "mean": 1.1417428327379235,
+     "worst": 1.1186189272904514,
+     "best": 1.1648667381853957
+    },
+    "alone_now": {
+     "mean": 0.389854247,
+     "worst": 0.382048658,
+     "best": 0.397659836
+    },
+    "alone_after": {
+     "mean": 1.1145816905,
+     "worst": 1.092265743,
+     "best": 1.136897638
+    },
+    "backed": {
+     "mean": 0.34678833110038654,
+     "worst": 0.3397647699719825,
+     "best": 0.35381189222879056
+    },
+    "n": 2
+   },
+   "came in during the fight (crow)": {
+    "worth": {
+     "mean": 0.8316478004369575,
+     "worst": 0.7055875023896478,
+     "best": 0.9773379258989734
+    },
+    "alone_now": {
+     "mean": 0.2848304674,
+     "worst": 0.241984133,
+     "best": 0.334268891
+    },
+    "alone_after": {
+     "mean": 0.8143218297000001,
+     "worst": 0.691825434,
+     "best": 0.955664812
+    },
+    "backed": {
+     "mean": 0.2526013253660956,
+     "worst": 0.21431228240095482,
+     "best": 0.2968526523883302
+    },
+    "n": 10
+   },
+   "came in for the last stand (wolf)": {
+    "worth": {
+     "mean": 2.7861963020386997,
+     "worst": 2.023129928101718,
+     "best": 3.8166143979717635
+    },
+    "alone_now": {
+     "mean": 0.935026147,
+     "worst": 0.684771011,
+     "best": 1.269229364
+    },
+    "alone_after": {
+     "mean": 2.67321192605,
+     "worst": 1.957739941,
+     "best": 3.628688978
+    },
+    "backed": {
+     "mean": 0.8462679493113632,
+     "worst": 0.61449726790331,
+     "best": 1.1592429569734333
+    },
+    "n": 20
+   }
+  },
+  "owns_of_the_winner": {
+   "stayed, first ten in (crow)": 0.09109194025378861,
+   "stayed, first ten in (wolf)": 0.3557242602572032,
+   "stayed, last ten in (crow)": 0.04575781187612423,
+   "stayed, last ten in (wolf)": 0.21449378486011075,
+   "staked (crow)": 0.010085453203374478,
+   "came in during the fight (crow)": 0.03673132308123512,
+   "came in for the last stand (wolf)": 0.24611542646816367
+  },
+  "together": 68.770004447,
+  "brought": 70.0,
+  "per_fighter": {
+   "crow0": {
+    "holds": 8757546547818,
+    "backed_lamports": 806135053,
+    "took_lamports": 0
+   },
+   "wolf0": {
+    "holds": 34199203120618,
+    "backed_lamports": 3148047947,
+    "took_lamports": 0
+   },
+   "crow1": {
+    "holds": 8216539812038,
+    "backed_lamports": 756335204,
+    "took_lamports": 0
+   },
+   "wolf1": {
+    "holds": 32086511038933,
+    "backed_lamports": 2953573943,
+    "took_lamports": 0
+   },
+   "crow2": {
+    "holds": 7724162895145,
+    "backed_lamports": 711011746,
+    "took_lamports": 0
+   },
+   "wolf2": {
+    "holds": 30163723863235,
+    "backed_lamports": 2776580748,
+    "took_lamports": 0
+   },
+   "crow3": {
+    "holds": 7274757054584,
+    "backed_lamports": 669643790,
+    "took_lamports": 0
+   },
+   "wolf3": {
+    "holds": 28408743568125,
+    "backed_lamports": 2615034232,
+    "took_lamports": 0
+   },
+   "crow4": {
+    "holds": 6863463370069,
+    "backed_lamports": 631784071,
+    "took_lamports": 0
+   },
+   "wolf4": {
+    "holds": 26802595524017,
+    "backed_lamports": 2467187774,
+    "took_lamports": 0
+   },
+   "crow5": {
+    "holds": 6486090814135,
+    "backed_lamports": 597046802,
+    "took_lamports": 0
+   },
+   "wolf5": {
+    "holds": 25328913297828,
+    "backed_lamports": 2331534838,
+    "took_lamports": 0
+   },
+   "crow6": {
+    "holds": 6139009031887,
+    "backed_lamports": 565097809,
+    "took_lamports": 0
+   },
+   "wolf6": {
+    "holds": 23973519945849,
+    "backed_lamports": 2206770432,
+    "took_lamports": 0
+   },
+   "crow7": {
+    "holds": 5819060678840,
+    "backed_lamports": 535646458,
+    "took_lamports": 0
+   },
+   "wolf7": {
+    "holds": 22724085683158,
+    "backed_lamports": 2091759595,
+    "took_lamports": 0
+   },
+   "crow8": {
+    "holds": 5523489343142,
+    "backed_lamports": 508439019,
+    "took_lamports": 0
+   },
+   "wolf8": {
+    "holds": 21569846411808,
+    "backed_lamports": 1985511489,
+    "took_lamports": 0
+   },
+   "crow9": {
+    "holds": 5249879964253,
+    "backed_lamports": 483253185,
+    "took_lamports": 0
+   },
+   "wolf9": {
+    "holds": 20501371049074,
+    "backed_lamports": 1887157979,
+    "took_lamports": 0
+   },
+   "crow10": {
+    "holds": 4996109331848,
+    "backed_lamports": 459893514,
+    "took_lamports": 0
+   },
+   "wolf10": {
+    "holds": 19510368220112,
+    "backed_lamports": 1795935841,
+    "took_lamports": 0
+   },
+   "crow11": {
+    "holds": 4760304761896,
+    "backed_lamports": 438187626,
+    "took_lamports": 0
+   },
+   "wolf11": {
+    "holds": 18589524883394,
+    "backed_lamports": 1711171907,
+    "took_lamports": 0
+   },
+   "crow12": {
+    "holds": 4540809441723,
+    "backed_lamports": 417983009,
+    "took_lamports": 0
+   },
+   "wolf12": {
+    "holds": 17732370999295,
+    "backed_lamports": 1632270609,
+    "took_lamports": 0
+   },
+   "crow13": {
+    "holds": 4336153241771,
+    "backed_lamports": 399144338,
+    "took_lamports": 0
+   },
+   "wolf13": {
+    "holds": 16933165546739,
+    "backed_lamports": 1558703483,
+    "took_lamports": 0
+   },
+   "crow14": {
+    "holds": 4145028030233,
+    "backed_lamports": 381551199,
+    "took_lamports": 0
+   },
+   "wolf14": {
+    "holds": 16186800124052,
+    "backed_lamports": 1490000299,
+    "took_lamports": 0
+   },
+   "crow15": {
+    "holds": 3966266713769,
+    "backed_lamports": 365096161,
+    "took_lamports": 0
+   },
+   "wolf15": {
+    "holds": 15488717100629,
+    "backed_lamports": 1425741526,
+    "took_lamports": 0
+   },
+   "crow16": {
+    "holds": 3798825375118,
+    "backed_lamports": 349683130,
+    "took_lamports": 0
+   },
+   "wolf16": {
+    "holds": 14834839862289,
+    "backed_lamports": 1365551911,
+    "took_lamports": 0
+   },
+   "crow17": {
+    "holds": 3641767995443,
+    "backed_lamports": 335225947,
+    "took_lamports": 0
+   },
+   "wolf17": {
+    "holds": 14221513150319,
+    "backed_lamports": 1309094984,
+    "took_lamports": 0
+   },
+   "crow18": {
+    "holds": 3843678676888,
+    "backed_lamports": 353811892,
+    "took_lamports": 0
+   },
+   "wolf18": {
+    "holds": 13645451858788,
+    "backed_lamports": 1256068352,
+    "took_lamports": 0
+   },
+   "crow19": {
+    "holds": 3691076049684,
+    "backed_lamports": 339764769,
+    "took_lamports": 0
+   },
+   "wolf19": {
+    "holds": 13103696946871,
+    "backed_lamports": 1206199633,
+    "took_lamports": 0
+   },
+   "crow-new0": {
+    "holds": 3224895022536,
+    "backed_lamports": 296852652,
+    "took_lamports": 0
+   },
+   "crow-new1": {
+    "holds": 3101748673358,
+    "backed_lamports": 285516990,
+    "took_lamports": 0
+   },
+   "crow-new2": {
+    "holds": 2985523898835,
+    "backed_lamports": 274818461,
+    "took_lamports": 0
+   },
+   "crow-new3": {
+    "holds": 2875711525660,
+    "backed_lamports": 264710196,
+    "took_lamports": 0
+   },
+   "crow-new4": {
+    "holds": 2771848355540,
+    "backed_lamports": 255149556,
+    "took_lamports": 0
+   },
+   "crow-new5": {
+    "holds": 2673512272075,
+    "backed_lamports": 246097688,
+    "took_lamports": 0
+   },
+   "crow-new6": {
+    "holds": 2580317944603,
+    "backed_lamports": 237519119,
+    "took_lamports": 0
+   },
+   "crow-new7": {
+    "holds": 2491913047232,
+    "backed_lamports": 229381419,
+    "took_lamports": 0
+   },
+   "crow-new8": {
+    "holds": 2407974923620,
+    "backed_lamports": 221654887,
+    "took_lamports": 0
+   },
+   "crow-new9": {
+    "holds": 2328207638445,
+    "backed_lamports": 214312282,
+    "took_lamports": 0
+   },
+   "wolf-stand0": {
+    "holds": 12593577358248,
+    "backed_lamports": 1159242956,
+    "took_lamports": 0
+   },
+   "wolf-stand1": {
+    "holds": 12112677030045,
+    "backed_lamports": 1114975922,
+    "took_lamports": 0
+   },
+   "wolf-stand2": {
+    "holds": 11658806228462,
+    "backed_lamports": 1073196965,
+    "took_lamports": 0
+   },
+   "wolf-stand3": {
+    "holds": 11229976574530,
+    "backed_lamports": 1033723054,
+    "took_lamports": 0
+   },
+   "wolf-stand4": {
+    "holds": 10824379226886,
+    "backed_lamports": 996387684,
+    "took_lamports": 0
+   },
+   "wolf-stand5": {
+    "holds": 10440365773555,
+    "backed_lamports": 961039119,
+    "took_lamports": 0
+   },
+   "wolf-stand6": {
+    "holds": 10076431455022,
+    "backed_lamports": 927538844,
+    "took_lamports": 0
+   },
+   "wolf-stand7": {
+    "holds": 9731200399095,
+    "backed_lamports": 895760212,
+    "took_lamports": 0
+   },
+   "wolf-stand8": {
+    "holds": 9403412596507,
+    "backed_lamports": 865587236,
+    "took_lamports": 0
+   },
+   "wolf-stand9": {
+    "holds": 9091912386580,
+    "backed_lamports": 836913539,
+    "took_lamports": 0
+   },
+   "wolf-stand10": {
+    "holds": 8795638256148,
+    "backed_lamports": 809641407,
+    "took_lamports": 0
+   },
+   "wolf-stand11": {
+    "holds": 8513613783280,
+    "backed_lamports": 783680961,
+    "took_lamports": 0
+   },
+   "wolf-stand12": {
+    "holds": 8244939581307,
+    "backed_lamports": 758949412,
+    "took_lamports": 0
+   },
+   "wolf-stand13": {
+    "holds": 7988786118833,
+    "backed_lamports": 735370401,
+    "took_lamports": 0
+   },
+   "wolf-stand14": {
+    "holds": 7744387308548,
+    "backed_lamports": 712873410,
+    "took_lamports": 0
+   },
+   "wolf-stand15": {
+    "holds": 7511034772165,
+    "backed_lamports": 691393232,
+    "took_lamports": 0
+   },
+   "wolf-stand16": {
+    "holds": 7288072701216,
+    "backed_lamports": 670869500,
+    "took_lamports": 0
+   },
+   "wolf-stand17": {
+    "holds": 7074893243976,
+    "backed_lamports": 651246260,
+    "took_lamports": 0
+   },
+   "wolf-stand18": {
+    "holds": 6870932357853,
+    "backed_lamports": 632471593,
+    "took_lamports": 0
+   },
+   "wolf-stand19": {
+    "holds": 6675666074329,
+    "backed_lamports": 614497267,
+    "took_lamports": 0
+   }
+  },
+  "settled": {
+   "pot_in": 29629629600,
+   "bought_with": 29629629600,
+   "coins_bought": 137215672432203,
+   "winner_reserve": 68770004502,
+   "winner_chest": 0,
+   "all_held": 747091337853906,
+   "m0": {
+    "crow": 32759233769,
+    "wolf": 32759233769
+   },
+   "mcap_end": {
+    "crow": 58893461192,
+    "wolf": 91530762307
+   },
+   "stake_need": 1637961688.45,
+   "stakers": [
+    "crow19",
+    "crow18"
+   ],
+   "minutes": 195
+  }
+ }
+]

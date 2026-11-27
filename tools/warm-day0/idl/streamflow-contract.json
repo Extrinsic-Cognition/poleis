@@ -1,0 +1,91 @@
+{
+  "about": "The Streamflow stream account (Contract), transcribed field by field for lib/layout.mjs. Streamflow publishes no IDL type for this account and its program source is not public: the order and sizes below are those of state.rs in streamflow-finance/rust-sdk (Contract and CreateParams, Borsh over fixed-size fields, no discriminator) and of streamLayout in streamflow-finance/js-sdk packages/stream/solana/layout.ts, which agree; the last two fields exist only in the newer JS layout. See sources.json for commits and dates.",
+  "accountSize": 1104,
+  "types": [
+    {
+      "name": "CreateParams",
+      "serialization": "packed",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "start_time", "type": "u64" },
+          { "name": "net_amount_deposited", "type": "u64" },
+          { "name": "period", "type": "u64" },
+          { "name": "amount_per_period", "type": "u64" },
+          { "name": "cliff", "type": "u64" },
+          { "name": "cliff_amount", "type": "u64" },
+          { "name": "cancelable_by_sender", "type": "bool" },
+          { "name": "cancelable_by_recipient", "type": "bool" },
+          { "name": "automatic_withdrawal", "type": "bool" },
+          { "name": "transferable_by_sender", "type": "bool" },
+          { "name": "transferable_by_recipient", "type": "bool" },
+          { "name": "can_topup", "type": "bool" },
+          { "name": "stream_name", "type": { "array": ["u8", 64] } },
+          { "name": "withdraw_frequency", "type": "u64" },
+          { "name": "ghost", "type": "u32" },
+          { "name": "pausable", "type": "bool" },
+          { "name": "can_update_rate", "type": "bool" },
+          { "name": "ghost2", "type": "u32" },
+          { "name": "is_pda", "type": "bool" },
+          { "name": "nonce", "type": "u32" }
+        ]
+      }
+    },
+    {
+      "name": "Contract",
+      "serialization": "packed",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "magic", "type": "u64" },
+          { "name": "version", "type": "u8" },
+          { "name": "created_at", "type": "u64" },
+          { "name": "amount_withdrawn", "type": "u64" },
+          { "name": "canceled_at", "type": "u64" },
+          { "name": "end_time", "type": "u64" },
+          { "name": "last_withdrawn_at", "type": "u64" },
+          { "name": "sender", "type": "pubkey" },
+          { "name": "sender_tokens", "type": "pubkey" },
+          { "name": "recipient", "type": "pubkey" },
+          { "name": "recipient_tokens", "type": "pubkey" },
+          { "name": "mint", "type": "pubkey" },
+          { "name": "escrow_tokens", "type": "pubkey" },
+          { "name": "streamflow_treasury", "type": "pubkey" },
+          { "name": "streamflow_treasury_tokens", "type": "pubkey" },
+          { "name": "streamflow_fee_total", "type": "u64" },
+          { "name": "streamflow_fee_withdrawn", "type": "u64" },
+          { "name": "streamflow_fee_percent", "type": "f32" },
+          { "name": "partner", "type": "pubkey" },
+          { "name": "partner_tokens", "type": "pubkey" },
+          { "name": "partner_fee_total", "type": "u64" },
+          { "name": "partner_fee_withdrawn", "type": "u64" },
+          { "name": "partner_fee_percent", "type": "f32" },
+          { "name": "ix", "type": { "defined": { "name": "CreateParams" } } },
+          { "name": "ix_padding", "type": { "array": ["u8", 121] } },
+          { "name": "closed", "type": "bool" },
+          { "name": "current_pause_start", "type": "u64" },
+          { "name": "pause_cumulative", "type": "u64" },
+          { "name": "last_rate_change_time", "type": "u64" },
+          { "name": "funds_unlocked_at_last_rate_change", "type": "u64" },
+          { "name": "creation_fee", "type": "u32" },
+          { "name": "creation_fee_claimed", "type": "bool" },
+          { "name": "auto_claim_fee", "type": "u32" },
+          { "name": "auto_claim_fee_claimed", "type": "bool" },
+          { "name": "old_metadata", "type": "pubkey" },
+          { "name": "payer", "type": "pubkey" },
+          { "name": "bump", "type": "u8" },
+          { "name": "fee_partner", "type": "pubkey" },
+          { "name": "cancel_request_time", "type": "u64" }
+        ]
+      }
+    }
+  ],
+  "sdkOffsets": {
+    "about": "Offsets the JS SDK itself states (packages/stream/solana/constants.ts, STREAM_STRUCT_OFFSET_*). The tests hold the computed layout to them.",
+    "sender": 49,
+    "recipient": 113,
+    "mint": 177,
+    "closed": 671,
+    "old_metadata": 714
+  }
+}

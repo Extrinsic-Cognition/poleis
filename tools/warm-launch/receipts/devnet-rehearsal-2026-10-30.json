@@ -1,0 +1,997 @@
+{
+ "what": "THE $WARM LAUNCH rehearsed on devnet: the mint, the 90/10 split, the DLMM pool, 16 tranches, a test buyer, the money",
+ "cluster": "devnet",
+ "rpc": "https://api.devnet.solana.com",
+ "tag": "r3",
+ "started": "2026-10-30T01:02:00.991Z",
+ "finished": "2026-10-30T01:03:31.398Z",
+ "params": {
+  "cluster": "devnet",
+  "note": "The devnet rehearsal's stand-ins. supply, startPrice, windowRatio, binStep and feeBps are not his: each is a number to run the flow with until he names his (params.mainnet.json holds them as PLACEHOLDER).",
+  "name": "SWARM",
+  "symbol": "$WARM",
+  "uri": "",
+  "metadataMutable": true,
+  "decimals": 9,
+  "supply": "1000000000",
+  "treasuryBps": 9000,
+  "saleBps": 1000,
+  "devShareBps": 5000,
+  "startPrice": "0.00000003",
+  "windowRatio": "2",
+  "binStep": 100,
+  "feeBps": 100,
+  "opening": "2026-10-30T20:00:00Z",
+  "close": "2026-11-15T00:00:00Z",
+  "trancheHours": 24,
+  "moneyAfterTranches": [
+   4,
+   8,
+   12,
+   15
+  ],
+  "supplyBase": "1000000000000000000"
+ },
+ "addresses": {
+  "launchKey": "9wkdtwVFVfbuNmZjSn6wtNFLAYnuYcnvdKCixxhqzBnw",
+  "mint": "6LEp2cPSxr9rSBreaswRJYbBFuSjYA9PaXv4Kaja77cy",
+  "metadata": "2BazyvyMA1nuwsunmtjK8m5oKGauUWBMn59oYcSB9Y44",
+  "lbPair": "FfaxTfLjCTwdBCfm5k5GYyzKysJAEmZqZLyt1o7AT3Eg",
+  "reserveX": "58CHb27CARJy2VL7ggREbJQFsWQadruNAygJ9SczGx6W",
+  "reserveY": "2SSvXpsFFT2cAQqhvCpNeDdfhnTZtEqKB9NcKiSBCpNC",
+  "treasuryMultisig": "HdkzPbXYcSHqqGNqthFCVThjkVX9F1ZwesehfvEemkVn",
+  "treasuryVault": "DeATuojYazGZ1WkWg76yKWY893QtpL2h5rNX6KicmRTD",
+  "treasurySwarm": "6S7qLbnuMAvLTsPmHhw2ZUGqjBou8EUKsM2sn3qyAyCv",
+  "devWallet": "5PBGvNXrtkrrPrzaPxRUWYkcjokzY8osZoKocsgk1afo",
+  "devWsol": "FH4HPKEaj1bzBUEX4wTcXpRUBaTNXSiw1TvcxJiwfpNh",
+  "buyer": "DwrzoaQNXusdzu4XJKZRqh7nyko1Xbf14hsGNrQuzsXm"
+ },
+ "links": {
+  "mint": "https://explorer.solana.com/address/6LEp2cPSxr9rSBreaswRJYbBFuSjYA9PaXv4Kaja77cy?cluster=devnet",
+  "pair": "https://explorer.solana.com/address/FfaxTfLjCTwdBCfm5k5GYyzKysJAEmZqZLyt1o7AT3Eg?cluster=devnet",
+  "treasury": "https://explorer.solana.com/address/6S7qLbnuMAvLTsPmHhw2ZUGqjBou8EUKsM2sn3qyAyCv?cluster=devnet",
+  "dev": "https://explorer.solana.com/address/FH4HPKEaj1bzBUEX4wTcXpRUBaTNXSiw1TvcxJiwfpNh?cluster=devnet"
+ },
+ "mint": {
+  "supply": "1000000000000000000",
+  "decimals": 9,
+  "mintAuthority": null,
+  "freezeAuthority": null
+ },
+ "holdings": {
+  "treasury": "900000000000000000",
+  "launchKeyLeft": "0",
+  "pool": "72032663745260887",
+  "buyer": "27967336254739113",
+  "sumsToSupply": true
+ },
+ "sale": {
+  "laid": "100000000000000000",
+  "carriedAtEnd": "0",
+  "tranches": 16
+ },
+ "price": {
+  "startBin": -1741,
+  "endBin": -1648,
+  "start": 2.995630504930195e-8,
+  "end": 7.55746259243158e-8
+ },
+ "money": {
+  "buyersPaid": "1850000000",
+  "poolSolNow": "909924711",
+  "poolFeesUnclaimed": "0",
+  "meteoraProtocolFee": "30159385",
+  "reserveSolNow": "940084192",
+  "devPaid": "909915808",
+  "takenIn": "1819840519",
+  "rounds": [
+   {
+    "label": "after tranche 4",
+    "takenIn": "441442451",
+    "owed": "220721225",
+    "due": "220721225",
+    "feesClaimed": "34230029",
+    "fromBins": "186491196",
+    "bps": 4734,
+    "paid": "220703060",
+    "withdrawnTotal": "220703060",
+    "signature": "2C2HYe2UNUg4BRskHPQv7YcUcaGcbieK9uV6Y3f7xvrRutQszH1dWB1EuiAtnyiCqTyucyfW3jJmCq2gmWTM4ybw"
+   },
+   {
+    "label": "after tranche 8",
+    "takenIn": "883410558",
+    "owed": "441705279",
+    "due": "221002219",
+    "feesClaimed": "32127525",
+    "fromBins": "188874694",
+    "bps": 3081,
+    "paid": "220982595",
+    "withdrawnTotal": "441685655",
+    "signature": "3Fhp2uFs3eYhfSYT5VnW9FjaGmG11NMu6BWoFiPAJnMj4zSdor2yWpHrziVEN1vX93ExnmnuXd9tDr9iZ8C8mqBL"
+   },
+   {
+    "label": "after tranche 12",
+    "takenIn": "1326402195",
+    "owed": "663201097",
+    "due": "221515442",
+    "feesClaimed": "28033423",
+    "fromBins": "193482019",
+    "bps": 2306,
+    "paid": "221477872",
+    "withdrawnTotal": "663163527",
+    "signature": "cvtg4uQs7mHrr4KeSJiLqnurG7DjfzGKEL3dJ3g1xbjTJMCWBnuN1Z9WuGAZnEuVirxp5Pug2iKqMQ3Doewng7p"
+   },
+   {
+    "label": "after tranche 15",
+    "takenIn": "1819840519",
+    "owed": "909920259",
+    "due": "246756732",
+    "feesClaimed": "26246693",
+    "fromBins": "220510039",
+    "bps": 1977,
+    "paid": "246752281",
+    "withdrawnTotal": "909915808",
+    "signature": "21Q9yvTz4JKYpP7QWJBEpyiWCJk6cfaaXJ1KHmpF5yHbbLtn8oeJ8UvgB6CF4fSdLtu3Z65wFf9DrXfHGV6DSw1k"
+   }
+  ]
+ },
+ "buys": [
+  {
+   "beforeTranche": 1,
+   "lamports": "150000000",
+   "swarmOut": "3685504706220788",
+   "avgPrice": 4.069998872795197e-8,
+   "before": {
+    "activeId": -1741,
+    "price": 2.995630504930195e-8,
+    "solInPosition": "0",
+    "swarmInPosition": "6250000000000000",
+    "reserveSol": "0",
+    "reserveSwarm": "6250000000000000"
+   },
+   "after": {
+    "activeId": -1699,
+    "price": 4.5497333389433645e-8,
+    "solInPosition": "137212430",
+    "swarmInPosition": "2564495293779212",
+    "reserveSol": "150000000",
+    "reserveSwarm": "2564495293779212"
+   },
+   "signature": "VQ8rmAv9B7mpPFYQvgT5nn2n6QuRMGYQewRmzy8LpnMxwm5CxcFiwTrMmCJU4P2ASjhn7NePMwF9cMjM53GL5L6"
+  },
+  {
+   "beforeTranche": 2,
+   "lamports": "100000000",
+   "swarmOut": "1874148243947169",
+   "avgPrice": 5.3357572071987566e-8,
+   "before": {
+    "activeId": -1699,
+    "price": 4.5497333389433645e-8,
+    "solInPosition": "137212430",
+    "swarmInPosition": "8814495293779212",
+    "reserveSol": "150000000",
+    "reserveSwarm": "8814495293779212"
+   },
+   "after": {
+    "activeId": -1688,
+    "price": 5.0759934720270144e-8,
+    "solInPosition": "227212426",
+    "swarmInPosition": "6940347049832043",
+    "reserveSol": "250000000",
+    "reserveSwarm": "6940347049832043"
+   },
+   "signature": "34gXQfHfxQmmTmaasrebpUrRhUUw8jKmhouKduXiLcer9Aaq3LHLa6yqsk5mqH9eazoze7rGZ86TSmxTwuaobZMx"
+  },
+  {
+   "beforeTranche": 3,
+   "lamports": "200000000",
+   "swarmOut": "3333776295758534",
+   "avgPrice": 5.999202773577044e-8,
+   "before": {
+    "activeId": -1688,
+    "price": 5.0759934720270144e-8,
+    "solInPosition": "227212426",
+    "swarmInPosition": "13190347049832043",
+    "reserveSol": "250000000",
+    "reserveSwarm": "13190347049832043"
+   },
+   "after": {
+    "activeId": -1676,
+    "price": 5.719756497066523e-8,
+    "solInPosition": "407212422",
+    "swarmInPosition": "9856570754073509",
+    "reserveSol": "450000000",
+    "reserveSwarm": "9856570754073509"
+   },
+   "signature": "4UrWXtbRGZsstnT2Fd5srUnQzuNJ7kaypvhggyn6rHrDsH3zZeSMLeVktFJC9Mgo8zzRC9zYC5VynCELbGEqjtQv"
+  },
+  {
+   "beforeTranche": 5,
+   "lamports": "150000000",
+   "swarmOut": "2370646823059754",
+   "avgPrice": 6.32738704647694e-8,
+   "before": {
+    "activeId": -1676,
+    "price": 5.719756497066523e-8,
+    "solInPosition": "220739391",
+    "swarmInPosition": "22356570754073509",
+    "reserveSol": "229296940",
+    "reserveSwarm": "22356570754073509"
+   },
+   "after": {
+    "activeId": -1670,
+    "price": 6.071636778167103e-8,
+    "solInPosition": "360579977",
+    "swarmInPosition": "19985923931013755",
+    "reserveSol": "379296940",
+    "reserveSwarm": "19985923931013755"
+   },
+   "signature": "3qVCUAHgrJhiinzeu3ZkQMCEZhLAE7TauD1oXg71E8UmQiYgRaSxiDXat93Z1LHkwFFHbFzejaKYrhQG81HLe22w"
+  },
+  {
+   "beforeTranche": 7,
+   "lamports": "300000000",
+   "swarmOut": "4271671842154021",
+   "avgPrice": 7.023011389580967e-8,
+   "before": {
+    "activeId": -1670,
+    "price": 6.071636778167103e-8,
+    "solInPosition": "360579977",
+    "swarmInPosition": "32485923931013755",
+    "reserveSol": "379296940",
+    "reserveSwarm": "32485923931013755"
+   },
+   "after": {
+    "activeId": -1662,
+    "price": 6.574712599376321e-8,
+    "solInPosition": "630579973",
+    "swarmInPosition": "28214252088859734",
+    "reserveSol": "679296940",
+    "reserveSwarm": "28214252088859734"
+   },
+   "signature": "VzQFRmwRMGnGwhjjqTG173JA8W5VfwhVxaaJn4uEWb4P4YVKB9Dmnwmm71CgYSys4Ym4pXh8YupSFvTWzLGwDV7"
+  },
+  {
+   "beforeTranche": 9,
+   "lamports": "200000000",
+   "swarmOut": "2809187822724941",
+   "avgPrice": 7.119495477735553e-8,
+   "before": {
+    "activeId": -1662,
+    "price": 6.574712599376321e-8,
+    "solInPosition": "441724903",
+    "swarmInPosition": "40714252088859734",
+    "reserveSol": "458314345",
+    "reserveSwarm": "40714252088859734"
+   },
+   "after": {
+    "activeId": -1658,
+    "price": 6.841672295508523e-8,
+    "solInPosition": "630321350",
+    "swarmInPosition": "37905064266134793",
+    "reserveSol": "658314345",
+    "reserveSwarm": "37905064266134793"
+   },
+   "signature": "4qxJFN6ZMyiZDwkQGSqezWrLcA1f2cGhE86MWvSzymHytQExZbwBpvZyBiEHvnN4wbZByYBsjTiX6Px1Jbx7t6f1"
+  },
+  {
+   "beforeTranche": 11,
+   "lamports": "250000000",
+   "swarmOut": "3244487576409108",
+   "avgPrice": 7.70537701601224e-8,
+   "before": {
+    "activeId": -1658,
+    "price": 6.841672295508523e-8,
+    "solInPosition": "630321350",
+    "swarmInPosition": "50405064266134793",
+    "reserveSol": "658314345",
+    "reserveSwarm": "50405064266134793"
+   },
+   "after": {
+    "activeId": -1654,
+    "price": 7.119471625812074e-8,
+    "solInPosition": "856683117",
+    "swarmInPosition": "47160576689725685",
+    "reserveSol": "908314345",
+    "reserveSwarm": "47160576689725685"
+   },
+   "signature": "4vxXmthcBuhpqxFw8zMjU6viW3DL235UCrjXhhB9gmRNnTytLJAb5rEFAoZZtZb3sa2QcpooLGVCeJoMU4wiio89"
+  },
+  {
+   "beforeTranche": 13,
+   "lamports": "300000000",
+   "swarmOut": "3922357195812460",
+   "avgPrice": 7.648462009535551e-8,
+   "before": {
+    "activeId": -1654,
+    "price": 7.119471625812074e-8,
+    "solInPosition": "663238668",
+    "swarmInPosition": "59660576689725685",
+    "reserveSol": "686836473",
+    "reserveSwarm": "59660576689725685"
+   },
+   "after": {
+    "activeId": -1650,
+    "price": 7.408550722901265e-8,
+    "solInPosition": "947286088",
+    "swarmInPosition": "55738219493913225",
+    "reserveSol": "986836473",
+    "reserveSwarm": "55738219493913225"
+   },
+   "signature": "4hTiidgkNmFJtm7b5ahXcGn8RYQ7XpBJ87CExJxd8P58FRLfeATsZcsMVryihrbiM2irvN5YQe3jYb8xnvYYLWgL"
+  },
+  {
+   "beforeTranche": 15,
+   "lamports": "200000000",
+   "swarmOut": "2455555748652338",
+   "avgPrice": 8.144795739610649e-8,
+   "before": {
+    "activeId": -1650,
+    "price": 7.408550722901265e-8,
+    "solInPosition": "947286088",
+    "swarmInPosition": "68238219493913225",
+    "reserveSol": "986836473",
+    "reserveSwarm": "68238219493913225"
+   },
+   "after": {
+    "activeId": -1648,
+    "price": 7.55746259243158e-8,
+    "solInPosition": "1130430299",
+    "swarmInPosition": "65782663745260887",
+    "reserveSol": "1186836473",
+    "reserveSwarm": "65782663745260887"
+   },
+   "signature": "wh7MHmNzHW1CpPkfcqZmgHUcL8aCHsxooKnggX7YqNMkRP2DkoXnc3ykmq6LmAwmRy7WukLenehwfh4inzE4xfG"
+  }
+ ],
+ "tranches": [
+  {
+   "k": 0,
+   "scheduledFor": "2026-10-30T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:10.089Z",
+   "activeId": -1741,
+   "from": -1740,
+   "to": -1671,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -25,
+    -24
+   ],
+   "signature": "3SpCfS2XRJ64Jx5qCvUBH1ceUiZvj6UeLKC4zut2RjWCHTADYVXDbxqN66mrm1YJte8EyGW9qqjrpokrCS3J49wg"
+  },
+  {
+   "k": 1,
+   "scheduledFor": "2026-10-31T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:16.756Z",
+   "activeId": -1699,
+   "from": -1698,
+   "to": -1629,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -25,
+    -24
+   ],
+   "signature": "a25NhJbjVhEj4wqxhrBP7pHZMFrLeym7qvrwtepnJKK7EpDFHrwrNT7c2c52RhLBcdm5Eww64UEM9Js2Q5b7pGu"
+  },
+  {
+   "k": 2,
+   "scheduledFor": "2026-11-01T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:24.196Z",
+   "activeId": -1688,
+   "from": -1687,
+   "to": -1618,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -25,
+    -24
+   ],
+   "signature": "33ZiWp8zS2XzSSv8qdbkbkFPYearxC4SKwhdTaLWQxMWg3eFPWT1c11GXWtdXhC2VvDHoqjZAm7RHpB3XfR1f7yQ"
+  },
+  {
+   "k": 3,
+   "scheduledFor": "2026-11-02T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:31.044Z",
+   "activeId": -1676,
+   "from": -1675,
+   "to": -1606,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "5K55bAZHCNDCz4MAB2ng7SdB9XEZjfZ5UMQYKDHjpZvvU3DUZ2h1q854KHzwZDkVxP81Lc98vruVUnTsTDcqfQTW"
+  },
+  {
+   "k": 4,
+   "scheduledFor": "2026-11-03T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:32.343Z",
+   "activeId": -1676,
+   "from": -1675,
+   "to": -1606,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "25FdLw4Jgw8rVnJdMXBsAeFoz987uAsCfks2BrHBLaJv3RX7eUJGFAEfmdczSPw6vQY1HoEJUGUEQiR3qadLdJK1"
+  },
+  {
+   "k": 5,
+   "scheduledFor": "2026-11-04T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:41.924Z",
+   "activeId": -1670,
+   "from": -1669,
+   "to": -1600,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "4CS9Qw5UnHoLWvq7YN3cfmfhwVCKEuoM6FDJo3CnTrAskrqjn6wdqkbwu25gcmRkAKDFX5hCnbu83BRXXDQWKQWt"
+  },
+  {
+   "k": 6,
+   "scheduledFor": "2026-11-05T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:43.610Z",
+   "activeId": -1670,
+   "from": -1669,
+   "to": -1600,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "4dMDmAN4d9HAacqUVKKtaGkjLnyquQsio3wDkbZCwU1Y9qtDViZ8RSbEaJ5W5U8R6jtRfD1cePGSQQQGjGh3WGoL"
+  },
+  {
+   "k": 7,
+   "scheduledFor": "2026-11-06T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:49.260Z",
+   "activeId": -1662,
+   "from": -1661,
+   "to": -1592,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "3jV3jSfPnJxd6gi34eqWwvX2Rq3DRRKJeSAmPuumtcbtKaqHxfP2bUKTRZP3igkpbghA3bLvL9Uujz6fDAo59DNU"
+  },
+  {
+   "k": 8,
+   "scheduledFor": "2026-11-07T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:50.567Z",
+   "activeId": -1662,
+   "from": -1661,
+   "to": -1592,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "4TCxgpMVcVkvU2c4Av7WWKb6XvmC4o6hBgnAZbhszFkoQRbz5bpYEaF3iZJfy98fkU7oEwU38nHNjSoLZuUj29dV"
+  },
+  {
+   "k": 9,
+   "scheduledFor": "2026-11-08T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:02:59.308Z",
+   "activeId": -1658,
+   "from": -1657,
+   "to": -1588,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "2zD3jBSishfdXZms17BvTzZn8fnbkJ3tS4eTTWpvrBCJVJHrvmUWpP34Xg7LUYQUknVcgYcT2UMSwjvphxw9SWqe"
+  },
+  {
+   "k": 10,
+   "scheduledFor": "2026-11-09T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:03:01.483Z",
+   "activeId": -1658,
+   "from": -1657,
+   "to": -1588,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "3WryMsYFbSqL4bKM7W2WavpZJypVFgiNNupHpTW3MyqGSKtnp2xyxehXuRsHMUY3s8vuyX33T2ZzbJM65HTppvEQ"
+  },
+  {
+   "k": 11,
+   "scheduledFor": "2026-11-10T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:03:07.983Z",
+   "activeId": -1654,
+   "from": -1653,
+   "to": -1584,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "3NPTcL6REpbdUYTFDVmkzLoyRAXKeD2X2j4KzE39ieqa47X74NwjXaA3Vv7FQAE1N8hjjfGFXYLJKkEXHM39n7VF"
+  },
+  {
+   "k": 12,
+   "scheduledFor": "2026-11-11T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:03:09.317Z",
+   "activeId": -1654,
+   "from": -1653,
+   "to": -1584,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "4vfE4utkdHNTAvAkHeEtTYZsoN3kM8uudZHGCsbKnMS3JWCoMEm63tfBeamoncTaX2fgRWbbqHE7RxFqf3C3pPAJ"
+  },
+  {
+   "k": 13,
+   "scheduledFor": "2026-11-12T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:03:18.186Z",
+   "activeId": -1650,
+   "from": -1649,
+   "to": -1580,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "eow3PsE7k4ouRgewSuGQgANjrbXM2LwKUa2znMtCgqaC1XpqHRzqiVExZCXCsw7TvNNqCNmvaZuao6ktcJTLBcx"
+  },
+  {
+   "k": 14,
+   "scheduledFor": "2026-11-13T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:03:20.311Z",
+   "activeId": -1650,
+   "from": -1649,
+   "to": -1580,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "rJaQFn1q5ccFBc9BPzZrAXAB8PpaHmA4twznpgLZU1v3VPzv2V7wFCBQqEzUCJrNENAN3WvrmLYQgo5N7jtfikn"
+  },
+  {
+   "k": 15,
+   "scheduledFor": "2026-11-14T20:00:00.000Z",
+   "rehearsedAt": "2026-10-30T01:03:26.763Z",
+   "activeId": -1648,
+   "from": -1647,
+   "to": -1578,
+   "laid": "6250000000000000",
+   "carry": "0",
+   "multiplier": "100000",
+   "indexes": [
+    -24,
+    -23
+   ],
+   "signature": "2AxbrYa9J8WvWF3V6AWMw8sm2DVJa23ut87HQrYnbX9Tve9uFkBx9o1uepQVqTCfWNSHoq2k9iosDYoqXPV7m2fC"
+  }
+ ],
+ "receipts": [
+  {
+   "step": "fund the test buyer",
+   "at": "2026-10-30T01:02:02.335Z",
+   "signature": "uPKRYcJCDyzgqfSjdJGFRWNKiCdFs9vtPLmrTpHd2uV2yf3rt1ceniyfEAsnzzdCNLMa1YpBdvvs6j3YsaNERWZ",
+   "units": 150,
+   "bytes": 215,
+   "link": "https://explorer.solana.com/tx/uPKRYcJCDyzgqfSjdJGFRWNKiCdFs9vtPLmrTpHd2uV2yf3rt1ceniyfEAsnzzdCNLMa1YpBdvvs6j3YsaNERWZ?cluster=devnet",
+   "lamports": "1851533440"
+  },
+  {
+   "step": "treasury: a Squads v4 2-of-3 multisig (stand-in members)",
+   "at": "2026-10-30T01:02:03.691Z",
+   "signature": "2ZLAU5MUjuW4JZPyoXUaxSit9FXJTiQQeCucrGGaSUA3m67RQw5EsDvjNxnvwAUnxiCi67TAuacSDZCjGTsFdugV",
+   "units": 16770,
+   "bytes": 519,
+   "link": "https://explorer.solana.com/tx/2ZLAU5MUjuW4JZPyoXUaxSit9FXJTiQQeCucrGGaSUA3m67RQw5EsDvjNxnvwAUnxiCi67TAuacSDZCjGTsFdugV?cluster=devnet",
+   "multisig": "HdkzPbXYcSHqqGNqthFCVThjkVX9F1ZwesehfvEemkVn",
+   "vault": "DeATuojYazGZ1WkWg76yKWY893QtpL2h5rNX6KicmRTD"
+  },
+  {
+   "step": "genesis",
+   "at": "2026-10-30T01:02:04.969Z",
+   "signature": "61grteQYGjA8khe1WuPVZqA26Bn9wULmd5UFesWvpN15FrQUq5NznSRdWnp2Jg99Qz2LH6Ynfz4QcqQHz7ZSjnVz",
+   "units": 72672,
+   "bytes": 663,
+   "link": "https://explorer.solana.com/tx/61grteQYGjA8khe1WuPVZqA26Bn9wULmd5UFesWvpN15FrQUq5NznSRdWnp2Jg99Qz2LH6Ynfz4QcqQHz7ZSjnVz?cluster=devnet",
+   "supply": "1000000000000000000",
+   "treasury": "900000000000000000",
+   "sale": "100000000000000000"
+  },
+  {
+   "step": "pool",
+   "at": "2026-10-30T01:02:06.273Z",
+   "signature": "i2TDaisvAxHu6fbAws56ecvzfStU32FvHcbVBgLxS4MUSrsbKDKuRG2FUQaoZhWXFFrsAtqEBXZEFGcW42FrDz2",
+   "units": 56411,
+   "bytes": 685,
+   "link": "https://explorer.solana.com/tx/i2TDaisvAxHu6fbAws56ecvzfStU32FvHcbVBgLxS4MUSrsbKDKuRG2FUQaoZhWXFFrsAtqEBXZEFGcW42FrDz2?cluster=devnet",
+   "activeId": -1741,
+   "startPrice": "0.00000003"
+  },
+  {
+   "step": "prepare for tranche 0",
+   "at": "2026-10-30T01:02:07.621Z",
+   "signature": "4Cy3rcDYVj6wtEsJYFZUEQzeiRfBF4Evvoc7fKbW83NK7ase1GnjYZRaK59krs76rpL7Ptn1yCsm8km88HMoHMyj",
+   "units": 216381,
+   "bytes": 409,
+   "link": "https://explorer.solana.com/tx/4Cy3rcDYVj6wtEsJYFZUEQzeiRfBF4Evvoc7fKbW83NK7ase1GnjYZRaK59krs76rpL7Ptn1yCsm8km88HMoHMyj?cluster=devnet"
+  },
+  {
+   "step": "prepare for tranche 0",
+   "at": "2026-10-30T01:02:08.899Z",
+   "signature": "5XDLjigekpwpE47jY8PDpxqZBhCNNqWKWUBYtU1J1D41dRS9RZa7MSJQx7GTDzoznkDDLvmWTtynB8nxBW5UeW4C",
+   "units": 214835,
+   "bytes": 409,
+   "link": "https://explorer.solana.com/tx/5XDLjigekpwpE47jY8PDpxqZBhCNNqWKWUBYtU1J1D41dRS9RZa7MSJQx7GTDzoznkDDLvmWTtynB8nxBW5UeW4C?cluster=devnet"
+  },
+  {
+   "step": "tranche 0",
+   "at": "2026-10-30T01:02:10.089Z",
+   "signature": "3SpCfS2XRJ64Jx5qCvUBH1ceUiZvj6UeLKC4zut2RjWCHTADYVXDbxqN66mrm1YJte8EyGW9qqjrpokrCS3J49wg",
+   "units": 154401,
+   "bytes": 1183,
+   "link": "https://explorer.solana.com/tx/3SpCfS2XRJ64Jx5qCvUBH1ceUiZvj6UeLKC4zut2RjWCHTADYVXDbxqN66mrm1YJte8EyGW9qqjrpokrCS3J49wg?cluster=devnet",
+   "scheduledFor": "2026-10-30T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1741,
+   "bins": "-1740..-1671"
+  },
+  {
+   "step": "buy before tranche 1",
+   "at": "2026-10-30T01:02:14.466Z",
+   "signature": "VQ8rmAv9B7mpPFYQvgT5nn2n6QuRMGYQewRmzy8LpnMxwm5CxcFiwTrMmCJU4P2ASjhn7NePMwF9cMjM53GL5L6",
+   "units": 290755,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/VQ8rmAv9B7mpPFYQvgT5nn2n6QuRMGYQewRmzy8LpnMxwm5CxcFiwTrMmCJU4P2ASjhn7NePMwF9cMjM53GL5L6?cluster=devnet",
+   "lamports": "150000000",
+   "swarmOut": "3685504706220788"
+  },
+  {
+   "step": "tranche 1",
+   "at": "2026-10-30T01:02:16.756Z",
+   "signature": "a25NhJbjVhEj4wqxhrBP7pHZMFrLeym7qvrwtepnJKK7EpDFHrwrNT7c2c52RhLBcdm5Eww64UEM9Js2Q5b7pGu",
+   "units": 215368,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/a25NhJbjVhEj4wqxhrBP7pHZMFrLeym7qvrwtepnJKK7EpDFHrwrNT7c2c52RhLBcdm5Eww64UEM9Js2Q5b7pGu?cluster=devnet",
+   "scheduledFor": "2026-10-31T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1699,
+   "bins": "-1698..-1629"
+  },
+  {
+   "step": "buy before tranche 2",
+   "at": "2026-10-30T01:02:20.178Z",
+   "signature": "34gXQfHfxQmmTmaasrebpUrRhUUw8jKmhouKduXiLcer9Aaq3LHLa6yqsk5mqH9eazoze7rGZ86TSmxTwuaobZMx",
+   "units": 118383,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/34gXQfHfxQmmTmaasrebpUrRhUUw8jKmhouKduXiLcer9Aaq3LHLa6yqsk5mqH9eazoze7rGZ86TSmxTwuaobZMx?cluster=devnet",
+   "lamports": "100000000",
+   "swarmOut": "1874148243947169"
+  },
+  {
+   "step": "tranche 2",
+   "at": "2026-10-30T01:02:24.195Z",
+   "signature": "33ZiWp8zS2XzSSv8qdbkbkFPYearxC4SKwhdTaLWQxMWg3eFPWT1c11GXWtdXhC2VvDHoqjZAm7RHpB3XfR1f7yQ",
+   "units": 285369,
+   "bytes": 1183,
+   "link": "https://explorer.solana.com/tx/33ZiWp8zS2XzSSv8qdbkbkFPYearxC4SKwhdTaLWQxMWg3eFPWT1c11GXWtdXhC2VvDHoqjZAm7RHpB3XfR1f7yQ?cluster=devnet",
+   "scheduledFor": "2026-11-01T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1688,
+   "bins": "-1687..-1618"
+  },
+  {
+   "step": "buy before tranche 3",
+   "at": "2026-10-30T01:02:26.789Z",
+   "signature": "4UrWXtbRGZsstnT2Fd5srUnQzuNJ7kaypvhggyn6rHrDsH3zZeSMLeVktFJC9Mgo8zzRC9zYC5VynCELbGEqjtQv",
+   "units": 125301,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/4UrWXtbRGZsstnT2Fd5srUnQzuNJ7kaypvhggyn6rHrDsH3zZeSMLeVktFJC9Mgo8zzRC9zYC5VynCELbGEqjtQv?cluster=devnet",
+   "lamports": "200000000",
+   "swarmOut": "3333776295758534"
+  },
+  {
+   "step": "prepare for tranche 3",
+   "at": "2026-10-30T01:02:29.863Z",
+   "signature": "5XdgU75UAuue9gHapVupV9TZVvJcWG7QNoqFbcGfJrUbTfAHVDrPyGZmU5bEDfD4ihySYneHGqjUxP2U1eW6f927",
+   "units": 217712,
+   "bytes": 409,
+   "link": "https://explorer.solana.com/tx/5XdgU75UAuue9gHapVupV9TZVvJcWG7QNoqFbcGfJrUbTfAHVDrPyGZmU5bEDfD4ihySYneHGqjUxP2U1eW6f927?cluster=devnet"
+  },
+  {
+   "step": "tranche 3",
+   "at": "2026-10-30T01:02:31.044Z",
+   "signature": "5K55bAZHCNDCz4MAB2ng7SdB9XEZjfZ5UMQYKDHjpZvvU3DUZ2h1q854KHzwZDkVxP81Lc98vruVUnTsTDcqfQTW",
+   "units": 284158,
+   "bytes": 1183,
+   "link": "https://explorer.solana.com/tx/5K55bAZHCNDCz4MAB2ng7SdB9XEZjfZ5UMQYKDHjpZvvU3DUZ2h1q854KHzwZDkVxP81Lc98vruVUnTsTDcqfQTW?cluster=devnet",
+   "scheduledFor": "2026-11-02T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1676,
+   "bins": "-1675..-1606"
+  },
+  {
+   "step": "tranche 4",
+   "at": "2026-10-30T01:02:32.343Z",
+   "signature": "25FdLw4Jgw8rVnJdMXBsAeFoz987uAsCfks2BrHBLaJv3RX7eUJGFAEfmdczSPw6vQY1HoEJUGUEQiR3qadLdJK1",
+   "units": 310136,
+   "bytes": 1183,
+   "link": "https://explorer.solana.com/tx/25FdLw4Jgw8rVnJdMXBsAeFoz987uAsCfks2BrHBLaJv3RX7eUJGFAEfmdczSPw6vQY1HoEJUGUEQiR3qadLdJK1?cluster=devnet",
+   "scheduledFor": "2026-11-03T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1676,
+   "bins": "-1675..-1606"
+  },
+  {
+   "step": "money after tranche 4",
+   "at": "2026-10-30T01:02:33.888Z",
+   "signature": "2C2HYe2UNUg4BRskHPQv7YcUcaGcbieK9uV6Y3f7xvrRutQszH1dWB1EuiAtnyiCqTyucyfW3jJmCq2gmWTM4ybw",
+   "units": 593281,
+   "bytes": 1040,
+   "link": "https://explorer.solana.com/tx/2C2HYe2UNUg4BRskHPQv7YcUcaGcbieK9uV6Y3f7xvrRutQszH1dWB1EuiAtnyiCqTyucyfW3jJmCq2gmWTM4ybw?cluster=devnet",
+   "owed": "220721225",
+   "fees": "34230029",
+   "bps": 4734
+  },
+  {
+   "step": "buy before tranche 5",
+   "at": "2026-10-30T01:02:39.360Z",
+   "signature": "3qVCUAHgrJhiinzeu3ZkQMCEZhLAE7TauD1oXg71E8UmQiYgRaSxiDXat93Z1LHkwFFHbFzejaKYrhQG81HLe22w",
+   "units": 90660,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/3qVCUAHgrJhiinzeu3ZkQMCEZhLAE7TauD1oXg71E8UmQiYgRaSxiDXat93Z1LHkwFFHbFzejaKYrhQG81HLe22w?cluster=devnet",
+   "lamports": "150000000",
+   "swarmOut": "2370646823059754"
+  },
+  {
+   "step": "tranche 5",
+   "at": "2026-10-30T01:02:41.923Z",
+   "signature": "4CS9Qw5UnHoLWvq7YN3cfmfhwVCKEuoM6FDJo3CnTrAskrqjn6wdqkbwu25gcmRkAKDFX5hCnbu83BRXXDQWKQWt",
+   "units": 296276,
+   "bytes": 1183,
+   "link": "https://explorer.solana.com/tx/4CS9Qw5UnHoLWvq7YN3cfmfhwVCKEuoM6FDJo3CnTrAskrqjn6wdqkbwu25gcmRkAKDFX5hCnbu83BRXXDQWKQWt?cluster=devnet",
+   "scheduledFor": "2026-11-04T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1670,
+   "bins": "-1669..-1600"
+  },
+  {
+   "step": "tranche 6",
+   "at": "2026-10-30T01:02:43.609Z",
+   "signature": "4dMDmAN4d9HAacqUVKKtaGkjLnyquQsio3wDkbZCwU1Y9qtDViZ8RSbEaJ5W5U8R6jtRfD1cePGSQQQGjGh3WGoL",
+   "units": 309931,
+   "bytes": 1183,
+   "link": "https://explorer.solana.com/tx/4dMDmAN4d9HAacqUVKKtaGkjLnyquQsio3wDkbZCwU1Y9qtDViZ8RSbEaJ5W5U8R6jtRfD1cePGSQQQGjGh3WGoL?cluster=devnet",
+   "scheduledFor": "2026-11-05T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1670,
+   "bins": "-1669..-1600"
+  },
+  {
+   "step": "buy before tranche 7",
+   "at": "2026-10-30T01:02:46.932Z",
+   "signature": "VzQFRmwRMGnGwhjjqTG173JA8W5VfwhVxaaJn4uEWb4P4YVKB9Dmnwmm71CgYSys4Ym4pXh8YupSFvTWzLGwDV7",
+   "units": 101646,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/VzQFRmwRMGnGwhjjqTG173JA8W5VfwhVxaaJn4uEWb4P4YVKB9Dmnwmm71CgYSys4Ym4pXh8YupSFvTWzLGwDV7?cluster=devnet",
+   "lamports": "300000000",
+   "swarmOut": "4271671842154021"
+  },
+  {
+   "step": "tranche 7",
+   "at": "2026-10-30T01:02:49.260Z",
+   "signature": "3jV3jSfPnJxd6gi34eqWwvX2Rq3DRRKJeSAmPuumtcbtKaqHxfP2bUKTRZP3igkpbghA3bLvL9Uujz6fDAo59DNU",
+   "units": 291973,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/3jV3jSfPnJxd6gi34eqWwvX2Rq3DRRKJeSAmPuumtcbtKaqHxfP2bUKTRZP3igkpbghA3bLvL9Uujz6fDAo59DNU?cluster=devnet",
+   "scheduledFor": "2026-11-06T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1662,
+   "bins": "-1661..-1592"
+  },
+  {
+   "step": "tranche 8",
+   "at": "2026-10-30T01:02:50.565Z",
+   "signature": "4TCxgpMVcVkvU2c4Av7WWKb6XvmC4o6hBgnAZbhszFkoQRbz5bpYEaF3iZJfy98fkU7oEwU38nHNjSoLZuUj29dV",
+   "units": 309815,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/4TCxgpMVcVkvU2c4Av7WWKb6XvmC4o6hBgnAZbhszFkoQRbz5bpYEaF3iZJfy98fkU7oEwU38nHNjSoLZuUj29dV?cluster=devnet",
+   "scheduledFor": "2026-11-07T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1662,
+   "bins": "-1661..-1592"
+  },
+  {
+   "step": "money after tranche 8",
+   "at": "2026-10-30T01:02:52.415Z",
+   "signature": "3Fhp2uFs3eYhfSYT5VnW9FjaGmG11NMu6BWoFiPAJnMj4zSdor2yWpHrziVEN1vX93ExnmnuXd9tDr9iZ8C8mqBL",
+   "units": 611281,
+   "bytes": 1040,
+   "link": "https://explorer.solana.com/tx/3Fhp2uFs3eYhfSYT5VnW9FjaGmG11NMu6BWoFiPAJnMj4zSdor2yWpHrziVEN1vX93ExnmnuXd9tDr9iZ8C8mqBL?cluster=devnet",
+   "owed": "221002219",
+   "fees": "32127525",
+   "bps": 3081
+  },
+  {
+   "step": "buy before tranche 9",
+   "at": "2026-10-30T01:02:56.756Z",
+   "signature": "4qxJFN6ZMyiZDwkQGSqezWrLcA1f2cGhE86MWvSzymHytQExZbwBpvZyBiEHvnN4wbZByYBsjTiX6Px1Jbx7t6f1",
+   "units": 79691,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/4qxJFN6ZMyiZDwkQGSqezWrLcA1f2cGhE86MWvSzymHytQExZbwBpvZyBiEHvnN4wbZByYBsjTiX6Px1Jbx7t6f1?cluster=devnet",
+   "lamports": "200000000",
+   "swarmOut": "2809187822724941"
+  },
+  {
+   "step": "tranche 9",
+   "at": "2026-10-30T01:02:59.308Z",
+   "signature": "2zD3jBSishfdXZms17BvTzZn8fnbkJ3tS4eTTWpvrBCJVJHrvmUWpP34Xg7LUYQUknVcgYcT2UMSwjvphxw9SWqe",
+   "units": 300656,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/2zD3jBSishfdXZms17BvTzZn8fnbkJ3tS4eTTWpvrBCJVJHrvmUWpP34Xg7LUYQUknVcgYcT2UMSwjvphxw9SWqe?cluster=devnet",
+   "scheduledFor": "2026-11-08T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1658,
+   "bins": "-1657..-1588"
+  },
+  {
+   "step": "tranche 10",
+   "at": "2026-10-30T01:03:01.482Z",
+   "signature": "3WryMsYFbSqL4bKM7W2WavpZJypVFgiNNupHpTW3MyqGSKtnp2xyxehXuRsHMUY3s8vuyX33T2ZzbJM65HTppvEQ",
+   "units": 309933,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/3WryMsYFbSqL4bKM7W2WavpZJypVFgiNNupHpTW3MyqGSKtnp2xyxehXuRsHMUY3s8vuyX33T2ZzbJM65HTppvEQ?cluster=devnet",
+   "scheduledFor": "2026-11-09T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1658,
+   "bins": "-1657..-1588"
+  },
+  {
+   "step": "buy before tranche 11",
+   "at": "2026-10-30T01:03:04.952Z",
+   "signature": "4vxXmthcBuhpqxFw8zMjU6viW3DL235UCrjXhhB9gmRNnTytLJAb5rEFAoZZtZb3sa2QcpooLGVCeJoMU4wiio89",
+   "units": 79682,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/4vxXmthcBuhpqxFw8zMjU6viW3DL235UCrjXhhB9gmRNnTytLJAb5rEFAoZZtZb3sa2QcpooLGVCeJoMU4wiio89?cluster=devnet",
+   "lamports": "250000000",
+   "swarmOut": "3244487576409108"
+  },
+  {
+   "step": "tranche 11",
+   "at": "2026-10-30T01:03:07.983Z",
+   "signature": "3NPTcL6REpbdUYTFDVmkzLoyRAXKeD2X2j4KzE39ieqa47X74NwjXaA3Vv7FQAE1N8hjjfGFXYLJKkEXHM39n7VF",
+   "units": 300854,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/3NPTcL6REpbdUYTFDVmkzLoyRAXKeD2X2j4KzE39ieqa47X74NwjXaA3Vv7FQAE1N8hjjfGFXYLJKkEXHM39n7VF?cluster=devnet",
+   "scheduledFor": "2026-11-10T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1654,
+   "bins": "-1653..-1584"
+  },
+  {
+   "step": "tranche 12",
+   "at": "2026-10-30T01:03:09.317Z",
+   "signature": "4vfE4utkdHNTAvAkHeEtTYZsoN3kM8uudZHGCsbKnMS3JWCoMEm63tfBeamoncTaX2fgRWbbqHE7RxFqf3C3pPAJ",
+   "units": 309977,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/4vfE4utkdHNTAvAkHeEtTYZsoN3kM8uudZHGCsbKnMS3JWCoMEm63tfBeamoncTaX2fgRWbbqHE7RxFqf3C3pPAJ?cluster=devnet",
+   "scheduledFor": "2026-11-11T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1654,
+   "bins": "-1653..-1584"
+  },
+  {
+   "step": "money after tranche 12",
+   "at": "2026-10-30T01:03:11.531Z",
+   "signature": "cvtg4uQs7mHrr4KeSJiLqnurG7DjfzGKEL3dJ3g1xbjTJMCWBnuN1Z9WuGAZnEuVirxp5Pug2iKqMQ3Doewng7p",
+   "units": 641481,
+   "bytes": 1040,
+   "link": "https://explorer.solana.com/tx/cvtg4uQs7mHrr4KeSJiLqnurG7DjfzGKEL3dJ3g1xbjTJMCWBnuN1Z9WuGAZnEuVirxp5Pug2iKqMQ3Doewng7p?cluster=devnet",
+   "owed": "221515442",
+   "fees": "28033423",
+   "bps": 2306
+  },
+  {
+   "step": "buy before tranche 13",
+   "at": "2026-10-30T01:03:16.039Z",
+   "signature": "4hTiidgkNmFJtm7b5ahXcGn8RYQ7XpBJ87CExJxd8P58FRLfeATsZcsMVryihrbiM2irvN5YQe3jYb8xnvYYLWgL",
+   "units": 79688,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/4hTiidgkNmFJtm7b5ahXcGn8RYQ7XpBJ87CExJxd8P58FRLfeATsZcsMVryihrbiM2irvN5YQe3jYb8xnvYYLWgL?cluster=devnet",
+   "lamports": "300000000",
+   "swarmOut": "3922357195812460"
+  },
+  {
+   "step": "tranche 13",
+   "at": "2026-10-30T01:03:18.186Z",
+   "signature": "eow3PsE7k4ouRgewSuGQgANjrbXM2LwKUa2znMtCgqaC1XpqHRzqiVExZCXCsw7TvNNqCNmvaZuao6ktcJTLBcx",
+   "units": 300744,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/eow3PsE7k4ouRgewSuGQgANjrbXM2LwKUa2znMtCgqaC1XpqHRzqiVExZCXCsw7TvNNqCNmvaZuao6ktcJTLBcx?cluster=devnet",
+   "scheduledFor": "2026-11-12T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1650,
+   "bins": "-1649..-1580"
+  },
+  {
+   "step": "tranche 14",
+   "at": "2026-10-30T01:03:20.311Z",
+   "signature": "rJaQFn1q5ccFBc9BPzZrAXAB8PpaHmA4twznpgLZU1v3VPzv2V7wFCBQqEzUCJrNENAN3WvrmLYQgo5N7jtfikn",
+   "units": 309729,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/rJaQFn1q5ccFBc9BPzZrAXAB8PpaHmA4twznpgLZU1v3VPzv2V7wFCBQqEzUCJrNENAN3WvrmLYQgo5N7jtfikn?cluster=devnet",
+   "scheduledFor": "2026-11-13T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1650,
+   "bins": "-1649..-1580"
+  },
+  {
+   "step": "buy before tranche 15",
+   "at": "2026-10-30T01:03:23.705Z",
+   "signature": "wh7MHmNzHW1CpPkfcqZmgHUcL8aCHsxooKnggX7YqNMkRP2DkoXnc3ykmq6LmAwmRy7WukLenehwfh4inzE4xfG",
+   "units": 68714,
+   "bytes": 788,
+   "link": "https://explorer.solana.com/tx/wh7MHmNzHW1CpPkfcqZmgHUcL8aCHsxooKnggX7YqNMkRP2DkoXnc3ykmq6LmAwmRy7WukLenehwfh4inzE4xfG?cluster=devnet",
+   "lamports": "200000000",
+   "swarmOut": "2455555748652338"
+  },
+  {
+   "step": "tranche 15",
+   "at": "2026-10-30T01:03:26.763Z",
+   "signature": "2AxbrYa9J8WvWF3V6AWMw8sm2DVJa23ut87HQrYnbX9Tve9uFkBx9o1uepQVqTCfWNSHoq2k9iosDYoqXPV7m2fC",
+   "units": 305201,
+   "bytes": 1184,
+   "link": "https://explorer.solana.com/tx/2AxbrYa9J8WvWF3V6AWMw8sm2DVJa23ut87HQrYnbX9Tve9uFkBx9o1uepQVqTCfWNSHoq2k9iosDYoqXPV7m2fC?cluster=devnet",
+   "scheduledFor": "2026-11-14T20:00:00.000Z",
+   "laid": "6250000000000000",
+   "activeId": -1648,
+   "bins": "-1647..-1578"
+  },
+  {
+   "step": "money after tranche 15",
+   "at": "2026-10-30T01:03:28.170Z",
+   "signature": "21Q9yvTz4JKYpP7QWJBEpyiWCJk6cfaaXJ1KHmpF5yHbbLtn8oeJ8UvgB6CF4fSdLtu3Z65wFf9DrXfHGV6DSw1k",
+   "units": 666167,
+   "bytes": 1040,
+   "link": "https://explorer.solana.com/tx/21Q9yvTz4JKYpP7QWJBEpyiWCJk6cfaaXJ1KHmpF5yHbbLtn8oeJ8UvgB6CF4fSdLtu3Z65wFf9DrXfHGV6DSw1k?cluster=devnet",
+   "owed": "246756732",
+   "fees": "26246693",
+   "bps": 1977
+  }
+ ]
+}

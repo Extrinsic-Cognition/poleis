@@ -1,0 +1,25 @@
+[package]
+name = "poleis-door"
+version = "0.1.0"
+edition = "2021"
+description = "STAKE IN HER, SEND YOUR LIGHT: the door's law on the meta-swarm's pool (the stake, the light's choice, the way out), once, for the launch press (native) and the page (one WASM module, build.sh)"
+license = "UNLICENSED"
+publish = false
+
+[lib]
+# rlib for the press; cdylib for the page's module (wasm32-unknown-unknown: no bindgen, no imports)
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+# Solana's own types and its own compiler of the legacy message, the press's versions; with the curve, for the receipts account's address
+solana-pubkey = { version = "4.1", features = ["curve25519"] }
+solana-instruction = "3.2"
+solana-message = { version = "=4.4.1", features = ["wincode"] }
+solana-hash = "4.5"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

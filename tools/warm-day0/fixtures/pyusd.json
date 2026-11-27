@@ -1,0 +1,13 @@
+{
+"meta": {"tool":"warm-day0","recordedAt":"2026-10-13T08:40:22.467Z","cluster":"mainnet","endpoint":"api.mainnet-beta.solana.com","mint":"2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo","history":200,"domain":"optimism.fit","slot":456379437,"calls":6},
+"manifest": null,
+"dns": {"optimism.fit":{"records":[["v=spf1 include:spf.efwd.registrar-servers.com ~all"]]}},
+"calls": {
+"getGenesisHash []": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+"getSlot [{\"commitment\":\"finalized\"}]": 456379437,
+"getBlockTime [456379437]": 1791880814,
+"getAccountInfo [\"2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo\",{\"commitment\":\"finalized\",\"encoding\":\"base64\"}]": {"context":{"apiVersion":"4.3.0","slot":456379438},"value":{"data":["AQAAAJPkMU4Y+uEbsZMeeiiX9ljfNXCarVZ7fbwaCVSmePpU3Psy9WtpAgAGAQEAAAAXhTJh72q4Uypn8FOGWq0xKT/PB88SCrW5oVcGVI3AKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQMAIAAXhTJh72q4Uypn8FOGWq0xKT/PB88SCrW5oVcGVI3AKwwAIAAXhTJh72q4Uypn8FOGWq0xKT/PB88SCrW5oVcGVI3AKwEAbAAXhTJh72q4Uypn8FOGWq0xKT/PB88SCrW5oVcGVI3AKxeFMmHvarhTKmfwU4ZarTEpP88HzxIKtbmhVwZUjcArAAAAAAAAAABdAgAAAAAAAAAAAAAAAAAAAABdAgAAAAAAAAAAAAAAAAAAAAAEAEEAF4UyYe9quFMqZ/BThlqtMSk/zwfPEgq1uaFXBlSNwCsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIEAF4UyYe9quFMqZ/BThlqtMSk/zwfPEgq1uaFXBlSNwCscN+ZDO3ME3YJzeuQNm4vzxJ9bDmxJqNUzKLPlBpAcVwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBAABeFMmHvarhTKmfwU4ZarTEpP88HzxIKtbmhVwZUjcArAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAEAAF4UyYe9quFMqZ/BThlqtMSk/zwfPEgq1uaFXBlSNwCsXkkg7bIoqh7dHHYFPlZH5OVyECpzj2fTVun06S4p0nhMArgAXhTJh72q4Uypn8FOGWq0xKT/PB88SCrW5oVcGVI3AKxeSSDtsiiqHt0cdgU+Vkfk5XIQKnOPZ9NW6fTpLinSeCgAAAFBheVBhbCBVU0QFAAAAUFlVU0RPAAAAaHR0cHM6Ly90b2tlbi1tZXRhZGF0YS5wYXhvcy5jb20vcHl1c2RfbWV0YWRhdGEvcHJvZC9zb2xhbmEvcHl1c2RfbWV0YWRhdGEuanNvbgAAAAA=","base64"],"executable":false,"lamports":2078412093,"owner":"TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb","rentEpoch":18446744073709552000,"space":866}},
+"getAccountInfo [\"5mf2C8LGCjkWPb4inZNEjyF8WpXQpfNG2pKgsJqy4Rfg\",{\"commitment\":\"finalized\",\"encoding\":\"base64\"}]": {"context":{"apiVersion":"4.3.0","slot":456379439},"value":null},
+"getAccountInfo [\"DoU57AYuPFu2QU514RktNPG22QhApEjnKxnBcu4BHDTY\",{\"commitment\":\"finalized\",\"dataSlice\":{\"length\":45,\"offset\":0},\"encoding\":\"base64\"}]": {"context":{"apiVersion":"4.3.0","slot":456379440},"value":{"data":["AwAAABu/dRkAAAAAAY9KBgiCO529rJN9XsfA8RU/FfmJWlcY1hPbRCD8HISf","base64"],"executable":false,"lamports":9620035440,"owner":"BPFLoaderUpgradeab1e11111111111111111111111","rentEpoch":18446744073709552000,"space":1382061}}
+}
+}

@@ -1,0 +1,117 @@
+{
+  "program": "d18a2cdc0e0a52f55cb363cf517a4e72e9fca4fd6950c12897ee13c2385c52ac",
+  "said": [
+    {
+      "is": {
+        "act 10 (root 0's plan of her token)": "919699683c4e5f2bbe4ae2a22c4f761b0072e065aa52ffc6a47b9cbb3ff2ec83",
+        "act 5 (her pool)": "ALUSwxpJW7Uos3SnV8Nj2e9F8PyAwGAwGqM6fqN3hC6e",
+        "act 9 (the engine's staker)": {
+          "hash": "20fdb6cb5a299267704279c1a7889457bca7ca6cd9946bb90c4512eaca8ee099",
+          "staker": "3uLf9EHvpDZkwzoLfqFL6H75doGBxR5LdEfVGdTYbCyw"
+        },
+        "the wish": "8405527522246845140",
+        "the wish's road": "BFmPgArsma5RKgowRr4Qvw2uPs15z48Pu9CBqfy7Mxb9"
+      },
+      "what": "the acts, in order"
+    },
+    {
+      "is": {
+        "after": {
+          "epoch": 6,
+          "kept": 20000000000,
+          "poolEpoch": 6,
+          "reserveFree": 20000000000,
+          "total": 200000000000,
+          "validators": [
+            {
+              "active": 1002282880,
+              "status": 0,
+              "transient": 178997717120,
+              "vote": "BhF64gprGevY8ENLxyxxz5G9bzb9zucbhfqF9mq1YRUZ"
+            }
+          ]
+        },
+        "epoch": 6,
+        "fees": 15000
+      },
+      "what": "the engine places her stake"
+    },
+    {
+      "is": {
+        "fee minted into root 0's vault (tokens)": "1395180",
+        "turns": [
+          {
+            "epoch": 7,
+            "fee account (tokens)": "0",
+            "total": 200000000000,
+            "validator": {
+              "active": 179997717120,
+              "status": 0,
+              "transient": 0,
+              "vote": "BhF64gprGevY8ENLxyxxz5G9bzb9zucbhfqF9mq1YRUZ"
+            }
+          },
+          {
+            "epoch": 8,
+            "fee account (tokens)": "1395180",
+            "total": 200001395180,
+            "validator": {
+              "active": 179999112300,
+              "status": 0,
+              "transient": 0,
+              "vote": "BhF64gprGevY8ENLxyxxz5G9bzb9zucbhfqF9mq1YRUZ"
+            }
+          }
+        ]
+      },
+      "what": "epochs turned"
+    },
+    {
+      "is": {
+        "dust (tokens)": "0",
+        "epochs": [
+          5,
+          8
+        ],
+        "fee (lamports)": "1395180",
+        "fee (tokens)": "1395180",
+        "in the wish's well (tokens)": "1046385",
+        "left in root 0's vault (tokens)": "348795",
+        "over-pulled (tokens)": "0",
+        "signatures": [
+          "3XVPkgM9TydZBR7dpewxHKTWpzGr1tTo37Sci3TmSyG6fXi1cKYyqKPTRm1fc7CfEijwKyotgmiR5nra2Mu3c367"
+        ],
+        "staker 1's light (lamports)": "1046385",
+        "staker 2's light (lamports)": "348795",
+        "the chain's mints (tokens)": "1395180",
+        "to the wish (tokens)": "1046385",
+        "undirected, in root 0's vault (tokens)": "348795"
+      },
+      "what": "the reader and the pour"
+    },
+    {
+      "is": {
+        "SOL the draw brought (lamports)": "1046385",
+        "after": "999002105",
+        "drew (tokens)": "1046385",
+        "fee": 5000,
+        "its receipts account's rent": 2039280,
+        "signature": "4KybrU7mftLmrZvG9xc8EbMpnBxxLwnSugkc6vXdVVjBGk5mBrRAjUTi8v3bVqk1gtHAzBqp7V1wzkq3iXvQGtDz",
+        "the pool behind the epoch": true,
+        "the rider's SOL before": "1000000000",
+        "units": 64232,
+        "validators in her list": 1,
+        "worth at the rate before (lamports)": "1046385"
+      },
+      "what": "the rider's draw to SOL"
+    },
+    {
+      "is": {
+        "seconds": 81
+      },
+      "what": "wall"
+    }
+  ],
+  "schema": "embertide.stake-pays-its-snowtracer-rehearsal/1",
+  "validator": "solana-test-validator, local, 32 slots an epoch; its own vote account the rule's one validator"
+}

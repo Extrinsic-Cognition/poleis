@@ -1,0 +1,293 @@
+{
+  "commit": "63849a360cf869b6e029229fe3dfb6c036d27b7d",
+  "said": [
+    {
+      "is": {
+        "genesis": "EoeVck7zDX4iXX4uRpNwZWqjLZymEAMUk1T4PKWeuFip",
+        "its bytes' sha256": "a43499177ab3349a50a8e470dfe97d709b5783ad1de4689af75fd3afe13e1634",
+        "the $WARM program": "CmdsHtG8xJxaxi2GTjyeG3ePZrW9PdeYU8ENUoujE2q6",
+        "the door's WASM": {
+          "bytes": 464677,
+          "sha256": "09478d571a3ef83edaedf234cef18faf454dd1a6601d02564e942664db37222f"
+        },
+        "validator": "http://127.0.0.1:27600"
+      },
+      "what": "the chain"
+    },
+    {
+      "is": {
+        "halving_ms": 1795463413000,
+        "init": {
+          "signature": "4osSH1d6c4UYyRArRqEzZNdkv2P4fhgw9m8uvKehdpM4LrVCRtJwydza32gYuERt1nosHtoZNHq8LAUD6aCs3fac",
+          "units": 31463
+        },
+        "mine": "FLJZpgCEbTosMKtMitSkhGENLCxbgmgT1a1T5sbUSBbn",
+        "mint": "4nKcXcDeL7TAri3hbk5nRUFmRPEcjFj4fGq4f3jtpFEm",
+        "opening_ms": 1779565813000,
+        "set_miner": {
+          "signature": "3qbeEoGAombJpiuvfdX1d7TJksY8CXTNnx9NNKi3uSjGLphDZVTaPTtCyBkZjjDgHtz1FfFnVJpAyHiwZ9gEBobN",
+          "units": 644
+        },
+        "the halving": 1,
+        "treasury": "CBmjPQA1CYey6BGLYB6eH53YHAnJNNeYV2J8eeYUd8ak"
+      },
+      "what": "the mine opened"
+    },
+    {
+      "is": {
+        "a flask (lamports)": 1662760,
+        "a flask under 10 USDC": "the door's watch hands it no message to sign (a flask is made from 10 USDC); the program's own refusal is UnderMinimum",
+        "flasks": 4,
+        "micro-dollars": 50000000,
+        "the fee key paid (lamports)": 6651040,
+        "units": [
+          34365,
+          31725,
+          31689,
+          31749
+        ]
+      },
+      "what": "the deposits, through the door"
+    },
+    {
+      "is": {
+        "burns": 9,
+        "the book": [
+          [
+            20000000,
+            2226000,
+            2226000000
+          ],
+          [
+            10000000,
+            1470000,
+            1470000000
+          ],
+          [
+            10000000,
+            343867,
+            343867000
+          ],
+          [
+            10000000,
+            4200000,
+            4200000000
+          ]
+        ],
+        "the mine's cursor": 9,
+        "transactions sent by the door": 5
+      },
+      "what": "the first half, the crank at every burn"
+    },
+    {
+      "is": {
+        "after": 20,
+        "burns that waited": 7,
+        "of them before the halving": 3,
+        "the last receipt": 20,
+        "the mine's cursor before": 9,
+        "three cranks at once, two of them said they sent": [
+          7,
+          7
+        ]
+      },
+      "what": "the crank stopped, and resumed"
+    },
+    {
+      "is": {
+        "batches": [
+          {
+            "bytes": 862,
+            "signature": "eMCHSDrTYsUo7ZymseCPxEyK7NJ2b4yfpQqBeKekRgR5jfKdJVBcCDGu6EYnmwXU8wDyMhCL4axegdyy3YExFHZ",
+            "spends": 4,
+            "units": 72364
+          },
+          {
+            "bytes": 944,
+            "signature": "63wYfP7JwAdMdCv5nuYZmJhPY5t5Y1LMCiqNx8C1CXGdHWzuTLykyVFe1zPN4Kj1XPLpc5QY5mYbV2TiRpVg8Vdk",
+            "spends": 7,
+            "units": 23470
+          }
+        ],
+        "before the halving": 7,
+        "flasks": [
+          {
+            "deposited (micro-dollars)": 20000000,
+            "flask": "a",
+            "the chain: $WARM (nanos)": 2866500000,
+            "the chain: spent (micro-dollars)": 3402000,
+            "the ledger: $WARM (nanos)": 2866500000,
+            "the ledger: spent (nano-dollars)": 3402000000
+          },
+          {
+            "deposited (micro-dollars)": 10000000,
+            "flask": "b",
+            "the chain: $WARM (nanos)": 2730000000,
+            "the chain: spent (micro-dollars)": 3780000,
+            "the ledger: $WARM (nanos)": 2730000000,
+            "the ledger: spent (nano-dollars)": 3780000000
+          },
+          {
+            "deposited (micro-dollars)": 10000000,
+            "flask": "c",
+            "the chain: $WARM (nanos)": 364063500,
+            "the chain: spent (micro-dollars)": 381406,
+            "the ledger: $WARM (nanos)": 364064255,
+            "the ledger: spent (nano-dollars)": 381407084
+          },
+          {
+            "deposited (micro-dollars)": 10000000,
+            "flask": "d",
+            "the chain: $WARM (nanos)": 7100000000,
+            "the chain: spent (micro-dollars)": 10000000,
+            "the ledger: $WARM (nanos)": 7875000000,
+            "the ledger: spent (nano-dollars)": 11550000000
+          }
+        ],
+        "issued (nanos of $WARM)": 13060563500,
+        "of them posted after it": 3,
+        "of them refused by the node, or the same transaction again": 2,
+        "spends posted": 11,
+        "supply": 13060563500,
+        "the law's over every spend": 13060563500,
+        "the ledger's owed (nanos)": 13835564255,
+        "the mine's cursor": 20,
+        "the miner paid (lamports)": 8167120,
+        "the treasury (micro-dollars)": 50000000,
+        "transactions the door sent": 8
+      },
+      "what": "THE BOOK"
+    },
+    {
+      "is": {
+        "a spend past its deposits, alone": {
+          "posted": 0,
+          "the door read past receipt": 21,
+          "the mine's cursor": 20
+        },
+        "refused by the chain": [
+          {
+            "the program's refusal": 11,
+            "what": "one micro-dollar past flask d's deposits"
+          },
+          {
+            "the program's refusal": 8,
+            "what": "a seq the mine holds (the last batch again)"
+          },
+          {
+            "the program's refusal": 0,
+            "what": "a stranger's batch"
+          },
+          {
+            "the program's refusal": 9,
+            "what": "a spend before the last"
+          },
+          {
+            "the program's refusal": 10,
+            "what": "a spend after the chain's clock"
+          }
+        ],
+        "the crank again, twice": [
+          0,
+          0
+        ],
+        "transactions sent": 0
+      },
+      "what": "the refusals, and the crank run twice"
+    },
+    {
+      "is": {
+        "one $WARM": {
+          "in the flasks (nanos)": 13885563500,
+          "in the vault": 0,
+          "minted": 13885563500,
+          "paid back": 8100000000,
+          "re-emitted": 8100000000,
+          "supply": 13885563500
+        },
+        "the credit drunk": {
+          "mined on the ledger": [
+            0,
+            0.65
+          ],
+          "of them in $WARM": [
+            4.2,
+            2.9
+          ],
+          "the credit after (nanos)": 0,
+          "the next call": 402,
+          "two calls at once (dollars)": [
+            4.2,
+            4.2
+          ]
+        },
+        "the ledger's $WARM is no credit": {
+          "dry, the door said": "Your tank is empty ($-1.800000, 0.000000 $WARM). Refuel it; nothing was sent.",
+          "flask d's tank, the ledger's mined (nanos)": 8400000000,
+          "its credit before it paid back": 0,
+          "its flask held (nanos)": 7100000000
+        },
+        "the pay-backs, through the door": {
+          "counted again": [
+            0,
+            0
+          ],
+          "flask b, some (nanos)": 1000000000,
+          "flask d, all of it (nanos)": 7100000000,
+          "minted by them": 0,
+          "the vault after (nanos)": 8100000000,
+          "units": [
+            2812,
+            2812
+          ]
+        },
+        "the tanks": [
+          {
+            "credit standing (nanos)": 0,
+            "drunk as credits (nanos)": 0,
+            "flask": "a",
+            "its flask holds (nanos)": 10741500000,
+            "paid back on the chain (nanos)": 0
+          },
+          {
+            "credit standing (nanos)": 1000000000,
+            "drunk as credits (nanos)": 0,
+            "flask": "b",
+            "its flask holds (nanos)": 2780000000,
+            "paid back on the chain (nanos)": 1000000000
+          },
+          {
+            "credit standing (nanos)": 0,
+            "drunk as credits (nanos)": 0,
+            "flask": "c",
+            "its flask holds (nanos)": 364063500,
+            "paid back on the chain (nanos)": 0
+          },
+          {
+            "credit standing (nanos)": 0,
+            "drunk as credits (nanos)": 7100000000,
+            "flask": "d",
+            "its flask holds (nanos)": 0,
+            "paid back on the chain (nanos)": 7100000000
+          }
+        ],
+        "the vault pays first": {
+          "after": 13885563500,
+          "from the vault": 8100000000,
+          "issued to flasks a and b (nanos)": [
+            7875000000,
+            1050000000
+          ],
+          "minted": 825000000,
+          "supply before": 13060563500,
+          "the vault before": 8100000000
+        }
+      },
+      "what": "SPENT $WARM GOES BACK TO THE MINE"
+    }
+  ],
+  "schema": "embertide.the-mine-is-live/1",
+  "seconds": 229,
+  "started_at": "2026-11-23T19:47:36Z",
+  "validator": "solana-test-validator, local, stand-in keys of the run's own seed"
+}

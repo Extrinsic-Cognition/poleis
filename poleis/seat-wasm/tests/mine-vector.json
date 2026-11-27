@@ -1,0 +1,41 @@
+{
+ "what": "THE MINE IS LIVE: receipts as the router signs and keeps them (app/space-router-oracle.mjs receiptOf, signReceipt, canonical), under a fixed test key nobody else holds; made once by the command at the head of tests/mine.rs",
+ "oracle": "278f75918e4495dcab50396efc1c9a5b7dfeea662762892d14082a6d49a7c9e8",
+ "receipts": [
+  {
+   "tank": "st-0123456789ab",
+   "at": 1795478400123,
+   "usd": 0.021,
+   "nanos": 21000000,
+   "body": "{\"answer\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"ask\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"asked_model\":\"proof/model\",\"at\":1795478400123,\"by\":\"278f75918e4495dcab50396efc1c9a5b7dfeea662762892d14082a6d49a7c9e8\",\"model\":\"proof/model\",\"nonce\":\"uHzU3wNzNopv_OR8\",\"provider\":\"api.minirouter.sh\",\"router_usd\":0.02,\"sig\":\"HBQxRH7DSs60m4sjKjh8Xg7aiUIZbMC56KLdaiTQX88dsCxDTXSJ0429lVEQckOy8KnQke8v-ip-btdP4ammBw\",\"tank\":\"st-0123456789ab\",\"tokens_cached\":6,\"tokens_in\":9,\"tokens_out\":4,\"usd\":0.021,\"v\":1}"
+  },
+  {
+   "tank": "st-0123456789ab",
+   "at": 1795478401000,
+   "usd": 2.1,
+   "nanos": 2100000000,
+   "body": "{\"answer\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"ask\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"asked_model\":\"proof/model\",\"at\":1795478401000,\"by\":\"278f75918e4495dcab50396efc1c9a5b7dfeea662762892d14082a6d49a7c9e8\",\"model\":\"proof/model\",\"nonce\":\"5yoCWwP4KCWTnKDF\",\"provider\":\"api.minirouter.sh\",\"router_usd\":2,\"sig\":\"zdBvKa9eS7wEwIwnZHSEWloRiOdA3wO-a4nkgMgAgdC3UzA8nXIcO4n6N6P7z_4CM7VHHGJkUaYjpjOxr1U4Dg\",\"tank\":\"st-0123456789ab\",\"tokens_cached\":6,\"tokens_in\":9,\"tokens_out\":4,\"usd\":2.1,\"v\":1}"
+  },
+  {
+   "tank": "proof-rider",
+   "at": 1795478402500,
+   "usd": 0.012962963,
+   "nanos": 12962963,
+   "body": "{\"answer\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"ask\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"asked_model\":\"proof/model\",\"at\":1795478402500,\"by\":\"278f75918e4495dcab50396efc1c9a5b7dfeea662762892d14082a6d49a7c9e8\",\"model\":\"proof/model\",\"nonce\":\"AGyGeCyENfu17AP-\",\"provider\":\"api.minirouter.sh\",\"router_usd\":0.0123456789,\"sig\":\"K3t4y394ZaWbLzeAh-FIoOceVDG_AMVdf3GWQarykDPlO5NFHkxsOzglpZguDFjoZsoa_RSCNHn7fT_KVt0PCA\",\"tank\":\"proof-rider\",\"tokens_cached\":6,\"tokens_in\":9,\"tokens_out\":4,\"usd\":0.012962963,\"v\":1}"
+  },
+  {
+   "tank": "st-ffffffffffff",
+   "at": 1795478403000,
+   "usd": 1e-7,
+   "nanos": 100,
+   "body": "{\"answer\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"ask\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"asked_model\":\"proof/model\",\"at\":1795478403000,\"by\":\"278f75918e4495dcab50396efc1c9a5b7dfeea662762892d14082a6d49a7c9e8\",\"model\":\"proof/model\",\"nonce\":\"ob-i9jV-TjubYenL\",\"provider\":\"api.minirouter.sh\",\"router_usd\":9.5e-8,\"sig\":\"6UoKGzmKB1k8vjjnjHREtctlMTSWSLzhljU-eQKfjw1b_fhB27_I3jUOKOIcaiSl18TyXWJoKq2FyClAr2wqCw\",\"tank\":\"st-ffffffffffff\",\"tokens_cached\":6,\"tokens_in\":9,\"tokens_out\":4,\"usd\":1e-7,\"v\":1}"
+  },
+  {
+   "tank": "st-ffffffffffff",
+   "at": 1795478404000,
+   "usd": 0.102795,
+   "nanos": 102795000,
+   "body": "{\"answer\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"ask\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"asked_model\":\"proof/model\",\"at\":1795478404000,\"by\":\"278f75918e4495dcab50396efc1c9a5b7dfeea662762892d14082a6d49a7c9e8\",\"model\":\"proof/model\",\"nonce\":\"GHSYQYwxa-AoXH4T\",\"provider\":\"api.minirouter.sh\",\"router_usd\":0.0979,\"sig\":\"syvF_ssOgVdDgWy1SMz8WbaLb2kkEfaO6XgbHylCws1hcNvCgofq0tUKUL_lpR955tLIUdba8p3IEBiN4QM1BA\",\"tank\":\"st-ffffffffffff\",\"tokens_cached\":6,\"tokens_in\":9,\"tokens_out\":4,\"usd\":0.102795,\"v\":1,\"walk\":{\"card\":\"a-card\",\"sha256\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"tracenet\":\"photons_enjoyor\"}}"
+  }
+ ]
+}

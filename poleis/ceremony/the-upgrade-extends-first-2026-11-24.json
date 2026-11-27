@@ -1,0 +1,60 @@
+{
+  "commit": "0aef6660cf747673f6b9ad1ce0a1f629a6eb1039 and uncommitted changes",
+  "said": [
+    {
+      "is": {
+        "id": "CmdsHtG8xJxaxi2GTjyeG3ePZrW9PdeYU8ENUoujE2q6",
+        "its build": 58816,
+        "its data": 58861,
+        "the longer build": 98512
+      },
+      "what": "the program"
+    },
+    {
+      "is": {
+        "address": "AQz5wssXQkXSRnJUDeYzuYQuXpdGwWJ1yqPcmG3vVoXB",
+        "writes": 110
+      },
+      "what": "the buffer"
+    },
+    {
+      "is": "{\"InstructionError\":[0,\"AccountDataTooSmall\"]} (ProgramData account not large enough / Program BPFLoaderUpgradeab1e11111111111111111111111 failed: account data too small for instruction)",
+      "what": "the upgrade, unextended"
+    },
+    {
+      "is": "{\"InstructionError\":[0,\"InvalidArgument\"]} (ExtendProgram requires a minimum of 10240 additional bytes or to extend to maximum size, but only 168 were requested / Program BPFLoaderUpgradeab1e11111111111111111111111 failed: invalid program argument)",
+      "what": "an extend of 168 bytes"
+    },
+    {
+      "is": "{\"InstructionError\":[1,\"InvalidArgument\"]} (Program 11111111111111111111111111111111 success / Extended ProgramData account by 39696 bytes / Program BPFLoaderUpgradeab1e11111111111111111111111 success / Program was deployed in this block already / Program BPFLoaderUpgradeab1e11111111111111111111111 failed: invalid program argument)",
+      "what": "the extend and the upgrade in one transaction"
+    },
+    {
+      "is": {
+        "bytes": 39696,
+        "fee": 5000,
+        "rent": 276284160,
+        "slot": 146,
+        "the program data": [
+          58861,
+          98557
+        ],
+        "units": 2520
+      },
+      "what": "the press's extend"
+    },
+    {
+      "is": {
+        "slot": 148,
+        "the program data": 98557,
+        "the spill": 686791920,
+        "units": 2370
+      },
+      "what": "the upgrade, a slot after"
+    }
+  ],
+  "schema": "embertide.the-upgrade-extends-first/1",
+  "seconds": 114,
+  "started_at": "2026-11-24T23:59:56Z",
+  "validator": "solana-test-validator, local, stand-in keys of the run's own seed"
+}

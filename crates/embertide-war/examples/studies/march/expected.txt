@@ -1,0 +1,9 @@
+20 trials, seed 0x6a09e667f3bcc909, reference: 195-minute raid, crow wins at minute 150
+Steady buys at slots 0, 4, 8. Whale and observer buys target slot 8.
+| Delay (slots) | Wait (slots/ms) | Honest max front jump (bp) | Forced FIFO P&L (lamports) | Priority P&L (lamports) | Priority buyer loss (base units, bp) | Priority max front jump (bp) | Fills | Peak pending |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0 | 0/0 | 997 | — | 8950181394 | 14271723122258, 220 | 916 | 200 | 0 |
+| 1 | 1/50 | 997 | -987654380 | 8950181394 | 14271723122258, 220 | 916 | 320 | 3 |
+| 4 | 4/200 | 997 | -987654380 | 8950181394 | 14271723122258, 220 | 916 | 320 | 3 |
+| 16 | 16/800 | 997 | -987654380 | 8950181394 | 14271723122258, 220 | 916 | 320 | 5 |
+| 64 | 64/3200 | 997 | -987654380 | 8950181394 | 14271723122258, 220 | 916 | 320 | 5 |

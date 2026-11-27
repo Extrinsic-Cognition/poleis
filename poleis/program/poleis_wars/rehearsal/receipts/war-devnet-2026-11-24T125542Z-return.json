@@ -1,0 +1,41 @@
+{
+  "cluster": "devnet",
+  "genesis": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL)",
+  "result": "pass",
+  "return": {
+    "explorer": "https://explorer.solana.com/tx/5M4gJvdEPowEK3pruNgystY8UAEGJwkEVqKbiZ4APaNgtt8Dd6wk8P3cZdaeCQBeZMK6WqVxs7hnjDdV7QgC6xyC?cluster=devnet",
+    "from_the_payer": "FT9u9LszrszsRxygpwQ31Dj6VjZM8uENujRFC9ecYdzV",
+    "his wallet, before and after": [
+      {
+        "lamports": 39790615209,
+        "sol": 39.790615
+      },
+      {
+        "lamports": 71853777466,
+        "sol": 71.853777
+      }
+    ],
+    "sent": {
+      "lamports": 32063162257,
+      "sol": 32.063162
+    },
+    "signature": "5M4gJvdEPowEK3pruNgystY8UAEGJwkEVqKbiZ4APaNgtt8Dd6wk8P3cZdaeCQBeZMK6WqVxs7hnjDdV7QgC6xyC",
+    "the network's fee": {
+      "lamports": 5000,
+      "sol": 5e-6
+    },
+    "the payer, before and after": [
+      {
+        "lamports": 32813167257,
+        "sol": 32.813167
+      },
+      {
+        "lamports": 750000000,
+        "sol": 0.75
+      }
+    ],
+    "to": "3nJn2tnmR27xbkjzT49YnSnXL2KeddzM7CkEizYiKMba"
+  },
+  "wall_seconds": 3.5
+}

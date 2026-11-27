@@ -1,0 +1,93 @@
+{
+ "what": "AN AGENT PULLS ITS OWN ALLOWANCE: a sealed monthly allowance of tree 0 to an agent's own Nest key, the agent's signed pull, a stranger's pull refused, the cap held",
+ "cluster": "https://api.devnet.solana.com",
+ "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+ "at": "2026-10-30T00:45:35.103Z",
+ "program": "4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84",
+ "treasury": "CGR3tTn885wxjtAiXTUADbV8xCE9NcFNpQMdQmcMQdK7",
+ "agent": {
+  "name": "agent-proof",
+  "address": "7X3M5UZeXkyQrKoz1CPJR6758zc7iSxTRFaAiDSqrwqG",
+  "key": "a Nest key {alg: ed25519, pkcs8} made for the proof; the Solana keypair is the same key (agent-key.mjs)"
+ },
+ "allowance": {
+  "address": "F5YUSvZhqTf2ZL7nugeseotbijdhrdumz61ZHnf6ovYP",
+  "proposal": "14988e292aacfdadb3376a1874b97a7004afd5e6758d70244ff9d1f3fc39b336",
+  "payee": "7X3M5UZeXkyQrKoz1CPJR6758zc7iSxTRFaAiDSqrwqG",
+  "cap": "20000000",
+  "period": "6480000",
+  "expires": "0",
+  "votes": [
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "MnmbJV3u9hGvoVEchPWp9qKktkHwWhS1DHdrxJWHe7c"
+  ],
+  "decider": "8 of 12 chairs and the floor (the futarchy is the next lane)"
+ },
+ "pulls": {
+  "own": {
+   "step": "pull 1: signed by agent-proof",
+   "signature": "aLoLBxANnvt39Rn7BGDDyPDmZJTGisWHUJCgN5t2XVkzUtsmRbvmMgsFwhDL48vVFy4VkDgfK5mvhaorAj1EB3i",
+   "slot": 516599280,
+   "fee": 10000,
+   "cu": 7142,
+   "bytes": 447,
+   "agent": [
+    "0",
+    "20000000"
+   ],
+   "treasury": [
+    "110787400",
+    "90787400"
+   ]
+  },
+  "stranger": {
+   "refused": "Program 4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84 failed: custom program error: 0x0"
+  },
+  "again": {
+   "refused": "Program 4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84 failed: custom program error: 0x36"
+  }
+ },
+ "transactions": [
+  {
+   "step": "propose: TREASURY Allowance to agent-proof's own key",
+   "signature": "4YBUGRNMYb1E3jH7XEJND5spuKDNBS6FvXwzDJoaYER7r52JpX66uwRPy8MW2ttXmkbzDgPVAnVecLBMouaGCrJ2",
+   "slot": 516599245,
+   "fee": 5000,
+   "cu": 12657,
+   "bytes": 512
+  },
+  {
+   "step": "attest: 8 of 12 chairs and the floor, PRO",
+   "signature": "5R4c5MvEA3sPNoEGVktwY6cie82zTF7eHADKx3UKJLdJu1zWwMTh1pXhRZaVQEETUq3oNQR2wV6jbE4gUM2NRPDC",
+   "slot": 516599255,
+   "fee": 20000,
+   "cu": 7341,
+   "bytes": 907
+  },
+  {
+   "step": "seal",
+   "signature": "4AHiyozD3wniAmfdiHnBLrkoMR5AKyE84TQTFBXwLwQSXWuNRjWi6SMVjPXGntzBfGdGxrcvfJj8tT8VEpoyrgZe",
+   "slot": 516599264,
+   "fee": 5000,
+   "cu": 8527,
+   "bytes": 343
+  },
+  {
+   "step": "execute: the allowance account is born",
+   "signature": "5LRB7NqY38gjzWMhQc6d2kCEDXoRDCnRfZKW4cjkSpVCETD7t8ULBBNBNevFZ5TAeefu6M2P8uWRxhVxC3kaKFZ9",
+   "slot": 516599272,
+   "fee": 5000,
+   "cu": 11479,
+   "bytes": 441
+  },
+  {
+   "step": "pull 1: signed by agent-proof",
+   "signature": "aLoLBxANnvt39Rn7BGDDyPDmZJTGisWHUJCgN5t2XVkzUtsmRbvmMgsFwhDL48vVFy4VkDgfK5mvhaorAj1EB3i",
+   "slot": 516599280,
+   "fee": 10000,
+   "cu": 7142,
+   "bytes": 447
+  }
+ ]
+}

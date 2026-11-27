@@ -1,0 +1,224 @@
+{
+ "blockhash": "4wBqpZM9xaSheZzJSMawUKKwhdpChKbZ5eu5ky4Vigw",
+ "set": {
+  "act": {
+   "class": 0,
+   "hash": "27dd2d6aeafabe012a809d432a158dde41020a582b755224754c71e5691856c9",
+   "impacted": [
+    0,
+    1
+   ],
+   "n": 1,
+   "name": "the fund's constitution (CODEX_FUND)",
+   "nonce": 1,
+   "payloadSha256": "52f3a14cdd7b2b247dd4a0378f5b80d3beecbff27f62c55ccb29d33fa36028f1"
+  },
+  "cluster": "mainnet",
+  "emitted": "fixed",
+  "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+  "order": "1 the proposal; then each PRO once the proposal has landed, inside the vote's window",
+  "placeholders": [],
+  "seats": [
+   {
+    "mint": "9gzVNwxb7jKbamLsitMJARHjrUfq8eT8F1v5Am3QC2kK",
+    "seat": "AcP7xdqSWeRDwWP1jzxirFvqxtCC74BGuH48bP3yvnt8",
+    "token": "53aGhbkpWqwYJm3coq6A3oHKniEkzPmKVePoq6XxQc7k"
+   }
+  ],
+  "signable": true,
+  "signer": {
+   "address": "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11",
+   "role": "a seat owner of root 0's floor, 1 seat: one hexagon a seat, like anyone's"
+  },
+  "transactions": [
+   {
+    "accounts": [
+     {
+      "address": "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11",
+      "is": null,
+      "signer": true,
+      "writable": true
+     },
+     {
+      "address": "Bu7VRSviKGdJmXnLTVtbn6D8TExZPAudawJpTHuMSxek",
+      "is": null,
+      "signer": false,
+      "writable": true
+     },
+     {
+      "address": "EA2JHpmr7irevnGBM8zLjULnAm7FBagEjycvTP2u1Siu",
+      "is": null,
+      "signer": false,
+      "writable": true
+     },
+     {
+      "address": "EJ9NMQzwPrGd37M7EEj5odHFEFipMSoFtszwkChKFgB6",
+      "is": null,
+      "signer": false,
+      "writable": true
+     },
+     {
+      "address": "11111111111111111111111111111111",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "TSeR7kuRra3bj95JMuuHrUZK38tktD6bspaZgnB4Dkp",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "4imnCyMyvSQPUxfPKcotdbcX1HS9Af92ZZCrDwGqhaor",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "53aGhbkpWqwYJm3coq6A3oHKniEkzPmKVePoq6XxQc7k",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "9gzVNwxb7jKbamLsitMJARHjrUfq8eT8F1v5Am3QC2kK",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "AcP7xdqSWeRDwWP1jzxirFvqxtCC74BGuH48bP3yvnt8",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "GB7nepka4WmKAnQ4FXjNeheKPdgqVVaTjk6daRTybxBk",
+      "is": null,
+      "signer": false,
+      "writable": false
+     }
+    ],
+    "bytes": 618,
+    "does": [
+     "constitute the fund of every swarm: a fee of 250 bps on every sale, a cycle of 1000 slots, a payout range of 2000 to 8000 bps, an option fee of 1000000 lamports, a chair quorum of 7",
+     "the proposer is a member of root 0: its seat AcP7xdqSWeRDwWP1jzxirFvqxtCC74BGuH48bP3yvnt8 proved by its token, the proposal's rent and fee paid by its owner"
+    ],
+    "message": "AQAIDEnTVhWZS0VldPXZilvJI+/IUAufXCw8YI40vtksjjSooe5o3ZTU3m2yr6cNFtJJETP7bkEqv7crLZK+t5PF0PHDd6AGRkEFP100uARKJj79Ob3TJOiLmNlCW0OP+/ksYsWMRAOX7nhfcVPIQB3vEbgdsk908dWoZq4pdcfRfYVVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxhkZWI/pcVy0/4YheNIkfxQg/6MgnpvQU+cqS5p4lTdGgZaRBN8rSlu2naqE0roScYqdlMdyYmSXaOv+5xhhPBeHUx4olpXRc6v23HmXzdBE3pqubN12nHatKQk0k3uBHCZ6VJxUpgeztcEIZVm3GHL55wDNWSXsFe6s/JfF3Io9wE7lfG+d0kUUFJ8yYn0WeSyddVRery0oHK0JATHsjsmFlOkC2LrQwNM/ppcBIpGqWMXq1a3b2YyRVrcZf3HhdslDzUKT7ByXpYBrA9pAal7dVUrMc/rXZrkZfslOuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkLCggHAAUDBAYLAQJ2MifdLWrq+r4BKoCdQyoVjd5BAgpYK3VSJHVMceVpGFbJAAAAAAAAAAAAwlOQUqyHL1xfeM4SGnZ7NSZc8DhK4lA+pQEVnnT/7dwCAAAAAAAAAAABAAAAAAAAABkAAAr6AOgDAAAAAAAA0AdAH0BCDwAAAAAABw==",
+    "messageSha256": "38b17b6e7ba394a3811a8345eb6c874ba4114e39b48d009765ff5a28632bd810",
+    "n": 1,
+    "name": "propose act 1 (the fund's constitution (CODEX_FUND))",
+    "placeholders": [],
+    "signable": true,
+    "signers": [
+     "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11"
+    ]
+   },
+   {
+    "accounts": [
+     {
+      "address": "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11",
+      "is": null,
+      "signer": true,
+      "writable": true
+     },
+     {
+      "address": "4imnCyMyvSQPUxfPKcotdbcX1HS9Af92ZZCrDwGqhaor",
+      "is": null,
+      "signer": false,
+      "writable": true
+     },
+     {
+      "address": "Bu7VRSviKGdJmXnLTVtbn6D8TExZPAudawJpTHuMSxek",
+      "is": null,
+      "signer": false,
+      "writable": true
+     },
+     {
+      "address": "53aGhbkpWqwYJm3coq6A3oHKniEkzPmKVePoq6XxQc7k",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "9gzVNwxb7jKbamLsitMJARHjrUfq8eT8F1v5Am3QC2kK",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+      "is": null,
+      "signer": false,
+      "writable": false
+     },
+     {
+      "address": "AcP7xdqSWeRDwWP1jzxirFvqxtCC74BGuH48bP3yvnt8",
+      "is": null,
+      "signer": false,
+      "writable": false
+     }
+    ],
+    "bytes": 377,
+    "does": [
+     "the PRO of the seat AcP7xdqSWeRDwWP1jzxirFvqxtCC74BGuH48bP3yvnt8 in root 0's floor on act 1: one hexagon, one vote, its owner's own transaction; sign and send once the act is proposed, inside its vote's window"
+    ],
+    "message": "AQAEB0nTVhWZS0VldPXZilvJI+/IUAufXCw8YI40vtksjjSoN0aBlpEE3ytKW7adqoTSuhJxip2Ux3JiZJdo6/7nGGGh7mjdlNTebbKvpw0W0kkRM/tuQSq/tystkr63k8XQ8TwXh1MeKJaV0XOr9tx5l83QRN6armzddpx2rSkJNJN7gRwmelScVKYHs7XBCGVZtxhy+ecAzVkl7BXurPyXxdyKPcBO5XxvndJFFBSfMmJ9FnksnXVUXq8tKBytCQEx7I7JhZTpAti60MDTP6aXASKRqljF6tWt29mMkVa3GX9xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBQYABgQDAQIqMSfdLWrq+r4BKoCdQyoVjd5BAgpYK3VSJHVMceVpGFbJAAAAAAAAAAAB",
+    "messageSha256": "b29b9f4d3636863df11e4485e7130573693d1c0c4dbee87b27f292b2f722da0c",
+    "n": 2,
+    "name": "vote PRO on act 1 by the seat AcP7xdqSWeRDwWP1jzxirFvqxtCC74BGuH48bP3yvnt8",
+    "placeholders": [],
+    "signable": true,
+    "signers": [
+     "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11"
+    ]
+   }
+  ],
+  "what": "THE LAUNCH PRESS, act 1: the fund's constitution (CODEX_FUND). THE WHOLE TREE DECIDES: root 0's floor votes it by each seat owner's own transaction; here one owner's, its proposal first, each signed by that owner alone. Two of unit 1's three agents AND more than half of the floor's seats pass it; press crank sends everything else"
+ },
+ "what": "one seat owner's vote set of the press's first act (its proposal and its PRO), and what the Keystone page's own functions make of it (tests/prepared.rs says how it was made)",
+ "readSet": {
+  "cluster": "mainnet",
+  "genesis": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+  "act": {
+   "n": 1,
+   "name": "the fund's constitution (CODEX_FUND)",
+   "hash": "27dd2d6aeafabe012a809d432a158dde41020a582b755224754c71e5691856c9"
+  },
+  "signable": true,
+  "placeholders": [],
+  "signers": [
+   "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11",
+   "5yBfnrPxugWMGL4iDjsSjz2fVQbFuXuwep6ciKuwmj11"
+  ],
+  "shown": [
+   [
+    {
+     "program": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+     "data": "MhTKKcuFm77K2ayM3UutfVSXiR2SKrFp98yRhKjUduJ6Xy5gDRaGAz9Kqy4AGGNQ3cB74Nj8jK2z6gFjLMiUC2d2CZjnaUgdJm6zVPng61jx1eGkRxmip4vyFD5YfhuWU6exPr7PYKcCLPD1morRMnSgfSkLC5XZY"
+    }
+   ],
+   [
+    {
+     "program": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+     "data": "pamhFf1PHLQPPfkDrtTGR87okkTyQy9zJHE3Uj4KJwEM4WLorTrZ3u3FE"
+    }
+   ]
+  ]
+ },
+ "toSign": [
+  "AQAIDEnTVhWZS0VldPXZilvJI+/IUAufXCw8YI40vtksjjSooe5o3ZTU3m2yr6cNFtJJETP7bkEqv7crLZK+t5PF0PHDd6AGRkEFP100uARKJj79Ob3TJOiLmNlCW0OP+/ksYsWMRAOX7nhfcVPIQB3vEbgdsk908dWoZq4pdcfRfYVVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxhkZWI/pcVy0/4YheNIkfxQg/6MgnpvQU+cqS5p4lTdGgZaRBN8rSlu2naqE0roScYqdlMdyYmSXaOv+5xhhPBeHUx4olpXRc6v23HmXzdBE3pqubN12nHatKQk0k3uBHCZ6VJxUpgeztcEIZVm3GHL55wDNWSXsFe6s/JfF3Io9wE7lfG+d0kUUFJ8yYn0WeSyddVRery0oHK0JATHsjsmFlOkC2LrQwNM/ppcBIpGqWMXq1a3b2YyRVrcZf3HhdslDzUKT7ByXpYBrA9pAal7dVUrMc/rXZrkZfslOuwECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gAQkLCggHAAUDBAYLAQJ2MifdLWrq+r4BKoCdQyoVjd5BAgpYK3VSJHVMceVpGFbJAAAAAAAAAAAAwlOQUqyHL1xfeM4SGnZ7NSZc8DhK4lA+pQEVnnT/7dwCAAAAAAAAAAABAAAAAAAAABkAAAr6AOgDAAAAAAAA0AdAH0BCDwAAAAAABw==",
+  "AQAEB0nTVhWZS0VldPXZilvJI+/IUAufXCw8YI40vtksjjSoN0aBlpEE3ytKW7adqoTSuhJxip2Ux3JiZJdo6/7nGGGh7mjdlNTebbKvpw0W0kkRM/tuQSq/tystkr63k8XQ8TwXh1MeKJaV0XOr9tx5l83QRN6armzddpx2rSkJNJN7gRwmelScVKYHs7XBCGVZtxhy+ecAzVkl7BXurPyXxdyKPcBO5XxvndJFFBSfMmJ9FnksnXVUXq8tKBytCQEx7I7JhZTpAti60MDTP6aXASKRqljF6tWt29mMkVa3GX9xAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyABBQYABgQDAQIqMSfdLWrq+r4BKoCdQyoVjd5BAgpYK3VSJHVMceVpGFbJAAAAAAAAAAAB"
+ ],
+ "signedWire": [
+  "AQcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcBAAgMSdNWFZlLRWV09dmKW8kj78hQC59cLDxgjjS+2SyONKih7mjdlNTebbKvpw0W0kkRM/tuQSq/tystkr63k8XQ8cN3oAZGQQU/XTS4BEomPv05vdMk6IuY2UJbQ4/7+SxixYxEA5fueF9xU8hAHe8RuB2yT3Tx1ahmril1x9F9hVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbGGRlYj+lxXLT/hiF40iR/FCD/oyCem9BT5ypLmniVN0aBlpEE3ytKW7adqoTSuhJxip2Ux3JiZJdo6/7nGGE8F4dTHiiWldFzq/bceZfN0ETemq5s3Xacdq0pCTSTe4EcJnpUnFSmB7O1wQhlWbcYcvnnAM1ZJewV7qz8l8Xcij3ATuV8b53SRRQUnzJifRZ5LJ11VF6vLSgcrQkBMeyOyYWU6QLYutDA0z+mlwEikapYxerVrdvZjJFWtxl/ceF2yUPNQpPsHJelgGsD2kBqXt1VSsxz+tdmuRl+yU67AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyABCQsKCAcABQMEBgsBAnYyJ90taur6vgEqgJ1DKhWN3kECClgrdVIkdUxx5WkYVskAAAAAAAAAAADCU5BSrIcvXF94zhIadns1JlzwOEriUD6lARWedP/t3AIAAAAAAAAAAAEAAAAAAAAAGQAACvoA6AMAAAAAAADQB0AfQEIPAAAAAAAH",
+  "AQcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcBAAQHSdNWFZlLRWV09dmKW8kj78hQC59cLDxgjjS+2SyONKg3RoGWkQTfK0pbtp2qhNK6EnGKnZTHcmJkl2jr/ucYYaHuaN2U1N5tsq+nDRbSSREz+25BKr+3Ky2SvreTxdDxPBeHUx4olpXRc6v23HmXzdBE3pqubN12nHatKQk0k3uBHCZ6VJxUpgeztcEIZVm3GHL55wDNWSXsFe6s/JfF3Io9wE7lfG+d0kUUFJ8yYn0WeSyddVRery0oHK0JATHsjsmFlOkC2LrQwNM/ppcBIpGqWMXq1a3b2YyRVrcZf3EBAgMEBQYHCAkKCwwNDg8QERITFBUWFxgZGhscHR4fIAEFBgAGBAMBAioxJ90taur6vgEqgJ1DKhWN3kECClgrdVIkdUxx5WkYVskAAAAAAAAAAAE="
+ ]
+}

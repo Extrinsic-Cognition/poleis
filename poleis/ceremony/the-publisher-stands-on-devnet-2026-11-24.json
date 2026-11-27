@@ -1,0 +1,213 @@
+{
+ "what": "THE PUBLISHER STANDS ON DEVNET: the game publisher business founded as a swarm on Solana's devnet, and a war of its game paying it",
+ "his_word": {
+  "at": "2026-11-24T16:56:22Z",
+  "words": "Yes, on devnet",
+  "to": "Make it live on devnet: the business as a swarm, paid by one war, up to 45 of your test SOL?"
+ },
+ "cluster": "devnet",
+ "genesis": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+ "poleis": {
+  "id": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+  "the_build_devnet_runs": {
+   "deployed_in_slot": 494235143,
+   "deployed_at": "2026-09-06T20:26Z",
+   "bytes_without_trailing_zeros": 332185,
+   "sha256_without_trailing_zeros": "4beb92f40649d8babe8dc5da1ac5ebbe34a74ba32bac0dea518322ee267556a6",
+   "upgrade_authority": "3nJn2tnmR27xbkjzT49YnSnXL2KeddzM7CkEizYiKMba"
+  },
+  "this_tree's_build_bytes": 461576
+ },
+ "the_dry_run": {
+  "would_land": true,
+  "units": 16523,
+  "the_registry_it_would_write_as_this_tree_reads_it": {
+   "name": "The Game Publisher",
+   "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+   "rung": 1,
+   "pentagons_held": 1,
+   "hexagons_held": 0,
+   "hexagons_of_its_rung": 20
+  }
+ },
+ "swarm": {
+  "name": "The Game Publisher",
+  "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+  "root": "12412003367810319408",
+  "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+  "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+  "first_sale": "Cw51gMv2N1AixLGi7tH8Kzg6i8L5CDAUeVrN3b9JSRJC",
+  "terms": {
+   "the first sale's windows, slots": [
+    600,
+    600
+   ],
+   "a decision's window, slots": 1500,
+   "reserve_lamports": 1000000,
+   "deposit_lamports": 5000000,
+   "rung": 1
+  },
+  "held_by": "stand-in keys of the new Mac (~/.embertide/the-game-publisher-devnet/swarm/keys.json, mode 600, never in git): its one pentagon and its one hexagon",
+  "page": "https://swarmbook.com/app/polis.html?v=speaker-burst-1&civ=12412003367810319408&program=AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab"
+ },
+ "acts": [
+  {
+   "what": "the wish is started (its tree and its genesis)",
+   "slot": 525860698,
+   "at": "17:10:55Z",
+   "signature": "5Sbb3eFybbXoRrTWj8PCgpFU2Qcju4rvVtCkNpmhNjjgMV6AVsJGfp3mV3m73uygk4J4gjj7GcnGMGbtnEMdSDkw"
+  },
+  {
+   "what": "a first sealed bid for a hexagon",
+   "slot": 525860708,
+   "at": "17:10:57Z",
+   "signature": "57ih4YgSWiP844sGWKk16cKbQgm5EK8N8zgSgVcdpuNpejAeju2mobLn15LJwxwLVHWRHqgGqnPsXkK6GcTq6RiK"
+  },
+  {
+   "what": "the bid revealed",
+   "slot": 525861299,
+   "at": "17:13:18Z",
+   "signature": "3WQkfbMJCKwEt8ZEXNiz1utwgH1hQdE6TFUuAWwh65xFtgHHFhnmUenoEC4QKqLccwFtjebUBXHMSetc97xtXFro"
+  },
+  {
+   "what": "the sale settled",
+   "slot": 525861900,
+   "at": "17:15:43Z",
+   "signature": "4W3Y3ujeH4r8T33ZXtXsAh2gsvL4GqxnzwHhik8puR2Wm71EgxfVYf1tTY4e9Tw7Y4AR81VNfnPTVxhLh9VrJEXq"
+  },
+  {
+   "what": "the first hexagon claimed",
+   "slot": 525861907,
+   "at": "17:15:44Z",
+   "signature": "2i6u3qugF29aYW9r3Zjww6fb5gFdW8G6LfLJX1LaSk9QS9CAKYStxW1sACxfhmWZJE5otm3D7MwWrpZmc164swSi"
+  },
+  {
+   "what": "the genesis ratified: nobody holds its key",
+   "slot": 525861916,
+   "at": "17:15:46Z",
+   "signature": "49K8ux9P7aAP9MKTcbdpWKMreHmaPwjJCsxgid9pLn3sKK2yCMH9tBe6G1T1Jpd1YqtWC2mQwMyay8E9oLukDgb5"
+  }
+ ],
+ "the_chain_says": {
+  "after_the_birth": {
+   "name": "The Game Publisher",
+   "ratified": false,
+   "pentagons_held": 1,
+   "hexagons_held": 0,
+   "hexagons_of_its_rung": 20,
+   "treasury_lamports": 0,
+   "decisions_opened": 0
+  },
+  "after_the_first_sale": {
+   "name": "The Game Publisher",
+   "ratified": true,
+   "pentagons_held": 1,
+   "hexagons_held": 1,
+   "hexagons_of_its_rung": 20,
+   "treasury_lamports": 975000,
+   "decisions_opened": 0
+  },
+  "after_the_war": {
+   "name": "The Game Publisher",
+   "ratified": true,
+   "pentagons_held": 1,
+   "hexagons_held": 1,
+   "hexagons_of_its_rung": 20,
+   "treasury_lamports": 889876950,
+   "decisions_opened": 0
+  }
+ },
+ "devnet_slot_seconds_measured": 0.233,
+ "war": {
+  "receipts": [
+   "poleis/program/poleis_wars/rehearsal/receipts/war-devnet-2026-11-24T171634Z.json",
+   "\u2026-finished.json",
+   "\u2026-return.json"
+  ],
+  "program": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+  "config": "9bQxb4j16YbCT4crmLEGTExXFjb7XFxfX4c8YxBsk9JT",
+  "raid": "CrrnuHpd1VgQZE4hvekpcfTkY8JP9asXMeXGJJSRWQSn",
+  "fell": "minute 62 missed: its transaction landed in minute 63 of the chain's clock (sent 1 s into its minute, 11.1 s to land at confirmed)",
+  "ended": {
+   "converts": 10,
+   "cranks": [
+    "CHH6qPQy4A9VdNMvT7dKuejZ333jzeJfEWBytaausZaTkCczLsUdZPfANd6n3G2qK4w1teyNU6HqrM1LMhVRNY7"
+   ],
+   "decided_at_minute": 195,
+   "how": "the clock ran out; the further along won",
+   "sellers": 36,
+   "sol_the_sellers_got": {
+    "lamports": 34121309847,
+    "sol": 34.12131
+   },
+   "the loser's status": 2,
+   "the winner's chest": {
+    "lamports": 0,
+    "sol": 0.0
+   },
+   "the winner's reserve left behind the burned coins": {
+    "lamports": 2709082322,
+    "sol": 2.709082
+   },
+   "unlocks": 2,
+   "winner": "crow"
+  },
+  "paid": {
+   "creators": [
+    {
+     "creator": "GcMzpPYsK9WNnSJQd2YhQFy2UNBt4wP1E2iDupjs9EJF",
+     "house": "crow",
+     "paid": {
+      "lamports": 221446621,
+      "sol": 0.221447
+     }
+    },
+    {
+     "creator": "SJyVpJ8Yf5h9MY7JsNyX4sQcQZgQht4NUWJmQcvYdpX",
+     "house": "wolf",
+     "paid": {
+      "lamports": 59259260,
+      "sol": 0.059259
+     }
+    }
+   ],
+   "publisher": {
+    "after": {
+     "lamports": 890664350,
+     "sol": 0.890664
+    },
+    "before": {
+     "lamports": 1762400,
+     "sol": 0.001762
+    },
+    "paid": {
+     "lamports": 888901950,
+     "sol": 0.888902
+    },
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt"
+   }
+  }
+ },
+ "test_sol": {
+  "his_devnet_wallet_before": 72.550979135,
+  "out": [
+   1,
+   40
+  ],
+  "back": 36.668333528,
+  "his_devnet_wallet_after": 68.219302663,
+  "still_out": {
+   "the crow's reserve behind the burned coins": 2.709082322,
+   "the swarm's treasury (the war's pay)": 0.88890195,
+   "the swarm's three stand-in keys (returnable)": 0.632851,
+   "the payer keeps": 0.01,
+   "rents of the accounts left standing and network fees": 0.090841
+  }
+ },
+ "read_on_swarmbook_com": {
+  "at_birth": "card \u2116 10 \u00b7 The Game Publisher \u00b7 0 seats \u00b7 sale open",
+  "after_the_first_sale": "\u2116 9 \u00b7 1 chamber \u00b7 1 of 20 seats \u00b7 G(1,1) \u00b7 depth 0",
+  "after_the_war": "1 / 20 Seats occupied \u00b7 1 / 12 Chairs held \u00b7 0.891 SOL In the treasury \u00b7 devnet",
+  "page_errors": 0
+ }
+}

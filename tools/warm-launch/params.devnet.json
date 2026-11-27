@@ -1,0 +1,21 @@
+{
+  "cluster": "devnet",
+  "note": "The devnet rehearsal's stand-ins. supply, startPrice, windowRatio, binStep and feeBps are not his: each is a number to run the flow with until he names his (params.mainnet.json holds them as PLACEHOLDER).",
+  "name": "SWARM",
+  "symbol": "$WARM",
+  "uri": "",
+  "metadataMutable": true,
+  "decimals": 9,
+  "supply": "1000000000",
+  "treasuryBps": 9000,
+  "saleBps": 1000,
+  "devShareBps": 5000,
+  "startPrice": "0.00000003",
+  "windowRatio": "2",
+  "binStep": 100,
+  "feeBps": 100,
+  "opening": "2026-10-30T20:00:00Z",
+  "close": "2026-11-15T00:00:00Z",
+  "trancheHours": 24,
+  "moneyAfterTranches": [4, 8, 12, 15]
+}

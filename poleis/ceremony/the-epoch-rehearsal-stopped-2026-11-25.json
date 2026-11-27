@@ -1,0 +1,205 @@
+{
+  "said": [
+    {
+      "is": {
+        "pool": "ARQP3im1k88S455eWTWv2krTtZyQQdrSej2GCFM4DAgE",
+        "staker 1": "150 SOL, light to the wish",
+        "staker 2": "50 SOL, no choice",
+        "wish": "8405527522246845140"
+      },
+      "what": "the world"
+    },
+    {
+      "is": {
+        "its keys": {
+          "engine": "9bWNcFdVSPQJeJVkzmAZcQ7hHqAe5wZSRktAbrxEigbP",
+          "pourer": "4jx4MtyorJWzTcdAZG9zokgyTypPgyqUCyNDhKrSPDyj"
+        },
+        "its state": "/var/folders/sd/fgr2gj_d05n0r9ccpssqtvyr0000gn/T//the-epoch.dMwvs1/sitting/epoch",
+        "pid": 69682
+      },
+      "what": "the runner started"
+    },
+    {
+      "is": {
+        "epoch": 7,
+        "of": "50000000000",
+        "receipts burned": "20002282879",
+        "signature": "A6sF64Etv4kP87ii14G8MTWF35413E3tim5sQSbfKMnD42zRG9z3ycojzUYjddiiRb5EkUVmVydASWhHgD8TJbj",
+        "the reserve held (lamports)": "20002282880"
+      },
+      "what": "staker 2 leaves"
+    },
+    {
+      "is": {
+        "ended in epoch": 9,
+        "epochs with no runner": 2,
+        "new pid": 72899,
+        "started again in epoch": 12
+      },
+      "what": "the runner stopped and started again"
+    },
+    {
+      "is": {
+        "ended by": "signal: 15 (SIGTERM)",
+        "its CPU time": "0:00.18",
+        "its errors": "",
+        "its lines": [
+          "2026-11-25T16:47:49Z epoch 5: placed 178995434240 lamports, brought back 0, engine fees 10000; the book's first read, 2 holders (it counts nothing); poured nothing; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (57 RPC calls since the start)",
+          "2026-11-25T16:47:55Z epoch 6: brought her pool from epoch 5; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 6 to 6: fee 0 tokens (0 lamports), 2 holders; poured nothing; left in root 0's vault 0 undirected + 0 dust; sends 1 landed, 0 sent again, 0 built again, 5000 lamports of fees (124 RPC calls since the start)",
+          "2026-11-25T16:48:04Z epoch 7: brought her pool from epoch 6; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 7 to 7: fee 1395191 tokens (1395191 lamports), 2 holders; poured 1046393 tokens to wish 8405527522246845140 for epoch 7; left in root 0's vault 348797 undirected + 1 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (210 RPC calls since the start)",
+          "2026-11-25T16:48:10Z epoch 8: brought her pool from epoch 7; placed 0 lamports, brought back 18000050750, engine fees 15000; counted epochs 8 to 8: fee 1395191 tokens (1395191 lamports), 2 holders; poured 1162673 tokens to wish 8405527522246845140 for epoch 8; left in root 0's vault 232517 undirected + 1 dust; sends 4 landed, 0 sent again, 0 built again, 20000 lamports of fees (320 RPC calls since the start)",
+          "2026-11-25T16:48:18Z epoch 9: brought her pool from epoch 8; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 9 to 9: fee 3678069 tokens (3678069 lamports), 3 holders; poured 3065078 tokens to wish 8405527522246845140 for epoch 9; left in root 0's vault 612990 undirected + 1 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (416 RPC calls since the start)",
+          "2026-11-25T16:48:42Z epoch 12: brought her pool from epoch 9; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 10 to 12: fee 3767076 tokens (3767076 lamports), 3 holders; poured 3139231 tokens to wish 8405527522246845140 for epoch 12; left in root 0's vault 627844 undirected + 1 dust; epochs 10 to 12 counted as one (the book's law across a gap): 3767076 lamports of fee by what stood at both reads; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (98 RPC calls since the start)",
+          "2026-11-25T16:48:50Z epoch 13: brought her pool from epoch 12; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 13 to 13: fee 1255692 tokens (1255692 lamports), 3 holders; poured 1046392 tokens to wish 8405527522246845140 for epoch 13; left in root 0's vault 209298 undirected + 2 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (202 RPC calls since the start)",
+          "2026-11-25T16:48:58Z epoch 14: brought her pool from epoch 13; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 14 to 14: fee 1255692 tokens (1255692 lamports), 3 holders; poured 1046374 tokens to wish 8405527522246845140 for epoch 14; left in root 0's vault 209316 undirected + 2 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (310 RPC calls since the start)",
+          "2026-11-25T16:49:06Z epoch 15: brought her pool from epoch 14; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 15 to 15: fee 1255692 tokens (1255692 lamports), 3 holders; poured 1046368 tokens to wish 8405527522246845140 for epoch 15; left in root 0's vault 209322 undirected + 2 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (422 RPC calls since the start)"
+        ],
+        "still running": false
+      },
+      "what": "the runner stopped"
+    },
+    {
+      "is": [
+        {
+          "pool total": "200000000000",
+          "pool's epoch": 6,
+          "read at epoch": 6,
+          "root 0's vault": "0",
+          "the runner said": "2026-11-25T16:47:55Z epoch 6: brought her pool from epoch 5; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 6 to 6: fee 0 tokens (0 lamports), 2 holders; poured nothing; left in root 0's vault 0 undirected + 0 dust; sends 1 landed, 0 sent again, 0 built again, 5000 lamports of fees (124 RPC calls since the start)",
+          "the runner's epoch": 6,
+          "the wish's well": "0"
+        },
+        {
+          "pool total": "200001395191",
+          "pool's epoch": 7,
+          "read at epoch": 7,
+          "root 0's vault": "348798",
+          "the runner said": "2026-11-25T16:48:04Z epoch 7: brought her pool from epoch 6; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 7 to 7: fee 1395191 tokens (1395191 lamports), 2 holders; poured 1046393 tokens to wish 8405527522246845140 for epoch 7; left in root 0's vault 348797 undirected + 1 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (210 RPC calls since the start)",
+          "the runner's epoch": 7,
+          "the wish's well": "1046393"
+        },
+        {
+          "pool total": "180000507503",
+          "pool's epoch": 8,
+          "read at epoch": 8,
+          "root 0's vault": "581316",
+          "the runner said": "2026-11-25T16:48:10Z epoch 8: brought her pool from epoch 7; placed 0 lamports, brought back 18000050750, engine fees 15000; counted epochs 8 to 8: fee 1395191 tokens (1395191 lamports), 2 holders; poured 1162673 tokens to wish 8405527522246845140 for epoch 8; left in root 0's vault 232517 undirected + 1 dust; sends 4 landed, 0 sent again, 0 built again, 20000 lamports of fees (320 RPC calls since the start)",
+          "the runner's epoch": 8,
+          "the wish's well": "2209066"
+        },
+        {
+          "pool total": "180004185572",
+          "pool's epoch": 9,
+          "read at epoch": 9,
+          "root 0's vault": "1194307",
+          "the runner said": "2026-11-25T16:48:18Z epoch 9: brought her pool from epoch 8; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 9 to 9: fee 3678069 tokens (3678069 lamports), 3 holders; poured 3065078 tokens to wish 8405527522246845140 for epoch 9; left in root 0's vault 612990 undirected + 1 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (416 RPC calls since the start)",
+          "the runner's epoch": 9,
+          "the wish's well": "5274144"
+        },
+        {
+          "pool total": "180009208340",
+          "pool's epoch": 13,
+          "read at epoch": 13,
+          "root 0's vault": "2031452",
+          "the runner said": "2026-11-25T16:48:50Z epoch 13: brought her pool from epoch 12; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 13 to 13: fee 1255692 tokens (1255692 lamports), 3 holders; poured 1046392 tokens to wish 8405527522246845140 for epoch 13; left in root 0's vault 209298 undirected + 2 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (202 RPC calls since the start)",
+          "the runner's epoch": 13,
+          "the wish's well": "9459767"
+        },
+        {
+          "pool total": "180010464032",
+          "pool's epoch": 14,
+          "read at epoch": 14,
+          "root 0's vault": "2240770",
+          "the runner said": "2026-11-25T16:48:58Z epoch 14: brought her pool from epoch 13; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 14 to 14: fee 1255692 tokens (1255692 lamports), 3 holders; poured 1046374 tokens to wish 8405527522246845140 for epoch 14; left in root 0's vault 209316 undirected + 2 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (310 RPC calls since the start)",
+          "the runner's epoch": 14,
+          "the wish's well": "10506141"
+        },
+        {
+          "pool total": "180011719724",
+          "pool's epoch": 15,
+          "read at epoch": 15,
+          "root 0's vault": "2450094",
+          "the runner said": "2026-11-25T16:49:06Z epoch 15: brought her pool from epoch 14; placed 0 lamports, brought back 0, engine fees 5000; counted epochs 15 to 15: fee 1255692 tokens (1255692 lamports), 3 holders; poured 1046368 tokens to wish 8405527522246845140 for epoch 15; left in root 0's vault 209322 undirected + 2 dust; sends 2 landed, 0 sent again, 0 built again, 10000 lamports of fees (422 RPC calls since the start)",
+          "the runner's epoch": 15,
+          "the wish's well": "11552509"
+        }
+      ],
+      "what": "its epochs"
+    },
+    {
+      "is": {
+        "epochs still owed": [],
+        "staker 1's light in the book (lamports, every count)": "11552509",
+        "stopped": [
+          9,
+          12
+        ],
+        "the book's dust": "10",
+        "the book's fee over every count (lamports)": "14002603",
+        "the runner's pours, by counted epoch": [
+          [
+            7,
+            1046393
+          ],
+          [
+            8,
+            1162673
+          ],
+          [
+            9,
+            3065078
+          ],
+          [
+            12,
+            3139231
+          ],
+          [
+            13,
+            1046392
+          ],
+          [
+            14,
+            1046374
+          ],
+          [
+            15,
+            1046368
+          ]
+        ],
+        "the wish's well (tokens)": "11552509",
+        "their sum (tokens)": "11552509"
+      },
+      "what": "every epoch's light reached the well"
+    },
+    {
+      "is": {
+        "epochs": [
+          15,
+          15
+        ],
+        "first": "2026-11-25T16:49:10Z epoch 15: nothing due (27 RPC calls since the start)",
+        "its errors": "",
+        "second": "2026-11-25T16:49:10Z epoch 15: nothing due (27 RPC calls since the start)"
+      },
+      "what": "one pass, twice"
+    },
+    {
+      "is": {
+        "built again": 0,
+        "fees": 210000,
+        "landed": 34,
+        "sent again": 0
+      },
+      "what": "this test's own sends, by the runner's sender"
+    },
+    {
+      "is": {
+        "seconds": 130
+      },
+      "what": "wall"
+    }
+  ],
+  "schema": "embertide.the-epoch-turns-the-cranks-rehearsal/1",
+  "validator": "solana-test-validator, local, 32 slots an epoch; its own vote account the rule's one validator"
+}

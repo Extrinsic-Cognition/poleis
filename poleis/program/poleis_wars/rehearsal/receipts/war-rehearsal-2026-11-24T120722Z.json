@@ -1,0 +1,149 @@
+{
+  "compute_units": {
+    "buy": {
+      "max": 22303,
+      "mean": 10265,
+      "min": 8802,
+      "n": 40
+    },
+    "change_sides": {
+      "max": 18389,
+      "mean": 14792,
+      "min": 13890,
+      "n": 10
+    },
+    "convert": {
+      "max": 15358,
+      "mean": 11310,
+      "min": 9359,
+      "n": 10
+    },
+    "crank": {
+      "max": 5976,
+      "mean": 5958,
+      "min": 5718,
+      "n": 151
+    },
+    "desert": {
+      "max": 6604,
+      "mean": 6598,
+      "min": 6596,
+      "n": 10
+    },
+    "init_config": {
+      "max": 12050,
+      "mean": 12050,
+      "min": 12050,
+      "n": 1
+    },
+    "init_house": {
+      "max": 6892,
+      "mean": 6142,
+      "min": 5392,
+      "n": 2
+    },
+    "settle": {
+      "max": 40274,
+      "mean": 40274,
+      "min": 40274,
+      "n": 1
+    },
+    "stake": {
+      "max": 13347,
+      "mean": 13269,
+      "min": 13191,
+      "n": 2
+    },
+    "unlock": {
+      "max": 4002,
+      "mean": 4002,
+      "min": 4002,
+      "n": 2
+    }
+  },
+  "held_to_the_reference": {
+    "converts": 10,
+    "deserters_paid": 10,
+    "differences": [],
+    "fighters": 40
+  },
+  "minute_seconds": 4,
+  "program": {
+    "bytes": 140112,
+    "id": "E8BEmciBLa7tfCWXpdgguRD7DSsbik6q3uJzPdVrhXba",
+    "sha256": "bc8bdcad58c58cbe829b6e8c23e442cf495cc3565fbc40cca9237027f52ec9e5"
+  },
+  "raid": {
+    "clock_seconds_into_each_minute_when_sent": {
+      "max": 0,
+      "mean": 0.0,
+      "min": 0
+    },
+    "decided_at_minute": 150,
+    "how": "beat its line at minute 148; the last stand failed",
+    "minute_seconds": 4,
+    "minutes": 195,
+    "minutes_missed": [],
+    "minutes_played": 151,
+    "seconds": 780,
+    "winner": "crow"
+  },
+  "refusals": [],
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL), on a local validator",
+  "result": "pass",
+  "rpc_calls": 13734,
+  "transaction_compute_units": {
+    "a minute (its events and its crank)": {
+      "max": 24346,
+      "min": 5722,
+      "n": 150
+    },
+    "a stake": {
+      "max": 13347,
+      "min": 13347,
+      "n": 1
+    },
+    "convert": {
+      "max": 15358,
+      "min": 9359,
+      "n": 10
+    },
+    "init_config": {
+      "max": 12050,
+      "min": 12050,
+      "n": 1
+    },
+    "init_house": {
+      "max": 6892,
+      "min": 5392,
+      "n": 2
+    },
+    "settle": {
+      "max": 40274,
+      "min": 40274,
+      "n": 1
+    },
+    "the forty's buys": {
+      "max": 56210,
+      "min": 36710,
+      "n": 10
+    },
+    "the opening stake and minute 0": {
+      "max": 18909,
+      "min": 18909,
+      "n": 1
+    },
+    "unlock": {
+      "max": 4002,
+      "min": 4002,
+      "n": 2
+    }
+  },
+  "transactions": 178,
+  "validator": {
+    "feature-set": 565236538,
+    "genesis": "F2q6ypXhRbVw44FE4VYXJFoyBuLFQ96r81kPmpbDrXyZ",
+    "solana-core": "4.2.0"
+  },
+  "wall_seconds": 615.5
+}

@@ -1,0 +1,28 @@
+{
+  "base": "b8adb1e6422d9be25a16bf955021e3987e6536da",
+  "approval": "Yes, pass all three",
+  "chat": "claude-9516217b's chat, his words typed there: \"Yes, pass all three\" (Nov 24 2026 17:29:38 UTC), to \"Pass the JavaScript on the three built lanes (74, 15 and 21 lines)?\"; before it, 17:03:50 UTC: \"build all and ship to prod\"",
+  "date": "2026-11-24",
+  "asked": "Pass the JavaScript on the three built lanes (74, 15 and 21 lines)?",
+  "scope": "lane/the-lights-doors-stand-on-main only: THE LIGHT'S DOORS STAND ON MAIN: Stake SOL in her and Send your light here, the doors' module her-door.mjs, at these bytes; no general JavaScript allowance",
+  "net": 74,
+  "cap": 74,
+  "files": {
+    "embertide-app/ui/intro/dyson-society/app/after-the-mint.html": {
+      "before": "2e5299f4932e7e8eca921a7839bdc1fbfc6488c0",
+      "after": "99d307deabd2344fbcbaa69dcfad99a85c425824"
+    },
+    "embertide-app/ui/intro/dyson-society/app/her-door.mjs": {
+      "before": null,
+      "after": "b6417553e4092ac4c2888d8631f2e8b2cf8e379f"
+    },
+    "embertide-app/ui/intro/dyson-society/app/polis.html": {
+      "before": "ff201fc14fc077562bbfdf05b10686daec2d2237",
+      "after": "09087d52c9a9d9eaba41ddec2c9932af86bf7683"
+    },
+    "tools/embertide-mesh/tests/the-javascript-only-shrinks.test.mjs": {
+      "before": "ef3334030ca06a6c4390fc1416577334a2cee056",
+      "after": "96e56d98a90068afd7c2bf5716bcc1a5379828b4"
+    }
+  }
+}

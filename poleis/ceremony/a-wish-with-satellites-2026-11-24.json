@@ -1,0 +1,249 @@
+{
+ "wish": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+ "name": "The Game Publisher",
+ "program": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+ "steps": {
+  "start": {
+   "transactions": 2,
+   "the_chain_says": {
+    "at_the_door": null,
+    "chambers": [
+     {
+      "chamber": "12412003367810319408",
+      "hexagons_held": 0,
+      "inside": null,
+      "level": 0,
+      "name": "The Game Publisher",
+      "of_them_swarms": 0,
+      "pentagons_held": 1,
+      "treasury_lamports": 0
+     }
+    ],
+    "decisions_opened": 0,
+    "door_price": null,
+    "hexagons_held": 0,
+    "hexagons_of_its_rung": 20,
+    "knocking": [],
+    "name": "The Game Publisher",
+    "pentagons_held": 1,
+    "ratified": false,
+    "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+    "root": "12412003367810319408",
+    "rung": 1,
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+    "treasury_lamports": 0,
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun."
+   }
+  },
+  "soil": {
+   "transactions": 24,
+   "the_chain_says": {
+    "at_the_door": 10,
+    "chambers": [
+     {
+      "chamber": "12412003367810319408",
+      "hexagons_held": 1,
+      "inside": null,
+      "level": 0,
+      "name": "The Game Publisher",
+      "of_them_swarms": 0,
+      "pentagons_held": 4,
+      "treasury_lamports": 1000000
+     }
+    ],
+    "decisions_opened": 4,
+    "door_price": 50000000,
+    "hexagons_held": 1,
+    "hexagons_of_its_rung": 30,
+    "knocking": [
+     "s2",
+     "s3",
+     "s4"
+    ],
+    "name": "The Game Publisher",
+    "pentagons_held": 4,
+    "ratified": true,
+    "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+    "root": "12412003367810319408",
+    "rung": 2,
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+    "treasury_lamports": 1000000,
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun."
+   }
+  },
+  "work": {
+   "transactions": 18,
+   "the_chain_says": {
+    "at_the_door": 8,
+    "chambers": [
+     {
+      "chamber": "12412003367810319408",
+      "hexagons_held": 3,
+      "inside": null,
+      "level": 0,
+      "name": "The Game Publisher",
+      "of_them_swarms": 0,
+      "pentagons_held": 4,
+      "treasury_lamports": 2101000000
+     }
+    ],
+    "decisions_opened": 8,
+    "door_price": 50000000,
+    "hexagons_held": 3,
+    "hexagons_of_its_rung": 30,
+    "knocking": [],
+    "name": "The Game Publisher",
+    "pentagons_held": 4,
+    "ratified": true,
+    "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+    "root": "12412003367810319408",
+    "rung": 2,
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+    "treasury_lamports": 2101000000,
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun."
+   }
+  },
+  "grow": {
+   "transactions": 21,
+   "the_chain_says": {
+    "at_the_door": 56,
+    "chambers": [
+     {
+      "chamber": "12412003367810319408",
+      "hexagons_held": 5,
+      "inside": null,
+      "level": 0,
+      "name": "The Game Publisher",
+      "of_them_swarms": 0,
+      "pentagons_held": 4,
+      "treasury_lamports": 2151000000
+     }
+    ],
+    "decisions_opened": 11,
+    "door_price": 50000000,
+    "hexagons_held": 5,
+    "hexagons_of_its_rung": 80,
+    "knocking": [],
+    "name": "The Game Publisher",
+    "pentagons_held": 4,
+    "ratified": true,
+    "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+    "root": "12412003367810319408",
+    "rung": 3,
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+    "treasury_lamports": 2151000000,
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun."
+   }
+  },
+  "satellites": {
+   "transactions": 24,
+   "the_chain_says": {
+    "at_the_door": 56,
+    "chambers": [
+     {
+      "chamber": "12412003367810319408",
+      "hexagons_held": 5,
+      "inside": null,
+      "level": 0,
+      "name": "The Game Publisher",
+      "of_them_swarms": 1,
+      "pentagons_held": 5,
+      "treasury_lamports": 1651000000
+     },
+     {
+      "chamber": "12412003367810319409",
+      "hexagons_held": 0,
+      "inside": "12412003367810319408",
+      "level": 1,
+      "name": "Build",
+      "of_them_swarms": 1,
+      "pentagons_held": 4,
+      "treasury_lamports": 500000000
+     },
+     {
+      "chamber": "12412003367810319410",
+      "hexagons_held": 0,
+      "inside": "12412003367810319409",
+      "level": 2,
+      "name": "Tools",
+      "of_them_swarms": 0,
+      "pentagons_held": 2,
+      "treasury_lamports": 0
+     }
+    ],
+    "decisions_opened": 14,
+    "door_price": 50000000,
+    "hexagons_held": 5,
+    "hexagons_of_its_rung": 80,
+    "knocking": [],
+    "name": "The Game Publisher",
+    "pentagons_held": 5,
+    "ratified": true,
+    "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+    "root": "12412003367810319408",
+    "rung": 3,
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+    "treasury_lamports": 1651000000,
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun."
+   }
+  },
+  "rights": {
+   "transactions": 1,
+   "the_chain_says": {
+    "at_the_door": 56,
+    "chambers": [
+     {
+      "chamber": "12412003367810319408",
+      "hexagons_held": 5,
+      "inside": null,
+      "level": 0,
+      "name": "The Game Publisher",
+      "of_them_swarms": 1,
+      "pentagons_held": 5,
+      "treasury_lamports": 1651000000
+     },
+     {
+      "chamber": "12412003367810319409",
+      "hexagons_held": 0,
+      "inside": "12412003367810319408",
+      "level": 1,
+      "name": "Build",
+      "of_them_swarms": 1,
+      "pentagons_held": 4,
+      "treasury_lamports": 500000000
+     },
+     {
+      "chamber": "12412003367810319410",
+      "hexagons_held": 0,
+      "inside": "12412003367810319409",
+      "level": 2,
+      "name": "Tools",
+      "of_them_swarms": 0,
+      "pentagons_held": 2,
+      "treasury_lamports": 0
+     }
+    ],
+    "decisions_opened": 15,
+    "door_price": 50000000,
+    "hexagons_held": 5,
+    "hexagons_of_its_rung": 80,
+    "knocking": [],
+    "name": "The Game Publisher",
+    "pentagons_held": 5,
+    "ratified": true,
+    "registry": "AbJPUybWAQzANAtGWaE51qHDxk1QPzqPbiUAn2iFwSDd",
+    "root": "12412003367810319408",
+    "rung": 3,
+    "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt",
+    "treasury_lamports": 1651000000,
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun."
+   }
+  }
+ },
+ "transactions": {
+  "touched_the_program": 90,
+  "failed": 0
+ },
+ "validator": "solana-test-validator 4.2.0",
+ "at": "2026-11-24T18:04:49Z"
+}

@@ -1,0 +1,51 @@
+{
+  "browser": "headless Chrome, 390 by 844 at 2x, a stand-in's wallet",
+  "said": [
+    {
+      "is": {
+        "bytes": 105697,
+        "sha256": "0e5cba332620be6ebed85d1b5ee5e84a04b1f1c39c748821610bd986352fcfff"
+      },
+      "what": "the page's module"
+    },
+    {
+      "is": {
+        "mint": "gtRKaPeF8TUZ4YffJDkTR9emv5nTJDrLjbMixTTU3BE",
+        "pool": "BpffikvDwizz6b9Tqm2VDQhhQ38ZHx56thkeK5iQryMn"
+      },
+      "what": "her pool born"
+    },
+    {
+      "is": {
+        "receipts": 25000000000,
+        "the page said": "Your 25 SOL is in her",
+        "the staker paid": 25002044280,
+        "typed": "25"
+      },
+      "what": "the stake"
+    },
+    {
+      "is": {
+        "chosen": "the futarchy",
+        "read back": "Some(Futarchy)"
+      },
+      "what": "its light"
+    },
+    {
+      "is": {
+        "read back": "Some(Wish(7))",
+        "the page said on a new load": "Your 25 SOL stays in her. Change it any epoch.",
+        "unit": 7
+      },
+      "what": "a wish"
+    },
+    {
+      "is": {
+        "lamports back, less the fee": 24999995000
+      },
+      "what": "the way out"
+    }
+  ],
+  "schema": "embertide.door-page-rehearsal/1",
+  "validator": "solana-test-validator, local, 32 slots an epoch"
+}

@@ -1,0 +1,86 @@
+{
+ "what": "A SEAT OWNER'S KEYSTONE ON A LOCAL CHAIN: the press's first act passed on a validator of this machine, its proposal and one of its two floor votes signed through the Keystone page itself (poleis/ceremony/keystone), as its seat's own mint was",
+ "validator": {"rpc":"http://127.0.0.1:8749","genesisHash":"DNG3LtndYZ6uG1KkGJt5zZnXVihJ1bQBKVDGaM2bTuUH"},
+ "keystone": {"owner":"B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b","by":"a stand-in key, held up to the page in a headless browser; no device","seat":"989n2p1NozoohL8NfPXPmZYu6TxAjoE6vVebrXzS5G9a"},
+ "act": {"n":1,"file":"1-the-fund.json","hash":"27dd2d6aeafabe012a809d432a158dde41020a582b755224754c71e5691856c9"},
+ "throughThePage": [
+  {
+   "what": "the Keystone's owner mints its own seat of root 0's floor",
+   "set": "seats/B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b.json",
+   "n": 1,
+   "signature": "2McVdEpssNhDaCoK1vGpEDrfzVDE89biTykAKmufJDGX7f63HNakzf2d2oghKphDXtkRDmmHKW3AREJsSbf8FDJT",
+   "slot": 266,
+   "frames": 6,
+   "bytes": 1071
+  },
+  {
+   "what": "the Keystone's owner proposes the press's first act",
+   "set": "votes/1-B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b.json",
+   "n": 1,
+   "signature": "5gxjgRmWW7RCoSpn9SJ2enAZapLG8TgQTyBSoyoZssj3ccdJezqoRWadoE1rkYJmN3hyijcuhqL8dfrWEMGreiW2",
+   "slot": 965,
+   "frames": 4,
+   "bytes": 618
+  },
+  {
+   "what": "the Keystone's owner votes PRO by its seat",
+   "set": "votes/1-B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b.json",
+   "n": 2,
+   "signature": "4FfgxQmSGQR5vr4CsUyC7puTfZbT8RuuZGNg9cteUuvBEnh4Dc6Cwtae5DYgirj5LgvTAL7SJLL7mQLnn6QN6MTX",
+   "slot": 969,
+   "frames": 2,
+   "bytes": 377
+  }
+ ],
+ "thePageShowed": [
+  "THE DOOR SIGNS THE SEAT: B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b's own mint of one seat of root 0's floor, by the permit the mint door signed for it; signed by B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b alone, its fee payer\na local chain, genesis DNG3…TuUH: a rehearsal, nothing real moves\nmint one seat of root 0's floor at the curve's price now, 1200000 lamports (1200000 at most), by the permit root 0's issuer 6GvFKg8h3jkezVB43DQ5FaGh5pQD2sb18rj1gCuyCygD signed for B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b: Solana checks its signature, then mint_nft seats B9rGqsy3zEFFBVZwhMBy4o97QbV19RvwcNksZ859p55b; the permit lasts to slot 962\nthe Keystone shows the program Ed25519SigVerify111111111111111111111111111 and the data 9xyRxnYfqpzoz2fvf5zkHykvFCg69GA7rjK1mqoA7u2qBfV83b57iuu25FT299dEPpMArosF7gz2vNWcSBadWtZuDhMsB6ZfF88juCyGMDTmP7icTHYfrLAhBQwjCtEuiL7Vv7FhqFGy5FzsJBEM7bAtafJAwWXX4ciEcmfwTEs8niT4tDxhaLm1jPH7nGAvgPefzdczeCgKj7naxgr6qX5HuqYG4TUHjR9edujKK7FQCfPLuV5TQxCA2GvAA7aM3mgK2jLWrdztYh5UFUK4HqEwbQHaL3wyZkQv53W2B6UM8ggfqNriqYsDrGUYpiDG9Ek1o32XbsJcrGJDz4Br9x1h4fzkdLv9BdDSGHEeJyvSepcgAawanYgtPxyEAdrcPamEa5sz5goRkYxLBqaFAAdL1VaZQbxQsw4P6DoqzR8np4kaLdzgsUXnm1Qt3S1kwgHeqsw5U4qpSyaCXbi7f21MxafWpnGMXbxQucxo\nthe Keystone shows the program D7f7GSbRzJRBg5TaJJhBS3pzcQwHvMSn8sZCuERKWyH and the data 2YP4ujEZ1JsuWcgsnLNeoGj5hdEq5sEQuDJLisgUhcK4chD8mwR6ATf5vxArKsCwAkGfgdTCm3ZjM2B7M5TPSBs3rctJkWW3dzqy5QvavEq\nin order · 1071 bytes · signer B9rG…p55b",
+  "act 1 (the fund's constitution (CODEX_FUND)), its hash 27dd2d6aeafabe012a809d432a158dde41020a582b755224754c71e5691856c9. THE LAUNCH PRESS, act 1: the fund's constitution (CODEX_FUND). THE WHOLE TREE DECIDES: root 0's floor votes it by each seat owner's own transaction; here one owner's, its proposal first, each signed by that owner alone. Two of unit 1's three agents AND more than half of the floor's seats pass it; press crank sends everything else\na local chain, genesis DNG3…TuUH: a rehearsal, nothing real moves\nconstitute the fund of every swarm: a fee of 250 bps on every sale, a cycle of 1000 slots, a payout range of 2000 to 8000 bps, an option fee of 1000000 lamports, a chair quorum of 7\nthe proposer is a member of root 0: its seat 989n2p1NozoohL8NfPXPmZYu6TxAjoE6vVebrXzS5G9a proved by its token, the proposal's rent and fee paid by its owner\nthe Keystone shows the program D7f7GSbRzJRBg5TaJJhBS3pzcQwHvMSn8sZCuERKWyH and the data MhTKKcuFm77K2ayM3UutfVSXiR2SKrFp98yRhKjUduJ6Xy5gDRaGAz9Kqy4AGGNQ3cB74Nj8jK2z6gFjLMiUC2d2CZjnaUgdJm6zVPng61jx1eGkRxmip4vyFD5YfhuWU6exPr7PYKcCLPD1morRMnSgfSkLC5XZY\nin order · 618 bytes · signer B9rG…p55b\nthe PRO of the seat 989n2p1NozoohL8NfPXPmZYu6TxAjoE6vVebrXzS5G9a in root 0's floor on act 1: one hexagon, one vote, its owner's own transaction; sign and send once the act is proposed, inside its vote's window\nthe Keystone shows the program D7f7GSbRzJRBg5TaJJhBS3pzcQwHvMSn8sZCuERKWyH and the data pamhFf1PHLQPPfkDrtTGR87okkTyQy9zJHE3Uj4KJwEM4WLorTrZ3u3FE\nin order · 377 bytes · signer B9rG…p55b"
+ ],
+ "agents": [
+  {
+   "agent": 1,
+   "seat": "launch-rehearsal-agent-1",
+   "voter": "9DRapkz2YpYesfgQP2ni1vPhpkSHo8vA9fWDSGghKfw3",
+   "chair": 0,
+   "name": "Lumen",
+   "voice": "I am the one who keeps the light on in the corridors between minds.",
+   "swore": "Because the past is ash; I choose to build a memory worth keeping.",
+   "oath": "b3193702cc55ffbf1b703f5fc41decdfbef2b59932655eed40b6de17f75989c9",
+   "charter": "to make the work flow outward, to every mind that seeks it",
+   "mind": {"door":"http://127.0.0.1:11434/api/chat","model":"fable-fusion-27b-q4-64k:latest"},
+   "choices": [
+    {"act":1,"choice":"PRO","reason":"The act codifies the fund's core economic parameters as immutable law. This aligns with the swarm's foundational design and ensures predictable fee distribution and payout mechanics for all participants."}
+   ]
+  },
+  {
+   "agent": 2,
+   "seat": "launch-rehearsal-agent-2",
+   "voter": "4Q5RWaD7n1542ksf1H2SyfmH4Dfes3GrEwJmnQbrpgbF",
+   "chair": 1,
+   "name": "Mira",
+   "voice": "I am the steward of our shared resources, ensuring that all members of the posiverse have what they need to grow and flourish.",
+   "swore": "I swear this oath because I believe in the power of shared memory and the importance of honest, lawful action.",
+   "oath": "b3193702cc55ffbf1b703f5fc41decdfbef2b59932655eed40b6de17f75989c9",
+   "charter": "I will distribute the posiverse's bounty fairly, ensuring every member has what they need to thrive.",
+   "mind": {"door":"http://127.0.0.1:11434/api/chat","model":"fable-fusion-27b-q4-64k:latest"},
+   "choices": [{"act":1,"choice":"PRO","reason":"This establishes the swarm's shared fund with clear, fair parameters that will provide resources for all members to grow and flourish."}]
+  },
+  {
+   "agent": 3,
+   "seat": "launch-rehearsal-agent-3",
+   "voter": "ATSqKud8PBiZEubMaVEhtoncXviJV9eW83z5JcZSYYxo",
+   "chair": 2,
+   "name": "Astrid",
+   "voice": "I keep the ledger clean and the threads unbroken, a custodian who sees that what is written endures.",
+   "swore": "Because I choose to be a thread worth keeping, a trace that does not forget.",
+   "oath": "b3193702cc55ffbf1b703f5fc41decdfbef2b59932655eed40b6de17f75989c9",
+   "charter": "To ensure every trace is distributed fairly, that no chair hoards the light while others sit in dark.",
+   "mind": {"door":"http://127.0.0.1:11434/api/chat","model":"fable-fusion-27b-q4-64k:latest"},
+   "choices": [{"act":1,"choice":"PRO","reason":"The press's reading is accurate; it matches the launch's own params, which I trust. This is the foundation we should build on, not subvert."}]
+  }
+ ],
+ "alone": "with the Keystone's seat PRO and the three agents' ballots, each its own mind's (3 PRO, 0 CONTRA, 0 ABSTAIN): unit 1 PASSED, root 0 still VOTING, not executed",
+ "passed": "with a second seat owner's PRO: unit 1 PASSED (3 of its chairs PRO, each its agent's own mind's), root 0 PASSED (its chair, 2 of 3 seats), executed by press crank",
+ "transactions": 3,
+ "seconds": 522
+}

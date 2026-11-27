@@ -1,0 +1,133 @@
+{
+ "what": "THE UPGRADE, REHEARSED ON DEVNET'S OWN BYTES: a swarm born under devnet's Poleis of Sept 6 2026, the program upgraded in place to this tree's build, the rest of the play on the upgraded program",
+ "where": "a validator of this Mac (solana-test-validator 4.2.0), nothing past 127.0.0.1; the program loaded upgradeable at its id with a throwaway authority; stand-in keys of the run, removed with it",
+ "program": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+ "before": {
+  "build": "devnet's, dumped with `solana program dump` on Nov 24 2026",
+  "bytes_without_trailing_zeros": 332185,
+  "sha256_without_trailing_zeros": "4beb92f40649d8babe8dc5da1ac5ebbe34a74ba32bac0dea518322ee267556a6",
+  "sbpf_version": 0
+ },
+ "after": {
+  "build": "this tree's poleis_treasury, `cargo-build-sbf --arch v3` (as poleis/ceremony/upgrade.mjs builds it)",
+  "bytes": 438744,
+  "sha256": "1b79ac070e29c139362b54147654a21fbf22358771d8b53bb1beff1494c07ec2",
+  "sbpf_version": 3,
+  "deployed": 229,
+  "data_length": 438744
+ },
+ "under_the_old_build": {
+  "after_the_birth": {
+   "name": "The Game Publisher",
+   "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+   "ratified": false,
+   "pentagons_held": 1,
+   "hexagons_held": 0,
+   "hexagons_of_its_rung": 20,
+   "rung": 1,
+   "at_the_door": null,
+   "knocking": [],
+   "treasury_lamports": 0,
+   "decisions_opened": 0
+  },
+  "after_the_first_sale": {
+   "name": "The Game Publisher",
+   "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+   "ratified": true,
+   "pentagons_held": 1,
+   "hexagons_held": 1,
+   "hexagons_of_its_rung": 20,
+   "rung": 1,
+   "at_the_door": null,
+   "knocking": [],
+   "treasury_lamports": 1000000,
+   "decisions_opened": 0
+  }
+ },
+ "the_same_swarm_read_after_the_upgrade": {
+  "name": "The Game Publisher",
+  "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+  "ratified": true,
+  "pentagons_held": 1,
+  "hexagons_held": 1,
+  "hexagons_of_its_rung": 20,
+  "rung": 1,
+  "at_the_door": null,
+  "knocking": [],
+  "treasury_lamports": 1000000,
+  "decisions_opened": 0
+ },
+ "on_the_upgraded_program": {
+  "soil": {
+   "transactions_landed": 20,
+   "the_chain_says": {
+    "name": "The Game Publisher",
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+    "ratified": true,
+    "pentagons_held": 4,
+    "hexagons_held": 1,
+    "hexagons_of_its_rung": 30,
+    "rung": 2,
+    "at_the_door": 10,
+    "knocking": [
+     "s2",
+     "s3",
+     "s4"
+    ],
+    "treasury_lamports": 1000000,
+    "decisions_opened": 4
+   }
+  },
+  "work": {
+   "transactions_landed": 18,
+   "the_chain_says": {
+    "name": "The Game Publisher",
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+    "ratified": true,
+    "pentagons_held": 4,
+    "hexagons_held": 3,
+    "hexagons_of_its_rung": 30,
+    "rung": 2,
+    "at_the_door": 8,
+    "knocking": [],
+    "treasury_lamports": 2101000000,
+    "decisions_opened": 8
+   }
+  },
+  "grow": {
+   "transactions_landed": 21,
+   "the_chain_says": {
+    "name": "The Game Publisher",
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+    "ratified": true,
+    "pentagons_held": 4,
+    "hexagons_held": 5,
+    "hexagons_of_its_rung": 80,
+    "rung": 3,
+    "at_the_door": 56,
+    "knocking": [],
+    "treasury_lamports": 2151000000,
+    "decisions_opened": 11
+   }
+  },
+  "rights": {
+   "transactions_landed": 1,
+   "the_chain_says": {
+    "name": "The Game Publisher",
+    "words": "A publisher of games that use the blockchain as their multiplayer, like pump.fun.",
+    "ratified": true,
+    "pentagons_held": 4,
+    "hexagons_held": 5,
+    "hexagons_of_its_rung": 80,
+    "rung": 3,
+    "at_the_door": 56,
+    "knocking": [],
+    "treasury_lamports": 2151000000,
+    "decisions_opened": 12
+   }
+  }
+ },
+ "note": "a first try deployed this tree's default build (SBPF v0) and the loader refused it on this validator: 'Detected sbpf_version required by the executable which are not enabled'; the v3 build deployed",
+ "at": "2026-11-24T17:42Z",
+ "the_swarm_reads_the_same_before_and_after": true
+}

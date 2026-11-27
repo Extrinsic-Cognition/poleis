@@ -1,0 +1,87 @@
+{
+ "what": "THE POOL IS BORN BY THE SEAL: an SPL stake pool initialized by unit 0's raw act, no key its manager",
+ "at": "2026-10-29T21:30:37.945Z",
+ "cluster": "https://api.devnet.solana.com",
+ "poleis": "4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84",
+ "stakePoolProgram": "DPoo15wWDqpPJJtS2MUZ49aRxqz5ZaaJCJP4z8bLuib",
+ "addresses": {
+  "pool": "8V8pbPFsXxS51MSKGdk7JWLMQcKgtwq7VRZwggiRinVA",
+  "list": "5qwXYD4RQJHsPBydGpzeNi3yZMz6jvUYg5LqmNMfDG82",
+  "reserve": "Ep2Aapw8458cgMhxGgPALonmuE39g8LswUVm3vUpz7VR",
+  "mint": "4HzvsUN2qMENp6gFKAmFkRCLWugmz4Sf2WTjXY9XdoEr",
+  "withdraw": "8eSetfKMbxnbL49YyYeBWz47UNU6pFEcsukukEeCQayG",
+  "agent": "5h7yxFR6ajKgLCjcUFpdpuTjxsJr7z8RvVzcgqG7oQNc",
+  "vault": "FivrVD8FBNBWAFASKrysBbWss4BTeJwmR4a63Dihetnb"
+ },
+ "seeds": {
+  "pool": "u0ap",
+  "list": "u0al",
+  "reserve": "u0ar",
+  "mint": "u0am"
+ },
+ "maxValidators": 10,
+ "voters": [
+  "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+  "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+  "MnmbJV3u9hGvoVEchPWp9qKktkHwWhS1DHdrxJWHe7c"
+ ],
+ "proposal": "38cafee3415552878363807b5927143139e025dae192490788c6ed3dbe1c890d",
+ "read": {
+  "accountType": 1,
+  "manager": "5h7yxFR6ajKgLCjcUFpdpuTjxsJr7z8RvVzcgqG7oQNc",
+  "staker": "5h7yxFR6ajKgLCjcUFpdpuTjxsJr7z8RvVzcgqG7oQNc",
+  "mint": "4HzvsUN2qMENp6gFKAmFkRCLWugmz4Sf2WTjXY9XdoEr",
+  "feeAccount": "FivrVD8FBNBWAFASKrysBbWss4BTeJwmR4a63Dihetnb",
+  "epochFee": "1/1"
+ },
+ "transactions": [
+  {
+   "step": "the pool's empty accounts, paid by the crank",
+   "signature": "2Emuosh1cmP3dUzbS7b1FQMdcdNWGGc5rSY8fcwte31GqbCiVQVoubA8z8tjtUQ5zhAF8kzoc15j6a4MqjzFS53R",
+   "slot": 516550516,
+   "fee": 5000,
+   "cu": 8560,
+   "bytes": 954
+  },
+  {
+   "step": "unit 0's vault for the pool's mint, the fee account",
+   "signature": "59XXJvCxWcKCJ5awPv82xshBTUUKdkfsb3oWgzm7AZ2Qdr6x46RjhKLuHaVva1G7Y6NSD8V1ivFWZ1qbTFVng5od",
+   "slot": 516550524,
+   "fee": 5000,
+   "cu": 9190,
+   "bytes": 344
+  },
+  {
+   "step": "propose: ACT Raw, the pool's Initialize, by a chair",
+   "signature": "nPyirDosDdzEUgu8WkSDaytjQusnWkEg6po476dEsqvRNUgcvoe122pHKuQZ6vqXMWUhohjS8FQHVxBFgVZqP6L",
+   "slot": 516550532,
+   "fee": 5000,
+   "cu": 12798,
+   "bytes": 809
+  },
+  {
+   "step": "attest: the named keys, PRO",
+   "signature": "3BvcBcE7jrHmdJr9x5eKN6a7U1z96eBAFLhcp3r6YX8ZrXFwGKNBoHvQWgRgwRfjNvFH6hBazpLnv5DSS4f4YAbC",
+   "slot": 516550540,
+   "fee": 20000,
+   "cu": 7341,
+   "bytes": 907
+  },
+  {
+   "step": "seal",
+   "signature": "bTiuRj3rwdfUyKmyWbhkXB3ABCZCZUQukeCQXVdhoRwkrSztvyXiR12vRv8kuU3oo3Fj9Sfrt1qvw9ZBnmzRVY7",
+   "slot": 516550548,
+   "fee": 5000,
+   "cu": 8527,
+   "bytes": 343
+  },
+  {
+   "step": "execute: unit 0's hands initialize the pool",
+   "signature": "AryzfDmNKWja1HTrNFwwCqXUcPmBWhw3sPgwgogVZfHdiDR6hsGaj511s2ihR4kpU4r3aofoSkg8ADeTHeKSY7h",
+   "slot": 516550556,
+   "fee": 5000,
+   "cu": 21746,
+   "bytes": 673
+  }
+ ]
+}

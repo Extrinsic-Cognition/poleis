@@ -1,0 +1,108 @@
+{
+ "cluster": "mainnet",
+  "note": "THE LAUNCH PRESS on mainnet: every value that is his is a PLACEHOLDER until he names it, and a sitting whose params hold one writes what it would send, for reading, and sends nothing. What is not a placeholder is on record: the token's face (SWARM, $WARM, the picture's JSON at optimism.fit: tools/warm-launch/params.mainnet.json), root 0 born with no key in its chairs, his posiverse unit 1 its first pentagon (THE SWARM IS ITS OWN MULTISIG, Nov 22 2026), and its floor the minted Lyssajudrons, every seat minted by its own buyer on the curve with a permit of the mint door, no key of his among them (THE WHOLE TREE DECIDES, Nov 22 2026: his own Lyssajudron is one hexagon like anyone's), the plan's period of 6,480,000 slots (30 days at 400 ms, the road's), USDC's mint as the dollar deposits are counted in, the chair quorum of seven (the launch plan's section 6). The rehearsal ran the numbers of poleis/press/params.rehearsal.json; none of them is his. His agents' addresses come off the Nest (an agent's Nest public key is its Solana address). The mine's treasury is root 0's own vault of the dollar, derived, never a param. His answers of Nov 23 2026 18:17:41 UTC (seat claude-f32e080d): the two charters are his own words, poleis/charters/the-dyson-society.txt and nefertiti.txt, each named here by the sha256 of its file; the seats' window is one day, 216,000 slots at 400 ms; his posiverse's three agents are new keys the sitting makes (their addresses still to come, so still placeholders). His answers of Nov 23 2026 19:32:23 UTC (seat claude-f32e080d): every vote stays open one day, 216,000 slots, the same day as the seats' (genesis.window, posiverse.window); the fund takes 2.5% of each seat sale (250 bps); the market steps a minute (150 slots); and the swarm judges a road by its own vote (no judge key: market's note). Over the sheet of the 25 values still open (shown at 19:35:39 UTC), his words at 19:37:50 UTC: \"i dont give a fuck, you think these are good, they stay. u are thinking all is best?\": the sheet's picks are written, but two the seat that asked him changed and told him at 19:40:00 (claude-f32e080d, its reading, not his press): priorityMicroLamports 100,000 (the sheet had 0: the founding must land in the deploy's breath on a busy day; about 0.0003 SOL for the whole sitting, it told him; measured since, nearer 0.001 SOL: at 10,000 units a buffer write the deploy's 587 writes alone carry 0.000587 SOL) and pool.maxValidators 100 (the sheet had 10: the list's length is fixed at the pool's birth, and his own validator set across many snowtracers needs more than 10; about 0.033 SOL more rent, it told him; measured since, 0.0457 SOL: the validator's rent for the list's 7,309 bytes against 739). His press of Nov 23 2026 21:17:20 UTC in seat claude-5713365b, \"Yes, take them\", answered that seat's \"Go with the seats' picks for the launch settings?\" (told: the seats' picks become the starting values, the swarm can re-vote most of them after the launch, and the few fixed forever at the start go to him on the Canvas): a yes to the seats' picks as a whole, these two and the judging window's two days among them; no value was named to him in that question. Rung 5, the one-day windows, the priority fee and the 100-validator list were never rehearsed: the full rehearsal before the sitting runs with these values. Still to come, at the sitting: the keys it makes (floor.issuer, market.crediter, warm.miner, posiverse.agents) and warm.opening. THE TREASURY PAYS THE COMPUTE (his \"Yes, add them\", Nov 23 2026 23:08:00 UTC, to \"Add two first acts to the launch so the treasury pays for the AI calls?\"): genesis.dollarCap is root 0's cap of the dollar, named by the seventh act (a CODEX_PLAN that restates planCap and planPeriod as the founding set them), 3,000 USDC a plan period: the router's month (router.monthCap) and as much again for the swarm's own budgets; until it executes the cap is 0 and no dollar the mine's deposits bring leaves root 0's vault. It and router.monthCap are the seat's picks (claude-5713365b), not numbers he named; the swarm can re-vote both (a later CODEX_PLAN; a TREASURY_REVOKE and a new allowance).",
+ "priorityMicroLamports": 100000,
+ "genesis": {
+  "charter": "c1128b90432bb12cb6d4711c6eee3bb703365bc81535295db942842ae82942ac",
+  "name": "The Dyson Society",
+  "desc": "",
+  "defaultMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "planCap": 1000000000,
+  "planPeriod": 6480000,
+  "dollarCap": 3000000000,
+  "window": 216000,
+  "rung": 5
+ },
+ "floor": {
+  "note": "THE FLOOR IS THE MINTED LYSSAJUDRONS (his Nov 19 2026 \"each lyssajudron minted is a hex there\"): root 0's hexagons are minted on Poleis's curve, one seat a buyer by a permit the mint door's key signs for that buyer, at the curve's price (startLamports, then stepLamports more each seat), inside its window; its capacity is the rung's hexagons (genesis.rung), its genesis hash mainnet's own, read from the cluster. Root 0 is ratified (press ratify, by anyone) once the window has closed or every seat is minted, and at least one is",
+  "startLamports": 1000000,
+  "stepLamports": 100000,
+  "opensAfterSlots": 200,
+  "windowSlots": 216000,
+  "issuer": "PLACEHOLDER: the mint door's permit key (the address whose signature on a permit lets one named buyer mint one seat): the address `press issuer --dir <the sitting's folder>` makes beside his other keys and says, the same key the door holds as POLEIS_ISSUER_KEY by his press"
+ },
+ "posiverse": {
+  "note": "chair 2: his Nov 20 2026 ruling that the meta swarm's first pentagon is the Gemini house, which the site's own list draws at index 2 (embertide-app/ui/intro/dyson-society/app/swarmbook-floor.mjs, HOUSES and SEALED { 2: ... })",
+  "name": "Nefertiti",
+  "desc": "",
+  "chair": 2,
+  "agents": [
+   "PLACEHOLDER: his posiverse's agent 1's Solana address, its Nest public key read off the Nest",
+   "PLACEHOLDER: agent 2's",
+   "PLACEHOLDER: agent 3's"
+  ],
+  "charter": "e7abb977e12486b45b0947b33a43ead9d146d76c38d3b5df47c7107c31c8de4e",
+  "window": 216000,
+  "planCap": 1000000000,
+  "planPeriod": 6480000
+ },
+ "fund": {
+  "feeBps": 250,
+  "cycleSlots": 6480000,
+  "rangeLo": 2000,
+  "rangeHi": 8000,
+  "optionFee": 1000000,
+  "chairQuorum": 7
+ },
+ "warm": {
+  "name": "SWARM",
+  "symbol": "$WARM",
+  "uri": "https://optimism.fit/app/warm-token.json",
+  "dollar": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "opening": "PLACEHOLDER: the exact instant the live Worker holds as SPACE_ROUTER_OPENED_AT (Nov 15 2026 by its receipts), read at the sitting, so the chain's halvings and the router's ledger keep one clock",
+  "miner": "PLACEHOLDER: the mint door's crank key (the $WARM mine's miner, the address whose signature alone posts the router's signed spends to the mine): the address `press miner --dir <the sitting's folder>` makes beside his other keys and says, the same key the door holds as SPACE_ROUTER_MINER_KEY by his press; the sixth act names it"
+ },
+ "router": {
+  "note": "THE TREASURY PAYS THE COMPUTE (his \"Yes, add them\", Nov 23 2026 23:08:00 UTC, to \"Add two first acts to the launch so the treasury pays for the AI calls?\"): the eighth act gives the mine's miner (warm.miner, the door's crank key) a standing allowance of root 0's treasury, monthCap micro-dollars of the dollar (warm.dollar, the tree's default mint) a plan period (genesis.planPeriod, 30 days), pulled out of root 0's own vault, where the mine's deposits land, to pay the AI calls the router buys; it stands until the polis revokes it. 1,500 USDC: the genesis rung's 150 seats at a $10 egg each. The number is the seat's pick (claude-5713365b, Nov 23 2026), not one he named: his word is the \"Yes, add them\" above; the swarm can re-vote it (a TREASURY_REVOKE and a new allowance).",
+  "monthCap": 1500000000
+ },
+ "market": {
+  "note": "THE SWARM JUDGES (his press of Nov 23 2026 19:32:23 UTC, \"The swarm, by its own vote\", to \"who reports what a passed market road was worth, so its bets pay out?\"): the board's judge is root 0's own hand, derived by the press as the treasury is, never a key here, so each road's receipts are a sealed act of the whole tree. His press of the same instant: \"1-minute steps, 1 day\": a step of 150 slots (a minute at 400 ms). The judging window, judgeSlots, is two days (432,000 slots) where that press said one: the swarm's judging vote can itself last a day (genesis.window, posiverse.window), so a day would close before the vote and its execution in the worst case; the press refuses a judging window no longer than a vote. The two days are the seat's reading (claude-f32e080d, Nov 23 2026), told to him, and among the seats' picks his \"Yes, take them\" took at 21:17:20 UTC (the top note); his word moves it",
+  "board": 77,
+  "stepSlots": 150,
+  "maxStepBp": 100,
+  "thresholdBp": 300,
+  "feeBp": 30,
+  "poolBase": 1000000000,
+  "poolQuote": 1000000000,
+  "judgeSlots": 432000,
+  "crediter": "PLACEHOLDER: the board's crediter (the key that credits play $WARM to the board's balances): the address `press crediter --dir <the sitting's folder>` makes beside his other keys and says; the second act names it, and the press refuses a sitting whose params name another key than the one it made (THE PRESS IS READY FOR MAINNET, Nov 24 2026)",
+  "split": ["treasury"],
+  "plan": ["treasury", "act"],
+  "barBp": 1000
+ },
+ "acts": {
+  "nonce": 1
+ },
+ "seal": {
+  "note": "THE LAUNCH NAMES THE SEAL'S ROAD (his \"Wire it in\", Nov 23 2026 ~14:00 UTC): once root 0 stands the press writes seal-road.json beside the sitting's record, the road the house's lander reads a release's seal by (poleis-seal read <commit> --road R; the lander takes it by LANDER_SEAL_ROAD=<its path> in its install, his hand). Its polis is unit 1, the branch that runs the house (THE BRANCH VOTES ITS OWN CODE, his Nov 23 2026 \"Yes, fix it\" to \"Move code updates down to the agents' fast vote?\": a release of the house's code is the how, its agents' fast vote, and no seat holder votes code), and its program the sitting's own Poleis, both derived; rpc is the node it reads mainnet at, named by its host alone (the road is a file, and a path, a query or a user may carry a key): the cluster's public node, the one the rehearsal's reads of mainnet use by his word, or his own. It names nobody who may propose: ANY MEMBER PROPOSES, THE SWARM DECIDES (his Nov 23 2026 17:52 UTC \"the swarm votes on updates, you dont have it linear with me and keystones\", and his \"Yes, build it\" to \"Take your key and your press out of the update road?\"): unit 1's agents propose a release and vote it, two of three, and the lander takes the seal whichever agent proposed it; a seal.proposers line is refused.",
+  "rpc": "https://api.mainnet-beta.solana.com"
+ },
+ "pool": {
+  "note": "THE POOL IS BORN AT THE LAUNCH (his \"Yes, add it\", Nov 22 2026 01:18:14 UTC): the SPL stake pool born by root 0's raw act (act 5), its manager and staker the polis's hand, its fee account root 0's vault of its mint, its epoch fee 1/1. Every value here is his: the list's length (its rent is 370,840 lamports a validator at 5,080 a byte), the seeds' tag (a new tag is a new pool), and the sha256 of the stake pool program's executable bytes the birth was rehearsed on (a rehearsal's certificate names it: pool.programRecorded.sha256); the birth runs on those bytes or not at all.",
+  "maxValidators": 100,
+  "tag": "u0a",
+  "programSha256": "d18a2cdc0e0a52f55cb363cf517a4e72e9fca4fd6950c12897ee13c2385c52ac"
+ },
+ "engine": {
+  "note": "THE STAKE EARNS (Nov 25 2026, his \"Yes, build them\" to \"Build the three missing links now?\"): the engine's rule, data and never code, and the key the ninth act names her pool's staker (a later act the swarm votes after the launch's eight: SetStaker by the polis's hand, which stays the manager). On Nov 26 2026 22:20 UTC (\"i dont fucking know go if you think is besr\"), locked re-votable starting values: reserveBp 1000 (10% instant-unstake reserve) and 10 live 0%-commission non-delinquent mainnet validators queried from api.mainnet-beta.solana.com (1.38M–2.49M SOL each, epoch 1096/1097, equal weight 1). The engine's key is made at the sitting (press engine --make-key F) and its address put here.",
+  "staker": "PLACEHOLDER: the engine's crank key, the address press engine --make-key says; the ninth act names it her pool's staker",
+  "reserveBp": 1000,
+  "validators": [
+   { "vote": "DriFTm3wM9ugxhCA1K3wVQMSdC4Dv4LNmyZMmZiuHRpp", "weight": 1 },
+   { "vote": "2iWXwF2Q5W6o7yntV2mkbxncB4rYHnX61y3NU8a8EFMJ", "weight": 1 },
+   { "vote": "4AUED4uj6nSTuANzaAUnGBPJQRmhpDYDwoWJNkoUUBBW", "weight": 1 },
+   { "vote": "JEJzKYzyYJJjtn6Yb1P7r6YV75TdSNmmJT49sgDoHvmk", "weight": 1 },
+   { "vote": "LSTmLs1DENX82ihc7jU134mydiV3NDEPXsRrekAY6Ys", "weight": 1 },
+   { "vote": "2NxEEbhqqj1Qptq5LXLbDTP5tLa9f7PqkU8zNgxbGU9P", "weight": 1 },
+   { "vote": "J1to5o1Q7W7Y2Q7zpETTezv3DyzPMHKDg66X2nZPMr4X", "weight": 1 },
+   { "vote": "EARNynHRWg6GfyJCmrrizcZxARB3HVzcaasvNa8kBS72", "weight": 1 },
+   { "vote": "g5kwi5sFXQTx26jwetYK97ytvx1WpA1RWuQ82Afdzyn", "weight": 1 },
+   { "vote": "BLADE1qNA1uNjRgER6DtUFf7FU3c1TWLLdpPeEcKatZ2", "weight": 1 }
+  ]
+ },
+ "light": {
+  "note": "THE LIGHT PAYS A WISH (Nov 25 2026, his \"Yes, build them\" to \"Build the three missing links now?\"): root 0's plan of her pool's token, the tenth act (a later act the swarm votes after the launch's eight and the ninth): how much of her token may leave root 0's vault a plan period, every pour into a wish's well charged to it. On Nov 26 2026 22:20 UTC (\"i dont fucking know go if you think is besr\"), locked re-votable starting cap: 100 SOL (100_000_000_000 pool units) per 30-day period, enough for ~20,000 SOL staked without throttling Snowtracer payouts.",
+  "planCap": 100000000000
+ }
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "poleis.source-import.v1",
+  "importedAt": "2026-10-13T06:09:50.008645Z",
+  "source": {
+    "path": "~/code-ec/poleis-journey",
+    "head": "5531e741142a24ec34bcc81f73d049f4f28fa418",
+    "snapshot": "tracked working-tree bytes",
+    "dirtyPathScope": "imported files only",
+    "dirtyPaths": [
+      "client/src/lib.rs",
+      "program/poleis_treasury/src/error.rs",
+      "program/poleis_treasury/src/ix/fund.rs",
+      "program/poleis_treasury/src/lib.rs",
+      "program/poleis_treasury/src/state.rs",
+      "program/poleis_treasury/tests/council.rs"
+    ]
+  },
+  "programId": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+  "deployment": {
+    "performed": false,
+    "note": "Existing program lineage; this import creates no deployed program and asserts no deployed binary match."
+  },
+  "scope": {
+    "programFiles": 26,
+    "clientFiles": 4,
+    "totalSourceFiles": 30,
+    "excluded": [
+      "all unrelated paths",
+      "untracked source files",
+      "keys",
+      "target and build outputs",
+      "JavaScript client (already present in house)"
+    ]
+  },
+  "license": {
+    "status": "unresolved-publication-restriction",
+    "trackedLicenseFile": null,
+    "crateLicenseDeclared": false,
+    "source": "README.md:206",
+    "sourceStatement": "Private working tree. No public remote until the license ruling closes.",
+    "publicRedistributionApprovedByImport": false
+  },
+  "files": [
+    {
+      "path": "client/Cargo.lock",
+      "sha256": "92e0cd37cf5c6cd7ed8f4884804c3b986d56432591175e41c10cf24568273e14",
+      "bytes": 21144
+    },
+    {
+      "path": "client/Cargo.toml",
+      "sha256": "29c92d54e7be51018009500c7e4d541d30c898a9cb23b4257f466db27d7a4446",
+      "bytes": 363
+    },
+    {
+      "path": "client/examples/vectors.rs",
+      "sha256": "7b127e08702953cedbf52217e33c19e5822f91d5b1c2653a1fef94803f5f775a",
+      "bytes": 12356
+    },
+    {
+      "path": "client/src/lib.rs",
+      "sha256": "6eb6355eeab1eadbf4d887b07aa150883e35597a3b0897b92f38492f2ba8760b",
+      "bytes": 101371
+    },
+    {
+      "path": "program/poleis_treasury/Cargo.lock",
+      "sha256": "7ed946dd370a290c0bdd4240b5f6ffe8992e34c7aa7d16055e31d2e6266d9c0b",
+      "bytes": 97790
+    },
+    {
+      "path": "program/poleis_treasury/Cargo.toml",
+      "sha256": "f9339dca36cc60af590821d39bbd1eaced9151b208d9413359ea35a380e5d3a0",
+      "bytes": 1292
+    },
+    {
+      "path": "program/poleis_treasury/src/assembly.rs",
+      "sha256": "4aa3c323dac901128bac0a49ec6b4b12be4e6841ff4620875235dc676a26f4ec",
+      "bytes": 10680
+    },
+    {
+      "path": "program/poleis_treasury/src/error.rs",
+      "sha256": "55b0ddbbce04cdf04f8185a4bfe4f31c0b21b5e80ae04d5cc6ab65ec0af19fb2",
+      "bytes": 3198
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/auction.rs",
+      "sha256": "f642e4ae13686d57509f79ab0d96bf6b849ee8046277cb0f801dd2500533e8b0",
+      "bytes": 13878
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/council.rs",
+      "sha256": "eae150186e1f22254e9f7f000e32c46d7cd084036b8e4c8280e92dda46758ba4",
+      "bytes": 14850
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/door.rs",
+      "sha256": "64c9910a7ac507f5c2ae98517cf0c92c0a4741b7d27da2245a09de27c5bae2ae",
+      "bytes": 8863
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/economy.rs",
+      "sha256": "0a360fdb3c9cd5c4dcb59195c6ff13121621a20e23e1905061dcd5feef54247d",
+      "bytes": 25657
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/fund.rs",
+      "sha256": "6f544e5d22d1134bd5f148c1e67658bab937241811ee3fc1e34c17fd99b8e588",
+      "bytes": 21496
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/market.rs",
+      "sha256": "435c4128d6662d2919b340cc9ba1e2261fc19926d3cb8cd320415a16fb7c8489",
+      "bytes": 5416
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/mod.rs",
+      "sha256": "32f1289cf132f1ace389051316fdf80da5a82294be45dc2ac78e32adf7d26301",
+      "bytes": 7800
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/proposal.rs",
+      "sha256": "9aaba5b4f8a80feba5fbda5c2a106a20d5b13e5aba89807991bc396f17bf2016",
+      "bytes": 54009
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/sale.rs",
+      "sha256": "432fdd4f872f4dc207eedbb8562b573857dc938a95db0527fe767d40c325639a",
+      "bytes": 12156
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/treasury.rs",
+      "sha256": "f0a79b4983c7b8cdffd45b21c61573cfc6976191d097cd1891851b6ff0e34c8b",
+      "bytes": 4756
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/upgrade.rs",
+      "sha256": "33805b02eff50a5abc822905e3765872e3ef2ad5451434fd0a2bab1bac05b896",
+      "bytes": 4092
+    },
+    {
+      "path": "program/poleis_treasury/src/ix/vault.rs",
+      "sha256": "bee8b13951ce8e199f7f9b629e40ceb731a8fdbb5c9bb2165e5a3258f5759e72",
+      "bytes": 7856
+    },
+    {
+      "path": "program/poleis_treasury/src/lib.rs",
+      "sha256": "19e2ce160a458a33cbdebcf085de4c32c37ee0f648b657d696deac65072f408b",
+      "bytes": 16573
+    },
+    {
+      "path": "program/poleis_treasury/src/state.rs",
+      "sha256": "ae2a5ec81ec7df9b899c048bb7b5f3bfffc0450945b2c91d62c2e03d3bec664b",
+      "bytes": 82541
+    },
+    {
+      "path": "program/poleis_treasury/src/util.rs",
+      "sha256": "1ad8e1a8635e49ab16f1b8a50e73c0af5ff580fa677ed3290b6cc884c5a3dfa2",
+      "bytes": 10571
+    },
+    {
+      "path": "program/poleis_treasury/tests/adversarial.rs",
+      "sha256": "eff2fe820b86969a0265d1f7693cd20d7dc6a2fe29210c85b9e962c2672a1e08",
+      "bytes": 35540
+    },
+    {
+      "path": "program/poleis_treasury/tests/assembly.rs",
+      "sha256": "14119b895d4c299501e0969a9960b09597ef4bba1179210a33a1553b71bf4de1",
+      "bytes": 20862
+    },
+    {
+      "path": "program/poleis_treasury/tests/council.rs",
+      "sha256": "27187a9b973c1d90fb2c77286412f39e2480942646c7aa204299e1b7721d09d5",
+      "bytes": 110103
+    },
+    {
+      "path": "program/poleis_treasury/tests/fuzz.rs",
+      "sha256": "32f6b30aa21d34209eb01256d73de0843c5f31bf7cd05f866bb5854f32897073",
+      "bytes": 14207
+    },
+    {
+      "path": "program/poleis_treasury/tests/fuzz_council.rs",
+      "sha256": "b8f96a3e6700696113857bf2a807912558893e2e015318033a6b156822be9e38",
+      "bytes": 35624
+    },
+    {
+      "path": "program/poleis_treasury/tests/mathlaw.rs",
+      "sha256": "5f5303e14e8c1f05c25e46f91c97417be5032941e9534e040e73f708f807ddc6",
+      "bytes": 3377
+    },
+    {
+      "path": "program/poleis_treasury/tests/poleis.rs",
+      "sha256": "f4f01b23452059f51222c94ab860170990c46d1d2864f310449bb8e31eea3488",
+      "bytes": 8258
+    }
+  ]
+}

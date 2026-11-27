@@ -1,0 +1,233 @@
+{
+  "said": [
+    {
+      "is": {
+        "authority": "11111111111111111111111111111111",
+        "bytes": 328249,
+        "deploySlot": 0,
+        "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+        "programData": "EmiU8AQkB2sswTxVB6aCmsAJftoowZGGDXuytm6X65R3",
+        "sha256": "d18a2cdc0e0a52f55cb363cf517a4e72e9fca4fd6950c12897ee13c2385c52ac"
+      },
+      "what": "the stake pool program"
+    },
+    {
+      "is": {
+        "epoch fee": "1/1",
+        "fee account": "F4QwJFxHz6LP1QYa8C5QX95AhQEsH92Uss3Hdxgm2FoG",
+        "pool": "HFxMQkR5RNaVwwAcMTQ8ojaEmRa2stTpi6XnCKNibJFV"
+      },
+      "what": "the pool born"
+    },
+    {
+      "is": {
+        "manager": "53f4Ws1kT5G1ceeQoxTV6wiTDSHHekUrMb1po6jYonMS",
+        "signature": "ccz7TSTieEdtrejtiG2yd3ybWqSyruxDb73poNKfXLpFaWni1Bo2v86eR4rRGFiwu9jHhvdVnUd1x8JaAY3txvF",
+        "staker": "5i8wViiPaytNtkRqqR1hxzLe5ZzTjfpMPpCPswU9NYhj"
+      },
+      "what": "the staker named"
+    },
+    {
+      "is": {
+        "reserveBp": 1000,
+        "the stake program's minimum delegation": 1000000000,
+        "vote": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY"
+      },
+      "what": "the rule"
+    },
+    {
+      "is": {
+        "after": {
+          "epoch": 0,
+          "kept": 20000000000,
+          "poolEpoch": 0,
+          "reserveFree": 20000000000,
+          "total": 200000000000,
+          "validators": [
+            {
+              "active": 1002282880,
+              "status": 0,
+              "transient": 178997717120,
+              "vote": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY"
+            }
+          ]
+        },
+        "epoch": 0,
+        "fees": 10000,
+        "said": [
+          "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY: a move of 178997717120 lamports is in flight this epoch: one transient a validator an epoch",
+          "nothing is due at epoch 0: the pool holds 200000000000 lamports, the reserve 20000000000 above its rent against a kept share of 20000000000"
+        ],
+        "sent": [
+          {
+            "did": [
+              {
+                "add": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY",
+                "lamports": 1002282880
+              }
+            ],
+            "signatures": [
+              "BzHj38SmH49eaVFeMaopjjTNYncKT8E3z5UpMPbEzxwKkPfzUoDAcgDWGM1ibqhQLkudp87AVX4yzrdXeLg14v5"
+            ]
+          },
+          {
+            "did": [
+              {
+                "increase": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY",
+                "lamports": 178995434240
+              }
+            ],
+            "signatures": [
+              "4cRn8w7RN4zsnz9CQ4TZtx1zbS35majUW7kz7esM2Nxy9Q25SQPPXj2rzur1VqxS88DE2BJ96H1QJAWYmnvjScn8"
+            ]
+          }
+        ]
+      },
+      "what": "the crank, first run"
+    },
+    {
+      "is": {
+        "epoch": 0,
+        "said": [
+          "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY: a move of 178997717120 lamports is in flight this epoch: one transient a validator an epoch",
+          "nothing is due at epoch 0: the pool holds 200000000000 lamports, the reserve 20000000000 above its rent against a kept share of 20000000000"
+        ],
+        "sent": 0
+      },
+      "what": "the crank, again in the same epoch"
+    },
+    {
+      "is": {
+        "turns": [
+          {
+            "after": {
+              "epoch": 1,
+              "kept": 20000000000,
+              "poolEpoch": 1,
+              "reserveFree": 20002282880,
+              "total": 200000000000,
+              "validators": [
+                {
+                  "active": 179997717120,
+                  "status": 0,
+                  "transient": 0,
+                  "vote": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY"
+                }
+              ]
+            },
+            "epoch": 1,
+            "fee account": 0,
+            "fees paid": 5000,
+            "supply": 200000000000,
+            "total": 200000000000
+          },
+          {
+            "after": {
+              "epoch": 2,
+              "kept": 20000139525,
+              "poolEpoch": 2,
+              "reserveFree": 20002282880,
+              "total": 200001395245,
+              "validators": [
+                {
+                  "active": 179999112365,
+                  "status": 0,
+                  "transient": 0,
+                  "vote": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY"
+                }
+              ]
+            },
+            "epoch": 2,
+            "fee account": 1395245,
+            "fees paid": 5000,
+            "supply": 200001395245,
+            "total": 200001395245
+          }
+        ]
+      },
+      "what": "epochs turned"
+    },
+    {
+      "is": {
+        "fee minted to the fee account": 1395245,
+        "reward (lamports)": 1395245,
+        "the staker's receipts worth": 200000000000
+      },
+      "what": "the stake earned"
+    },
+    {
+      "is": {
+        "epoch": 3,
+        "fee": 5000,
+        "instructions": 4,
+        "its words": [
+          "Program log: Error: Identify validator stake accounts with old balances and update them.",
+          "Program SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy failed: custom program error: 0x10"
+        ],
+        "receipts": 5000000000,
+        "signature": "38W3rgiuhLtDn46RNwBqnv4nWjXHVHyTaGuv9VSzKqLhc9jWAE14iVSeUUTMBWM2GwTnxaUkDFoX4iBkR729LuhE",
+        "the old update refused": {
+          "InstructionError": [
+            1,
+            {
+              "Custom": 16
+            }
+          ]
+        },
+        "the staker paid": 5002044280,
+        "transaction bytes": 707,
+        "units": 54711
+      },
+      "what": "a stake by the door alone, the pool behind the epoch with a validator"
+    },
+    {
+      "is": {
+        "epoch": 4,
+        "fee": 5000,
+        "instructions": 3,
+        "lamports back": 5000000000,
+        "receipts burned": 5000000000,
+        "signature": "2h7ydwGrShicAUvANziRjTBrZR1FXbz1Nqh5m1w1jeV9iGidcL12ThnWDJDERfFwr1qJaJZEET9bwWhwLZjCPAkb",
+        "units": 47190
+      },
+      "what": "the way out by the door alone, the pool behind the epoch with a validator"
+    },
+    {
+      "is": {
+        "an epoch on, the reserve above its rent": 18002612692,
+        "at once": 20002282880,
+        "back": 20002282880,
+        "back again": 18002612692,
+        "receipts left": 161995104428,
+        "the crank brought back": [
+          {
+            "did": [
+              {
+                "fund the reserve": 2282880
+              },
+              {
+                "decrease": "GiKTW1NJKQJ4z9GqctGN2R1hVJvP4SYAE2RE1h9qavQY",
+                "lamports": 18000190286
+              }
+            ],
+            "signatures": [
+              "5TwqFaC3H2wGB56wHqwE7btcUeUxvcGVRRTo4Bbp5yiwadZLXkZi9NKtmvHF4tfDDYRRu9xP5DU4XWX1WGyTKz2R",
+              "9mLRLKqMaY4tHF54GYMbVBM7NQ49keBcomsxBh8kgzY6iqwdMTywNmA3mDNZEoe5sFkwk6X6SUXvoa3jibfFHHS"
+            ]
+          }
+        ],
+        "then out": 18002612692
+      },
+      "what": "the way out"
+    },
+    {
+      "is": {
+        "engine key's SOL spent": 2317880,
+        "wall (s)": 54
+      },
+      "what": "the run"
+    }
+  ],
+  "schema": "embertide.engine-rehearsal/1",
+  "validator": "solana-test-validator, local, 32 slots an epoch"
+}

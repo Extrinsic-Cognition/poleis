@@ -1,0 +1,56 @@
+{
+  "cluster": "localnet",
+  "minute_seconds": 4,
+  "paid": {
+    "the houses' creators (whoever launched each house)": [
+      {
+        "creator": "5R1tuKR4JPyEqSkuBUae5vbbi2GUv3ZNKXZfGAwmNPD9",
+        "house": "crow",
+        "paid": {
+          "lamports": 117786929,
+          "sol": 0.117787
+        }
+      },
+      {
+        "creator": "Dk5mhJ3ageFmMzryrhrG8WkJsigvYmnJid4QaBNwnWoz",
+        "house": "wolf",
+        "paid": {
+          "lamports": 59259260,
+          "sol": 0.059259
+        }
+      }
+    ],
+    "the publisher": {
+      "Poleis's own books after its sync_endowment": {
+        "total_in_after": 560646291,
+        "total_in_before": 0
+      },
+      "paid": {
+        "lamports": 560646291,
+        "sol": 0.560646
+      },
+      "the treasury before": {
+        "lamports": 1078800,
+        "sol": 0.001079
+      },
+      "treasury": "8Xdpq84gvb32AvsueKhBFxbvUmsw3xyhKBqruoyRKEpe",
+      "what it is": "the game swarm's Poleis treasury: unit 7 of tree 7, poleis_treasury loaded at genesis"
+    }
+  },
+  "program": {
+    "id": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+    "this_tree's_build": {
+      "bytes": 143792,
+      "sha256": "76002ff558c33f5ae344f7a0191ed233164a00238f268e8ce6420fe73b75b2a5"
+    }
+  },
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL)",
+  "result": "fail",
+  "validator": {
+    "feature-set": 565236538,
+    "genesis": "DVbTUKAgwA4nTN2ucG1gLbU17S79bBZDhiDDtWHJ6XTU",
+    "solana-core": "4.2.0"
+  },
+  "wall_seconds": 620.3,
+  "why": "Poleis: sync_endowment: no meta read"
+}

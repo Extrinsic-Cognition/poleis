@@ -1,0 +1,232 @@
+{
+  "cluster": "localnet",
+  "compute_units": {
+    "buy": {
+      "max": 25317,
+      "mean": 11291,
+      "min": 8816,
+      "n": 40
+    },
+    "change_sides": {
+      "max": 19929,
+      "mean": 15129,
+      "min": 13927,
+      "n": 10
+    },
+    "convert": {
+      "max": 21419,
+      "mean": 11968,
+      "min": 9416,
+      "n": 10
+    },
+    "crank": {
+      "max": 6011,
+      "mean": 5993,
+      "min": 5753,
+      "n": 151
+    },
+    "desert": {
+      "max": 6637,
+      "mean": 6631,
+      "min": 6629,
+      "n": 10
+    },
+    "init_config": {
+      "max": 10616,
+      "mean": 10616,
+      "min": 10616,
+      "n": 1
+    },
+    "init_house": {
+      "max": 7004,
+      "mean": 6254,
+      "min": 5504,
+      "n": 2
+    },
+    "pay_creator": {
+      "max": 2189,
+      "mean": 2189,
+      "min": 2189,
+      "n": 2
+    },
+    "pay_publisher": {
+      "max": 2623,
+      "mean": 2623,
+      "min": 2623,
+      "n": 1
+    },
+    "settle": {
+      "max": 40324,
+      "mean": 40324,
+      "min": 40324,
+      "n": 1
+    },
+    "stake": {
+      "max": 13404,
+      "mean": 13326,
+      "min": 13248,
+      "n": 2
+    },
+    "unlock": {
+      "max": 4003,
+      "mean": 4003,
+      "min": 4003,
+      "n": 2
+    }
+  },
+  "held_to_the_reference": {
+    "converts": 10,
+    "deserters_paid": 10,
+    "differences": [],
+    "fighters": 40
+  },
+  "minute_seconds": 4,
+  "paid": {
+    "the houses' creators (whoever launched each house)": [
+      {
+        "creator": "3FPrRK9XXnMpDU1Y3jrEKuuVkaGVSEcRrhhtKmMVh7DQ",
+        "house": "crow",
+        "paid": {
+          "lamports": 117786929,
+          "sol": 0.117787
+        }
+      },
+      {
+        "creator": "7tXQMEVLeCHFiwbeWnHeCd3q9hwcLcRDt7NQcFPAov3F",
+        "house": "wolf",
+        "paid": {
+          "lamports": 59259260,
+          "sol": 0.059259
+        }
+      }
+    ],
+    "the publisher": {
+      "Poleis's own books after its sync_endowment": {
+        "total_in_after": 560646291,
+        "total_in_before": 0
+      },
+      "paid": {
+        "lamports": 560646291,
+        "sol": 0.560646
+      },
+      "the treasury before": {
+        "lamports": 1078800,
+        "sol": 0.001079
+      },
+      "treasury": "8Xdpq84gvb32AvsueKhBFxbvUmsw3xyhKBqruoyRKEpe",
+      "what it is": "the game swarm's Poleis treasury: unit 7 of tree 7, poleis_treasury loaded at genesis"
+    }
+  },
+  "program": {
+    "id": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+    "this_tree's_build": {
+      "bytes": 143792,
+      "sha256": "76002ff558c33f5ae344f7a0191ed233164a00238f268e8ce6420fe73b75b2a5"
+    }
+  },
+  "raid": {
+    "clock_seconds_into_each_minute_when_sent": {
+      "max": 0,
+      "mean": 0.0,
+      "min": 0
+    },
+    "decided_at_minute": 150,
+    "how": "beat its line at minute 148; the last stand failed",
+    "minute_seconds": 4,
+    "minutes": 195,
+    "minutes_missed": [],
+    "minutes_played": 151,
+    "seconds": 780,
+    "seconds_from_send_to_landed": {
+      "at": "processed",
+      "max": 0.871744875,
+      "mean": 0.54,
+      "min": 0.449415708
+    },
+    "winner": "crow"
+  },
+  "refusals": [],
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL)",
+  "result": "pass",
+  "rpc_calls": 13241,
+  "rpc_refused_by_rate_and_waited_out": 0,
+  "transaction_compute_units": {
+    "Poleis: sync_endowment": {
+      "max": 1962,
+      "min": 1962,
+      "n": 1
+    },
+    "Poleis: the game swarm's treasury": {
+      "max": 4901,
+      "min": 4901,
+      "n": 1
+    },
+    "Poleis: the game swarm's tree": {
+      "max": 7598,
+      "min": 7598,
+      "n": 1
+    },
+    "a minute (its events and its crank)": {
+      "max": 25925,
+      "min": 5757,
+      "n": 150
+    },
+    "a stake": {
+      "max": 13404,
+      "min": 13404,
+      "n": 1
+    },
+    "convert": {
+      "max": 21419,
+      "min": 9416,
+      "n": 10
+    },
+    "init_config": {
+      "max": 10616,
+      "min": 10616,
+      "n": 1
+    },
+    "init_house": {
+      "max": 7004,
+      "min": 5504,
+      "n": 2
+    },
+    "pay_creator": {
+      "max": 2189,
+      "min": 2189,
+      "n": 2
+    },
+    "pay_publisher": {
+      "max": 2623,
+      "min": 2623,
+      "n": 1
+    },
+    "settle": {
+      "max": 40324,
+      "min": 40324,
+      "n": 1
+    },
+    "the forty's buys": {
+      "max": 53266,
+      "min": 36766,
+      "n": 10
+    },
+    "the opening stake and minute 0": {
+      "max": 19001,
+      "min": 19001,
+      "n": 1
+    },
+    "unlock": {
+      "max": 4003,
+      "min": 4003,
+      "n": 2
+    }
+  },
+  "transactions": 184,
+  "validator": {
+    "feature-set": 565236538,
+    "genesis": "FsyCepX2juhDGZS5xDctJvjD1HwWzWFZEY2dHNFm6Zrx",
+    "solana-core": "4.2.0"
+  },
+  "wall_seconds": 621.5
+}

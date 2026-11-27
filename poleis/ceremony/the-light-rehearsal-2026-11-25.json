@@ -1,0 +1,206 @@
+{
+  "program": "d18a2cdc0e0a52f55cb363cf517a4e72e9fca4fd6950c12897ee13c2385c52ac",
+  "said": [
+    {
+      "is": {
+        "its registry": "58KRx4AFtxFo9it7n5SuypwRPdXxm7P86sk5jq4SkFWV",
+        "root 0": "4imnCyMyvSQPUxfPKcotdbcX1HS9Af92ZZCrDwGqhaor",
+        "the wish": "8405527522246845140"
+      },
+      "what": "root 0 and a wish"
+    },
+    {
+      "is": {
+        "act": "5468fc8fba4976feea1f3609d6abbb31f56eac4f9d0d940c49f9366629ee12d2",
+        "fee account (root 0's vault)": "CBSujV6Wkk7CAnuxq1mCR8HRU2Bkgge1udDuKP6orXRo",
+        "mint": "CPzARVGcDWxMRem97jHqVev4EbFcuJ4pPW4pPLqBeo6K",
+        "pool": "81PWgxtLodCfY3QMMbDuPDxXeunpkLv22wk96LRcQphv"
+      },
+      "what": "her pool born by root 0's act"
+    },
+    {
+      "is": {
+        "allowance": "J7cjDJnLd3Sdub5byaKWCXx3oiYQ15UbfsZFVq2vPpsg",
+        "cap a period": "1000000000000",
+        "payee": "unit 8405527522246845140",
+        "period (slots)": 32
+      },
+      "what": "root 0's road into the wish's well"
+    },
+    {
+      "is": {
+        "staker 1": {
+          "light": "embertide.light/1 wish 8405527522246845140",
+          "signature": "2MVKEvz3h62Te1BhJetkVWnMm9v4ttLjsDB369iSeR6VgVWxiReE29ZTUmmhvV5jAgP6UXcErwyWsVybYHckdxad",
+          "staked": 10000000000
+        },
+        "staker 2": {
+          "light": "none chosen",
+          "staked": 5000000000
+        }
+      },
+      "what": "two stakers"
+    },
+    {
+      "is": {
+        "epochs": [
+          4,
+          5
+        ],
+        "fee minted into root 0's vault (tokens)": "1500000000",
+        "sent into the reserve (lamports)": 1500000000,
+        "the book's read": {
+          "dust": "0",
+          "epoch": 5,
+          "fee_lamports": "1500000000",
+          "fee_tokens": "1500000000",
+          "from": 4,
+          "held_lamports": "15000000000",
+          "holders": 2
+        },
+        "worth (lamports)": "1500000000"
+      },
+      "what": "the epoch's yield"
+    },
+    {
+      "is": {
+        "puller": "HZAcY3E5YtUMH2drXZiA8gpAYN1VYUpYWSCFYhCrqsrC",
+        "tokens": "300000000",
+        "transaction": "xFmQEu9ZccDWHMV29iG98dw3Qn3Z3FxHoRLFnchVjNWSPVmxHAorNdNhep1mXJJdm72MMwdiaJmxJ964gonc7ys"
+      },
+      "what": "a stranger's pull of the wish's road"
+    },
+    {
+      "is": {
+        "agree": true,
+        "chain_fee_tokens": "1500000000",
+        "held": [],
+        "mint": "CPzARVGcDWxMRem97jHqVev4EbFcuJ4pPW4pPLqBeo6K",
+        "over_pulled_tokens": "300000000",
+        "over_pulls": [
+          {
+            "is": "an over-pull: tokens that reached the wish's well by a pull the crank did not send, netted against its light",
+            "puller": "HZAcY3E5YtUMH2drXZiA8gpAYN1VYUpYWSCFYhCrqsrC",
+            "slot": 219,
+            "tokens": "300000000",
+            "transaction": "xFmQEu9ZccDWHMV29iG98dw3Qn3Z3FxHoRLFnchVjNWSPVmxHAorNdNhep1mXJJdm72MMwdiaJmxJ964gonc7ys",
+            "wish": "8405527522246845140"
+          }
+        ],
+        "pool": "81PWgxtLodCfY3QMMbDuPDxXeunpkLv22wk96LRcQphv",
+        "poured_on_the_chain": [],
+        "pours": [
+          {
+            "into": "ELQmAasFBgirSLcWFH5dnBnoHYQ1B7M6uHByU9HdPWpF",
+            "memo": "embertide.pour/1 epoch 5 wish 8405527522246845140 owed 1000000000 tokens 700000000",
+            "over": "0",
+            "owed": "1000000000",
+            "tokens": "700000000",
+            "wish": "8405527522246845140"
+          }
+        ],
+        "reading": {
+          "dust_tokens": "0",
+          "epoch": 5,
+          "fee_lamports": "1500000000",
+          "fee_tokens": "1500000000",
+          "from": 4,
+          "stakers": [
+            {
+              "goes": "no choice: stays in root 0's vault",
+              "light_lamports": "500000000",
+              "staker": "EhQFUQz4tT9GvFLTKFwpJMVNrWgjXh7nDEo9sQAatPsx"
+            },
+            {
+              "goes": "wish 8405527522246845140",
+              "light_lamports": "1000000000",
+              "staker": "GzbEwPy3TAfdGuDvEST19rJX3dTLJGUqvnrnJGM9Fsfc"
+            }
+          ],
+          "undirected": {
+            "light_lamports": "500000000",
+            "stays": "in root 0's vault: the rule for undirected light is not his yet",
+            "tokens": "500000000"
+          },
+          "wishes": {
+            "8405527522246845140": {
+              "light_lamports": "1000000000",
+              "stakers": [
+                "GzbEwPy3TAfdGuDvEST19rJX3dTLJGUqvnrnJGM9Fsfc"
+              ],
+              "tokens": "1000000000"
+            }
+          }
+        },
+        "roads": {
+          "8405527522246845140": {
+            "over_pulls_ever": [
+              {
+                "puller": "HZAcY3E5YtUMH2drXZiA8gpAYN1VYUpYWSCFYhCrqsrC",
+                "slot": 219,
+                "tokens": "300000000",
+                "transaction": "xFmQEu9ZccDWHMV29iG98dw3Qn3Z3FxHoRLFnchVjNWSPVmxHAorNdNhep1mXJJdm72MMwdiaJmxJ964gonc7ys"
+              }
+            ],
+            "owed_before": "0",
+            "taken": "300000000"
+          }
+        },
+        "root0_vault": "CBSujV6Wkk7CAnuxq1mCR8HRU2Bkgge1udDuKP6orXRo",
+        "root0_vault_tokens": "1200000000"
+      },
+      "what": "the reader"
+    },
+    {
+      "is": {
+        "in the wish's well (tokens)": "1000000000",
+        "left in root 0's vault (tokens)": "500000000",
+        "over-pulled (tokens)": "300000000",
+        "signatures": [
+          "B3Th7saKFvuP2zFLLhHxn52HH39NXfWTxJc3Xi4FbXLE12jpeRVLcX9Dq4e4ewoEV3i5tGBWr4gjAjbQV75LTko"
+        ],
+        "staker 1's light (lamports)": "1000000000",
+        "staker 2's light (lamports)": "500000000",
+        "the crank poured (tokens)": "700000000"
+      },
+      "what": "the pour"
+    },
+    {
+      "is": {
+        "a book one token over": "the book counts 1500000001 tokens of fee for epochs 5 to 5, and the chain's mints into root 0's vault in them are 1500000000: nothing is poured",
+        "again": "poured already: the crank's record for this epoch stands on the chain"
+      },
+      "what": "the pour again, and a book that disagrees"
+    },
+    {
+      "is": {
+        "allowance": "B3RTdgJLGDSABao9oFDqvXUeSbxsHTNhDKBT3tjf4Ks6",
+        "cap a period (tokens)": "1000000000",
+        "period (slots)": 10000,
+        "rider": "4qKqPj683CBn3Wrwztycw1Lfzv3J2k8is1JqSJ6pyjNx"
+      },
+      "what": "the wish's rider"
+    },
+    {
+      "is": {
+        "a draw past the cap": "sendTransaction: {\"code\":-32002,\"data\":{\"accounts\":null,\"err\":{\"InstructionError\":[1,{\"Custom\":54}]},\"fee\":5000,\"innerInstructions\":null,\"loadedAccountsDataSize",
+        "after": "1997955720",
+        "drew (tokens)": "1000000000",
+        "fee": 5000,
+        "its receipts account's rent": 2039280,
+        "signature": "4G6sokfM5mPSpHqY8ycWhfVRWxfw5wPZPvQfZL6G3XABToSr9HHUgHDyLRYFUN7zoiKEttxtsRpYHWBqHEpTsyTx",
+        "the rider's SOL before": "1000000000",
+        "took to SOL (lamports)": "1000000000"
+      },
+      "what": "the rider's draw"
+    },
+    {
+      "is": {
+        "seconds": 63
+      },
+      "what": "wall"
+    }
+  ],
+  "schema": "embertide.light-rehearsal/1",
+  "validator": "solana-test-validator, local, 32 slots an epoch"
+}

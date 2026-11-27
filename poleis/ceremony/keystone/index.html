@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Keystones</title>
+<style>
+  :root { --bg: #f7f5f0; --ink: #1d1b16; --muted: #6b665c; --line: #ddd7ca; --card: #ffffff; --accent: #2f5d50; --warn: #9a3b2e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14130f; --ink: #ece7dc; --muted: #a39d90; --line: #34312a; --card: #1d1b16; --accent: #8cc3ae; --warn: #e3907f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 18px 14px; margin: 0 0 16px; }
+  h2 { font-size: 17px; margin: 0 0 10px; }
+  h3 { font-size: 15px; margin: 14px 0 6px; color: var(--muted); font-weight: 600; }
+  ol { margin: 0 0 12px; padding-left: 20px; }
+  li { margin: 2px 0; }
+  .addr { font: 13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; }
+  button { font: inherit; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: var(--bg); cursor: pointer; margin: 4px 6px 4px 0; }
+  button.quiet { background: transparent; color: var(--accent); }
+  button:disabled { opacity: .45; cursor: default; }
+  .row { display: flex; gap: 8px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--line); flex-wrap: wrap; }
+  .row:first-child { border-top: 0; }
+  .tag { color: var(--muted); min-width: 92px; }
+  #say { min-height: 1.5em; color: var(--muted); white-space: pre-line; }
+  #say.bad { color: var(--warn); }
+  .warn { color: var(--warn); font-weight: 600; }
+  .does { display: block; overflow-wrap: anywhere; }
+  .ok { color: var(--accent); font-weight: 600; }
+  #stage { display: none; gap: 16px; align-items: flex-start; flex-wrap: wrap; margin: 10px 0; }
+  #stage.on { display: flex; }
+  #qr { background: #fff; padding: 14px; border-radius: 10px; line-height: 0; }
+  #qr canvas { width: min(360px, 80vw); height: auto; image-rendering: pixelated; }
+  video { width: 240px; max-width: 100%; border-radius: 10px; background: #000; transform: scaleX(-1); }
+  .step { color: var(--muted); font-size: 15px; max-width: 260px; }
+  footer { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Your Keystones</h1>
+  <p class="sub">A Keystone signs here by QR, with no wallet: a vault's monthly pull, or a prepared set (a seat owner's own mint, proposal and vote of the launch press). The set names its chain.</p>
+
+  <section id="connect">
+    <h2>1 · Connect each Keystone</h2>
+    <h3>By QR, on this Mac's camera</h3>
+    <ol>
+      <li>On the Keystone: <b>Connect Software Wallet</b>, then <b>Solflare</b>. It shows a QR.</li>
+      <li>Press <b>Scan a Keystone</b> and hold that QR up to this Mac's camera.</li>
+      <li>Pick the account, then do the same with the next Keystone.</li>
+    </ol>
+    <button id="scanKeystone">Scan a Keystone</button>
+    <div id="picks"></div>
+    <h3>Or through a wallet that holds them</h3>
+    <div id="wallets"></div>
+    <h3>Connected</h3>
+    <div id="mine"></div>
+    <button id="copy" class="quiet" disabled>Copy the three addresses</button>
+  </section>
+
+  <section id="pull" hidden>
+    <h2>2 · Approve the month's pull</h2>
+    <div class="row"><span class="tag">pull</span><span id="amount"></span></div>
+    <div class="row"><span class="tag">from</span><span class="addr" id="from"></span></div>
+    <div class="row"><span class="tag">to your vault</span><span class="addr" id="to"></span></div>
+    <div class="row"><span class="tag">approvals</span><span id="approvals">reading…</span></div>
+    <div id="approvers"></div>
+  </section>
+
+  <section id="prepared">
+    <h2>3 · Sign a prepared set</h2>
+    <p class="step">A set of unsigned transactions (the launch press writes them: press seat, press vote). Connect the Keystone that signs them above, then sign each in order. Before you confirm on the Keystone, compare the program and the data it shows with the ones written here.</p>
+    <input type="file" id="preparedFile" accept="application/json">
+    <div class="row"><span class="tag">set</span><span id="preparedWhat">none open</span></div>
+    <div class="row"><span class="tag">cluster</span><span id="preparedCluster"></span></div>
+    <div id="preparedTxs"></div>
+  </section>
+
+  <div id="stage">
+    <div id="qr" hidden></div>
+    <video id="cam" playsinline muted hidden></video>
+    <div class="step" id="step"></div>
+  </div>
+  <p id="say"></p>
+  <footer>Nothing here moves money alone: the program pays the vault only what two of your three Keystones approve, and never more than the month's cap.</footer>
+</main>
+<script src="./qrcode-generator.js"></script>
+<script type="module" src="./keystone.mjs"></script>
+</body>
+</html>

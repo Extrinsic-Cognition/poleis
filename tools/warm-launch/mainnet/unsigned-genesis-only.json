@@ -1,0 +1,115 @@
+{
+ "what": "THE $WARM GENESIS on mainnet: the mint alone, unsigned, for his Keystone",
+ "cluster": "mainnet",
+ "signable": false,
+ "placeholders": [
+  "launchKey",
+  "treasuryOwner"
+ ],
+ "emitted": "2026-11-19T19:04:08.992Z",
+ "signer": {
+  "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+  "role": "his Keystone"
+ },
+ "addresses": {
+  "mint": "ANEsQX7V6TuVQVTjFG8TWEJ31WXC8Tapb4eS5zLJypU8",
+  "metadata": "FPSUtcjeXmyo2wDLeUeFuWBagd9oLqk2qcPzsyfd2fnr",
+  "launchSwarm": "ENiDmhDvEf7kXGVSGPV398W1gDpAWUHgviGLHb5cuUce",
+  "treasuryOwner": "CWEmtJLv9HZcJ6DF4FvHkeAUW8YUUx86Xv6ZbpzLC7D4",
+  "treasurySwarm": "3RNwacEJJNNBGWY5wX8L9FEekdud9cMJ9u6KQ4TrLyZ3"
+ },
+ "transactions": [
+  {
+   "n": 1,
+   "name": "genesis",
+   "when": "at the close, before the share",
+   "does": [
+    "make the mint from his address and the seed \"swarm\": 9 decimals, no freeze authority",
+    "mint 900000000000000000 base units (90%) to the treasury",
+    "mint 100000000000000000 base units (10%) to the launch key: the pre-depositors' tenth, sent by `mainnet.mjs share`",
+    "name it SWARM ($WARM)",
+    "revoke the mint authority: the supply is fixed"
+   ],
+   "signers": [
+    "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7"
+   ],
+   "signable": false,
+   "placeholders": [
+    "launchKey",
+    "treasuryOwner"
+   ],
+   "accounts": [
+    {
+     "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+     "signer": true,
+     "writable": true,
+     "is": "PLACEHOLDER launchKey"
+    },
+    {
+     "address": "ANEsQX7V6TuVQVTjFG8TWEJ31WXC8Tapb4eS5zLJypU8",
+     "signer": false,
+     "writable": true,
+     "is": "the $WARM mint"
+    },
+    {
+     "address": "3RNwacEJJNNBGWY5wX8L9FEekdud9cMJ9u6KQ4TrLyZ3",
+     "signer": false,
+     "writable": true,
+     "is": "the treasury's SWARM"
+    },
+    {
+     "address": "ENiDmhDvEf7kXGVSGPV398W1gDpAWUHgviGLHb5cuUce",
+     "signer": false,
+     "writable": true,
+     "is": "the launch key's SWARM"
+    },
+    {
+     "address": "FPSUtcjeXmyo2wDLeUeFuWBagd9oLqk2qcPzsyfd2fnr",
+     "signer": false,
+     "writable": true,
+     "is": "its name (Metaplex)"
+    },
+    {
+     "address": "ComputeBudget111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "compute"
+    },
+    {
+     "address": "11111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "system"
+    },
+    {
+     "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+     "signer": false,
+     "writable": false,
+     "is": "token"
+    },
+    {
+     "address": "CWEmtJLv9HZcJ6DF4FvHkeAUW8YUUx86Xv6ZbpzLC7D4",
+     "signer": false,
+     "writable": false,
+     "is": "PLACEHOLDER treasuryOwner"
+    },
+    {
+     "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+     "signer": false,
+     "writable": false,
+     "is": "ata"
+    },
+    {
+     "address": "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",
+     "signer": false,
+     "writable": false,
+     "is": "metadata"
+    }
+   ],
+   "message": "AQAGC1zclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyiyoPpdgXswdgCVnd6FOUeBlrEx0flX0IEJMWSiSs9rEj9h8/vS/0pFzQm0vYVuJUxyuHrQ3FhmA0MGyAMWFiqsa3vB6aJVVzA2f/OSrk5XrlWyDw+kI6SJd6r3lJz8wv1cM0wP7PAVmIXbu368kMUo4Lx0nKq7YJ1Xkig746n+MDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKmq7flMHLErINKJ3d22mnxmx9JPMK3I05rYmP5uL12a24yXJY9OJInxuz0QKRSODYMLWhOZ2v8QhASOe9jb6fhZC3BlsePRfEU4nVJ/awTDzVi4bHMaoP21SbbRvAP4KUYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoFAAUCwNQBAAUACQMQJwAAAAAAAAYCAAFhAwAAAFzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyBQAAAAAAAABzd2FybWBNFgAAAAAAUgAAAAAAAAAG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQcBASMUCVzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyAAkGAAIIAQYHAQEJBgADAAEGBwEBBwMBAgAJBwAA2kk7cX0MBwMBAwAJBwAAil14RWMBCgYEAQAAAAZGIQUAAABTV0FSTQUAAAAkV0FSTSgAAABodHRwczovL29wdGltaXNtLmZpdC9hcHAvd2FybS10b2tlbi5qc29uAAAAAAABAAcCAQADBgAA",
+   "messageSha256": "5db84d7fb6099d1335d2731535342685704240f8e2844287160151b6cc4cf767",
+   "bytes": 752,
+   "computeUnits": 120000
+  }
+ ]
+}

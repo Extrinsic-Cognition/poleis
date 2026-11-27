@@ -1,0 +1,473 @@
+{
+ "what": "AN OLDER FUND HAS ITS ROAD, rehearsed on a copy of devnet: every account devnet's Poleis owns copied onto a validator of this Mac, devnet's own program upgraded in place to this lane's build, every swarm read, the older fund grown by the new instruction (grow_fund, tag 57), then the newborn's claim and ratification, the ordinary transactions, and every swarm read again",
+ "verdict": "GO",
+ "why": "after the upgrade every account reads the same; the fee site refuses the older fund (custom 21) until the growth; one growth (4,427 units) turns the 706-byte fund into this layout's 778 with every old byte where it stood and the current option's recipient copied from its own account; a second growth is refused (custom 77, NotAnOlderFund); then the newborn that was stuck at its first hexagon claims it (a fee site: 25,000 lamports to the fund) and ratifies, a second newborn goes through birth, sale, claim and ratification, every ordinary transaction of the first rehearsal lands, and every swarm devnet holds reads the same as before, the two knocks excepted",
+ "where": "a validator of this Mac (solana-test-validator 4.2.0, 127.0.0.1:18899, warped to devnet's slot 525948861, its features cloned from devnet), the program loaded upgradeable at its own id with a stand-in upgrade authority of the run (F4jhPrsmibEYgrdFLdKik7mdTXtfENiRZX6MpbLwp3LU), a stand-in payer (2gaSLrk7JRRjCF9c6sDW8AFYPHeAn2mhAXmHBzKbcnJ2); no key of his read or used; nothing sent to devnet",
+ "devnet_reads": {
+  "at": "2026-11-24T23:04:12Z",
+  "getProgramAccounts_slot": 525948861,
+  "accounts": 248,
+  "programdata_last_deploy_slot": 494235143,
+  "rent": {
+   "706": 4236720,
+   "778": 4602480
+  },
+  "calls": "getProgramAccounts once, getAccountInfo and getMultipleAccounts on the fund, its option and the program data, getMinimumBalanceForRentExemption, one read of the wall by the page's client (getProgramAccounts and getMultipleAccountsInfo), the feature accounts for --clone-feature-set; no transaction"
+ },
+ "program": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+ "before": {
+  "build": "devnet's (Sept 6 2026), its dump of the first rehearsal; the program data's last deploy slot on devnet unchanged (494,235,143)",
+  "programdata_bytes": 340000,
+  "sha256_without_trailing_zeros": "4beb92f40649d8babe8dc5da1ac5ebbe34a74ba32bac0dea518322ee267556a6"
+ },
+ "after": {
+  "build": "this lane's poleis_treasury, `cargo-build-sbf --arch v3`, unpatched (its declared id is devnet's)",
+  "bytes": 445744,
+  "sha256": "6501d3fade43d12805676f8e947d88452bfd253064504e804caca221a3b6c5d8",
+  "extended_by": 105744,
+  "read_back_byte_for_byte": true,
+  "last_deploy_slot_local": 525948887,
+  "main_without_this_lane": {
+   "bytes": 438744,
+   "sha256": "1b79ac070e29c139362b54147654a21fbf22358771d8b53bb1beff1494c07ec2",
+   "the_first_rehearsals_build_reproduced": true
+  },
+  "added_by_this_lane_bytes": 7000
+ },
+ "accounts_copied": {
+  "count": 248,
+  "by_kind": {
+   "unread:2:27": 33,
+   "proposal": 32,
+   "registry": 33,
+   "config": 18,
+   "unread:7:109": 49,
+   "sale": 18,
+   "session": 50,
+   "tally": 4,
+   "stake": 2,
+   "unread:12:180": 2,
+   "fund": 1,
+   "option": 1,
+   "unread:10:162": 2,
+   "unread:8:34": 1,
+   "pool": 2
+  },
+  "copy_equal_to_devnet": true,
+  "since_the_first_rehearsal": "248 accounts, 6 more than 22:34 UTC: a swarm born on devnet since (4663915260275082141), and a claim at the fund (total_in 1,325,000 to 1,350,000)"
+ },
+ "swarms_read": {
+  "roots": 18,
+  "on_the_wall": 10,
+  "reader": "embertide-app/ui/intro/dyson-society/js/poleis-client.js in Node with the page's vendored web3 1.95.8 and tweetnacl, the first rehearsal's read.mjs unchanged"
+ },
+ "every_account_before_and_after_the_upgrade": {
+  "changed": 0,
+  "of": 248
+ },
+ "before_the_growth_on_the_upgraded_program": {
+  "the_newborn": [
+   {
+    "step": "the birth (config and genesis)",
+    "err": null,
+    "units": 16520,
+    "signature": "5fHoGCwJDffYSVSu16Xwwf5BYMb5gcPWovwH77G6CPNR4G7sG5QBfikEQ9ExxystHaiLZrwd5eyeYUBBRXe859rQ"
+   },
+   {
+    "step": "a sealed bid for a hexagon",
+    "err": null,
+    "units": 7909,
+    "signature": "3EYcP5GUpDpSbMhDDAu2EMEM4sMaNhpGj8nJocnXaPaDN3yonBKWyjF9PJyuW1ALXyMTaPbPxLbWRcsG3Yx12u2x"
+   },
+   {
+    "step": "the bid revealed",
+    "err": null,
+    "units": 4615,
+    "signature": "5qRAK6DWib2WfbuH35XjNAFd1EreUPMM8WhfnzYSq3VKgMozJV7UBn6MJdEQ2UHRbCUMscVYjeMXAsHDjNZdXe3j"
+   },
+   {
+    "step": "the sale settled",
+    "err": null,
+    "units": 4358,
+    "signature": "4FtnpygyaH5MM28iKnUx695HsDt3ZmzaSZP9gFgqt4jd4ZcX2f4TeCNd2zbReEJzVHR86cf93xSeUFFDwd71zAEc"
+   },
+   {
+    "step": "the first hexagon claimed (a fee site)",
+    "err": {
+     "InstructionError": [
+      0,
+      {
+       "Custom": 21
+      }
+     ]
+    },
+    "units": 10163
+   }
+  ],
+  "ends": "its first hexagon's claim refused, custom 21 (LayoutVersion) at the fund, as the first rehearsal found"
+ },
+ "the_growth": {
+  "by": "cargo run --example wish -- fund --rpc http://127.0.0.1:18899 --grow (poleis/seal/examples/wish.rs), a stand-in payer the local faucet paid (ANbKo3xsRj9iJKQM6riV1NRnfEyrkNX9uguq44dtkk3b)",
+  "signature": "62PQad5TBWiCbwWrfK5PvrYUpoMZU5i3Cz8agSKvvZo2uhKoXbSFtRqvSrUZq7DkfSqt7EtX8z4Y6WemYq5DiSLK",
+  "units": 4427,
+  "fund_before": {
+   "bytes": 706,
+   "lamports": 5210955
+  },
+  "fund_after": {
+   "bytes": 778,
+   "lamports": 6305760
+  },
+  "the_payer_paid": 1094805,
+  "why_more_than_the_added_bytes_rent": "the copy's rent is the validator's default, 6,960 lamports a byte, not devnet's 5,080: under it devnet's 5,210,955 are below even the older size's minimum (5,804,640), and a rent-paying account may not change its size, so the growth lifts the fund to the new minimum (6,305,760). On devnet the fund is exempt and the payer pays the 72 bytes' rent and only that, 365,760, the fund 5,576,715 after, its free balance 974,235 unchanged (the crate's test on devnet's own bytes under devnet's rent: tests/council.rs devnets_own_older_fund_grows...)",
+  "every_old_byte_in_place": true,
+  "page_reads_the_same_but": [
+   "currentRecipient",
+   "lamports"
+  ],
+  "fund_as_the_page_reads_it_before": {
+   "feeBps": 250,
+   "cycleSlots": "1800",
+   "cycleStart": "494190058",
+   "cycleSeq": "1",
+   "totalIn": "1350000",
+   "totalOut": "375765",
+   "stakedTotal": "3",
+   "wpSum": "11000",
+   "wpWeight": "3",
+   "rangeLo": 2000,
+   "rangeHi": 8000,
+   "optionFee": "1000000",
+   "chairQuorum": 1,
+   "current": "637592d2448b898ffdd84476ae186ae3531cabfc602d00917b0163545b996740",
+   "currentSince": "494189263",
+   "currentRecipient": "0000000000000000000000000000000000000000000000000000000000000000",
+   "owed": "0",
+   "owedTo": "0000000000000000000000000000000000000000000000000000000000000000",
+   "hasCurrent": true,
+   "payoutBps": 3666,
+   "lamports": 5210955
+  },
+  "fund_as_the_page_reads_it_after": {
+   "feeBps": 250,
+   "cycleSlots": "1800",
+   "cycleStart": "494190058",
+   "cycleSeq": "1",
+   "totalIn": "1350000",
+   "totalOut": "375765",
+   "stakedTotal": "3",
+   "wpSum": "11000",
+   "wpWeight": "3",
+   "rangeLo": 2000,
+   "rangeHi": 8000,
+   "optionFee": "1000000",
+   "chairQuorum": 1,
+   "current": "637592d2448b898ffdd84476ae186ae3531cabfc602d00917b0163545b996740",
+   "currentSince": "494189263",
+   "currentRecipient": "ed5b910e1241679835a3e6d4281f7506a6080aa90261dc1f114cb4de3bf49b24",
+   "owed": "0",
+   "owedTo": "0000000000000000000000000000000000000000000000000000000000000000",
+   "hasCurrent": true,
+   "payoutBps": 3666,
+   "lamports": 6305760
+  },
+  "accounts_changed_by_it": [
+   "7n3J6fujkQdFQ4YQyoUG4E1XGto2DyWBzuvrJNrSqdcn"
+  ],
+  "the_first_call": "a simulation that never sent: the faucet's transfer to the stand-in payer was not yet seen at the confirmed level (AccountNotFound); the walker now waits for the payer's balance before it simulates",
+  "a_second_growth": {
+   "op": "grow_fund a second time",
+   "err": {
+    "InstructionError": [
+     0,
+     {
+      "Custom": 77
+     }
+    ]
+   },
+   "units": 219
+  },
+  "the_walker_on_a_grown_fund": "nothing to grow: not the older fund"
+ },
+ "after_the_growth": {
+  "the_stuck_newborn_completes": [
+   {
+    "step": "the first hexagon claimed (a fee site)",
+    "err": null,
+    "units": 18913,
+    "signature": "v5RxDfsGrZHygV7hT516Hq6xKQLuPVR5Qg1ASURTZB72eYXMnb7cxYVAri2L79FPACWdspjEYiuiQB6HB9MYuhN"
+   },
+   {
+    "step": "the genesis ratified",
+    "err": null,
+    "units": 11790,
+    "signature": "2sBA3nYLwsudJ1VJgDMxgi8QMab6g3B9gWe7qrJAtHZjNudeurLUPofEz43GPwp7pptsW4gvuzAqTCid5iukFoNq"
+   }
+  ],
+  "a_newborn_after_the_growth": [
+   {
+    "step": "the birth (config and genesis)",
+    "err": null,
+    "units": 16520,
+    "signature": "3Li2YHagE8GJxR1VuD1Du7zJUWTzCJfsMWvgkG1bB6EHuavTXSpYzQoBSzbPBYrH7jJ8x8uM7RfiqrkTWMDE9PT3"
+   },
+   {
+    "step": "a sealed bid for a hexagon",
+    "err": null,
+    "units": 9409,
+    "signature": "2s6NPU1SgPbo3oAfKzPSyRqrGrwk1cUboX36XXm972fWNSmRKgaFsLaNqbP8dZZsTcmznBtwZ3uPF6YqnbrLijkb"
+   },
+   {
+    "step": "the bid revealed",
+    "err": null,
+    "units": 4615,
+    "signature": "3uJkTkCM66nxUS3SXzuvL1zHg1YvFajSteqdjH6x41AYy9YWuMDKMPiMDVa5zaMjLGP4av46UGvPFmGsZhQRbdyY"
+   },
+   {
+    "step": "the sale settled",
+    "err": null,
+    "units": 4358,
+    "signature": "2UVQEy5mUib9kw6hC5mSsEfL2Pi2UPhRDMuasP1QcrUGPuK5NF4WZpptfigmDCwFCUeZ7yAbmLqP42EQQRwe8aSH"
+   },
+   {
+    "step": "the first hexagon claimed (a fee site)",
+    "err": null,
+    "units": 16871,
+    "signature": "79J73NJ39shxUBMzrFKckeiy3WiLfkBLWCiecxeqmamzCHvAipLPHgxvY92V5pH91TFf5pGGH8oFXR1pdGdhPxW"
+   },
+   {
+    "step": "the genesis ratified",
+    "err": null,
+    "units": 7290,
+    "signature": "672HYkACToYMbhP3rM6ti5Mn6csCu5q9gfrSnxxK8QgCMxM4ZijfRmxoEgu3YfuNzdPB3AvJgYpm3iBWGVQG6RmS"
+   }
+  ],
+  "ordinary_transactions": {
+   "landed": 22,
+   "of": 23,
+   "each": [
+    {
+     "op": "sync:9895878121893159533",
+     "units": 1925,
+     "signature": "2sKxQxdN2MtMgKoMcR1MfLdZPceTNiZL3TetgYVs2DNTqY4HzdTpyczeK6fyRS3dFdrU7Pcaai1none97Y7LLJ9i",
+     "err": null
+    },
+    {
+     "op": "floor:9895878121893159533:9895878121893159533",
+     "units": 15360,
+     "signature": "59kQg8qowXNUn7SVhhbPxyNLxE2TiTgVF16LJFU7rS1mPEMdkbLMJVCTbTeiQ6DV32typzQSfj59nSEvRaYkwjiT",
+     "err": null
+    },
+    {
+     "op": "sync:5067402218329764206",
+     "units": 1925,
+     "signature": "5LLRwUX56Scg44wy2PVraBasfJSHYRNCHSoo5VdN5MhSXW8HeEve7nWqSmL2hEky9EkWujYzm8ah8UmyFhkFHyTC",
+     "err": null
+    },
+    {
+     "op": "floor:5067402218329764206:5067402218329764206",
+     "units": 10607,
+     "signature": "4pSV3kwZMT4gmkre44dtvWjo1sdNCLTMj5HWX3PGvVa89mtDYo6gzLswKcJFdog5GuPKbGMQJ5H7DVz3Sbg4n59Q",
+     "err": null
+    },
+    {
+     "op": "sync:11464524584724012692",
+     "units": 1925,
+     "signature": "VjwEAQPHmVme7Mged6urZXzJbir5CSSYfgCLbzvLENyM9utsEgTdvsVcoWwKgHA6nVLADSK2cDQ6DaxsMsSfmr3",
+     "err": null
+    },
+    {
+     "op": "floor:11464524584724012692:11464524584724012692",
+     "units": 10851,
+     "signature": "4FQ8qkcxQfoS9cgpepwfTqhgzFreyBN8vJtwMg1AcM2cohNM3UkjU57RwwoR1x1Qt9hqmqEcmroynUYdFDfvCoSX",
+     "err": null
+    },
+    {
+     "op": "sync:12412003367810319408",
+     "units": 1925,
+     "signature": "cErczX2VLGqqdVsgR9Raw4jLJ4ndqQ7y4GfkFe4Qb76ac5kDfMTHG7CwzBH1y2h3mxhz75NPL8wGSQvnYPyp86D",
+     "err": null
+    },
+    {
+     "op": "floor:12412003367810319408:12412003367810319408",
+     "units": 7607,
+     "signature": "4mamn5XPHjwvdbfo8vafnBqAr4XyWpEDjA1GTjLyuosVSBPwREj5mGFnbVT135nFg5yiWYscbT3dg1DkM8ENvRKa",
+     "err": null
+    },
+    {
+     "op": "sync:15454152972101773224",
+     "units": 1925,
+     "signature": "XTxrhgjQtt6Kf8Dz7ggGoiNADqWhGqnn1tr6AQNr5PjK7ZPb7eLqVhqEaR4jAwqGR1LfLca3rbS3Sjgc6aZ7d8M",
+     "err": null
+    },
+    {
+     "op": "floor:15454152972101773224:15454152972101773224",
+     "units": 9360,
+     "signature": "5cGH6N4dhMoVHvgCvLn5TyGLJbECanzc5R5WJ5PFrD2NL6x1ETisXmEzG6DmiciJGHB1kuFq4VJJJzPD41sYb8EL",
+     "err": null
+    },
+    {
+     "op": "sync:11007019139547223501",
+     "units": 1925,
+     "signature": "DJhbQ8KRx8vFo7rEQkHGVTZaYanJGCMkaMmCdEKbVgw8WV3tDiniGBkGBxdteHW55YSYBKH7Py42NAF8Qnkgu7s",
+     "err": null
+    },
+    {
+     "op": "floor:11007019139547223501:11007019139547223501",
+     "units": 18107,
+     "signature": "43c1uZcev3G7zk21ScSU5EHPge59wyzauNkRzwQUW3VhmjkLcPtMBtFN1nrzGgwaGmrr9eDHwQPht22yTG2cLHQ8",
+     "err": null
+    },
+    {
+     "op": "sync:5025136712169992152",
+     "units": 1925,
+     "signature": "2g3H6epUpWTbpx2ZwBBYgZr3x7J4mZ5L2TR8ex6KR3tZnvLVLGHK7ZungtEV1Hdudr2qiWosVCwhNQKaNbbosqFs",
+     "err": null
+    },
+    {
+     "op": "floor:5025136712169992152:5025136712169992152",
+     "units": 14131,
+     "signature": "4utEnt4ZEqY1WGNgGyXGUsRTF9mg8QLFBZj8tkYkjUY1B1gUmXpixdyJvpSHetzvcYBbSbLG7qReDkw72sJvN1kN",
+     "err": null
+    },
+    {
+     "op": "sync:0",
+     "units": 1925,
+     "signature": "2RUJNHSZEh6NXrmuqQWPLLp1shGtTQGt4w9W5R1wF4m3TTMXMpWPvnijyh87AmVLKRitXjRe2JjjE7M3ypZXjVgS",
+     "err": null
+    },
+    {
+     "op": "floor:0:0",
+     "units": 13513,
+     "signature": "3YrXccXxHZZmLywJ1ChkPGh7gFmPy6CofwRK21Y8Dvv8zSLFfYAw2uJgzGYGdQHgytti3UUSboiZUvgLsTpA3LRq",
+     "err": null
+    },
+    {
+     "op": "sync:4207486889447797999",
+     "units": 1925,
+     "signature": "561dn8MBQ2dayhCewuaEnaVsTzNLZ4xEK8Bhihax1S8tNBNWQnMUijtfQdmgPz3r9h8Z7ayr6oaUAisZkgXgzXeL",
+     "err": null
+    },
+    {
+     "op": "floor:4207486889447797999:4207486889447797999",
+     "units": 12107,
+     "signature": "f5rUnmiQHputUgw3B92rjP6MihiJJ8vfG9jBLrTCJE41jSJfoCwRCVycGfrTzuA1dGewFN54KnjU8gzUz2oeTwM",
+     "err": null
+    },
+    {
+     "op": "cycle",
+     "units": 913,
+     "signature": null,
+     "err": {
+      "InstructionError": [
+       0,
+       {
+        "Custom": 65
+       }
+      ]
+     }
+    },
+    {
+     "op": "knock:0",
+     "units": 10146,
+     "signature": "34AV8UnqtQtRAsX3PVedPscWe82BwiwSLKbLhVDk4K863Bi1V4HVAZjGGgGsVgoiFr6WoVLHxRLFGCXmpVZ3JKdM",
+     "err": null
+    },
+    {
+     "op": "knock:4207486889447797999",
+     "units": 8646,
+     "signature": "478BLffvKDgJWNGVcPy4bxj17AHSAVM7KtH1zFaRThFQxwLyoWFyD5YAawMN272fzssyD5gpsk1WgvbHcAej7SvJ",
+     "err": null
+    },
+    {
+     "op": "sync:4663915260275082141",
+     "units": 1925,
+     "signature": "5frHh71veMwK2NVar1kkpcvBG3kybiikXQF7MZC8ZmApyHAktdLqvZNKTx3ChfV7U9m2sB1ZPQ1cKq4uddFx5rde",
+     "err": null
+    },
+    {
+     "op": "floor:4663915260275082141:4663915260275082141",
+     "units": 24107,
+     "signature": "3bK6mRLRg5UBm1XpMNKZ5DDPFt8X6BuKn4iKEzUojAmnmxWhfhogwmvHGgC7uvYpXNxBL3W53RYS7UjDuo7Q9TR7",
+     "err": null
+    }
+   ],
+   "the_cycle": "settle_cycle refused CycleOpen (custom 65): the newborn's claim, a fee site, had already rolled the cycle that ran out on Sept 6, on touch (cycle_seq 1 to 2); on the copy no grant was booked because the lift left the fund no free balance; on devnet's rent 3,666 bps of 974,235 (357,154) is booked to the current option's recipient (the crate's test)"
+  },
+  "the_fund_at_the_end": {
+   "feeBps": 250,
+   "cycleSlots": "1800",
+   "cycleStart": "525949269",
+   "cycleSeq": "2",
+   "totalIn": "1400000",
+   "totalOut": "375765",
+   "stakedTotal": "3",
+   "wpSum": "11000",
+   "wpWeight": "3",
+   "rangeLo": 2000,
+   "rangeHi": 8000,
+   "optionFee": "1000000",
+   "chairQuorum": 1,
+   "current": "637592d2448b898ffdd84476ae186ae3531cabfc602d00917b0163545b996740",
+   "currentSince": "494189263",
+   "currentRecipient": "ed5b910e1241679835a3e6d4281f7506a6080aa90261dc1f114cb4de3bf49b24",
+   "owed": "0",
+   "owedTo": "0000000000000000000000000000000000000000000000000000000000000000",
+   "hasCurrent": true,
+   "payoutBps": 3666,
+   "lamports": 6355760
+  }
+ },
+ "every_swarm_after": {
+  "the_same_as_before": [
+   "11701484260501267935",
+   "5677230299990261528",
+   "9140488088331189562",
+   "4663915260275082141",
+   "14384547036436175662",
+   "2460467653669162247",
+   "5025136712169992152",
+   "11007019139547223501",
+   "11085173774990033133",
+   "15454152972101773224",
+   "7803789076402480129",
+   "12412003367810319408",
+   "11464524584724012692",
+   "3393240975121717647",
+   "5067402218329764206",
+   "9895878121893159533"
+  ],
+  "changed": {
+   "0": "a knock at its door (the ordinary transactions' knock), nothing else",
+   "4207486889447797999": "a knock at its door (the ordinary transactions' knock), nothing else"
+  },
+  "new": {
+   "2751820440295151072": "A NEWBORN AFTER THE UPGRADE",
+   "4906665624544585759": "A NEWBORN AFTER THE GROWTH"
+  },
+  "accounts_of_before_changed": {
+   "count": 1,
+   "which": [
+    "7n3J6fujkQdFQ4YQyoUG4E1XGto2DyWBzuvrJNrSqdcn"
+   ]
+  }
+ },
+ "times_utc": [
+  "start 2026-11-24T23:04:29Z",
+  "validator up 2026-11-24T23:05:02Z",
+  "upgrade start 2026-11-24T23:05:14Z",
+  "upgrade end 2026-11-24T23:05:22Z",
+  "upgrade (final build) 2026-11-24T23:06:57Z",
+  "stopped (an intermediate build) 2026-11-24T23:07:07Z",
+  "validator up (again) 2026-11-24T23:07:26Z",
+  "upgrade start 2026-11-24T23:07:27Z",
+  "upgrade end 2026-11-24T23:07:36Z",
+  "growth 2026-11-24T23:08:43Z",
+  "txs start 2026-11-24T23:09:40Z",
+  "txs end 2026-11-24T23:10:45Z",
+  "txs end 2026-11-24T23:11:05Z",
+  "stopped 2026-11-24T23:11:39Z"
+ ],
+ "processes": "two validators, the first ended after it ran an intermediate build (an extend of 168 bytes was refused: ExtendProgram takes 10,240 at least), the second ran the whole rehearsal from devnet's state and was ended by its seat; no process left running",
+ "every_swarm_reads_the_same_after_the_upgrade_and_the_growth": true
+}

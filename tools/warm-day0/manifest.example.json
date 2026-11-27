@@ -1,0 +1,25 @@
+{
+  "about": "An example of the shape, built from a fixture: every address here belongs to somebody else's token (SRA) and stands in for one of ours. Replace all of them. A manifest holds public addresses only: no key, no secret.",
+  "mint": "BoY2UJq7VJmyYzgszK9bzo6MFqQB4u5NEMhRupiDwJp4",
+  "accounts": [
+    { "label": "pool vault (the ten percent)", "address": "AjtoZGtMWx7AZZBUFsuzhhYZL2MhF7xmVxH3MJVsuGj5" },
+    { "label": "fund, locked", "address": "35zT1xgDyVjk48DAEt5sN4C2HggckhPPn3oTy2RjhPXn" }
+  ],
+  "pool": {
+    "address": "3T1PUGQAq6881XzyX5nUQwk9YHEPxPjAay2gice9KFrZ",
+    "positions": ["pUMqtjspFsw15a39Tc6FQWmrREeUbaXvhYxSQhPXsKW"]
+  },
+  "locks": [
+    { "label": "fund", "address": "77vFUtcMWqAtqDtojH3GABx2ZPHUpsKe9KkzFq45ASrW" }
+  ],
+  "fund": { "address": "BUYmdVGKAYTNM3Qkwov3wwbzw7gewLzHLhFhCE7HeTUs" },
+  "houseWallets": [
+    { "label": "deployer", "address": "Boy7pkvoq3ipJ3qfxBzCFeA76x1segrZHEANHBX4XAoe" },
+    { "label": "fund", "address": "BUYmdVGKAYTNM3Qkwov3wwbzw7gewLzHLhFhCE7HeTUs" }
+  ],
+  "schedule": [
+    { "label": "genesis: the ten percent into the pool", "from": "Boy7pkvoq3ipJ3qfxBzCFeA76x1segrZHEANHBX4XAoe", "to": "AjtoZGtMWx7AZZBUFsuzhhYZL2MhF7xmVxH3MJVsuGj5", "amount": "100000000000000", "notBefore": 1778641000, "notAfter": 1778644600 },
+    { "label": "a published burn", "from": "BUYmdVGKAYTNM3Qkwov3wwbzw7gewLzHLhFhCE7HeTUs", "to": "burn", "amount": "1000000" }
+  ],
+  "burnDigest": { "address": "BUYmdVGKAYTNM3Qkwov3wwbzw7gewLzHLhFhCE7HeTUs" }
+}

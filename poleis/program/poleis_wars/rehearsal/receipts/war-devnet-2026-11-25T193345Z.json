@@ -1,0 +1,23 @@
+{
+  "cluster": "devnet",
+  "minute_seconds": 10,
+  "payer": {
+    "address": "BK6D1vEsc1awf7euRok8ufWkUKQbaDv9J9pCVirEiq2v",
+    "before": {
+      "lamports": 238281960,
+      "sol": 0.238282
+    }
+  },
+  "program": {
+    "id": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef"
+  },
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL)",
+  "result": "fail",
+  "validator": {
+    "feature-set": 1591744305,
+    "genesis": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+    "solana-core": "4.5.0-beta.0"
+  },
+  "wall_seconds": 2.6,
+  "why": "the payer holds 238281960 lamports; the run gives its stand-ins 40124189320 and needs about 0.005 SOL of fees more"
+}

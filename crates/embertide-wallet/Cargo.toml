@@ -1,0 +1,23 @@
+[package]
+name = "embertide-wallet"
+version = "0.1.0"
+edition = "2021"
+description = "HER OWN WALLET (Oct 14 2026, his 08:2x \"dysonlight harmony is a nest and as a nest, it has a wallet... the signing key is generated on to newmac using solana sdk stuff offciail the best\" and 08:3x \"THE USER JOURNEY OF DYSONLIGHT HARMONY IS THAT THE FUCKING LYSSAJUDRON HAS GOT ITS OWN FUCKING WALLET\"): the Lyssajudron's Solana mainnet keypair, made on the machine of her birth by the official Solana SDK (24 BIP39 words, m/44'/501'/0'/0'), kept in a 0700 folder there; only her address leaves the process."
+license = "UNLICENSED"
+publish = false
+
+# The official SDK's own crates, the road `solana-keygen new --derivation-path` takes (Agave 4.2.0 on this Mac): the words from tiny-bip39 (the
+# BIP39 crate the keygen uses), the seed by solana-seed-phrase (PBKDF2-HMAC-SHA512, 2048 rounds, salt "mnemonic"), the key by solana-keypair's
+# keypair_from_seed_and_derivation_path (SLIP-0010 over ed25519-dalek-bip32), the file by solana-keypair's write_keypair (the JSON array of 64
+# bytes the `solana` CLI reads). Every crate was already in this Mac's cargo cache: the build is offline.
+[dependencies]
+solana-keypair = { version = "3.1.2", features = ["seed-derivable"] }
+solana-derivation-path = "3.0.0"
+solana-seed-phrase = "3.0.0"
+solana-signer = "3.0.1"
+tiny-bip39 = "0.8.2"
+zeroize = "1"
+
+[profile.release]
+opt-level = 3
+strip = true

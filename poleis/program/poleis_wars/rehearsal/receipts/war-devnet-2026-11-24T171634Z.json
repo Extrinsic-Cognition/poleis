@@ -1,0 +1,34 @@
+{
+  "cluster": "devnet",
+  "minute_seconds": 10,
+  "payer": {
+    "address": "4NKgwRJokRVrvLxDXSeTVS53n9e9iwYJCbScdwQe6acd",
+    "before": {
+      "lamports": 40349985000,
+      "sol": 40.349985
+    }
+  },
+  "program": {
+    "deployed": {
+      "program_data": "676NDZ4Bhi5WjgPV9q3mYkH9PQa9VCU4Dw8eDtNWQzYM",
+      "sha256_of_this_tree's_length": "76002ff558c33f5ae344f7a0191ed233164a00238f268e8ce6420fe73b75b2a5",
+      "slot": 525822910,
+      "the same bytes as this tree's build": true,
+      "upgrade_authority": "FT9u9LszrszsRxygpwQ31Dj6VjZM8uENujRFC9ecYdzV"
+    },
+    "id": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+    "this_tree's_build": {
+      "bytes": 143792,
+      "sha256": "76002ff558c33f5ae344f7a0191ed233164a00238f268e8ce6420fe73b75b2a5"
+    }
+  },
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL)",
+  "result": "fail",
+  "validator": {
+    "feature-set": 1591744305,
+    "genesis": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+    "solana-core": "4.5.0-beta.0"
+  },
+  "wall_seconds": 704.9,
+  "why": "minute 62 missed: its transaction landed in minute 63 of the chain's clock (sent 1 s into its minute, 11.1 s to land at confirmed)"
+}

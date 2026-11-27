@@ -1,0 +1,43 @@
+{
+ "what": "A SEAT OWNER'S KEYSTONE ON A LOCAL CHAIN: the press's first act passed on a validator of this machine, its proposal and one of its two floor votes signed through the Keystone page itself (poleis/ceremony/keystone), as its seat's own mint was",
+ "validator": {"rpc":"http://127.0.0.1:8699","genesisHash":"F1YzGZFJt64Eou7WKRQrLmRcQHbYUtrxs314WuQMB8wZ"},
+ "keystone": {"owner":"HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ","by":"a stand-in key, held up to the page in a headless browser; no device","seat":"Ax8XDi5etSGTxZD5pD4DmApcTsJNNGD1aFs4nBQeHHMK"},
+ "act": {"n":1,"file":"1-the-fund.json","hash":"27dd2d6aeafabe012a809d432a158dde41020a582b755224754c71e5691856c9"},
+ "throughThePage": [
+  {
+   "what": "the Keystone's owner mints its own seat of root 0's floor",
+   "set": "seats/HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ.json",
+   "n": 1,
+   "signature": "4vT8bybAPofXougZmMTft4Pahig4BqrRc1DfkjvZBaZeN34AGMYSD7CDgmWmzhBe2yfosCCjytNFUBQddyQpKUEr",
+   "slot": 245,
+   "frames": 6,
+   "bytes": 1071
+  },
+  {
+   "what": "the Keystone's owner proposes the press's first act",
+   "set": "votes/1-HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ.json",
+   "n": 1,
+   "signature": "3HNkwVLFpZqrY8TQuHQujAuBEyrVv9rUVoxAvnvPMqgbndM9pbyyEiKyND8Q7VcziCYFpDeeT6SjsxaUZKpV6DqL",
+   "slot": 944,
+   "frames": 4,
+   "bytes": 618
+  },
+  {
+   "what": "the Keystone's owner votes PRO by its seat",
+   "set": "votes/1-HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ.json",
+   "n": 2,
+   "signature": "4PWPzKDA7pkcf7x34LbHkXc2RvAzJoGeC2NWE99ay9WzW1HSu6r9h3EPTFDyuLWytV5XoU3Yx5q4TgPgNBxzf4tp",
+   "slot": 948,
+   "frames": 2,
+   "bytes": 377
+  }
+ ],
+ "thePageShowed": [
+  "THE DOOR SIGNS THE SEAT: HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ's own mint of one seat of root 0's floor, by the permit the mint door signed for it; signed by HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ alone, its fee payer\na local chain, genesis F1Yz…B8wZ: a rehearsal, nothing real moves\nmint one seat of root 0's floor at the curve's price now, 1200000 lamports (1200000 at most), by the permit root 0's issuer FbKPJzYwpUr1v8FUbirx7sAm3w51Rg6NdNEUS71NxiBb signed for HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ: Solana checks its signature, then mint_nft seats HWyKo1WpnbxXesUtmXiMwDfRDckt2LnvhmXFLT2753TQ; the permit lasts to slot 941\nthe Keystone shows the program Ed25519SigVerify111111111111111111111111111 and the data 9xyRxnYfqpzoz2fvf5zkJezLsXEb5dg8ajdjTFmuPzDQBBkuCLwB3JGvsVsbJKnhokTBEeb6kjg9ovbr8K9fbZjqPwQzfHHRbwpEu6QbAogS5PPFyYW59jsCuCQK9yXPiVspFt2kZ9W6Vs8xPc6X4rKTXJDzBaKvrRkVkJHhP5mitubAhx6yn7yLSWjo2RVniY3E1Je9zJaDAHNVxFmioSf1LJMy2MLqQWtbP66FBFzsqQkWJsPkbX2iXxwpbSa6cfF2fU6n17TQ5EjoMBhQGWiptyNQncLBFAG9TkRHWcrp2eTYDmCcT8cPtqv8vzBr1soifWKcZ4vMk1pTcwjFqmxr4tHDUBo7fyeJEDEUqbHSB7ye6hPbci56WTZf3MiG9N8AQG2Gdg1CH9J6ohwvcFsteQJgRxfjBtHQdoJELuK8dAK2cGBEg8qAdkdrP7ZMBMnnvEZq9jsKuBDXTtna5DnQ8AmuiDRG21CqdzEB\nthe Keystone shows the program 7PQGC2Po7nZmPw5rZaeAQ9LEk7DDTLMRVsvxQupH8rtX and the data 2YP4ujEZ1JsuWcgsnLNeoGj5hdEq5sEQuDJLisgUhcK4chD8mwR6ATf5vxArKsCwAkGfgdTCm3ZjM2B7M5TPSBs3rctJkWW3dzqy5QvavEq\nin order · 1071 bytes · signer HWyK…53TQ",
+  "act 1 (the fund's constitution (CODEX_FUND)), its hash 27dd2d6aeafabe012a809d432a158dde41020a582b755224754c71e5691856c9. THE LAUNCH PRESS, act 1: the fund's constitution (CODEX_FUND). THE WHOLE TREE DECIDES: root 0's floor votes it by each seat owner's own transaction; here one owner's, its proposal first, each signed by that owner alone. Two of unit 1's three agents AND more than half of the floor's seats pass it; press crank sends everything else\na local chain, genesis F1Yz…B8wZ: a rehearsal, nothing real moves\nconstitute the fund of every swarm: a fee of 250 bps on every sale, a cycle of 1000 slots, a payout range of 2000 to 8000 bps, an option fee of 1000000 lamports, a chair quorum of 7\nthe proposer is a member of root 0: its seat Ax8XDi5etSGTxZD5pD4DmApcTsJNNGD1aFs4nBQeHHMK proved by its token, the proposal's rent and fee paid by its owner\nthe Keystone shows the program 7PQGC2Po7nZmPw5rZaeAQ9LEk7DDTLMRVsvxQupH8rtX and the data MhTKKcuFm77K2ayM3UutfVSXiR2SKrFp98yRhKjUduJ6Xy5gDRaGAz9Kqy4AGGNQ3cB74Nj8jK2z6gFjLMiUC2d2CZjnaUgdJm6zVPng61jx1eGkRxmip4vyFD5YfhuWU6exPr7PYKcCLPD1morRMnSgfSkLC5XZY\nin order · 618 bytes · signer HWyK…53TQ\nthe PRO of the seat Ax8XDi5etSGTxZD5pD4DmApcTsJNNGD1aFs4nBQeHHMK in root 0's floor on act 1: one hexagon, one vote, its owner's own transaction; sign and send once the act is proposed, inside its vote's window\nthe Keystone shows the program 7PQGC2Po7nZmPw5rZaeAQ9LEk7DDTLMRVsvxQupH8rtX and the data pamhFf1PHLQPPfkDrtTGR87okkTyQy9zJHE3Uj4KJwEM4WLorTrZ3u3FE\nin order · 377 bytes · signer HWyK…53TQ"
+ ],
+ "alone": "with the Keystone's seat PRO and two agents' envelopes: unit 1 PASSED, root 0 still VOTING, not executed",
+ "passed": "with a second seat owner's PRO: unit 1 PASSED (2 chairs), root 0 PASSED (its chair, 2 of 3 seats), executed by press crank",
+ "transactions": 3,
+ "seconds": 487
+}

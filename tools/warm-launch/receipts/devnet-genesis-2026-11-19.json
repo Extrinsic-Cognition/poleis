@@ -1,0 +1,147 @@
+{
+  "what": "THE GENESIS SHARES THE TENTH, rehearsed on devnet",
+  "tag": "g1119a",
+  "at": "2026-11-19T19:02:57.583Z",
+  "keys": {
+    "launch": "8ybrhxGMafjGoNU4a5Y6Jm2XgBAmZW21kyhg2LHakmvK",
+    "vault": "8nBUtQkPCQevYZSXLCVKQwAJZf1TtWz54QttzFQcxjMy",
+    "usdc": "J73ZqeR8mb4cBZ75yfa6dm1qhSN2ayUQD3x6jMMLQoXt",
+    "fee": "J3TChYpykrC8fsMY5rx3ujMKAsgZpfux9rQwuNS3smp6",
+    "till": "8HczSgeyBUJtTH7fCmPhNR26CCBdJnNrm6y4TuB6EH1z",
+    "flask": "Hs4E9VidueGd7JeVFznBBjx7cZVoKGZiiyvcmfbrnsix",
+    "own": "BtB3s2Us5sUQ99Dz34wsFAs7Syn8qeXE7zRfBy9sXthc",
+    "poured": "J21X4vEsjdw9aHdPZv2CBQ6QRXQzBFScX7fTAMqbXAti"
+  },
+  "steps": [
+    {
+      "label": "the same flask again",
+      "signature": "3vwxa7q1fp8XZgMZ3TU8WVvYwZmCmcvE7GbLgStwntK7Sf5GQaJkWczvZBRyXLQ28goDHRy6PCTBMJyV3GrDWZps",
+      "slot": 524090114,
+      "blockTime": 1795114981,
+      "units": 23420
+    },
+    {
+      "label": "the house's USDC for a flask",
+      "signature": "c8fQweF9pR8P6FJkHkM2xqtGr4f6nRqKpZ7ZNmRFRUHCKdHDdwL1UuWr5ysiKC1haJFFg8wkQxj5AsotYzeVjt9",
+      "slot": 524090114,
+      "blockTime": 1795114981,
+      "units": 23419
+    },
+    {
+      "label": "a flask, the house paying its fee",
+      "signature": "2a91qdySUVwTsk33t2SmqJM9durJn4QKi3U2xpLje1BJPZqPbghzncYqa1bqpMUUtMewkFtKvbNPeicBL82Rbrie",
+      "slot": 524090114,
+      "blockTime": 1795114981,
+      "units": 23420
+    },
+    {
+      "label": "a depositor paying its own fee",
+      "signature": "45MCCJ7Jn3EZpLPUAtDRFXT1X98U6eHS8CP1MQjb5gG7GZ2TnKAacTh76MModEPUgXgPSZ7vQvfsrqoiyiT9rCDW",
+      "slot": 524090114,
+      "blockTime": 1795114981,
+      "units": 23383
+    },
+    {
+      "label": "the genesis: genesis",
+      "signature": "5FTp1svJXZb2fyYo3EbTJAVHwdQxXjP7FKbCstL1HBXxATEUYBgzVMtdmZnFQ4SLtK13JUz9m8PRXhzhw7fLn5qZ",
+      "slot": 524090120,
+      "blockTime": 1795114982,
+      "units": 63744
+    },
+    {
+      "label": "one deposit after the genesis",
+      "signature": "Fyh5NoW5U1DuREnS89xnJgtpXYEZygDVd92B1124NSkZRnCryS7WtLnbu2BBm84PAVkECVEQ6NAx5QTVjX9dW3a",
+      "slot": 524090124,
+      "blockTime": 1795114983,
+      "units": 23383
+    },
+    {
+      "label": "the share: share 1",
+      "signature": "4hhiBGTmgHzKtsMCEthq44SPFsyhTppC53iFYVFSj4d98GXnLMMFxqwXBP1w5uvxBdTRKyNzXfJ5XW53pWLB52cV",
+      "slot": 524090183,
+      "blockTime": 1795114997,
+      "units": 56019
+    }
+  ],
+  "cluster": "devnet",
+  "mint": "AqAfgL57hjNitendC624rzdyihu6MBYq4tdB2sGUMhxu",
+  "usdc": "8StvYCeXzPg9VBBDMFmfuq5kDKMHKCPx8A2y7Zzc94GM",
+  "treasury": "B9yjhr3NADC1i1Anc9YbAdk7JF3AddAbipSkQVf2Cv9u",
+  "before": "2026-11-19T19:03:02.000Z",
+  "rows": [
+    {
+      "signature": "2a91qdySUVwTsk33t2SmqJM9durJn4QKi3U2xpLje1BJPZqPbghzncYqa1bqpMUUtMewkFtKvbNPeicBL82Rbrie",
+      "payer": "Hs4E9VidueGd7JeVFznBBjx7cZVoKGZiiyvcmfbrnsix"
+    },
+    {
+      "signature": "3vwxa7q1fp8XZgMZ3TU8WVvYwZmCmcvE7GbLgStwntK7Sf5GQaJkWczvZBRyXLQ28goDHRy6PCTBMJyV3GrDWZps",
+      "payer": "Hs4E9VidueGd7JeVFznBBjx7cZVoKGZiiyvcmfbrnsix"
+    },
+    {
+      "signature": "45MCCJ7Jn3EZpLPUAtDRFXT1X98U6eHS8CP1MQjb5gG7GZ2TnKAacTh76MModEPUgXgPSZ7vQvfsrqoiyiT9rCDW",
+      "payer": "BtB3s2Us5sUQ99Dz34wsFAs7Syn8qeXE7zRfBy9sXthc"
+    },
+    {
+      "signature": "c8fQweF9pR8P6FJkHkM2xqtGr4f6nRqKpZ7ZNmRFRUHCKdHDdwL1UuWr5ysiKC1haJFFg8wkQxj5AsotYzeVjt9",
+      "payer": "J21X4vEsjdw9aHdPZv2CBQ6QRXQzBFScX7fTAMqbXAti"
+    },
+    {
+      "signature": "Fyh5NoW5U1DuREnS89xnJgtpXYEZygDVd92B1124NSkZRnCryS7WtLnbu2BBm84PAVkECVEQ6NAx5QTVjX9dW3a",
+      "payer": "BtB3s2Us5sUQ99Dz34wsFAs7Syn8qeXE7zRfBy9sXthc"
+    }
+  ],
+  "shares": [
+    {
+      "payer": "J21X4vEsjdw9aHdPZv2CBQ6QRXQzBFScX7fTAMqbXAti",
+      "put": "600412645",
+      "share": "90571910119469813"
+    },
+    {
+      "payer": "BtB3s2Us5sUQ99Dz34wsFAs7Syn8qeXE7zRfBy9sXthc",
+      "put": "37500000",
+      "share": "5656853928318112"
+    },
+    {
+      "payer": "Hs4E9VidueGd7JeVFznBBjx7cZVoKGZiiyvcmfbrnsix",
+      "put": "25000000",
+      "share": "3771235952212075"
+    }
+  ],
+  "refused": [
+    {
+      "signature": "Fyh5NoW5U1DuREnS89xnJgtpXYEZygDVd92B1124NSkZRnCryS7WtLnbu2BBm84PAVkECVEQ6NAx5QTVjX9dW3a",
+      "why": "paid at or after the genesis instant"
+    }
+  ],
+  "balances": {
+    "J21X4vEsjdw9aHdPZv2CBQ6QRXQzBFScX7fTAMqbXAti": {
+      "share": "90571910119469813",
+      "holds": "90571910119469813"
+    },
+    "BtB3s2Us5sUQ99Dz34wsFAs7Syn8qeXE7zRfBy9sXthc": {
+      "share": "5656853928318112",
+      "holds": "5656853928318112"
+    },
+    "Hs4E9VidueGd7JeVFznBBjx7cZVoKGZiiyvcmfbrnsix": {
+      "share": "3771235952212075",
+      "holds": "3771235952212075"
+    }
+  },
+  "transactions": {
+    "genesis": 1,
+    "share": 1
+  },
+  "sent": 1,
+  "checks": {
+    "the supply is 1 billion at 9 decimals": true,
+    "no one can mint more": true,
+    "no one can freeze": true,
+    "the 90% is the vault's": true,
+    "the launch key keeps nothing of the tenth": true,
+    "three payers, four deposits counted": true,
+    "the house's pour is the flask's": true,
+    "the deposit after the genesis did not count": true,
+    "every payer holds their share": true,
+    "the shares are the tenth": true
+  }
+}

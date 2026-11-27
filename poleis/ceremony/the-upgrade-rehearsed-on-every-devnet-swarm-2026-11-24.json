@@ -1,0 +1,663 @@
+{
+ "what": "THE UPGRADE, REHEARSED ON EVERY DEVNET SWARM: every account devnet's Poleis owns copied onto a validator of this Mac with devnet's own program and devnet's own feature set, every swarm read as Swarmbook's wall reads it, the program upgraded in place to this tree's build, every swarm read again, and ordinary transactions sent to the old swarms",
+ "verdict": "NO-GO",
+ "why": "every swarm reads the same after the upgrade and the upgraded program acts on every old swarm's registry, config, treasury and pool, but devnet's fund is the 706-byte fund of before Sept 9 and this tree's program refuses a fund of any size but 778 (ix/fund.rs fund_present, LayoutVersion): after the upgrade every fee site (claim_seat, settle, buy_seats, an admission, the fund's own constitution) fails, so no seat could be claimed, sold or admitted on any swarm, a newborn's first hexagon included, and the fund could not be re-constituted. The program has no road to move an older fund (THE-AUDITS-SMALL-CURES-LANDING.md finding 4: 'a program that holds an older one needs its own road for it')",
+ "where": "a validator of this Mac (solana-test-validator 4.2.0, 127.0.0.1:18899, warped to devnet's slot 525,941,359, its features cloned from devnet with --clone-feature-set); the program loaded upgradeable at its own id with a stand-in upgrade authority of the run (4unyh\u2026Lnic), the payer a stand-in (J5Ngh\u2026LRAg); no key of his read or used; nothing sent to devnet",
+ "devnet_reads": {
+  "at": "2026-11-24T22:34:06Z",
+  "getProgramAccounts_slot": 525941359,
+  "calls": "getProgramAccounts once, getAccountInfo for the dump and the show, getMultipleAccountsInfo and getSlot for one read of the wall, the feature accounts for --clone-feature-set; no transaction"
+ },
+ "program": "AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab",
+ "before": {
+  "build": "devnet's, `solana program dump` on Nov 24 2026",
+  "programdata_bytes": 340000,
+  "bytes_without_trailing_zeros": 332185,
+  "sha256_without_trailing_zeros": "4beb92f40649d8babe8dc5da1ac5ebbe34a74ba32bac0dea518322ee267556a6",
+  "last_deploy_slot_on_devnet": 494235143,
+  "authority_on_devnet": "his devnet wallet (3nJn2\u2026KMba)"
+ },
+ "after": {
+  "build": "this tree's poleis_treasury at main 3ddf7509ae, `cargo-build-sbf --arch v3`, unpatched (its declared id is devnet's)",
+  "bytes": 438744,
+  "sha256": "1b79ac070e29c139362b54147654a21fbf22358771d8b53bb1beff1494c07ec2",
+  "read_back_byte_for_byte": true,
+  "extended_by": 98744,
+  "extend_needed_the_authority": false,
+  "loader_took_sbpf_v3_under_devnets_features": true,
+  "last_deploy_slot_local": 525941777
+ },
+ "accounts_copied": {
+  "count": 242,
+  "by_kind": {
+   "treasury": 32,
+   "proposal (1024 B)": 32,
+   "registry": 32,
+   "config": 17,
+   "seat bid": 48,
+   "seat sale": 17,
+   "session": 50,
+   "fee tally": 3,
+   "stake": 2,
+   "allowance": 2,
+   "fund (706 B)": 1,
+   "option": 1,
+   "distribution": 2,
+   "proposal (34 B)": 1,
+   "pool": 2
+  },
+  "copy_equal_to_devnet": true
+ },
+ "swarms_read": {
+  "roots": 17,
+  "on_the_wall": 9,
+  "reader": "embertide-app/ui/intro/dyson-society/js/poleis-client.js in Node with the page's vendored web3 1.95.8 and tweetnacl; tree.js take/alive/roots/subtree/history and scanBalances as the wall has them; the wall's slot devnet's",
+  "layout_7_generation": "AJNrRxyvysf7iokrDLBHeoJQUqitiBva3nRUnCj7VEkJ, another program, untouched by this upgrade and not copied"
+ },
+ "every_swarm_on_the_wall": [
+  {
+   "root": "9895878121893159533",
+   "the_page_reads": {
+    "name": "THE OPEN FLOOR",
+    "chambers": 1,
+    "seats": 5,
+    "rung": 1,
+    "chairs_held": 12,
+    "treasury_lamports": 5981615,
+    "decisions": 2,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "5067402218329764206",
+   "the_page_reads": {
+    "name": "THE THIN LINE",
+    "chambers": 3,
+    "seats": 3,
+    "rung": 2,
+    "chairs_held": 8,
+    "treasury_lamports": 5944845,
+    "decisions": 1,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "11464524584724012692",
+   "the_page_reads": {
+    "name": "THE SPLIT",
+    "chambers": 3,
+    "seats": 6,
+    "rung": 3,
+    "chairs_held": 11,
+    "treasury_lamports": 8944845,
+    "decisions": 1,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "12412003367810319408",
+   "the_page_reads": {
+    "name": "The Game Publisher",
+    "chambers": 1,
+    "seats": 1,
+    "rung": 1,
+    "chairs_held": 1,
+    "treasury_lamports": 890664350,
+    "decisions": 0,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "15454152972101773224",
+   "the_page_reads": {
+    "name": "THE WORKSHOP",
+    "chambers": 1,
+    "seats": 4,
+    "rung": 1,
+    "chairs_held": 12,
+    "treasury_lamports": 244981615,
+    "decisions": 3,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "11007019139547223501",
+   "the_page_reads": {
+    "name": "THE DEAD LETTER",
+    "chambers": 1,
+    "seats": 2,
+    "rung": 1,
+    "chairs_held": 8,
+    "treasury_lamports": 102981615,
+    "decisions": 1,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "5025136712169992152",
+   "the_page_reads": {
+    "name": "THE CROWDED ROOM, SEALED",
+    "chambers": 2,
+    "seats": 12,
+    "rung": 1,
+    "chairs_held": 12,
+    "treasury_lamports": 13963230,
+    "decisions": 2,
+    "at_the_door": null,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": "equal"
+  },
+  {
+   "root": "0",
+   "the_page_reads": {
+    "name": "THE ROOT, TIPPED",
+    "chambers": 2,
+    "seats": 8,
+    "rung": 2,
+    "chairs_held": 12,
+    "treasury_lamports": 599713230,
+    "decisions": 14,
+    "at_the_door": 8,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": {
+    "knocking": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "root": "4207486889447797999",
+   "the_page_reads": {
+    "name": "A TEST SWARM",
+    "chambers": 1,
+    "seats": 1,
+    "rung": 2,
+    "chairs_held": 7,
+    "treasury_lamports": 1762400,
+    "decisions": 1,
+    "at_the_door": 10,
+    "knocking": 0,
+    "mode": 2
+   },
+   "devnet_itself_equal": true,
+   "before_and_after_the_upgrade_equal": true,
+   "after_the_ordinary_transactions": {
+    "knocking": [
+     0,
+     1
+    ]
+   }
+  }
+ ],
+ "the_roots_off_the_wall": [
+  {
+   "root": "11701484260501267935",
+   "name": "THE SPLIT",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "5677230299990261528",
+   "name": "THE THIN LINE",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "9140488088331189562",
+   "name": "THE OPEN FLOOR",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "14384547036436175662",
+   "name": "THE WORKSHOP",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "2460467653669162247",
+   "name": "THE CROWDED ROOM",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "11085173774990033133",
+   "name": "THE THIN LINE",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "7803789076402480129",
+   "name": "THE SPLIT",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  },
+  {
+   "root": "3393240975121717647",
+   "name": "DYSONLIGHT HARMONY",
+   "why_off": "a founding whose first sale closed with nothing revealed (tree.js alive)",
+   "before_and_after_equal": true
+  }
+ ],
+ "every_account_before_and_after_the_upgrade": {
+  "changed": 0,
+  "of": 242
+ },
+ "the_fund": {
+  "address": "7n3J6fujkQdFQ4YQyoUG4E1XGto2DyWBzuvrJNrSqdcn",
+  "bytes": 706,
+  "the_tree_wants": 778,
+  "fee_bps": 250,
+  "total_in_lamports": 1325000,
+  "lamports": 5185955,
+  "the_page_reads_it_the_same_after": true
+ },
+ "ordinary_transactions_on_the_upgraded_program": {
+  "landed": 20,
+  "refused": [
+   {
+    "op": "cycle",
+    "units": 175,
+    "signature": null,
+    "err": {
+     "InstructionError": [
+      0,
+      {
+       "Custom": 2
+      }
+     ]
+    }
+   }
+  ],
+  "each": [
+   {
+    "op": "sync:9895878121893159533",
+    "units": 1925,
+    "signature": "4Nj1SBy31u6XRjdxttCvDLuPgFyMyK2eTvnJvW3wsyAFBQyBFBLLrmVtrM2heya91wVHkrPmVw9j1Eaue25KFUpB",
+    "err": null
+   },
+   {
+    "op": "floor:9895878121893159533:9895878121893159533",
+    "units": 15361,
+    "signature": "44avE7LqL112ENaggyvhU9ovmaiiNgtfMV2ppkAUEU7DsXdzbpEfJoHM12wo19x9MqxfLJogLyusRyM8KZys3cWX",
+    "err": null
+   },
+   {
+    "op": "sync:5067402218329764206",
+    "units": 1925,
+    "signature": "2u4Xuf9phGMc9ZgD9dP3orErhFzdfVUNBEw6iMvErzK2Wbqr5vJL4XeAAw4SjEKnENbJ5pDWYdWaZwty3vHpjz6c",
+    "err": null
+   },
+   {
+    "op": "floor:5067402218329764206:5067402218329764206",
+    "units": 10608,
+    "signature": "4g6yoNiKgceZyR125agDEaghpyrXbpEJfzvqwjMmv5XXEjGbHMzDS5KUMfNpL8AYa36QaVsj5stfUSy8ibpJkRVk",
+    "err": null
+   },
+   {
+    "op": "sync:11464524584724012692",
+    "units": 1925,
+    "signature": "442UsyivXXW3bUP3KAyh3MNeTUUqqTdn8yZGa7BCazsE347K9fUU1Fb57oQ81krm3RZZ5QRVLK3ckWAcNmYDrcuD",
+    "err": null
+   },
+   {
+    "op": "floor:11464524584724012692:11464524584724012692",
+    "units": 10852,
+    "signature": "5nPoAyT7EYSYJn1BEjiL6z6am6eji1Muprqq1HiQGFCvZBnCyVpHB8Y9ajmcTpq5KPvxkkfkc2QF4E5pHjxGAf7Q",
+    "err": null
+   },
+   {
+    "op": "sync:12412003367810319408",
+    "units": 1925,
+    "signature": "p3mLVEDt8MT4P4oA1svvjCEWRU5fZLsXPffpKoKUc3iQGfFZAANd5gZwvvw514Hb95Hi3CPgZpgpNvSdmZkUTii",
+    "err": null
+   },
+   {
+    "op": "floor:12412003367810319408:12412003367810319408",
+    "units": 7608,
+    "signature": "4dPYkNZU8UPBDUHhVRevbMLRCsXoVGm4WSoGbQdcMj5Wr9P28pq5UD9zePQa9zWEFTyDSpe3b6MyyJTY2AneytJQ",
+    "err": null
+   },
+   {
+    "op": "sync:15454152972101773224",
+    "units": 1925,
+    "signature": "5yHTnKXbCVNziVQ1X4iB21uinmobhXGmSUy6mHAc9VoAb4xWAc4JmHNcrzfjedjDiRCBrkvr9n3LHRhELTvmwowA",
+    "err": null
+   },
+   {
+    "op": "floor:15454152972101773224:15454152972101773224",
+    "units": 9361,
+    "signature": "4xa8JUkzpNNhXb2FzhVFTFA2KChLbV8JfpyRiHkXschLJpE7GdLEoDS5q1qJ92xhHpUywuoQdNWcrNuWZpjZMJLo",
+    "err": null
+   },
+   {
+    "op": "sync:11007019139547223501",
+    "units": 1925,
+    "signature": "3hScxqawPgMUyARKKgP54bR8a7tMLR933pJ1eXi9aAyK6MoDwhnufWhNksTCWcg7eQqt1yBLtsnjdpvbESm9akvR",
+    "err": null
+   },
+   {
+    "op": "floor:11007019139547223501:11007019139547223501",
+    "units": 18108,
+    "signature": "5J87uj3S7hMYreKmjGr5sqaXRsPWZ8JUyG4Guzp7rhmhWCvKZSq9KQYtD43PmJaok1XG1QTm7bVqniNyo65wH54f",
+    "err": null
+   },
+   {
+    "op": "sync:5025136712169992152",
+    "units": 1925,
+    "signature": "MWSqqsYZDKC488PUSgJ6HKD6jNRrHtjiXKhgvceq3aPcMTZS2pTUXoQUXUns5Hd5ngcmYJ2xwLshT9UqivFwBkp",
+    "err": null
+   },
+   {
+    "op": "floor:5025136712169992152:5025136712169992152",
+    "units": 14132,
+    "signature": "5g9zhLAJiLKycU2pgGjZdbJjhkKvS8u2pPYMouAsLxRHDcVC9Jfn4jweqr6n59ScHd43TpTxxsPcfJzBMrNH8gvJ",
+    "err": null
+   },
+   {
+    "op": "sync:0",
+    "units": 1925,
+    "signature": "2BVXuBNsSR76q4yXoJE5PUGfTZdhggPiGyGQfS72ecQekibCfnxV9ES9wLrXcYsrpVkRZbMX4HsMFkG1NyAs72b8",
+    "err": null
+   },
+   {
+    "op": "floor:0:0",
+    "units": 13514,
+    "signature": "5fCY7rUhGE5jEsod8Zpphx27PsPpMYjVn7pUEqUqkgYMGSK9Fy3joN2PYcqYwZLJWP9xkVyHkTFywP6RauLwuZtR",
+    "err": null
+   },
+   {
+    "op": "sync:4207486889447797999",
+    "units": 1925,
+    "signature": "G8XsEntEanN1zxGhZafj6YWb4YeZ56yR4Uqw1rxEo9gvvxcZkAzwta9uaigTXiHaGRtWZqoMYkS5xSCZfzNxXSZ",
+    "err": null
+   },
+   {
+    "op": "floor:4207486889447797999:4207486889447797999",
+    "units": 12108,
+    "signature": "ScNRPuQmgytFGgbDRHMdRabNew1SGWLbXAmYJoRDq4riKn9dAq2SF1LGCW1dCWqEp8EYMdnKBaYdhjfmS123KgD",
+    "err": null
+   },
+   {
+    "op": "cycle",
+    "units": 175,
+    "signature": null,
+    "err": {
+     "InstructionError": [
+      0,
+      {
+       "Custom": 2
+      }
+     ]
+    }
+   },
+   {
+    "op": "knock:0",
+    "units": 10147,
+    "signature": "5gS9kWcu2b2stkw2yD8kS66db3E6hUD564eSu9pGiJLjq1sV8XDGWTyYdq7b9tCPXRZYJ5b7oMccYQBEHrysZ4dP",
+    "err": null
+   },
+   {
+    "op": "knock:4207486889447797999",
+    "units": 10147,
+    "signature": "4epmPjg3q167w6J44RAVPXoPxYtdZxQUcw6cAYg4jsSz22jB2Qg7JMcmUTYT2SgCUDs2a51u5Lp3EcNFgLvFpQUT",
+    "err": null
+   }
+  ],
+  "what_they_are": "sync_endowment on each wall swarm's root treasury, sync_assembly_floor on each wall swarm's root (reads its old registry and config, writes a new floor), a knock at the two doors that stand (THE ROOT, TIPPED and A TEST SWARM, unit 0 and 4207486889447797999), settle_cycle on the fund",
+  "the_same_under_devnets_old_build_simulated": [
+   {
+    "op": "sync:9895878121893159533",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:9895878121893159533:9895878121893159533",
+    "err": null,
+    "units": 15456
+   },
+   {
+    "op": "sync:5067402218329764206",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:5067402218329764206:5067402218329764206",
+    "err": null,
+    "units": 10655
+   },
+   {
+    "op": "sync:11464524584724012692",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:11464524584724012692:11464524584724012692",
+    "err": null,
+    "units": 10947
+   },
+   {
+    "op": "sync:12412003367810319408",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:12412003367810319408:12412003367810319408",
+    "err": null,
+    "units": 7655
+   },
+   {
+    "op": "sync:15454152972101773224",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:15454152972101773224:15454152972101773224",
+    "err": null,
+    "units": 9456
+   },
+   {
+    "op": "sync:11007019139547223501",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:11007019139547223501:11007019139547223501",
+    "err": null,
+    "units": 18155
+   },
+   {
+    "op": "sync:5025136712169992152",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:5025136712169992152:5025136712169992152",
+    "err": null,
+    "units": 14275
+   },
+   {
+    "op": "sync:0",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:0:0",
+    "err": null,
+    "units": 13801
+   },
+   {
+    "op": "sync:4207486889447797999",
+    "err": null,
+    "units": 1917
+   },
+   {
+    "op": "floor:4207486889447797999:4207486889447797999",
+    "err": null,
+    "units": 12155
+   },
+   {
+    "op": "cycle",
+    "err": {
+     "InstructionError": [
+      0,
+      "NotEnoughAccountKeys"
+     ]
+    },
+    "units": 861
+   },
+   {
+    "op": "knock:0",
+    "err": null,
+    "units": 10144
+   },
+   {
+    "op": "knock:4207486889447797999",
+    "err": null,
+    "units": 10144
+   }
+  ]
+ },
+ "a_newborn_after_the_upgrade": {
+  "steps": [
+   {
+    "step": "the birth (config and genesis)",
+    "err": null,
+    "units": 16520,
+    "signature": "2eB8oyBpBSmHDcbEqXCiPc8Y5S32LuzYWKgTzJAfvARe7gckj2XyLWbd81DSQ1wWXYh1TuvUVWUWXEVYzAyeH1im"
+   },
+   {
+    "step": "a sealed bid for a hexagon",
+    "err": null,
+    "units": 6409,
+    "signature": "2efGcy3Zn9hfAvSvr3wNhewhyvAGYoTMgxN1EeYGYDGvJ1m3ETc6k4TDzFgLfxD45uE963QcFKoZCJWW5c3mLWAp"
+   },
+   {
+    "step": "the bid revealed",
+    "err": null,
+    "units": 4615,
+    "signature": "4AEdLLu2miDVZV2qwSVWTiyQGHP72wadQ8hNZk7bvMNVzATaRN5EA2v2LpM2TdmeAmMHcGxPQw5cEbwFC9JQoxoe"
+   },
+   {
+    "step": "the sale settled",
+    "err": null,
+    "units": 4358,
+    "signature": "3fmUSRxKrNFTEABkGwtzgZrekYv1ueu1pKdHGQQhnzmbg25vuKNBPDEziTAVe5WfpAf5MYanDo4DHzE2pjQFad7s"
+   },
+   {
+    "step": "the first hexagon claimed (a fee site)",
+    "err": {
+     "InstructionError": [
+      0,
+      {
+       "Custom": 21
+      }
+     ]
+    },
+    "units": 10163,
+    "logs": [
+     "Program AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab invoke [1]",
+     "Program 11111111111111111111111111111111 invoke [2]",
+     "Program 11111111111111111111111111111111 success",
+     "Program AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab consumed 10163 of 200000 compute units",
+     "Program AJdsmjxQjHnBxDEdRxwEk2UMRW7bgNmvEMUwMziRTyab failed: custom program error: 0x15"
+    ]
+   }
+  ],
+  "ends": "its first hexagon's claim refused: custom error 21, LayoutVersion, at the fund (the fee site); the sale stays settled and unclaimed, the genesis never ratifies"
+ },
+ "the_control_on_devnets_old_build": {
+  "steps": [
+   {
+    "step": "the birth (config and genesis)",
+    "err": null,
+    "units": 16523,
+    "signature": "2im22ayqnFQHbTy5fqDBrZ691PWU9VJdYhTCsekdogPBoto2gLbTX2KX7shEaAy8dF9MoB7WjTs5ZsXgXZu5APtz"
+   },
+   {
+    "step": "a sealed bid for a hexagon",
+    "err": null,
+    "units": 6408,
+    "signature": "zTrMWVr4JfL3wKQTuBxiPiBM1PKN4HRX2UdqSYgNeFr5A5JkLMTgciGEuMM4o5MhYUw7b1xyLqGvC7T9EVNu5ZE"
+   },
+   {
+    "step": "the bid revealed",
+    "err": null,
+    "units": 4612,
+    "signature": "262cj8sF75mvnVRMH5tNMqS88P5mJmSVP72ewB2TJ3eQHS3cVDpWmqo4BvRbNEbid6g9XXHeymFituHhGYxt8rUU"
+   },
+   {
+    "step": "the sale settled",
+    "err": null,
+    "units": 4348,
+    "signature": "2RQ9zJKqTzgDeyk428gFctXuiqFVWwpLgqXPcZYczWft8PUmZFPBT8wGpxNyMSGAWrLFxoJADiCdr8MNsLTrUBBR"
+   },
+   {
+    "step": "the first hexagon claimed (a fee site)",
+    "err": null,
+    "units": 18105,
+    "signature": "5TkAdtrVj9Nk2RofRvcpExVSojF99Pb4ZTd6pAXizDoRZm7ascmgXp3sgTj3ZCQ3G8BjVtfgEHmww6ipZgLuBVCn"
+   },
+   {
+    "step": "the genesis ratified",
+    "err": null,
+    "units": 11785,
+    "signature": "4aU5ZNwXAvRofjdtH3pPWtvcXdnEgXw11pLWk5Vu8XSDzuCoGntU8wpvwQk1SuCYh66H5ycDpC97vG7PUkkVQfFG"
+   }
+  ],
+  "ends": "the same birth, claim and ratification all land; the claim paid the 706-byte fund 25,000 lamports (2.5 % of the 1,000,000 clearing): total_in 1,325,000 to 1,350,000"
+ },
+ "times_utc": {
+  "start": "2026-11-24T22:37:57Z",
+  "validator up": "2026-11-24T22:38:20Z",
+  "upgrade end": "2026-11-24T22:40:25Z",
+  "upgrade start": "2026-11-24T22:40:14Z",
+  "txs start": "2026-11-24T22:40:49Z",
+  "txs end": "2026-11-24T22:40:59Z",
+  "stopped first": "2026-11-24T22:44:24Z",
+  "control start": "2026-11-24T22:44:36Z",
+  "control stopped": "2026-11-24T22:47:53Z"
+ },
+ "processes": "two validators, each ended by its seat when its read was done; no process left running",
+ "at": "2026-11-24T22:48Z",
+ "every_swarm_reads_the_same_after_the_upgrade": true
+}

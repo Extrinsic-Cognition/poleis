@@ -1,0 +1,281 @@
+{
+  "accounts_left_standing": {
+    "config": {
+      "address": "6tvNyevKti9Xo7oUToEikjiAZ4sFhVwsAyAc6skMUj1s",
+      "explorer": "https://explorer.solana.com/address/6tvNyevKti9Xo7oUToEikjiAZ4sFhVwsAyAc6skMUj1s?cluster=devnet"
+    },
+    "crow": {
+      "address": "92mkYYhz9NQx6htqZmAR7sdvgGf4jEebsLfYbsBAuhHB",
+      "explorer": "https://explorer.solana.com/address/92mkYYhz9NQx6htqZmAR7sdvgGf4jEebsLfYbsBAuhHB?cluster=devnet"
+    },
+    "fees": {
+      "address": "8CPTt95ipaxUvjJdwfx3XFGujXxLSvSdQnAHm9Qbd1K7",
+      "explorer": "https://explorer.solana.com/address/8CPTt95ipaxUvjJdwfx3XFGujXxLSvSdQnAHm9Qbd1K7?cluster=devnet"
+    },
+    "program": {
+      "address": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+      "explorer": "https://explorer.solana.com/address/6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef?cluster=devnet"
+    },
+    "raid": {
+      "address": "Fhk3HuuYfH9HBrBPjZWGJHDpyRA8rU9Urxfh9tz7cdRH",
+      "explorer": "https://explorer.solana.com/address/Fhk3HuuYfH9HBrBPjZWGJHDpyRA8rU9Urxfh9tz7cdRH?cluster=devnet"
+    },
+    "wolf": {
+      "address": "53MpZzEhBDvnGh5s8vthXLYdEPZvGpoPbcL5E3SyCQGU",
+      "explorer": "https://explorer.solana.com/address/53MpZzEhBDvnGh5s8vthXLYdEPZvGpoPbcL5E3SyCQGU?cluster=devnet"
+    }
+  },
+  "after_the_dump_tax": {
+    "burned": 265758513502645,
+    "sellers": 30,
+    "sol_they_got": {
+      "lamports": 27680970428,
+      "sol": 27.68097
+    },
+    "the winner's reserve left behind the burned coins": {
+      "lamports": 6230945033,
+      "sol": 6.230945
+    }
+  },
+  "cluster": "devnet",
+  "compute_units": {
+    "buy": {
+      "max": 19303,
+      "mean": 10377,
+      "min": 8802,
+      "n": 40
+    },
+    "change_sides": {
+      "max": 16899,
+      "mean": 14642,
+      "min": 13889,
+      "n": 10
+    },
+    "convert": {
+      "max": 15361,
+      "mean": 10710,
+      "min": 9359,
+      "n": 10
+    },
+    "crank": {
+      "max": 5976,
+      "mean": 5958,
+      "min": 5718,
+      "n": 151
+    },
+    "desert": {
+      "max": 6604,
+      "mean": 6598,
+      "min": 6596,
+      "n": 10
+    },
+    "init_config": {
+      "max": 12050,
+      "mean": 12050,
+      "min": 12050,
+      "n": 1
+    },
+    "init_house": {
+      "max": 6892,
+      "mean": 6142,
+      "min": 5392,
+      "n": 2
+    },
+    "sell": {
+      "max": 7084,
+      "mean": 7077,
+      "min": 7076,
+      "n": 30
+    },
+    "settle": {
+      "max": 40274,
+      "mean": 40274,
+      "min": 40274,
+      "n": 1
+    },
+    "stake": {
+      "max": 13347,
+      "mean": 13269,
+      "min": 13191,
+      "n": 2
+    },
+    "unlock": {
+      "max": 4002,
+      "mean": 4002,
+      "min": 4002,
+      "n": 2
+    }
+  },
+  "held_to_the_reference": {
+    "converts": 10,
+    "deserters_paid": 10,
+    "differences": [],
+    "fighters": 40
+  },
+  "minute_seconds": 10,
+  "payer": {
+    "address": "FT9u9LszrszsRxygpwQ31Dj6VjZM8uENujRFC9ecYdzV",
+    "before": {
+      "lamports": 40205634429,
+      "sol": 40.205634
+    }
+  },
+  "program": {
+    "deployed": {
+      "program_data": "676NDZ4Bhi5WjgPV9q3mYkH9PQa9VCU4Dw8eDtNWQzYM",
+      "sha256_of_this_tree's_length": "89599aa8cc592330e6f20f5fc444c5ddd5de1b71fc0fb7c11873ff5db42eef6f",
+      "slot": 525795802,
+      "the same bytes as this tree's build": true,
+      "upgrade_authority": "FT9u9LszrszsRxygpwQ31Dj6VjZM8uENujRFC9ecYdzV"
+    },
+    "id": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+    "this_tree's_build": {
+      "bytes": 140112,
+      "sha256": "89599aa8cc592330e6f20f5fc444c5ddd5de1b71fc0fb7c11873ff5db42eef6f"
+    }
+  },
+  "raid": {
+    "clock_seconds_into_each_minute_when_sent": {
+      "max": 1,
+      "mean": 0.006666666666666667,
+      "min": 0
+    },
+    "decided_at_minute": 150,
+    "how": "beat its line at minute 148; the last stand failed",
+    "minute_seconds": 10,
+    "minutes": 195,
+    "minutes_missed": [],
+    "minutes_played": 151,
+    "seconds": 1950,
+    "seconds_from_send_to_landed": {
+      "at": "confirmed",
+      "max": 3.244579458,
+      "mean": 2.23,
+      "min": 2.001051666
+    },
+    "winner": "crow"
+  },
+  "refusals": [],
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL)",
+  "result": "pass",
+  "rpc_calls": 2162,
+  "rpc_refused_by_rate_and_waited_out": 32,
+  "seed": {
+    "moved_aside_to": "~/.embertide/poleis-wars-devnet/run-seed.refunded-2026-11-24T132803Z"
+  },
+  "sol": {
+    "back: the stand-ins sent back": {
+      "lamports": 32734721228,
+      "sol": 32.734721
+    },
+    "in: the payer gave its stand-ins": {
+      "lamports": 40125353400,
+      "sol": 40.125353
+    },
+    "spent for good": {
+      "lamports": 7392467172,
+      "sol": 7.392467
+    },
+    "spent for good, by cause": {
+      "left with the stand-ins": {
+        "lamports": 0,
+        "sol": 0.0
+      },
+      "rents of the accounts left standing (the config, the fee account, two houses, the raid, the positions)": {
+        "lamports": 71602600,
+        "positions": 50
+      },
+      "the network's fees (every transaction's, the payer's)": {
+        "lamports": 1835000,
+        "sol": 0.001835
+      },
+      "the war's own fees, in its fee account (95 + 30 bp of every trade)": {
+        "lamports": 1088084539,
+        "sol": 1.088085
+      },
+      "what stays in the houses (their reserves and chests; the winner's behind its burned coins)": {
+        "lamports": 6230945033,
+        "sol": 6.230945
+      }
+    },
+    "the payer, before and after": [
+      {
+        "lamports": 40205634429,
+        "sol": 40.205634
+      },
+      {
+        "lamports": 32813167257,
+        "sol": 32.813167
+      }
+    ]
+  },
+  "transaction_compute_units": {
+    "a minute (its events and its crank)": {
+      "max": 22861,
+      "min": 5722,
+      "n": 150
+    },
+    "a sale after the dump tax": {
+      "max": 7084,
+      "min": 7076,
+      "n": 30
+    },
+    "a stake": {
+      "max": 13347,
+      "min": 13347,
+      "n": 1
+    },
+    "back to the payer": {
+      "max": 1200,
+      "min": 150,
+      "n": 6
+    },
+    "convert": {
+      "max": 15361,
+      "min": 9359,
+      "n": 10
+    },
+    "init_config": {
+      "max": 12050,
+      "min": 12050,
+      "n": 1
+    },
+    "init_house": {
+      "max": 6892,
+      "min": 5392,
+      "n": 2
+    },
+    "settle": {
+      "max": 40274,
+      "min": 40274,
+      "n": 1
+    },
+    "the forty's buys": {
+      "max": 47212,
+      "min": 36710,
+      "n": 10
+    },
+    "the opening stake and minute 0": {
+      "max": 18909,
+      "min": 18909,
+      "n": 1
+    },
+    "the payer funds its stand-ins": {
+      "max": 1500,
+      "min": 150,
+      "n": 5
+    },
+    "unlock": {
+      "max": 4002,
+      "min": 4002,
+      "n": 2
+    }
+  },
+  "transactions": 219,
+  "validator": {
+    "feature-set": 1591744305,
+    "genesis": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+    "solana-core": "4.5.0-beta.0"
+  },
+  "wall_seconds": 1941.5
+}

@@ -1,0 +1,661 @@
+{
+ "what": "THE $WARM LAUNCH on mainnet: every transaction unsigned, for his Keystone to sign by QR on the house's Keystone page",
+ "cluster": "mainnet",
+ "signable": false,
+ "placeholders": [
+  "launchKey",
+  "treasuryOwner",
+  "uri",
+  "startPrice",
+  "windowRatio"
+ ],
+ "emitted": "2026-10-30T03:03:11.461Z",
+ "signer": {
+  "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+  "role": "his Keystone: it signs every transaction of the launch, and no other key does"
+ },
+ "params": {
+  "cluster": "mainnet",
+  "launchKey": "PLACEHOLDER: the Solana address of the Keystone that signs the launch (his): the Keystone page shows it once he connects that Keystone",
+  "treasuryOwner": "PLACEHOLDER: his Squads vault: it holds the 90% until Poleis passes its review, and takes the sale's proceeds (the dev wallet, left out, is this address)",
+  "seed": "swarm",
+  "name": "SWARM",
+  "symbol": "$WARM",
+  "uri": "PLACEHOLDER: the token's JSON (name, symbol, image), hosted where he says",
+  "metadataMutable": true,
+  "decimals": 9,
+  "supply": "1000000000",
+  "treasuryBps": 9000,
+  "saleBps": 1000,
+  "devShareBps": 5000,
+  "startPrice": "PLACEHOLDER: the starting price, SOL per $WARM (his)",
+  "windowRatio": "PLACEHOLDER: each tranche's price range, the ratio its top bin stands above the price of its moment (his)",
+  "binStep": 100,
+  "feeBps": 100,
+  "opening": "2026-10-30T20:00:00Z",
+  "close": "2026-11-15T00:00:00Z",
+  "trancheHours": 24,
+  "moneyAfterTranches": [
+   4,
+   8,
+   12,
+   15
+  ],
+  "priorityMicroLamports": 10000
+ },
+ "addresses": {
+  "mint": "ANEsQX7V6TuVQVTjFG8TWEJ31WXC8Tapb4eS5zLJypU8",
+  "metadata": "FPSUtcjeXmyo2wDLeUeFuWBagd9oLqk2qcPzsyfd2fnr",
+  "lbPair": "9ufLDdUDmZDaixHCMBKhkotDwBwacniRjW8jiGN1jhdq",
+  "reserveX": "ENCNZo7NEXDUqpUVMbDNVGkCvsTw5octbPFnAqNLgVvH",
+  "reserveY": "3WhNu4D9X4HZEKq1e8cAT3oeKPzcXBThfetnfjL3aC5U",
+  "oracle": "2d54L9mYGc5wH6rUG3oXEzGfFAsEfMfehRxhKpTqBcSY",
+  "launchSwarm": "ENiDmhDvEf7kXGVSGPV398W1gDpAWUHgviGLHb5cuUce",
+  "launchWsol": "2VZXkW2jD9XM2McPWTyaXJZfAMtc4iADE3NdYVS5ytkS",
+  "treasuryOwner": "CWEmtJLv9HZcJ6DF4FvHkeAUW8YUUx86Xv6ZbpzLC7D4",
+  "treasurySwarm": "3RNwacEJJNNBGWY5wX8L9FEekdud9cMJ9u6KQ4TrLyZ3",
+  "devWallet": "CWEmtJLv9HZcJ6DF4FvHkeAUW8YUUx86Xv6ZbpzLC7D4",
+  "devWsol": "FmpUMY66yyUhcANa3w1QedhRskTQkvWgREDvAt6WGfcB"
+ },
+ "transactions": [
+  {
+   "n": 1,
+   "name": "genesis",
+   "when": "before 2026-10-30T20:00:00Z (trading opens then, by the pair's activation point)",
+   "does": [
+    "make the mint from his address and the seed \"swarm\": 9 decimals, no freeze authority",
+    "mint 900000000000000000 base units (90%) to the treasury",
+    "mint 100000000000000000 base units (10%) to the launch key, for the pool",
+    "name it SWARM ($WARM)",
+    "revoke the mint authority: the supply is fixed"
+   ],
+   "signers": [
+    "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7"
+   ],
+   "signable": false,
+   "placeholders": [
+    "launchKey",
+    "treasuryOwner",
+    "uri",
+    "startPrice",
+    "windowRatio"
+   ],
+   "accounts": [
+    {
+     "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+     "signer": true,
+     "writable": true,
+     "is": "PLACEHOLDER launchKey"
+    },
+    {
+     "address": "ANEsQX7V6TuVQVTjFG8TWEJ31WXC8Tapb4eS5zLJypU8",
+     "signer": false,
+     "writable": true,
+     "is": "the $WARM mint"
+    },
+    {
+     "address": "3RNwacEJJNNBGWY5wX8L9FEekdud9cMJ9u6KQ4TrLyZ3",
+     "signer": false,
+     "writable": true,
+     "is": "the treasury's SWARM"
+    },
+    {
+     "address": "ENiDmhDvEf7kXGVSGPV398W1gDpAWUHgviGLHb5cuUce",
+     "signer": false,
+     "writable": true,
+     "is": "the launch key's SWARM"
+    },
+    {
+     "address": "FPSUtcjeXmyo2wDLeUeFuWBagd9oLqk2qcPzsyfd2fnr",
+     "signer": false,
+     "writable": true,
+     "is": "its name (Metaplex)"
+    },
+    {
+     "address": "ComputeBudget111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "compute"
+    },
+    {
+     "address": "11111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "system"
+    },
+    {
+     "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+     "signer": false,
+     "writable": false,
+     "is": "token"
+    },
+    {
+     "address": "CWEmtJLv9HZcJ6DF4FvHkeAUW8YUUx86Xv6ZbpzLC7D4",
+     "signer": false,
+     "writable": false,
+     "is": "PLACEHOLDER treasuryOwner"
+    },
+    {
+     "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+     "signer": false,
+     "writable": false,
+     "is": "ata"
+    },
+    {
+     "address": "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",
+     "signer": false,
+     "writable": false,
+     "is": "metadata"
+    }
+   ],
+   "message": "AQAGC1zclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyiyoPpdgXswdgCVnd6FOUeBlrEx0flX0IEJMWSiSs9rEj9h8/vS/0pFzQm0vYVuJUxyuHrQ3FhmA0MGyAMWFiqsa3vB6aJVVzA2f/OSrk5XrlWyDw+kI6SJd6r3lJz8wv1cM0wP7PAVmIXbu368kMUo4Lx0nKq7YJ1Xkig746n+MDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKmq7flMHLErINKJ3d22mnxmx9JPMK3I05rYmP5uL12a24yXJY9OJInxuz0QKRSODYMLWhOZ2v8QhASOe9jb6fhZC3BlsePRfEU4nVJ/awTDzVi4bHMaoP21SbbRvAP4KUYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoFAAUCwNQBAAUACQMQJwAAAAAAAAYCAAFhAwAAAFzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyBQAAAAAAAABzd2FybWBNFgAAAAAAUgAAAAAAAAAG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQcBASMUCVzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyAAkGAAIIAQYHAQEJBgADAAEGBwEBBwMBAgAJBwAA2kk7cX0MBwMBAwAJBwAAil14RWMBCgYEAQAAAAYeIQUAAABTV0FSTQUAAAAkV0FSTQAAAAAAAAAAAAEABwIBAAMGAAA=",
+   "messageSha256": "0af47582b7be7426ea8baa83da06f4c57b538be9a42cb8ebabf0ef39f525c067",
+   "bytes": 712,
+   "computeUnits": 120000
+  },
+  {
+   "n": 2,
+   "name": "pool",
+   "when": "before 2026-10-30T20:00:00Z (trading opens then, by the pair's activation point)",
+   "does": [
+    "wrap 1000000 lamports into the launch key's own SOL account (the program's proof of the creator; it stays his)",
+    "open the SWARM/SOL pair: bin -1741 (2.9956e-8 SOL per $WARM), bin step 100, base fee 100 bps, trading from 2026-10-30T20:00:00Z"
+   ],
+   "signers": [
+    "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7"
+   ],
+   "signable": false,
+   "placeholders": [
+    "launchKey",
+    "treasuryOwner",
+    "uri",
+    "startPrice",
+    "windowRatio"
+   ],
+   "accounts": [
+    {
+     "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+     "signer": true,
+     "writable": true,
+     "is": "PLACEHOLDER launchKey"
+    },
+    {
+     "address": "2VZXkW2jD9XM2McPWTyaXJZfAMtc4iADE3NdYVS5ytkS",
+     "signer": false,
+     "writable": true,
+     "is": "the launch key's SOL account"
+    },
+    {
+     "address": "9ufLDdUDmZDaixHCMBKhkotDwBwacniRjW8jiGN1jhdq",
+     "signer": false,
+     "writable": true,
+     "is": "the SWARM/SOL pair"
+    },
+    {
+     "address": "ENCNZo7NEXDUqpUVMbDNVGkCvsTw5octbPFnAqNLgVvH",
+     "signer": false,
+     "writable": true,
+     "is": "the pair's SWARM reserve"
+    },
+    {
+     "address": "3WhNu4D9X4HZEKq1e8cAT3oeKPzcXBThfetnfjL3aC5U",
+     "signer": false,
+     "writable": true,
+     "is": "the pair's SOL reserve"
+    },
+    {
+     "address": "2d54L9mYGc5wH6rUG3oXEzGfFAsEfMfehRxhKpTqBcSY",
+     "signer": false,
+     "writable": true,
+     "is": "the pair's oracle"
+    },
+    {
+     "address": "ComputeBudget111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "compute"
+    },
+    {
+     "address": "So11111111111111111111111111111111111111112",
+     "signer": false,
+     "writable": false,
+     "is": "wsol"
+    },
+    {
+     "address": "11111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "system"
+    },
+    {
+     "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+     "signer": false,
+     "writable": false,
+     "is": "token"
+    },
+    {
+     "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+     "signer": false,
+     "writable": false,
+     "is": "ata"
+    },
+    {
+     "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+     "signer": false,
+     "writable": false,
+     "is": "dlmm"
+    },
+    {
+     "address": "ANEsQX7V6TuVQVTjFG8TWEJ31WXC8Tapb4eS5zLJypU8",
+     "signer": false,
+     "writable": false,
+     "is": "the $WARM mint"
+    },
+    {
+     "address": "ENiDmhDvEf7kXGVSGPV398W1gDpAWUHgviGLHb5cuUce",
+     "signer": false,
+     "writable": false,
+     "is": "the launch key's SWARM"
+    },
+    {
+     "address": "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+     "signer": false,
+     "writable": false,
+     "is": "DLMM's event authority"
+    }
+   ],
+   "message": "AQAJD1zclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyFiy7R8SEL6iAbMFSYTe9hXpkRlwTph4orm5D5aRiPCOEWwnzNmETPqr1XJNdaAhG6kSDD+/lLzlrhfJFow/W6MaV/DVQZNMshT45qhSxFtA/dkwjs5axQipMlhUn//HqJVLfUkyDUHfFhkz3EwnGLgJ+5DM+gIa9RX7ga6qtOjcYGS8Mz0gVrDHqcV9C6aFmrIo8U5OSjQ4Zfy488bGNRQMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAABpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbd9uHXZaGT2cvhRs7reawctIXtX1s3kTqM9YV+/wCpjJclj04kifG7PRApFI4NgwtaE5na/xCEBI572Nvp+FkE6eEvvIToJskyzOniZAzOFVkMHGJzsJJXCLo7hSCwvIsqD6XYF7MHYAlZ3ehTlHgZaxMdH5V9CBCTFkokrPaxxre8HpolVXMDZ/85KuTleuVbIPD6QjpIl3qveUnPzC+ycNZ/qYxRzwITBRNYliuvNXQr7VnJ2URenA0MhcfNkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgYABQLwSQIABgAJAxAnAAAAAAAACgYAAQAHCAkBAQgCAAEMAgAAAEBCDwAAAAAACQEBARELEQILDAcDBAUNAAsLCQkIAQ4LW/NJgX4zE/FrM/n//2QAECcBAAFA9+RqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+   "messageSha256": "0d0514298c1023dd1a770d4c5333ab7a5d932ee48d46cebbb52373f885d5b54c",
+   "bytes": 745,
+   "computeUnits": 150000
+  },
+  {
+   "n": 3,
+   "name": "prepare 1",
+   "when": "before 2026-10-30T20:00:00Z (trading opens then, by the pair's activation point)",
+   "does": [
+    "make a bin array of the pair (70 bins), his key pays its rent",
+    "make a position over it, his key its owner"
+   ],
+   "signers": [
+    "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7"
+   ],
+   "signable": false,
+   "placeholders": [
+    "launchKey",
+    "treasuryOwner",
+    "uri",
+    "startPrice",
+    "windowRatio"
+   ],
+   "accounts": [
+    {
+     "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+     "signer": true,
+     "writable": true,
+     "is": "PLACEHOLDER launchKey"
+    },
+    {
+     "address": "5MYfurazQRsQKe7k865YZUNN3zw2tLikxF9QP22z2idF",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "GR46wUk6GoRgYPNNZSKd25QF91Ciebjj7vH3LehERmZM",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "ComputeBudget111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "compute"
+    },
+    {
+     "address": "9ufLDdUDmZDaixHCMBKhkotDwBwacniRjW8jiGN1jhdq",
+     "signer": false,
+     "writable": false,
+     "is": "the SWARM/SOL pair"
+    },
+    {
+     "address": "11111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "system"
+    },
+    {
+     "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+     "signer": false,
+     "writable": false,
+     "is": "dlmm"
+    },
+    {
+     "address": "SysvarRent111111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "rent"
+    },
+    {
+     "address": "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+     "signer": false,
+     "writable": false,
+     "is": "DLMM's event authority"
+    }
+   ],
+   "message": "AQAGCVzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyQLIsnPV7GMvklw+V4BbeIyCltnFWHXkgXuiiaUDmD5LlCMBPRLEjpXiggEjSpMycaWSBZiDe9Lsf1HcGOpy81AMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAAhFsJ8zZhEz6q9VyTXWgIRupEgw/v5S85a4XyRaMP1ugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATp4S+8hOgmyTLM6eJkDM4VWQwcYnOwklcIujuFILC8BqfVFxksXFEhjMlMPUrxf1ja7gibof1E49vZigAAAACycNZ/qYxRzwITBRNYliuvNXQr7VnJ2URenA0MhcfNkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAMABQIA4gQAAwAJAxAnAAAAAAAABgQEAQAFECNWE7lO1EvT5/////////8GCQAAAgQABQcIBhAuUn2SVY3kmSr5//9GAAAA",
+   "messageSha256": "1e9c29f3fd2ce2b4d04ef58ad42eedb31871fb217bd00ddce80e6f1cc840a72e",
+   "bytes": 461,
+   "computeUnits": 320000
+  },
+  {
+   "n": 4,
+   "name": "prepare 2",
+   "when": "before 2026-10-30T20:00:00Z (trading opens then, by the pair's activation point)",
+   "does": [
+    "make a bin array of the pair (70 bins), his key pays its rent",
+    "make a position over it, his key its owner"
+   ],
+   "signers": [
+    "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7"
+   ],
+   "signable": false,
+   "placeholders": [
+    "launchKey",
+    "treasuryOwner",
+    "uri",
+    "startPrice",
+    "windowRatio"
+   ],
+   "accounts": [
+    {
+     "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+     "signer": true,
+     "writable": true,
+     "is": "PLACEHOLDER launchKey"
+    },
+    {
+     "address": "2hokmUTaWUVXbi9mh5kGFYvBAu3dKHpBSLpWYJLPSzrR",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "6ayJ1CBeLtZitGZNTS36uKacLw84kMgX6daJBQSW8fA6",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "ComputeBudget111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "compute"
+    },
+    {
+     "address": "9ufLDdUDmZDaixHCMBKhkotDwBwacniRjW8jiGN1jhdq",
+     "signer": false,
+     "writable": false,
+     "is": "the SWARM/SOL pair"
+    },
+    {
+     "address": "11111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "system"
+    },
+    {
+     "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+     "signer": false,
+     "writable": false,
+     "is": "dlmm"
+    },
+    {
+     "address": "SysvarRent111111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "rent"
+    },
+    {
+     "address": "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+     "signer": false,
+     "writable": false,
+     "is": "DLMM's event authority"
+    }
+   ],
+   "message": "AQAGCVzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDyGU/I7iS/nTaLBkLPTFHM2WdX2uA957cUCCuUmakpJx5S/kCQ5xY/AXOLni2fn9KEOkTcgfEunY4qsWCLKrK/rwMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAAhFsJ8zZhEz6q9VyTXWgIRupEgw/v5S85a4XyRaMP1ugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATp4S+8hOgmyTLM6eJkDM4VWQwcYnOwklcIujuFILC8BqfVFxksXFEhjMlMPUrxf1ja7gibof1E49vZigAAAACycNZ/qYxRzwITBRNYliuvNXQr7VnJ2URenA0MhcfNkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAMABQIA4gQAAwAJAxAnAAAAAAAABgQEAQAFECNWE7lO1EvT6P////////8GCQAAAgQABQcIBhAuUn2SVY3kmXD5//9GAAAA",
+   "messageSha256": "2116052fe962b6ad10e780825de505cb963fba7fc68b7bb72aafea45043e0c94",
+   "bytes": 461,
+   "computeUnits": 320000
+  },
+  {
+   "n": 5,
+   "name": "tranche 0",
+   "when": "before 2026-10-30T20:00:00Z (trading opens then, by the pair's activation point)",
+   "does": [
+    "lay 6250000000000000 base units of SWARM alone over bins -1740..-1671 (2x above the opening price), equal in every bin"
+   ],
+   "signers": [
+    "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7"
+   ],
+   "signable": false,
+   "placeholders": [
+    "launchKey",
+    "treasuryOwner",
+    "uri",
+    "startPrice",
+    "windowRatio"
+   ],
+   "accounts": [
+    {
+     "address": "7FVbBCKRR6fJz3Dm9UZd7XDgyB9D98F42ZC3G17mmrd7",
+     "signer": true,
+     "writable": true,
+     "is": "PLACEHOLDER launchKey"
+    },
+    {
+     "address": "GR46wUk6GoRgYPNNZSKd25QF91Ciebjj7vH3LehERmZM",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "9ufLDdUDmZDaixHCMBKhkotDwBwacniRjW8jiGN1jhdq",
+     "signer": false,
+     "writable": true,
+     "is": "the SWARM/SOL pair"
+    },
+    {
+     "address": "ENiDmhDvEf7kXGVSGPV398W1gDpAWUHgviGLHb5cuUce",
+     "signer": false,
+     "writable": true,
+     "is": "the launch key's SWARM"
+    },
+    {
+     "address": "ENCNZo7NEXDUqpUVMbDNVGkCvsTw5octbPFnAqNLgVvH",
+     "signer": false,
+     "writable": true,
+     "is": "the pair's SWARM reserve"
+    },
+    {
+     "address": "5MYfurazQRsQKe7k865YZUNN3zw2tLikxF9QP22z2idF",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "6ayJ1CBeLtZitGZNTS36uKacLw84kMgX6daJBQSW8fA6",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "2hokmUTaWUVXbi9mh5kGFYvBAu3dKHpBSLpWYJLPSzrR",
+     "signer": false,
+     "writable": true,
+     "is": null
+    },
+    {
+     "address": "ComputeBudget111111111111111111111111111111",
+     "signer": false,
+     "writable": false,
+     "is": "compute"
+    },
+    {
+     "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+     "signer": false,
+     "writable": false,
+     "is": "dlmm"
+    },
+    {
+     "address": "ANEsQX7V6TuVQVTjFG8TWEJ31WXC8Tapb4eS5zLJypU8",
+     "signer": false,
+     "writable": false,
+     "is": "the $WARM mint"
+    },
+    {
+     "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+     "signer": false,
+     "writable": false,
+     "is": "token"
+    },
+    {
+     "address": "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+     "signer": false,
+     "writable": false,
+     "is": "DLMM's event authority"
+    }
+   ],
+   "message": "AQAFDVzclC7NAj5jWSjXhkR2qWE1knxz70c107YfKdO7nmDy5QjAT0SxI6V4oIBI0qTMnGlkgWYg3vS7H9R3BjqcvNSEWwnzNmETPqr1XJNdaAhG6kSDD+/lLzlrhfJFow/W6Ma3vB6aJVVzA2f/OSrk5XrlWyDw+kI6SJd6r3lJz8wvxpX8NVBk0yyFPjmqFLEW0D92TCOzlrFCKkyWFSf/8epAsiyc9XsYy+SXD5XgFt4jIKW2cVYdeSBe6KJpQOYPklL+QJDnFj8Bc4ueLZ+f0oQ6RNyB8S6djiqxYIsqsr+vGU/I7iS/nTaLBkLPTFHM2WdX2uA957cUCCuUmakpJx4DBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAATp4S+8hOgmyTLM6eJkDM4VWQwcYnOwklcIujuFILC8iyoPpdgXswdgCVnd6FOUeBlrEx0flX0IEJMWSiSs9rEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqbJw1n+pjFHPAhMFE1iWK681dCvtWcnZRF6cDQyFx82RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAFAtDdBgAIAAkDECcAAAAAAAAJCwECCQMECgALDAkFggQhM6PJdWJ95zwAAAA0+f//N+s3NTX5//836zc1Nvn//zfrNzU3+f//N+s3NTj5//836zc1Ofn//zfrNzU6+f//N+s3NTv5//836zc1PPn//zfrNzU9+f//N+s3NT75//836zc1P/n//zfrNzVA+f//N+s3NUH5//836zc1Qvn//zfrNzVD+f//N+s3NUT5//836zc1Rfn//zfrNzVG+f//N+s3NUf5//836zc1SPn//zfrNzVJ+f//N+s3NUr5//836zc1S/n//zfrNzVM+f//N+s3NU35//836zc1Tvn//zfrNzVP+f//N+s3NVD5//836zc1Ufn//zfrNzVS+f//N+s3NVP5//836zc1VPn//zfrNzVV+f//N+s3NVb5//836zc1V/n//zfrNzVY+f//N+s3NVn5//836zc1Wvn//zfrNzVb+f//N+s3NVz5//836zc1Xfn//zfrNzVe+f//N+s3NV/5//836zc1YPn//zfrNzVh+f//N+s3NWL5//836zc1Y/n//zfrNzVk+f//N+s3NWX5//836zc1Zvn//zfrNzVn+f//N+s3NWj5//836zc1afn//zfrNzVq+f//N+s3NWv5//836zc1bPn//zfrNzVt+f//N+s3NW75//836zc1b/n//zfrNzWghgEAAAAAAIDmDwVLCBMAAQAAAAAACQsGAgkDBAoACwwJB3IhM6PJdWJ95woAAABw+f//Nus3NXH5//826zc1cvn//zbrNzVz+f//Nus3NXT5//826zc1dfn//zbrNzV2+f//Nus3NXf5//826zc1ePn//zbrNzV5+f//Nus3NaCGAQAAAAAAgLnIgAwsAwABAAAAAAA=",
+   "messageSha256": "060908e647fb9a72d11259c95a9e64a3d51a483d33892cd61f41d876df335f00",
+   "bytes": 1195,
+   "computeUnits": 450000
+  }
+ ],
+ "schedule": [
+  {
+   "k": 0,
+   "at": "2026-10-30T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "in this set"
+  },
+  {
+   "k": 1,
+   "at": "2026-10-31T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 1"
+  },
+  {
+   "k": 2,
+   "at": "2026-11-01T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 2"
+  },
+  {
+   "k": 3,
+   "at": "2026-11-02T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 3"
+  },
+  {
+   "k": 4,
+   "at": "2026-11-03T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 4"
+  },
+  {
+   "k": 5,
+   "at": "2026-11-04T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 5"
+  },
+  {
+   "k": 6,
+   "at": "2026-11-05T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 6"
+  },
+  {
+   "k": 7,
+   "at": "2026-11-06T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 7"
+  },
+  {
+   "k": 8,
+   "at": "2026-11-07T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 8"
+  },
+  {
+   "k": 9,
+   "at": "2026-11-08T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 9"
+  },
+  {
+   "k": 10,
+   "at": "2026-11-09T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 10"
+  },
+  {
+   "k": 11,
+   "at": "2026-11-10T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 11"
+  },
+  {
+   "k": 12,
+   "at": "2026-11-11T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 12"
+  },
+  {
+   "k": 13,
+   "at": "2026-11-12T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 13"
+  },
+  {
+   "k": 14,
+   "at": "2026-11-13T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 14"
+  },
+  {
+   "k": 15,
+   "at": "2026-11-14T20:00:00.000Z",
+   "amount": "6250000000000000",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --k 15"
+  }
+ ],
+ "money": [
+  {
+   "afterTranche": 4,
+   "at": "2026-11-03T20:00:00.000Z",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --money"
+  },
+  {
+   "afterTranche": 8,
+   "at": "2026-11-07T20:00:00.000Z",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --money"
+  },
+  {
+   "afterTranche": 12,
+   "at": "2026-11-11T20:00:00.000Z",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --money"
+  },
+  {
+   "afterTranche": 15,
+   "at": "2026-11-14T20:00:00.000Z",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --money"
+  },
+  {
+   "afterTranche": "the close",
+   "at": "2026-11-15T00:00:00Z",
+   "built": "at its time: node tools/warm-launch/mainnet.mjs due --money"
+  }
+ ]
+}

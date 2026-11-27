@@ -1,0 +1,110 @@
+{
+ "what": "HIS KEYSTONES APPROVE: his three Keystones vote on the vault the allowance pays; two approved, the month landed",
+ "cluster": "https://api.devnet.solana.com",
+ "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+ "at": "2026-10-28T17:09:52.179Z",
+ "program": "4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84",
+ "treasury": "CGR3tTn885wxjtAiXTUADbV8xCE9NcFNpQMdQmcMQdK7",
+ "keystones": [
+  "3vfb2y5GKCbKTbo23wHD2z5vDL8nbDX8E1kswVdYuRHW",
+  "2vSTWEYMVfU3aUcmTGqQPd7FhJ6KnBpbqTr1LtsGXxPH",
+  "4wA7hgUTheKQ4tYAKjGwVAvqo8EqmGvZ5s3FsMJnu1co"
+ ],
+ "houseKey": {
+  "key": "6t9gzYpssjVuNfRjazmDA5aBRssYgamS2BPRJ54G5qin",
+  "may": "initiate and execute, never vote"
+ },
+ "squads": {
+  "multisig": "GPQjsZ1yW97h6tKLFvEZBtYihw8aJDagymxbksyHqnKw",
+  "vault": "AW5XVesYtjfuc4yYrVbdevH4uSrsN3PeCQha1oBiTJJa",
+  "programConfig": "BSTq9w3kZwNwpBXJEvTZz2G9ZTNyKBvoSeXMvwb4cNZr",
+  "treasury": "HM5y4mz3Bt9JY9mr1hkyhnvqxSH4H2u2451j7Hc2dtvK",
+  "threshold": 2,
+  "transactionIndex": "1",
+  "proposal": "GHATwkiDQvo6NKiCxirA1YzzwH552K148iX9c2MQtdWx",
+  "transaction": "GcWNtYMB97oJB1iLziUyAAHzT2tcyBZYBSqQhuhhkuWj"
+ },
+ "allowance": {
+  "address": "7GJZi7CDkg6ePUdULzZSS6qSswMGCawmuyARnuTzXHYm",
+  "proposal": "209d5230e309c46b4783089f88fa7dccd1203371dfba11ba1ab5e140a15f2450",
+  "payee": "AW5XVesYtjfuc4yYrVbdevH4uSrsN3PeCQha1oBiTJJa",
+  "cap": "300000000",
+  "period": "6480000",
+  "expires": "0"
+ },
+ "approvals": [
+  "2vSTWEYMVfU3aUcmTGqQPd7FhJ6KnBpbqTr1LtsGXxPH",
+  "3vfb2y5GKCbKTbo23wHD2z5vDL8nbDX8E1kswVdYuRHW"
+ ],
+ "oneWasNotEnough": {
+  "refused": "Program log: AnchorError thrown in programs/squads_multisig_program/src/instructions/vault_transaction_execute.rs:75. Error Code: InvalidProposalStatus. Error Number: 6008. Error Message: Invalid proposal status."
+ },
+ "pull": {
+  "before": {
+   "vault": "0",
+   "treasury": "710787400"
+  },
+  "after": {
+   "vault": "300000000",
+   "treasury": "410787400"
+  }
+ },
+ "transactions": [
+  {
+   "step": "create his 2-of-3: three Keystones vote, the house key cannot",
+   "signature": "f79msULRvpyzzWqXCKQ4FeXd3ZqRBKempnkTwRcfCAhAQ5Vc2WXtm2aZgzizjzcVBZBhom6jV5XNtcJq6ULkkNu",
+   "slot": 516125146,
+   "fee": 10000,
+   "cu": 18932,
+   "bytes": 553
+  },
+  {
+   "step": "propose: TREASURY Allowance to his vault",
+   "signature": "3Zdv52firtnxdqzm8Sogvtnd7kqvUmUFNTgiU73G4UzBk2ugEhUgSz5oJE9Cp1Mj6vuUnEK362rLWfpegVgmBHtA",
+   "slot": 516125154,
+   "fee": 5000,
+   "cu": 12657,
+   "bytes": 512
+  },
+  {
+   "step": "attest: 8 of 12 chairs and the floor, PRO",
+   "signature": "4YpedHw25DrKSuH7sdHR1pAZXYeccekJe1rXxaW4CK7yh57P3v1QfmoE3nqcwu8KzqqdYo9KVDz74Ehg1XmD8cFR",
+   "slot": 516125161,
+   "fee": 20000,
+   "cu": 7341,
+   "bytes": 907
+  },
+  {
+   "step": "seal",
+   "signature": "2cB4rKLjAASuZFXd2oKNRbrumCkqttSueaLBpQxLDp9R6vcCJHamFdRYpKNb5CpBrBpCiAYeGqXMnLbzgB7gG2Fk",
+   "slot": 516125169,
+   "fee": 5000,
+   "cu": 8527,
+   "bytes": 343
+  },
+  {
+   "step": "execute: his allowance is born",
+   "signature": "63VpsnqUeZ6tw7R9yVFWse3Lam5ri3T2B61VqPsniRREbYFUZimTCmGN3WMp82a5b8oxkZGE3kuHzfquoj5YsP1n",
+   "slot": 516125176,
+   "fee": 5000,
+   "cu": 11479,
+   "bytes": 441
+  },
+  {
+   "step": "the pull: prepared by the house key (0.300000000 SOL)",
+   "signature": "C6VYRtx8pSqq9tBVt8GX5bbD3a3R2kzRmR99u3Wnwix7xkV3VCuxMM3N6QW7VpjnEtnZM5n961BHXTgNy7GG7tK",
+   "slot": 516125184,
+   "fee": 5000,
+   "cu": 44160,
+   "bytes": 559
+  },
+  {
+   "step": "two Keystones approved: the house key executes the pull",
+   "signature": "n2y9YghLVo2jySMBniYaMWi1WFrSg7g1Uvzvops7nHE2WAU2eYd2NqiKqEyVDYMm61a92yEQpBaPXwLAh2bfETY",
+   "slot": 516125430,
+   "fee": 5000,
+   "cu": 31293,
+   "bytes": 482
+  }
+ ]
+}

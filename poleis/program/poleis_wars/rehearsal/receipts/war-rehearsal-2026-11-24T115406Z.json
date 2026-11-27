@@ -1,0 +1,17 @@
+{
+  "minute_seconds": 4,
+  "program": {
+    "bytes": 140112,
+    "id": "E8BEmciBLa7tfCWXpdgguRD7DSsbik6q3uJzPdVrhXba",
+    "sha256": "bc8bdcad58c58cbe829b6e8c23e442cf495cc3565fbc40cca9237027f52ec9e5"
+  },
+  "rehearsal": "the first reference war of reference-in-sol.json (The war as before, now on the clock, in SOL), on a local validator",
+  "result": "fail",
+  "validator": {
+    "feature-set": 565236538,
+    "genesis": "CgvRy9CYq1MsL8bgE7fauwXNy3nzLMN522jxGbUx7zoB",
+    "solana-core": "4.2.0"
+  },
+  "wall_seconds": 675.2,
+  "why": "137 of 178 transactions not confirmed in 60 s"
+}

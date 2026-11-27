@@ -1,0 +1,70 @@
+{
+ "what": "THE KEYSTONE PAGE SIGNS THE LAUNCH: the mainnet genesis set (mainnet.mjs emit), on devnet, signed one by one on poleis/ceremony/keystone/ by its prepared road: the page stamped each blockhash, showed the sign request as an animated UR QR, read the answer and sent it. His Keystone was played by a throwaway key that read the page's UR request and answered a sol-signature UR (the camera simulated; every UR payload real).",
+ "cluster": "devnet",
+ "at": "2026-10-30T01:4xZ",
+ "page": "http://127.0.0.1:8814/index.html#rpc=https://api.devnet.solana.com&prepared=set.json",
+ "set": {
+  "signable": true,
+  "signer": "9wkdtwVFVfbuNmZjSn6wtNFLAYnuYcnvdKCixxhqzBnw",
+  "transactions": [
+   {
+    "n": 1,
+    "name": "genesis",
+    "bytes": 717,
+    "messageSha256": "19d7bc4c03e6c0ef172a3b135a4f0db29ab4fcf7e635b646a999d6a0c149de5d",
+    "signature": "36fD3nzihRMxUSq4mv5ShXDJYCG8iBfHX7HXE4dfcAtY49oWPBgEWqXN5ydbzSSwdWpfLL1XL8HbCT52QPHfsued",
+    "link": "https://explorer.solana.com/tx/36fD3nzihRMxUSq4mv5ShXDJYCG8iBfHX7HXE4dfcAtY49oWPBgEWqXN5ydbzSSwdWpfLL1XL8HbCT52QPHfsued?cluster=devnet"
+   },
+   {
+    "n": 2,
+    "name": "pool",
+    "bytes": 745,
+    "messageSha256": "a2455ea7e0bab667cba4872e34cba2b4b55df06b6680b7c67d61110236d3634a",
+    "signature": "2WnafMegm9d9cE3EMjmhicq54iC6F6owmLcfJ38FYNDkYWiK9SChyQq9fquuX4e7EUh9zThAT8yvnCJYfL1SMnAv",
+    "link": "https://explorer.solana.com/tx/2WnafMegm9d9cE3EMjmhicq54iC6F6owmLcfJ38FYNDkYWiK9SChyQq9fquuX4e7EUh9zThAT8yvnCJYfL1SMnAv?cluster=devnet"
+   },
+   {
+    "n": 3,
+    "name": "prepare 1",
+    "bytes": 461,
+    "messageSha256": "8e8c560d7e4048bb459915cd1d371c2bff14e6c1dc182ca7a7c007b84ca6afc5",
+    "signature": "4WrwoEDAUaJ1pmXhg54Kw3KyQSBcJUGBBKZWTtDyQ8UDAWZiMj63zLLQMhK6Dp3FNqR655QvPBdnxgk26sxLRPf3",
+    "link": "https://explorer.solana.com/tx/4WrwoEDAUaJ1pmXhg54Kw3KyQSBcJUGBBKZWTtDyQ8UDAWZiMj63zLLQMhK6Dp3FNqR655QvPBdnxgk26sxLRPf3?cluster=devnet"
+   },
+   {
+    "n": 4,
+    "name": "prepare 2",
+    "bytes": 461,
+    "messageSha256": "629829d89166f968857d489d95f3908faff67fbac6f023e11270e9b913672c5a",
+    "signature": "9cJWsLK3wjuztv83CrWQEwg2TJc1s6g7C6ZU4m1GrHcDB1VfrsCov4MY18XMZX539o5B4r8e3oDHu7khv2w8f73",
+    "link": "https://explorer.solana.com/tx/9cJWsLK3wjuztv83CrWQEwg2TJc1s6g7C6ZU4m1GrHcDB1VfrsCov4MY18XMZX539o5B4r8e3oDHu7khv2w8f73?cluster=devnet"
+   },
+   {
+    "n": 5,
+    "name": "tranche 0",
+    "bytes": 1195,
+    "messageSha256": "f0a3e5f9548b18d5fe888dfc268deddbf0d61134760b369302c23a670cf40630",
+    "signature": "8XNBXUKsqiGCuRQht4wYeZzvh3g8QjSwZ9HoravH9y55NXwTRo7qW4kxhvoef7yvCPJ1H7Ubtu5sNRQtJYdv7xC",
+    "link": "https://explorer.solana.com/tx/8XNBXUKsqiGCuRQht4wYeZzvh3g8QjSwZ9HoravH9y55NXwTRo7qW4kxhvoef7yvCPJ1H7Ubtu5sNRQtJYdv7xC?cluster=devnet"
+   }
+  ]
+ },
+ "chain": {
+  "mint": "53FFigbqD56cmE539WoCjGVRyWEk8oN2QBqHURZ8MTmN",
+  "supply": "1000000000000000000",
+  "decimals": 9,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "treasury": "900000000000000000",
+  "launchKeyLeft": "93750000000000000",
+  "poolSwarm": "6250000000000000",
+  "poolSol": "0",
+  "pair": "391fgcAeLBxo4FMZ8PaKz9vigzEQCp2rvsgS3hpXbyNU",
+  "activeId": -1741,
+  "activationType": 1,
+  "activationPoint": 1793390400,
+  "activationAt": "2026-10-30T20:00:00.000Z",
+  "creator": "9wkdtwVFVfbuNmZjSn6wtNFLAYnuYcnvdKCixxhqzBnw",
+  "buyBeforeOpening": "Program log: AnchorError thrown in programs/lb_clmm/src/instructions/v2/swap2.rs:319. Error Code: PoolDisabled. Error Number: 6042. Error Message: Pool disabled."
+ }
+}

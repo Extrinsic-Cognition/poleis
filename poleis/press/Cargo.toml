@@ -1,0 +1,51 @@
+[package]
+name = "poleis-press"
+version = "0.1.0"
+edition = "2021"
+description = "THE LAUNCH PRESS: the one sitting his hand runs to put the swarm's three programs on Solana mainnet (Poleis, the market, the $WARM program): his keys, the build and its hashes, a resumable deploy, root 0 in the same breath, the $WARM mine opened with its face, the market's board, the upgrade authorities handed to the polis's seal, the acts his Keystones sign, the birth certificate. Rehearsed whole on a local validator with stand-in keys."
+license = "UNLICENSED"
+publish = false
+
+[[bin]]
+name = "press"
+path = "src/main.rs"
+
+[dependencies]
+# the Poleis program's own client: its ids, seeds and instruction builders (built from the sitting's patched copy, so its ids are the sitting's)
+poleis-client = { path = "../client" }
+# the program's own constants the client does not carry (the market's law); the same crate the client links, so one entrypoint
+poleis-treasury = { path = "../program/poleis_treasury" }
+# the $WARM program's own layouts and its face's encoders; linked beside Poleis, so without its entrypoint
+warm-mine = { path = "../program/warm_mine", features = ["no-entrypoint"] }
+# the door's law on her pool (the stake, the light's choice, the way out), once: the page runs the same crate as WASM
+poleis-door = { path = "../door" }
+# THE LIGHT PAYS A WISH (light.rs): the stake book's own law (its book, the fee's mints), without its hand's HTTP
+embertide-stake = { path = "../../crates/embertide-stake", default-features = false }
+solana-pubkey = "4.1"
+solana-instruction = "3.2"
+# Solana's own compiler of the legacy message
+solana-message = { version = "=4.4.1", features = ["wincode"] }
+solana-hash = "4.5"
+solana-address = "2.6"
+sha2 = "0.10"
+base64 = "0.22"
+serde_json = "1"
+ed25519-dalek = "2" # classical: Solana's fee payer (the deployer and the program accounts it makes sign Solana's own transactions)
+
+[dev-dependencies]
+# THE MINE IS LIVE (tests/mine.rs): the door's own law of the $WARM mine, the crate its WASM is built from
+poleis-seat-wasm = { path = "../seat-wasm" }
+# the known encodings the hand-written layouts are held to (tests/wire.rs, tests/metaplex.rs); never in the press itself
+solana-loader-v3-interface = { version = "=7.0.0", features = ["bincode", "serde"] }
+solana-system-interface = { version = "3", features = ["bincode"] }
+solana-pubkey = { version = "4.1", features = ["sha2"] }
+bincode = "1.3"
+# Metaplex's own SDK, its Pubkey's crate and its Borsh
+mpl-token-metadata = "=5.1.1"
+solana-program = "2.2"
+borsh = "0.10"
+# the browser proof of the page's doors (tests/page.rs): headless Chrome over its DevTools socket, as embertide-screens drives it
+tungstenite = { version = "0.28", default-features = false, features = ["handshake"] }
+
+[profile.release]
+overflow-checks = true

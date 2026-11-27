@@ -1,0 +1,203 @@
+{
+ "what": "THE CEREMONY, REHEARSED: the Poleis program founded and upgraded by its own seal",
+ "cluster": "https://api.devnet.solana.com",
+ "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+ "at": "2026-10-28T16:40:11.442Z",
+ "program": "4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84",
+ "upgradeAddress": "F8vHRCKKD1nQbk6xZAkDqMFMZG6VnPXyv7D4HDuHK5yL",
+ "programdata": "FfVEJEvwVBTTDRQqmpU2Qt3Zbpw3993AUzMPkEokwb5Q",
+ "tree0": {
+  "config": "AnXkUmJ7JTFShrWUfTiRr598yDAxyznBTJ79YAGQWf2R",
+  "council": "GLZQFbWzc2v1ZQQmYQUHRrBWpndNFxCcjpLqGjoqt4qA",
+  "registry": "GTNiWUwhcj8TtHKv1tLD963KQ5NMT6Mv268frR84ktEp",
+  "treasury": "CGR3tTn885wxjtAiXTUADbV8xCE9NcFNpQMdQmcMQdK7"
+ },
+ "fund": {
+  "address": "BaQGfpin4p7QcZ6bzkQQQ2F5vRG9Yc7ZAnFk4S3BdZe3",
+  "bump": 255
+ },
+ "source": {
+  "house": "a6b86642c3e245de5bb2d6bbe6ce93a28ed25961",
+  "patched": [
+   "declare_id",
+   "FUND_ADDRESS",
+   "FUND_BUMP"
+  ]
+ },
+ "binaries": {
+  "v1": {
+   "bytes": 401752,
+   "sha256": "095d883dc22b452e44ce2cb6527bed3285d585e5412255a9f9957c7264ee29ca"
+  },
+  "v2": {
+   "bytes": 401752,
+   "sha256": "dd64ee7026977579e0608214be8fa54788fca947b4e626754664ff7c66b8cb25",
+   "build": "the same source, one codegen unit"
+  },
+  "maxLen": 401752,
+  "extension": {
+   "extended": 0
+  }
+ },
+ "keys": {
+  "deployer": "6t9gzYpssjVuNfRjazmDA5aBRssYgamS2BPRJ54G5qin",
+  "chairs": {
+   "chairA": "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "chairB": "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "chairC": "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF"
+  },
+  "floor": "MnmbJV3u9hGvoVEchPWp9qKktkHwWhS1DHdrxJWHe7c",
+  "buffer": "ABJ6m6kJjgL8zkdrVStTHAH35DsAVq6ywSYxfjjRPWKH"
+ },
+ "founders": [
+  "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+  "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+  "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+  "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+  "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+  "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+  "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+  "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+  "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF",
+  "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF",
+  "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF",
+  "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF"
+ ],
+ "genesis": {
+  "charter": "a520f657d87007a8960f5171c3025a8aa934ccafb9587bd93ab0bb2a63cdb136",
+  "planCap": "1000000000",
+  "planPeriod": "6480000",
+  "window": "300",
+  "rung": 1,
+  "reserve": "10000000",
+  "deposit": "50000000",
+  "commitEnd": "516117649",
+  "revealEnd": "516117799",
+  "founders": [
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF",
+   "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF",
+   "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF",
+   "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF"
+  ],
+  "name": "The Dyson Society (rehearsal)",
+  "desc": "",
+  "defaultMint": "11111111111111111111111111111111"
+ },
+ "deploy": {
+  "signature": "5uhW76JjUmcxqg8Gm7zieRS8cihkRwRKVUu6hjKofoRn9z1dhpiGektPgaiLVpMXUdAGwHGXHAe98vMsjUqVX98d",
+  "slot": 516117476,
+  "authority": "6t9gzYpssjVuNfRjazmDA5aBRssYgamS2BPRJ54G5qin"
+ },
+ "founding": {
+  "step": "found tree 0: init_config + open_genesis, one tx",
+  "signature": "4TTuGU6myftp65Uyrh6FbwCF8rSNzaC3Re4B9HJYeWouv7DfhT2Js8cKzt3sQkNNteCmKNJt6YyQ6FoYumZf2QUg",
+  "slot": 516117483,
+  "fee": 5000,
+  "cu": 21645,
+  "bytes": 889
+ },
+ "upgrade": {
+  "proposal": "0547ce3206129e92342cb01f8092506667a78e2cc669cd98a81da59ca40cd041",
+  "votes": [
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "MnmbJV3u9hGvoVEchPWp9qKktkHwWhS1DHdrxJWHe7c"
+  ],
+  "authority": "F8vHRCKKD1nQbk6xZAkDqMFMZG6VnPXyv7D4HDuHK5yL",
+  "lastDeploySlot": 516117994,
+  "deployedBefore": 516117476,
+  "onchainSha256OfV2Length": "dd64ee7026977579e0608214be8fa54788fca947b4e626754664ff7c66b8cb25",
+  "matchesV2": true,
+  "differsFromV1": true
+ },
+ "transactions": [
+  {
+   "step": "found tree 0: init_config + open_genesis, one tx",
+   "signature": "4TTuGU6myftp65Uyrh6FbwCF8rSNzaC3Re4B9HJYeWouv7DfhT2Js8cKzt3sQkNNteCmKNJt6YyQ6FoYumZf2QUg",
+   "slot": 516117483,
+   "fee": 5000,
+   "cu": 21645,
+   "bytes": 889
+  },
+  {
+   "step": "commit one sealed seat bid",
+   "signature": "7eWVsx6VMLwyj12uM3vDcQd3Bnv3YSEwHMrt485YmAqLRvPVtWZJrxG6ViahPfVhRqkngZMaekv4B5c5cgh6NHE",
+   "slot": 516117523,
+   "fee": 5000,
+   "cu": 7909,
+   "bytes": 326
+  },
+  {
+   "step": "reveal it",
+   "signature": "2hGkwBeWs6h62x6XwZ2jSyp3VkAkfTADSquEniPXfm4oaTpc8r8pBMQ1FeVazJKBhTYGmB2TfFgiarSxUreesjzx",
+   "slot": 516117659,
+   "fee": 5000,
+   "cu": 4616,
+   "bytes": 301
+  },
+  {
+   "step": "settle the sale",
+   "signature": "3kjrXhkoRxURXDtonpQ957tR3A5HFHCLVjWxUokPEo6eQCSzz9Ffr32xzoPM3zGzgs8ytFE3r9oBMxdn9C4ugpws",
+   "slot": 516117805,
+   "fee": 5000,
+   "cu": 4357,
+   "bytes": 253
+  },
+  {
+   "step": "claim the seat",
+   "signature": "DDenrATUXYaRzcDFYr8bHbxZ2wsQ8pxo3aGSK6WsyBU387NErZ2q5JUHKmceCLjgUBLd5omLdnztWhfLS791c1P",
+   "slot": 516117812,
+   "fee": 5000,
+   "cu": 10577,
+   "bytes": 426
+  },
+  {
+   "step": "ratify: the council takes tree 0",
+   "signature": "2eqctpNaHkzfZ35fJPsNh1jCwDnWyn57GY1DKvnqB4TZamR6mgZDhptgAwJJXc76D5zvgcVaMHKBurW3mxrgBqT9",
+   "slot": 516117820,
+   "fee": 5000,
+   "cu": 8791,
+   "bytes": 270
+  },
+  {
+   "step": "propose: CODEX Upgrade, by a chair",
+   "signature": "R7xS9M3LTvi4iXruefRQbn5Tdo4NsV3ePUwQSeyVDMU4MWKYcd2iZQ5jvDdoaif4aZcSWwMG1pbtanXPMqr6LVd",
+   "slot": 516117968,
+   "fee": 5000,
+   "cu": 15634,
+   "bytes": 487
+  },
+  {
+   "step": "attest: 8 of 12 chairs and the floor, PRO",
+   "signature": "Z9J9V2VWSbvtKHGSxgVFMU5QrCHLQtNAHnMtXtbyXssAWxw1wj7t2eRnpsYRUDYeFbnxoQmUqMUdg78jzLpKgtY",
+   "slot": 516117976,
+   "fee": 20000,
+   "cu": 7341,
+   "bytes": 907
+  },
+  {
+   "step": "seal",
+   "signature": "5E5NAyPEWAL86DPQcQDQXS9KFsfGyfLH2HBU9Y85XXZaUuz2eZp1VAopgJhrffQ29yB9MBDa1Xw39VrkFRCfB2cn",
+   "slot": 516117984,
+   "fee": 5000,
+   "cu": 8527,
+   "bytes": 343
+  },
+  {
+   "step": "execute: the loader replaces the code",
+   "signature": "dKAz5EnSEmqU8awfV4B8tMxRApv1st64u1442HEXs4faMPbKX4yAzJ5UEXPsVQFy8UKHtLVJNJpxTyMeZKQNGVV",
+   "slot": 516117994,
+   "fee": 5000,
+   "cu": 20086,
+   "bytes": 576
+  }
+ ]
+}

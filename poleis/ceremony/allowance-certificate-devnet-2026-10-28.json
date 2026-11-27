@@ -1,0 +1,169 @@
+{
+ "what": "THE ALLOWANCE REACHES THE VAULT: a deposit into tree 0, a sealed monthly allowance to a Squads 2-of-3 vault, one pull, the cap held",
+ "cluster": "https://api.devnet.solana.com",
+ "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+ "at": "2026-10-28T17:00:14.651Z",
+ "program": "4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84",
+ "treasury": "CGR3tTn885wxjtAiXTUADbV8xCE9NcFNpQMdQmcMQdK7",
+ "squads": {
+  "program": "SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf",
+  "multisig": "34W1t3ucD2tPxXWNxrzHfL2MKKUm5eUVXJruktUMEteV",
+  "vault": "BNgjYdsxVyfPfPtzT6shHeD4LzWr5sHRubuvGqkJ5X2M",
+  "programConfig": "BSTq9w3kZwNwpBXJEvTZz2G9ZTNyKBvoSeXMvwb4cNZr",
+  "treasury": "HM5y4mz3Bt9JY9mr1hkyhnvqxSH4H2u2451j7Hc2dtvK",
+  "members": [
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "7PNNrE7gzjCcuT5rAnG8sdfcGU7fiieGuonxW1b9fXtF"
+  ],
+  "threshold": 2
+ },
+ "deposit": {
+  "signature": "5ndY2kSZvLMEuQPxD8FtooYCNFyvFrH2JKByXdgqzveQ56Bv7FF1XQ9QdXWsnfZkYiTjzidE2EtPt7YbQ72fTiUR",
+  "before": "10787400",
+  "after": "1010787400"
+ },
+ "allowance": {
+  "address": "EcWh3XkzCcCPBiVYEZnV5GmjLSYFwxwPZJ8ps8zGPAft",
+  "proposal": "22b88882722d9f9c2e969297a2e85e25b2b2d328d5c7d1f867a810cb029df3a1",
+  "payee": "BNgjYdsxVyfPfPtzT6shHeD4LzWr5sHRubuvGqkJ5X2M",
+  "cap": "300000000",
+  "period": "6480000",
+  "expires": "0",
+  "votes": [
+   "7TdsKLL28rYXXjHqdruwLs5AeGAngfRPnar4svMTNcth",
+   "qZhkVZWYcDMSKVWeHRiRVz2p9btu6Pm6CAe5cR2zrDz",
+   "MnmbJV3u9hGvoVEchPWp9qKktkHwWhS1DHdrxJWHe7c"
+  ]
+ },
+ "pulls": {
+  "first": {
+   "step": "pull 1: executed with two of three",
+   "signature": "2d8Pgp9zH3LFNnCeYJzgSMjMtmjZbjaGgP5HjK14ZfUXygKH3PLmcuGNxMDF4BiwUBhAHJMreytJwxwTPcJNYMtV",
+   "slot": 516123001,
+   "fee": 5000,
+   "cu": 30945,
+   "bytes": 482,
+   "vault": [
+    "0",
+    "300000000"
+   ],
+   "treasury": [
+    "1010787400",
+    "710787400"
+   ]
+  },
+  "second": {
+   "refused": "Program 4627ahFCh78nC9NJ7Psb7B1NSjDkmnP8SPfvbt5MQz84 failed: custom program error: 0x36"
+  },
+  "refusedWithOneApproval": {
+   "refused": "Program log: AnchorError thrown in programs/squads_multisig_program/src/instructions/vault_transaction_execute.rs:75. Error Code: InvalidProposalStatus. Error Number: 6008. Error Message: Invalid proposal status."
+  }
+ },
+ "transactions": [
+  {
+   "step": "create the 2-of-3 multisig",
+   "signature": "3JZ6KHL4YT12oXwuXEuBLNBJ9tcRs8LhjP3vWEA8xdFcamLSuhSWfnE9XQ5oaadp2Z3aqaYCCJKBLKHHFggUx41q",
+   "slot": 516122832,
+   "fee": 10000,
+   "cu": 16770,
+   "bytes": 519
+  },
+  {
+   "step": "book it: sync_endowment, anyone may",
+   "signature": "2EChjBGrzARfw9JMC9wkeZv2PYYafZhPZV9TYR6L3BKqSE8Y2Lx62xu2rFQeyQ8uiUM7xnVti9UrQe9ArciKig5x",
+   "slot": 516122910,
+   "fee": 5000,
+   "cu": 1960,
+   "bytes": 211
+  },
+  {
+   "step": "propose: TREASURY Allowance to the vault",
+   "signature": "SffRa5yRFeiiwL1nVMk4Wfvv1cwmyqpt4rkphcWA6WNVDPcaWKGZJj6cmTasQmkJAk2jbpGMDvMNpyYu2MRNk7V",
+   "slot": 516122917,
+   "fee": 5000,
+   "cu": 18657,
+   "bytes": 512
+  },
+  {
+   "step": "attest: 8 of 12 chairs and the floor, PRO",
+   "signature": "3YB5gkX4n1iaXu7q2xTU4psXE7fpDxeocrPVX2smhrKiYBzfoL4CgGzCD5wbw8NKFdFQyAr2gkZcZZj6o8oZNiR9",
+   "slot": 516122925,
+   "fee": 20000,
+   "cu": 7341,
+   "bytes": 907
+  },
+  {
+   "step": "seal",
+   "signature": "2N5kLk4nzBMzNDi5HXSZqgMU8VpPuCfEHBdE8aj5m1icVBXoUP1krRp9uq2MdiqjgaYJ2hFRrSAqF3Rq4EZgFZrH",
+   "slot": 516122964,
+   "fee": 5000,
+   "cu": 8527,
+   "bytes": 343
+  },
+  {
+   "step": "execute: the allowance account is born",
+   "signature": "3binjTVhMdkJdDTvXJgzrtrKiCKgerJ5nBz1HJzkkY9vrdmehgGp5nj6VXok2MprbC3yjm1RBdtvGy7HCFZDBx5G",
+   "slot": 516122972,
+   "fee": 5000,
+   "cu": 11479,
+   "bytes": 441
+  },
+  {
+   "step": "pull 1: the vault transaction (0.300000000 SOL)",
+   "signature": "3yLRRuSA8s7kwk5fpXeyKaDC61go9AXcgjMN6aVFpvoujsZUca27UHMSsNNVzPd5kfV4x5s3ZvhE9emCGYUveHMA",
+   "slot": 516122979,
+   "fee": 5000,
+   "cu": 41808,
+   "bytes": 559
+  },
+  {
+   "step": "pull 1: approved by chairA",
+   "signature": "2KAqT2Q4okjvNAboYwAAffgQvxnS9k8dAiMoDQdk4HjyRPiH7rE5ku4i3nmKUd8zAsX2Ps6SfwdYbVnkMhnuebzi",
+   "slot": 516122985,
+   "fee": 5000,
+   "cu": 8624,
+   "bytes": 245
+  },
+  {
+   "step": "pull 1: approved by chairB",
+   "signature": "3KG8NdGNpvn151wFPZNLsF32KCKWwjYAaSpPH1XA2mf3xCffm4CwQWphFiA4kibVC32PoADu9Vrsm4jrU5YNP6Mr",
+   "slot": 516122993,
+   "fee": 5000,
+   "cu": 9493,
+   "bytes": 245
+  },
+  {
+   "step": "pull 1: executed with two of three",
+   "signature": "2d8Pgp9zH3LFNnCeYJzgSMjMtmjZbjaGgP5HjK14ZfUXygKH3PLmcuGNxMDF4BiwUBhAHJMreytJwxwTPcJNYMtV",
+   "slot": 516123001,
+   "fee": 5000,
+   "cu": 30945,
+   "bytes": 482
+  },
+  {
+   "step": "pull 2: the vault transaction (0.010000000 SOL)",
+   "signature": "5gWJMVRzzCSLnegC92S9YuBVuDzPA7CYEPoJUfGqoeyKyBNHFpV5Jogw5JkXfoFCgxWSqvjvNy7fSJMaDEkB6oPF",
+   "slot": 516123009,
+   "fee": 5000,
+   "cu": 46308,
+   "bytes": 559
+  },
+  {
+   "step": "pull 2: approved by chairA",
+   "signature": "3Xc2DtcSjdV78g4d3scy6jatX7Aeih16JfNvXEuxrcJcq1XCfLpUWfi3mkWit7x7RGD74eHWQHpQ28mFZxEbttkn",
+   "slot": 516123016,
+   "fee": 5000,
+   "cu": 8624,
+   "bytes": 245
+  },
+  {
+   "step": "pull 2: approved by chairB",
+   "signature": "5JoShbzagHV5ccB3ZJey8UJfK8gCCNdEDNBmHsucfH9bQSQ1uBbsv64YSiEkrKBfn6tL8ZBosfctfCMUFrwfk2pf",
+   "slot": 516123025,
+   "fee": 5000,
+   "cu": 9493,
+   "bytes": 245
+  }
+ ]
+}

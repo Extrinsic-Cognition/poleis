@@ -1,0 +1,26 @@
+#!/usr/bin/expect -f
+# keygen-pty.exp: the official keygen's pubkey for words given on stdin (keygen-cross.proof.mjs, direction 2, Oct 14 2026). solana-keygen reads a
+# seed phrase from a terminal only and script(1) wants a terminal on its own stdin (a pipe: "tcgetattr/ioctl: Operation not supported on socket"),
+# so expect makes the terminal. The words come on stdin and go to the keygen's prompt: never an argument, never echoed (log_user 0); stdout is
+# what the keygen printed after the passphrase prompt, its pubkey. Exit 2 no words, 3 a prompt never came, 4 the keygen ended early.
+log_user 0
+set timeout 20
+if {[gets stdin words] < 0} { exit 2 }
+spawn -noecho solana-keygen pubkey prompt://?key=0/0
+expect {
+  -re {seed phrase: ?} {}
+  timeout { exit 3 }
+  eof { exit 4 }
+}
+send -- "$words\r"
+set words ""
+expect {
+  -re {passphrase[^\r\n]*: ?} { send -- "\r" }
+  timeout { exit 3 }
+  eof { exit 4 }
+}
+expect {
+  eof {}
+  timeout { exit 3 }
+}
+puts [string trim $expect_out(buffer)]

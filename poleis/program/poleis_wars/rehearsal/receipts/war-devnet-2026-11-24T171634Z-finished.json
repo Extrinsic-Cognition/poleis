@@ -1,0 +1,114 @@
+{
+  "accounts_left_standing": {
+    "config": "https://explorer.solana.com/address/9bQxb4j16YbCT4crmLEGTExXFjb7XFxfX4c8YxBsk9JT?cluster=devnet",
+    "raid": "https://explorer.solana.com/address/CrrnuHpd1VgQZE4hvekpcfTkY8JP9asXMeXGJJSRWQSn?cluster=devnet",
+    "the attacker's house": "https://explorer.solana.com/address/2b5777GWfk9WSHe3us3jubaeNYwS8VWYY6jYbeSqHXCN?cluster=devnet",
+    "the defender's house": "https://explorer.solana.com/address/BErVHy3A7PTgWPYqTLz5Ze62FbrtVywV8YVewZBhT4sf?cluster=devnet"
+  },
+  "cluster": "devnet",
+  "minute_seconds": 10,
+  "paid": {
+    "creators": [
+      {
+        "creator": "GcMzpPYsK9WNnSJQd2YhQFy2UNBt4wP1E2iDupjs9EJF",
+        "house": "crow",
+        "paid": {
+          "lamports": 221446621,
+          "sol": 0.221447
+        }
+      },
+      {
+        "creator": "SJyVpJ8Yf5h9MY7JsNyX4sQcQZgQht4NUWJmQcvYdpX",
+        "house": "wolf",
+        "paid": {
+          "lamports": 59259260,
+          "sol": 0.059259
+        }
+      }
+    ],
+    "publisher": {
+      "after": {
+        "lamports": 890664350,
+        "sol": 0.890664
+      },
+      "before": {
+        "lamports": 1762400,
+        "sol": 0.001762
+      },
+      "paid": {
+        "lamports": 888901950,
+        "sol": 0.888902
+      },
+      "treasury": "63T5SyoxfcKNYa6LET3jhBAfWnxY2aTsYXVnwvkvLTxt"
+    }
+  },
+  "program": {
+    "deployed": {
+      "program_data": "676NDZ4Bhi5WjgPV9q3mYkH9PQa9VCU4Dw8eDtNWQzYM",
+      "sha256_of_this_tree's_length": "76002ff558c33f5ae344f7a0191ed233164a00238f268e8ce6420fe73b75b2a5",
+      "slot": 525822910,
+      "the same bytes as this tree's build": true,
+      "upgrade_authority": "FT9u9LszrszsRxygpwQ31Dj6VjZM8uENujRFC9ecYdzV"
+    },
+    "id": "6ZA4DVYtEEDZF4nTjcaxzeWLxWUs7Mrve9EANzjRs4Ef",
+    "this_tree's_build": {
+      "bytes": 143792,
+      "sha256": "76002ff558c33f5ae344f7a0191ed233164a00238f268e8ce6420fe73b75b2a5"
+    }
+  },
+  "rehearsal": "a war a run left standing mid-raid, finished by the clock: read off the chain alone, held to no reference",
+  "result": "pass",
+  "sol": {
+    "back: the stand-ins sent back": {
+      "lamports": 36456766528,
+      "sol": 36.456767
+    },
+    "payer_after": {
+      "lamports": 36678338528,
+      "sol": 36.678339
+    },
+    "payer_before": {
+      "lamports": 222317000,
+      "sol": 0.222317
+    },
+    "seed_moved_to": "~/.embertide/the-game-publisher-devnet/war-seed.refunded-2026-11-24T175722Z"
+  },
+  "the war as it ended": {
+    "converts": 10,
+    "cranks": [
+      "CHH6qPQy4A9VdNMvT7dKuejZ333jzeJfEWBytaausZaTkCczLsUdZPfANd6n3G2qK4w1teyNU6HqrM1LMhVRNY7"
+    ],
+    "decided_at_minute": 195,
+    "how": "the clock ran out; the further along won",
+    "sellers": 36,
+    "sol_the_sellers_got": {
+      "lamports": 34121309847,
+      "sol": 34.12131
+    },
+    "the loser's status": 2,
+    "the winner's chest": {
+      "lamports": 0,
+      "sol": 0.0
+    },
+    "the winner's reserve left behind the burned coins": {
+      "lamports": 2709082322,
+      "sol": 2.709082
+    },
+    "unlocks": 2,
+    "winner": "crow"
+  },
+  "the war as it stood": {
+    "config": "9bQxb4j16YbCT4crmLEGTExXFjb7XFxfX4c8YxBsk9JT",
+    "minute_seconds": 10,
+    "minutes": 195,
+    "next_minute": 64,
+    "raid": "CrrnuHpd1VgQZE4hvekpcfTkY8JP9asXMeXGJJSRWQSn",
+    "status": 1
+  },
+  "validator": {
+    "feature-set": 1591744305,
+    "genesis": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+    "solana-core": "4.5.0-beta.0"
+  },
+  "wall_seconds": 1404.3
+}
