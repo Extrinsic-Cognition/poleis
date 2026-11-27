@@ -1,5 +1,5 @@
 //! A road, from its lay to its last settle and its collect. Every number of the market is moved by one whole call of the law's core
-//! (embertide-futarchy src/law.rs): `carry`, `stamp_check`, `trade_on`, `decide_at`, `happened`, `settle_at`, `pool_at`, `deposit_check`,
+//! (poleis-futarchy src/law.rs): `carry`, `stamp_check`, `trade_on`, `decide_at`, `happened`, `settle_at`, `pool_at`, `deposit_check`,
 //! `purse_of`, `back_of`, `world_of`. This file reads and writes accounts around those calls and checks who may make them; it never puts the
 //! law together from pieces. The clock is the slot (state.rs THE CLOCK IS THE SLOT); the law is handed its milliseconds.
 //!
@@ -11,7 +11,7 @@ use crate::error::{of_law, RoadsError};
 use crate::state::{terms_of, Balance, Board, Law, Position, Road, SEED_POSITION, SEED_ROAD, VERDICT_FAILED, VERDICT_OPEN, VERDICT_PASSED};
 use crate::util::{close_to, create_pda, expect_signer, expect_writable, find_and_expect_pda, ms_of, now_ms, now_slot, stands, Data};
 use crate::MOST;
-use embertide_futarchy::law::{self, back_of, decide_at, deposit_check, happened, pool_at, settle_at, stamp_check, trade_on, world_of, Branch, Receipts, Side, Trade, Which, WINDOW_MAX_MS};
+use poleis_futarchy::law::{self, back_of, decide_at, deposit_check, happened, pool_at, settle_at, stamp_check, trade_on, world_of, Branch, Receipts, Side, Trade, Which, WINDOW_MAX_MS};
 use pinocchio::{error::ProgramError, AccountView, Address, ProgramResult};
 
 /// data: [road_id:32][opens_slot:8][closes_slot:8][step_slots:8][max_step_bp:4][threshold_bp:4][fee_bp:4][pool_base:8][pool_quote:8][judge_by_slot:8]

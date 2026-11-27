@@ -6,7 +6,7 @@ use super::{minus, plus, position_of, position_standing, raid_window};
 use crate::error::{of_law, WarsError};
 use crate::state::{Config, Fees, House, Position, Raid, HOUSE_ACTIVE, HOUSE_IN_RAID, HOUSE_REKT, RAID_ACTIVE, RAID_PROPOSED, SEED_RAID};
 use crate::util::{create_pda, expect_signer, expect_writable, find_and_expect_pda, move_lamports, now_ts, stands, u64_of, Data};
-use embertide_war::law::{buy_on, burn_on, mcap, minute_on, stake_on, Phase};
+use poleis_war::law::{buy_on, burn_on, mcap, minute_on, stake_on, Phase};
 use pinocchio::{error::ProgramError, AccountView, Address, ProgramResult};
 
 /// a house that can raid or be raided: not lost, not in a raid (one battle at a time)
@@ -296,7 +296,7 @@ pub fn change_sides(accounts: &mut [AccountView], data: &[u8]) -> ProgramResult 
     let (from_after, paid) = burn_on(&c.rules, &hf.curve(), pf.coins as u128, pf.brought as u128).map_err(of_law)?;
     if c.rules.march_s > 0 {
         use crate::state::Pending;
-        use embertide_war::law::{Order, OrderKind};
+        use poleis_war::law::{Order, OrderKind};
         let queue = queue.as_deref_mut().ok_or(ProgramError::NotEnoughAccountKeys)?;
         let mut q = super::march::queue_for(owner, queue, raid.address(), &c.rules)?;
         let order = Order::accept(&c.rules, OrderKind::Buy, paid, min_coins as u128, now, Some(q.last_acceptance)).map_err(of_law)?;

@@ -179,7 +179,7 @@ ignored, the client 20, every exit 0, no warning; the two programs' bytes are th
 - **What the house earned sits on the board.** Nothing moves it yet. Where it goes is his open call (who sends the yield).
 - **The crediter is still a key the polis names.** It picks who has $WARM to trade and to stake, and it can fund one holder who passes the
   bar alone. The bar measures how much stood in a road, not how many stood there.
-- **A road nobody else trades is still decided by whoever trades it** (`embertide-futarchy`, WHAT THE LAW CANNOT DO ALONE). He pays the
+- **A road nobody else trades is still decided by whoever trades it** (`poleis-futarchy`, WHAT THE LAW CANNOT DO ALONE). He pays the
   house the fees, and what his push lost if he holds it to the settle. No rule closes that; only another trader does.
 - **A road is carried through `window / step` boundaries, 66 a call.** The board's law sets the step; a step far smaller than the polis's
   votes makes every road dear to carry. Nothing checks a law's step against the polis's own window.

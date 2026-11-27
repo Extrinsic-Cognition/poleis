@@ -33,12 +33,13 @@
     ]
   },
   "license": {
-    "status": "unresolved-publication-restriction",
-    "trackedLicenseFile": null,
-    "crateLicenseDeclared": false,
-    "source": "README.md:206",
-    "sourceStatement": "Private working tree. No public remote until the license ruling closes.",
-    "publicRedistributionApprovedByImport": false
+    "status": "resolved-gpl3-and-apache2",
+    "trackedLicenseFile": "LICENSE",
+    "sdkLicenseFile": "LICENSE-APACHE",
+    "crateLicenseDeclared": true,
+    "rulingDate": "2026-11-27",
+    "rulingSummary": "Owner ruling by Extrinsic Cognition, Inc.: GPL-3.0 for on-chain programs, tooling, and core crates; Apache-2.0 for integrator SDKs (poleis/client, poleis/seat-wasm).",
+    "publicRedistributionApprovedByImport": true
   },
   "files": [
     {

@@ -15,7 +15,7 @@
 | what acts 9 and 10 added to the chain | | 23 transactions. On the floor, per act: a proposal and four PRO (10). The crank's: act 9's convene, then per act ballots, unit 1's seal and mandate, root 0's seal, execute (13). The crank's fees: 17,000 lamports a transaction, 32,000 for a ballots' batch. The executes: act 9 16,904 CU, act 10 18,238 CU |
 | what the sitting needs for them | | `press need`: 0.002415120 SOL for act 9's crank and 0.003995040 for act 10's (its plan account's rent among them) |
 | what the agents read | 8 sets each | 10 sets each: 30 ballots, all PRO |
-| code | | Rust: `press acts` writes the later acts' sets where the params name them (`light::write_set` beside `engine::write_set`); `press need` counts act 10's plan account; `build.rs` PARTS copies `embertide-stake`; `council.rs`'s live check counts the later acts, reads act 9's staker and act 10's plan back, and takes the agents' ballots by act number; `tests/light.rs` keeps the money's road test (run by no script). sh: `the-launch-press-rehearsal.sh` `LAUNCH_LATER_ACTS`. No JavaScript (the gate's count for the lane over main, +9 -9, is the handed lane's own lines) |
+| code | | Rust: `press acts` writes the later acts' sets where the params name them (`light::write_set` beside `engine::write_set`); `press need` counts act 10's plan account; `build.rs` PARTS copies `poleis-stake`; `council.rs`'s live check counts the later acts, reads act 9's staker and act 10's plan back, and takes the agents' ballots by act number; `tests/light.rs` keeps the money's road test (run by no script). sh: `the-launch-press-rehearsal.sh` `LAUNCH_LATER_ACTS`. No JavaScript (the gate's count for the lane over main, +9 -9, is the handed lane's own lines) |
 
 ## The runs, every one
 
@@ -26,7 +26,7 @@ The agents' mind was qwen3:14b on the old Mac, reached as last night's run reach
 and closed after them. Another session's link already held 11435. Nothing ran on the old Mac but the model's answers.
 
 1. **14:55:46 UTC, load 27.91 / 75.64 / 77.86.** It waited 333 s and took slot 2 at 15:01:20. **Exit 2 in 63 s.** The sitting's press build failed
-   (exit 101): `build.rs` PARTS did not copy `embertide-stake`, which the press has linked since lane/the-light-pays-a-wish-and-its-rider. Mended
+   (exit 101): `build.rs` PARTS did not copy `poleis-stake`, which the press has linked since lane/the-light-pays-a-wish-and-its-rider. Mended
    (412e29ff1a; the briefing seat carried it onto the handed lane).
 2. **15:03:37 UTC, load 19.02 / 39.78 / 60.33.** Slot 2 at 15:04:18. **Exit 1 in 462 s.** The checks compared each agent's ballots to the acts in
    file-name order, so `10-…` came before `2-…`. The minds had voted all ten PRO. Mended (9cb351b213).

@@ -6,7 +6,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_futarchy::law::{step_toward, Branch, UNIT};
+use poleis_futarchy::law::{step_toward, Branch, UNIT};
 use poleis_roads::error::RoadsError;
 use poleis_roads::state::{Balance, Board, Position, Road};
 use poleis_roads::MOST;

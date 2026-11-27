@@ -103,7 +103,7 @@ impl From<WarsError> for ProgramError {
 
 /// The law's refusal as this program's error: compared with the law's own constants, never with a copy of their text.
 pub fn of_law(why: &'static str) -> WarsError {
-    use embertide_war::law::{
+    use poleis_war::law::{
         DECIDED, NOTHING_OUT, NOT_ENOUGH_TOKENS, NOT_HELD, NOT_SOLD, ORDER_TOO_SMALL, OVERFLOW, OWNER_MARCH_FULL,
         RESERVE_SHORT, STAKE_CAP, UNFAIR,
     };

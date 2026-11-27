@@ -1,7 +1,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_war::law::{buy_on, sell_on, Rules};
+use poleis_war::law::{buy_on, sell_on, Rules};
 use poleis_wars::{error::WarsError, state::*, IX_CLAIM_MARCH_QUOTE, IX_CLOSE_POSITION, IX_INIT_MARCH_CONFIG, IX_LAND_ORDERS};
 use solana_instruction::{AccountMeta, Instruction};
 use solana_program_error::ProgramError;

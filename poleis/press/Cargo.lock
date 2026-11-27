@@ -514,14 +514,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "embertide-stake"
-version = "0.1.0"
-dependencies = [
- "bs58",
- "serde_json",
-]
-
-[[package]]
 name = "equivalent"
 version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1068,11 +1060,11 @@ dependencies = [
  "bincode",
  "borsh 0.10.4",
  "ed25519-dalek",
- "embertide-stake",
  "mpl-token-metadata",
  "poleis-client",
  "poleis-door",
  "poleis-seat-wasm",
+ "poleis-stake",
  "poleis-treasury",
  "serde_json",
  "sha2 0.10.9",
@@ -1102,6 +1094,14 @@ dependencies = [
  "solana-message 4.4.1",
  "solana-pubkey 4.2.1",
  "warm-mine",
+]
+
+[[package]]
+name = "poleis-stake"
+version = "0.1.0"
+dependencies = [
+ "bs58",
+ "serde_json",
 ]
 
 [[package]]

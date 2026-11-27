@@ -274,18 +274,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "embertide-stake"
-version = "0.1.0"
-dependencies = [
- "bs58",
- "serde_json",
-]
-
-[[package]]
-name = "embertide-war"
-version = "0.1.0"
-
-[[package]]
 name = "equivalent"
 version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -564,9 +552,9 @@ version = "0.1.0"
 dependencies = [
  "base64",
  "ed25519-dalek",
- "embertide-stake",
  "poleis-client",
  "poleis-door",
+ "poleis-stake",
  "poleis-treasury",
  "serde_json",
  "sha2",
@@ -594,6 +582,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "poleis-stake"
+version = "0.1.0"
+dependencies = [
+ "bs58",
+ "serde_json",
+]
+
+[[package]]
 name = "poleis-treasury"
 version = "0.1.0"
 dependencies = [
@@ -603,12 +599,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "poleis-war"
+version = "0.1.0"
+
+[[package]]
 name = "poleis-wars"
 version = "0.1.0"
 dependencies = [
- "embertide-war",
  "pinocchio",
  "pinocchio-system",
+ "poleis-war",
  "solana-address",
 ]
 
@@ -618,7 +618,7 @@ version = "0.1.0"
 dependencies = [
  "base64",
  "ed25519-dalek",
- "embertide-war",
+ "poleis-war",
  "poleis-wars",
  "serde_json",
  "sha2",

@@ -1,15 +1,15 @@
-//! THE FOUR REFERENCE WARS ON THE CHAIN, instruction by instruction, beside the law's whole war (embertide-war's `War`, the same steps): the
+//! THE FOUR REFERENCE WARS ON THE CHAIN, instruction by instruction, beside the law's whole war (poleis-war's `War`, the same steps): the
 //! forty buys, the stakes until the raid opens, then minute by minute the clock warped to the minute, the minute's buys, deserts and changes
 //! of sides in the model's order, the stand's reserve in its first minute, and one crank; then the settlement, every loser holder's convert
 //! and the winner's stakers' unlock. After every instruction the program's houses are the law's to the unit (curve, held, burned, chest),
 //! the raid's phase is the law's after every crank, and THE BOOK holds (common::book). At the end every number is held to the owner's
-//! reference (embertide-war/tests/reference/reference-in-sol.json): the winner, how and the minute, every settled integer, every fighter's
+//! reference (poleis-war/tests/reference/reference-in-sol.json): the winner, how and the minute, every settled integer, every fighter's
 //! holds, backed_lamports and took_lamports.
 mod built;
 mod common;
 use common::*;
-use embertide_war::law::{backed_of, Phase, Rules, Side, SOL as LAW_SOL};
-use embertide_war::war::{how_text, the_four, Kind, Scenario, War, HOUSE, N};
+use poleis_war::law::{backed_of, Phase, Rules, Side, SOL as LAW_SOL};
+use poleis_war::war::{how_text, the_four, Kind, Scenario, War, HOUSE, N};
 use poleis_wars::state::{HOUSE_ACTIVE, HOUSE_IN_RAID, HOUSE_REKT, RAID_ACTIVE, RAID_PROPOSED, RAID_SETTLED};
 use serde_json::Value;
 use solana_pubkey::Pubkey;
@@ -19,7 +19,7 @@ use std::collections::BTreeMap;
 const T0: i64 = 1_800_000_000;
 
 fn reference() -> Vec<Value> {
-    let text = std::fs::read_to_string(concat!(env!("CARGO_MANIFEST_DIR"), "/../../../embertide-war/tests/reference/reference-in-sol.json")).expect("the reference");
+    let text = std::fs::read_to_string(concat!(env!("CARGO_MANIFEST_DIR"), "/../../../poleis-war/tests/reference/reference-in-sol.json")).expect("the reference");
     serde_json::from_str::<Value>(&text).unwrap().as_array().unwrap().clone()
 }
 fn int(v: &Value) -> u128 {

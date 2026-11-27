@@ -60,9 +60,9 @@ say "building Poleis as its tests build it, and the book's hand"
   nice -n 19 cargo-build-sbf --offline --manifest-path "$poleis/Cargo.toml" --sbf-out-dir "$work/deploy") > "$work/build.out" 2>&1 \
   || { tail -n 20 "$work/build.out"; say "Poleis's build failed: not started"; exit 2; }
 rm -f "$work"/deploy/*-keypair.json
-nice -n 19 cargo build --offline --locked --manifest-path "$here/embertide-stake/Cargo.toml" > "$work/book.out" 2>&1 \
+nice -n 19 cargo build --offline --locked --manifest-path "$here/poleis-stake/Cargo.toml" > "$work/book.out" 2>&1 \
   || { tail -n 20 "$work/book.out"; say "the book's build failed: not started"; exit 2; }
-book="${CARGO_TARGET_DIR:-$here/embertide-stake/target}/debug/embertide-stake"
+book="${CARGO_TARGET_DIR:-$here/poleis-stake/target}/debug/poleis-stake"
 [ -x "$book" ] || { say "no book's hand at $book: not started"; exit 2; }
 
 # ONLY THE DEPLOYER FOUNDS ROOT 0: Poleis is loaded upgradeable, its upgrade authority a stand-in made here, which founds root 0 as the launch's

@@ -37,8 +37,8 @@
 //! compute units as the chain reported them, the minutes, and any refusal. Exit 0 when everything held, 1 when anything did not (its words
 //! in the receipt).
 
-use embertide_war::law::{backed_of, sell_on, Phase, Rules, Side, SOL as LAW_SOL};
-use embertide_war::war::{how_text, the_four, Event, Kind, War, HOUSE, N};
+use poleis_war::law::{backed_of, sell_on, Phase, Rules, Side, SOL as LAW_SOL};
+use poleis_war::war::{how_text, the_four, Event, Kind, War, HOUSE, N};
 use poleis_wars::error::WarsError;
 use poleis_wars::state::{Config, Fees, House, Position, Raid, HOUSE_ACTIVE, HOUSE_REKT, RAID_ACTIVE, RAID_PROPOSED, RAID_SETTLED, RAID_STAND};
 use poleis_wars_rehearsal::rpc::{Cluster, Rpc};
@@ -453,7 +453,7 @@ fn needs(rents: &Rents) -> Vec<(String, u64)> {
 /// signature.
 fn plan(receipt: &mut Value) -> Res<()> {
     let rents = Rents::default_rent();
-    let (w, d) = embertide_war::war::fight(&R, &the_four()[0])?;
+    let (w, d) = poleis_war::war::fight(&R, &the_four()[0])?;
     let wi = d.winner.index();
     let mut c = w.curves[wi];
     let mut sold = 0u128;

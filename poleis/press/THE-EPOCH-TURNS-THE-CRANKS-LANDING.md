@@ -11,7 +11,7 @@
 
 | | before (lane/the-new-acts-in-the-launch-rehearsal at a084371c04) | this lane |
 |---|---|---|
-| what carries an epoch | a hand: `press engine`, `embertide-stake count`, `press light --send`, each run by someone | `press epoch` (one pass) and `press epoch --stay` (a pass each epoch, turned by the epoch) |
+| what carries an epoch | a hand: `press engine`, `poleis-stake count`, `press light --send`, each run by someone | `press epoch` (one pass) and `press epoch --stay` (a pass each epoch, turned by the epoch) |
 | a pass's fees, one validator and one wish (read in the rehearsal) | | 10,000 lamports when nothing moves (the pool's update 5,000, the pour 5,000); 20,000 when the engine brings stake back; 10,000 at the first pass (the validator added, the reserve placed); a wish's first pour also makes its vault (2,039,280 of rent, the pourer paying) |
 | the runner at rest (read, not guessed) | | **0.13 s of CPU** over the green run's 5 passes; **345 RPC calls** by its fifth pass (57 to 90 a pass, the clock's reads among them). Asleep it holds nothing: every read is one curl |
 | its log | | one line a pass, one line while the epoch's rewards are paid, its errors; a line that would repeat is said once |
@@ -39,7 +39,7 @@ Each step runs only when the chain says it is due (`epoch::due`). In order:
 
 1. **The engine** (`engine::run`, the engine's key): her pool brought to the epoch, the validators added, the reserve placed or stake brought back.
    While the epoch's rewards are paid, the pass waits and says so in one line, then looks again a few slots on.
-2. **The book's read**, by the book's own law (`embertide_stake::count`), once her pool stands at the epoch.
+2. **The book's read**, by the book's own law (`poleis_stake::count`), once her pool stands at the epoch.
 3. **The reader and the pour** (`light::crank`, `light::send`, the pourer's key) for every wish with a road. The epoch's light is netted against what
    each wish already took, and the crank's memos on the chain keep each pour once.
 

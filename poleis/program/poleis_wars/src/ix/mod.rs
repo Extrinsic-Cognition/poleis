@@ -12,7 +12,7 @@ pub mod march;
 use crate::error::WarsError;
 use crate::state::{House, Position, Raid, SEED_POSITION};
 use crate::util::{create_pda, find_and_expect_pda, stands};
-use embertide_war::law::trades_until;
+use poleis_war::law::trades_until;
 use pinocchio::{error::ProgramError, AccountView, Address};
 
 /// The raid a house is in, at `now`, if a trade of it still counts: the account at the address the house names, open or in its stand, and

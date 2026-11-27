@@ -7,7 +7,7 @@ use crate::{
     state::*,
     util::*,
 };
-use embertide_war::law::{brought_after_sale, check_march_owner, land_on, trades_until, Landing, Order, OrderKind, Rules};
+use poleis_war::law::{brought_after_sale, check_march_owner, land_on, trades_until, Landing, Order, OrderKind, Rules};
 use pinocchio::{error::ProgramError, AccountView, Address, ProgramResult};
 
 /// Existing instructions take one trailing queue account only for marching configs.

@@ -5,7 +5,7 @@ use super::{minus, plus, position_of};
 use crate::error::{of_law, WarsError};
 use crate::state::{Config, Fees, House, Position, Raid, HOUSE_ACTIVE, HOUSE_REKT, RAID_DECIDED, RAID_SETTLED};
 use crate::util::{close_to, expect_signer, expect_writable, move_lamports, now_ts, u64_of, Data};
-use embertide_war::law::{dump_rate_at, dump_tax_of, mcap, settle_on, share_of, weight_of, weights_of, Phase, Side};
+use poleis_war::law::{dump_rate_at, dump_tax_of, mcap, settle_on, share_of, weight_of, weights_of, Phase, Side};
 use pinocchio::{error::ProgramError, AccountView, Address, ProgramResult};
 
 /// data: none · accounts: [config, raid (w), attacker (w), defender (w), fees (w)]

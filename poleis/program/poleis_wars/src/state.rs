@@ -4,7 +4,7 @@
 
 use crate::error::WarsError;
 use crate::util::u64_of;
-use embertide_war::law::{Curve, How, Phase, Rules, Side};
+use poleis_war::law::{Curve, How, Phase, Rules, Side};
 use pinocchio::{
     account::{Ref, RefMut},
     error::ProgramError,
@@ -35,19 +35,19 @@ pub const DISC_MARCH: u8 = 6;
 
 /// A bounded FIFO permits every due order to be landed by one transaction. No allocator,
 /// worker or account scan: at most eight owner/position pairs supplied in FIFO order.
-pub const MARCH_CAPACITY: usize = embertide_war::law::MARCH_CAPACITY;
+pub const MARCH_CAPACITY: usize = poleis_war::law::MARCH_CAPACITY;
 #[derive(Clone, Copy)]
 pub struct Pending {
     pub owner: Address,
     pub side: u8,
-    pub order: embertide_war::law::Order,
+    pub order: poleis_war::law::Order,
     pub brought: u64,
     pub sequence: u64,
 }
 impl Pending {
     const EMPTY: Self = Self {
         owner: Address::new_from_array([0; 32]), side: 0,
-        order: embertide_war::law::Order { kind: embertide_war::law::OrderKind::Buy, amount: 0, minimum: 0, accepted_at: 0, lands_at: 0 },
+        order: poleis_war::law::Order { kind: poleis_war::law::OrderKind::Buy, amount: 0, minimum: 0, accepted_at: 0, lands_at: 0 },
         brought: 0, sequence: 0,
     };
 }
@@ -81,8 +81,8 @@ impl March {
             p.owner = rd_addr(&d, o);
             p.side = d[o + 32];
             if p.side > 1 { return Err(WarsError::InvalidAccount.into()); }
-            p.order = embertide_war::law::Order {
-                kind: match d[o + 33] { 0 => embertide_war::law::OrderKind::Buy, 1 => embertide_war::law::OrderKind::Sale, _ => return Err(WarsError::InvalidAccount.into()) },
+            p.order = poleis_war::law::Order {
+                kind: match d[o + 33] { 0 => poleis_war::law::OrderKind::Buy, 1 => poleis_war::law::OrderKind::Sale, _ => return Err(WarsError::InvalidAccount.into()) },
                 amount: rd_u64(&d, o + 34) as u128, minimum: rd_u64(&d, o + 42) as u128,
                 accepted_at: rd_i64(&d, o + 50), lands_at: rd_i64(&d, o + 58),
             };
@@ -102,7 +102,7 @@ impl March {
             let o = Self::OFF_ORDERS + i * Self::ORDER_SIZE;
             wr_addr(&mut d, o, &p.owner);
             d[o + 32] = p.side;
-            d[o + 33] = match p.order.kind { embertide_war::law::OrderKind::Buy => 0, embertide_war::law::OrderKind::Sale => 1 };
+            d[o + 33] = match p.order.kind { poleis_war::law::OrderKind::Buy => 0, poleis_war::law::OrderKind::Sale => 1 };
             wr_u64(&mut d, o + 34, u64_of(p.order.amount)?);
             wr_u64(&mut d, o + 42, u64_of(p.order.minimum)?);
             wr_i64(&mut d, o + 50, p.order.accepted_at);

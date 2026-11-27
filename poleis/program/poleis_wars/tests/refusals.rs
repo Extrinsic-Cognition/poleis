@@ -4,7 +4,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_war::law::{Rules, Side};
+use poleis_war::law::{Rules, Side};
 use poleis_wars::error::WarsError::{self, *};
 use poleis_wars::state::*;
 #[allow(unused_imports)]
@@ -289,16 +289,16 @@ fn the_dump_tax_on_a_sale_after_the_settlement() {
     assert!(h.dump_rate_bps >= 1_000 && h.dump_end > h.dump_start, "the crow climbed: its dump tax");
     let mid = (h.dump_start + h.dump_end) / 2;
     f.w.set_now(mid);
-    let rate = embertide_war::law::dump_rate_at(h.dump_rate_bps, h.dump_start, h.dump_end, mid);
+    let rate = poleis_war::law::dump_rate_at(h.dump_rate_bps, h.dump_start, h.dump_end, mid);
     let n = coins(&f, &crow, &a) / 3;
     let (sale_of, fees0, chest0, a0) = (
-        embertide_war::law::sell_on(&Rules::MEME_ROYALE, &h.curve, n as u128, rate).unwrap().1,
+        poleis_war::law::sell_on(&Rules::MEME_ROYALE, &h.curve, n as u128, rate).unwrap().1,
         f.w.fees(&fees_pda(&config)),
         h.chest,
         f.w.lamports(&a),
     );
     f.w.ok(&sell(a, config, crow, n, 0), "a sells under the dump tax");
-    let (to_fees, to_chest) = embertide_war::law::tax_split(sale_of.tax);
+    let (to_fees, to_chest) = poleis_war::law::tax_split(sale_of.tax);
     assert!(sale_of.tax > 0);
     assert_eq!((f.w.lamports(&a) - a0) as u128, sale_of.net(), "he gets the quote less the fees and the tax");
     assert_eq!((f.w.house(&crow).chest - chest0) as u128, to_chest, "half the tax into the house's chest");
@@ -307,7 +307,7 @@ fn the_dump_tax_on_a_sale_after_the_settlement() {
     let end = f.w.house(&crow).dump_end;
     f.w.set_now(end);
     let h = f.w.house(&crow);
-    let free = embertide_war::law::sell_on(&Rules::MEME_ROYALE, &h.curve, n as u128, 0).unwrap().1;
+    let free = poleis_war::law::sell_on(&Rules::MEME_ROYALE, &h.curve, n as u128, 0).unwrap().1;
     let a1 = f.w.lamports(&a);
     f.w.ok(&sell(a, config, crow, n, 0), "a sells after the dump tax");
     assert_eq!((f.w.lamports(&a) - a1) as u128, free.net());
@@ -484,9 +484,9 @@ fn settle_convert_and_unlock_refusals() {
     let (na, nb) = (coins(&g, &g.crow, &g.a), coins(&g, &g.crow, &g.b));
     g.w.ok(&convert(g.b, g.config, g.raid, g.crow, g.wolf), "the staker converts");
     g.w.ok(&convert(g.a, g.config, g.raid, g.crow, g.wolf), "the holder converts");
-    let weights = embertide_war::law::weights_of(&Rules::MEME_ROYALE, (na + nb) as u128, nb as u128).unwrap();
+    let weights = poleis_war::law::weights_of(&Rules::MEME_ROYALE, (na + nb) as u128, nb as u128).unwrap();
     assert_eq!(r.weights, weights, "the weights fixed at the settlement");
-    let share = |n: u64, staked: u64| embertide_war::law::share_of(r.coins_bought as u128, embertide_war::law::weight_of(&Rules::MEME_ROYALE, n as u128, staked as u128).unwrap(), weights).unwrap() as u64;
+    let share = |n: u64, staked: u64| poleis_war::law::share_of(r.coins_bought as u128, poleis_war::law::weight_of(&Rules::MEME_ROYALE, n as u128, staked as u128).unwrap(), weights).unwrap() as u64;
     assert_eq!(g.w.position(&g.wolf, &g.b).unwrap().coins, share(nb, nb), "the staker's share, a tenth better");
     assert_eq!(g.w.position(&g.wolf, &g.a).unwrap().coins, share(na, 0));
     // a deserter's emptied position holds nothing to convert

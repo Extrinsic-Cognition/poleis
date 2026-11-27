@@ -86,7 +86,7 @@ impl From<RoadsError> for ProgramError {
 
 /// The law's refusal of a trade or a time, as this program's error: compared with the law's own constants, never with a copy of their text.
 pub fn of_law(why: &'static str) -> RoadsError {
-    use embertide_futarchy::law::{BACKWARDS, NOTHING_OUT, NOT_ENOUGH, OTHER_WORLD, OUTSIDE, OUT_OF_RANGE, PAST_MIN, STILL_OPEN, WORTH_RANGE};
+    use poleis_futarchy::law::{BACKWARDS, NOTHING_OUT, NOT_ENOUGH, OTHER_WORLD, OUTSIDE, OUT_OF_RANGE, PAST_MIN, STILL_OPEN, WORTH_RANGE};
     if why == NOT_ENOUGH {
         RoadsError::NotEnough
     } else if why == NOTHING_OUT {

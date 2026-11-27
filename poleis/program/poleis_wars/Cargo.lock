@@ -791,7 +791,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "embertide-war"
+name = "poleis-war"
 version = "0.1.0"
 
 [[package]]
@@ -1524,7 +1524,7 @@ dependencies = [
 name = "poleis-wars"
 version = "0.1.0"
 dependencies = [
- "embertide-war",
+ "poleis-war",
  "mollusk-svm",
  "pinocchio",
  "pinocchio-system",

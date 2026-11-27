@@ -19,7 +19,7 @@
 | the public RPC | | 2,162 calls paced at one in 300 ms; 32 answered 429 and were waited out |
 | units on devnet | | where no address enters, the local validator's: settle 40,274, a crank 5,718 to 5,976, desert 6,596 to 6,604, sell 7,076 to 7,084 |
 | his devnet wallet (`3nJn2…KMba`, test SOL) | 80.711 | 71.854, and 0.75 more held by the deploy key for the next upgrade, back after it: 40.92 out on his three yeses, 32.063 back; 8.10 kept by the chain (the program's rent 0.713; the war's 7.392: 6.231 behind the deserters' burned coins in the crow's reserve, 1.088 the war's fees in its fee account, 0.072 rents, 0.002 network fees) |
-| tests (the new Mac, nice 19) | | embertide-war 18, poleis_wars 19, green under the devnet id |
+| tests (the new Mac, nice 19) | | poleis-war 18, poleis_wars 19, green under the devnet id |
 | JavaScript | | none |
 | at rest | | nothing runs: the program and the war's accounts stand on devnet and cost nothing until a transaction comes |
 
@@ -48,6 +48,6 @@
 
 ## The gates
 
-- At the ship (THE CRATES GATE THE SHIP): `embertide-war`, `poleis/program/poleis_wars`, its `rehearsal`.
+- At the ship (THE CRATES GATE THE SHIP): `poleis-war`, `poleis/program/poleis_wars`, its `rehearsal`.
 - No gate yet on the chain: the measure it waits for is the program's bytes on devnet against main's build, and the rehearsal's receipt held to
   the reference, read at the ship; today both are read by hand (`solana program dump`, the receipt).

@@ -18,7 +18,7 @@ at 14:26 and again at 16:20 as his to strike.
 |---|---|
 | the program, built for the chain | 87,992 bytes (Poleis is 446,088) |
 | its source | 1,312 lines of Rust in `src/`, 1,620 in `tests/`; no JavaScript |
-| what it depends on | `pinocchio` 0.11, `pinocchio-system` 0.6, `solana-address` 2.6, and the law's core, `embertide-futarchy` with no feature (no allocation, no std). The lock file was made offline on the new Mac. |
+| what it depends on | `pinocchio` 0.11, `pinocchio-system` 0.6, `solana-address` 2.6, and the law's core, `poleis-futarchy` with no feature (no allocation, no std). The lock file was made offline on the new Mac. |
 | a Board | 115 bytes, rent 1,691,280 lamports |
 | a Balance | 59 bytes, rent 1,301,520 lamports |
 | a Road | 419 bytes, rent 3,807,120 lamports |
@@ -86,7 +86,7 @@ Three briefs of this seat's to one Opus builder, each followed by the seat's rea
    - *A road could hold a deposit for ever* (the builder's): a judge's deadline at the end of time. Closed: the spans.
    - *A boundary of the grid could be pushed for almost nothing* (the builder's). That was the law's, and it was real: on the law as it stood a
      trader in the pool one second in sixty walked a price from 1.0 to 3.61 and passed its road. Closed in the law, in its own lane
-     (`embertide-futarchy/THE-AVERAGE-FOLLOWS-THE-PRICE-THAT-STOOD-LANDING.md`).
+     (`poleis-futarchy/THE-AVERAGE-FOLLOWS-THE-PRICE-THAT-STOOD-LANDING.md`).
    - *A board's number can be taken by whoever opens it first* (the builder's). Not closed here: it is for the lane that lets Poleis read a
      verdict, which must bind to a program and a board the polis's own act names.
    - *Rent that stays* (the builder's): boards, balances and roads have no close. Said, not built.

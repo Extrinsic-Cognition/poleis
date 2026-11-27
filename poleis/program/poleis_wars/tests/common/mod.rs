@@ -5,7 +5,7 @@
 #![allow(dead_code)]
 
 use crate::built;
-use embertide_war::law::{Curve, How, Phase, Rules, Side};
+use poleis_war::law::{Curve, How, Phase, Rules, Side};
 use mollusk_svm::{program::keyed_account_for_system_program, result::ProgramResult, Mollusk};
 use poleis_wars::error::WarsError;
 use poleis_wars::state::*;

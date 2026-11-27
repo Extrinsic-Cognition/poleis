@@ -5,7 +5,7 @@
 //!
 //! Two halves, the reader pure and the pour a crank:
 //!
-//! 1. THE READER (`lights_of`, `read`, `agree`). One counted epoch of her pool's book (`embertide-stake`, its own law: the book before the count
+//! 1. THE READER (`lights_of`, `read`, `agree`). One counted epoch of her pool's book (`poleis-stake`, its own law: the book before the count
 //!    and the book after it) gives each staker's light, the lamports of yield they gave up. Each staker's newest choice (the door's memo,
 //!    `embertide.light/1 wish <unit>` or `futarchy`, signed by the staker before the epoch whose fee is poured began) says where it goes. A wish's
 //!    share is its stakers' light in her pool's token, rounded down: `fee_tokens * light / fee_lamports`. No choice, the futarchy, root 0 itself, or
@@ -32,7 +32,7 @@
 use crate::door::{self, Keys, Light, MEMO};
 use crate::rpc::Rpc;
 use crate::{wire, Res};
-use embertide_stake::{self as stake, Book};
+use poleis_stake::{self as stake, Book};
 use poleis_client::{self as client, HOLDER_UNIT, ROOT_UNIT};
 use serde_json::{json, Value};
 use solana_instruction::{AccountMeta, Instruction};
@@ -483,7 +483,7 @@ pub fn swarms_of(rpc: &Rpc, units: impl IntoIterator<Item = u64>) -> Res<BTreeSe
 }
 
 /// THE CHAIN'S FEE: the pool tokens her pool's program minted into root 0's vault inside its own UpdateStakePoolBalance in the epochs `first` to
-/// `last`, by the book's own law of the fee's mints (`embertide_stake::fee_mints`).
+/// `last`, by the book's own law of the fee's mints (`poleis_stake::fee_mints`).
 pub fn chain_fee(rpc: &Rpc, k: &Keys, sched: &stake::Schedule, first: u64, last: u64) -> Res<u64> {
     let (from, _) = sched.slots_of(first).map_err(|e| e.to_string())?;
     let (_, to) = sched.slots_of(last).map_err(|e| e.to_string())?;
@@ -696,7 +696,7 @@ pub fn send(rpc: &Rpc, c: &Crank, key: &wire::Key) -> Res<Vec<String>> {
 }
 
 /// `press light --rpc URL [--cluster localnet|mainnet] --pool P --after G [--before F] [--crank K.json] [--send]`: the epoch's reading and its
-/// pour's plan, said; with --send, the crank's key file signs and sends each pour. The books are `embertide-stake count`'s files.
+/// pour's plan, said; with --send, the crank's key file signs and sends each pour. The books are `poleis-stake count`'s files.
 pub fn step(opts: &BTreeMap<String, String>, send_it: bool) -> Res<Value> {
     let get = |k: &str| opts.get(k).map(String::as_str).ok_or_else(|| format!("{k} is needed"));
     let cluster = crate::rpc::Cluster::parse(opts.get("--cluster").map_or("localnet", String::as_str))?;

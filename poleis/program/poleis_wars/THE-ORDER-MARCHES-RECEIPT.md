@@ -1,6 +1,6 @@
 # The order marches — receipt
 
-56 tests pass: 25 in `embertide-war`, 31 in `poleis-wars`. The 40 existing tests and the reference files are unchanged. All four reference wars retain every checked coin, lamport, fee, outcome and minute at `march_s = 0`, in the law and the program's SBF execution. No commit, push, deployment, branch switch, live account or external service was used.
+56 tests pass: 25 in `poleis-war`, 31 in `poleis-wars`. The 40 existing tests and the reference files are unchanged. All four reference wars retain every checked coin, lamport, fee, outcome and minute at `march_s = 0`, in the law and the program's SBF execution. No commit, push, deployment, branch switch, live account or external service was used.
 
 ## Built
 
@@ -101,7 +101,7 @@ Every cargo command used `nice -n 19`, `--offline`, and `CARGO_TARGET_DIR=~/.cac
 | Final law, also checking immediate trades through the new timed APIs respect their minimum | 25 passed: law 16, march 7, reference 2; zero doctests |
 | Final program, existing shared tests restored byte-for-byte after rustfmt's recursive whitespace changes | 31 passed: id 1, brought 3, cost 1, march 9, publisher 1, refusals 14, wars 2; zero doctests |
 
-Final commands: `cargo test --offline --manifest-path embertide-war/Cargo.toml` and `cargo test --offline --manifest-path poleis/program/poleis_wars/Cargo.toml -- --nocapture --test-threads=1`, under the prefix above. The program harness builds its own SBF and tests those bytes. The law reference suite also ran the unchanged Python model and compared regenerated JSON byte-for-byte. Existing test and reference diffs are empty. `git diff --check` passes. Formatting used installed rustfmt 1.93.1 after the default formatter failed with a local LLVM loader mismatch and 1.99 lacked the component; no toolchain was installed.
+Final commands: `cargo test --offline --manifest-path poleis-war/Cargo.toml` and `cargo test --offline --manifest-path poleis/program/poleis_wars/Cargo.toml -- --nocapture --test-threads=1`, under the prefix above. The program harness builds its own SBF and tests those bytes. The law reference suite also ran the unchanged Python model and compared regenerated JSON byte-for-byte. Existing test and reference diffs are empty. `git diff --check` passes. Formatting used installed rustfmt 1.93.1 after the default formatter failed with a local LLVM loader mismatch and 1.99 lacked the component; no toolchain was installed.
 
 Final local logs: `/tmp/order-marches-law-final.log`, `/tmp/order-marches-program-final.log`; original cost capture: `/tmp/order-marches-before.log`. These are local logs, not required artifacts.
 
@@ -115,4 +115,4 @@ Not verified: a local validator or network deployment, live keeper latency, main
 - The limited-config initializer measured 13,652 CU. Enabled buy admission measured 12,817 CU for the first queued buy and 11,659 CU for the second owner's buy, sale measured 8,600 CU, and change of sides measured 15,313 CU. Close measured 6,901 CU during a raid and 4,721 CU after settlement. The legacy cost fixture topped out at 41,528 CU, up from 41,447. The SBF artifact grew from 172,536 to 178,880 bytes.
 - **his call.** The enabled test fixture uses 1 SOL in lamports for a buy, the same numeric floor in base coin units for a sale, and one marching order per owner. The inherited test delay is ten seconds. No live values were set. Native input units, a cap scoped to the raid, a close tied to positive delay, the optional nine-byte config tail and tag 17 are recorded in the lane receipt.
 
-61 tests passed offline with freshly built SBF, including 26 in `embertide-war` and 35 in `poleis-wars`. The complete run ledger, compatibility checks, CU tables, wire details and verification limits are in the [lane receipt](../../../RECEIPT.md).
+61 tests passed offline with freshly built SBF, including 26 in `poleis-war` and 35 in `poleis-wars`. The complete run ledger, compatibility checks, CU tables, wire details and verification limits are in the [lane receipt](../../../RECEIPT.md).

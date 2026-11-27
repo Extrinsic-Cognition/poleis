@@ -4,7 +4,7 @@ use super::{minus, plus, position_of, position_standing, raid_window};
 use crate::error::{of_law, WarsError};
 use crate::state::{Config, Fees, House, HOUSE_ACTIVE, HOUSE_IN_RAID, HOUSE_REKT};
 use crate::util::{expect_signer, expect_writable, move_lamports, now_ts, pay_in, u64_of, Data};
-use embertide_war::law::{brought_after_sale, buy_on, dump_rate_at, sell_on, tax_split};
+use poleis_war::law::{brought_after_sale, buy_on, dump_rate_at, sell_on, tax_split};
 use pinocchio::{error::ProgramError, AccountView, ProgramResult};
 
 /// data: [spend:8][min_coins:8] · accounts: [buyer (s,w), config, house (w), position (w), fees (w), system, raid (only for a house in a raid)]
@@ -14,7 +14,7 @@ use pinocchio::{error::ProgramError, AccountView, ProgramResult};
 /// a buy is how a side climbs its line, and how the reserve of a last stand comes in. A buy of no coin is `NothingOut`, one under its least
 /// `PastMin`.
 pub fn buy(accounts: &mut [AccountView], data: &[u8]) -> ProgramResult {
-    if accounts.len() == 8 { return super::march::accept(accounts, data, embertide_war::law::OrderKind::Buy); }
+    if accounts.len() == 8 { return super::march::accept(accounts, data, poleis_war::law::OrderKind::Buy); }
     let (buyer, config, house, position, fees, raid) = match accounts {
         [buyer, config, house, position, fees, _system] => (buyer, config, house, position, fees, None),
         [buyer, config, house, position, fees, _system, raid] => (buyer, config, house, position, fees, Some(raid)),
@@ -74,7 +74,7 @@ pub fn buy(accounts: &mut [AccountView], data: &[u8]) -> ProgramResult {
 /// the fees and the tax; refused under its least (`PastMin`), past the house's reserve (`ReserveShort`) or for nothing (`NothingOut`). What
 /// he brought into the house falls with what he sold (`brought_after_sale`): his half, should he desert later, is half of what he still has in.
 pub fn sell(accounts: &mut [AccountView], data: &[u8]) -> ProgramResult {
-    if accounts.len() == 8 { return super::march::accept(accounts, data, embertide_war::law::OrderKind::Sale); }
+    if accounts.len() == 8 { return super::march::accept(accounts, data, poleis_war::law::OrderKind::Sale); }
     let [seller, config, house, position, fees] = accounts else {
         return Err(ProgramError::NotEnoughAccountKeys);
     };

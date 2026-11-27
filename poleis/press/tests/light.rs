@@ -1,13 +1,13 @@
 //! THE LIGHT PAYS A WISH AND ITS RIDER, proven (Nov 25 2026, lane/the-light-pays-a-wish-and-its-rider; his "Yes, build them" at 13:25 UTC to
 //! "Build the three missing links now?"). Two halves:
-//! - the reader and the pour's plan, pure, on books made by the stake book's own law (`embertide_stake::count`): at every gate;
+//! - the reader and the pour's plan, pure, on books made by the stake book's own law (`poleis_stake::count`): at every gate;
 //! - the whole road on a validator holding this tree's Poleis and mainnet's stake pool program (LIGHT_VALIDATOR, LIGHT_BOOK: set by
 //!   poleis/ceremony/the-light-rehearsal.sh): root 0 and her pool born as the launch births them (the pool by root 0's own raw act), a wish founded as
 //!   the wish walker founds one, two stakers, one light sent to the wish and one left unchosen, an epoch's yield, the book read twice by its own hand,
 //!   the reader, the pour (and the pour again, which sends nothing), the wish's vote of a rider, the rider's draw and its way out to SOL. Without
 //!   LIGHT_VALIDATOR the live half says so and passes.
 
-use embertide_stake::{self as stake, Book, Snapshot};
+use poleis_stake::{self as stake, Book, Snapshot};
 use poleis_client::{self as client, ROOT_UNIT, STATE_PASSED, VOTE_PRO};
 use poleis_press::door::{self, Light};
 use poleis_press::light::{self, Allowed, Held, Lights};
@@ -335,7 +335,7 @@ fn bring(rpc: &Rpc, p: &Pool, crank: &Key) -> bool {
     true
 }
 
-/// One read of her pool's book by its own hand (`embertide-stake count --write`), the pool brought to the epoch first; tried again when an epoch
+/// One read of her pool's book by its own hand (`poleis-stake count --write`), the pool brought to the epoch first; tried again when an epoch
 /// turns between the two.
 fn count(rpc: &Rpc, url: &str, bin: &str, p: &Pool, book: &std::path::Path, crank: &Key) -> Value {
     // the hand reads at the node's default level, finalized: what was just sent is seen there some 32 slots later

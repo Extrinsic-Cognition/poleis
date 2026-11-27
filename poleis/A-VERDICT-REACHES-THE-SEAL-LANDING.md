@@ -139,7 +139,7 @@ The market's program: 20 passed; a road keeps its board's total at the lay, and 
 - **The bar measures how much stood in a road, not how many stood there.** One depositor of the required share passes it alone. Whoever
   credits balances can fund that depositor, and together with whoever lays roads can pick the moment of the lay. What the bar refuses is the
   small trader alone in a road.
-- **A road nobody else trades is still decided by whoever trades it** (`embertide-futarchy`, WHAT THE LAW CANNOT DO ALONE). The bar is this
+- **A road nobody else trades is still decided by whoever trades it** (`poleis-futarchy`, WHAT THE LAW CANNOT DO ALONE). The bar is this
   lane's whole answer to it, and the share is a number of each polis's own law, nothing until it names one.
 - **A supporter must have the road laid, inside the vote's window.** After the deadline anyone may seal, and a road not laid by then says
   nothing for good.

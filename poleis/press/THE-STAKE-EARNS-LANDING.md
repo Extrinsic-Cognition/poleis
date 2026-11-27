@@ -155,7 +155,7 @@ certificate reads it after the eight.
   stays where it is, and the run says so.
 - **A way out beyond the reserve**: a staker leaves at once only up to the reserve's share (a tenth in the rehearsal); beyond it the way out waits
   an epoch for the crank to bring stake back. WithdrawStake (a stake account handed out) is not offered.
-- **The fee read by `embertide-stake`'s reader**: the fee account was read from the chain directly; linking that crate would change the press's
+- **The fee read by `poleis-stake`'s reader**: the fee account was read from the chain directly; linking that crate would change the press's
   Cargo.lock.
 - `press need` does not count the engine's own fees per epoch (its key pays them, never the deployer).
 
@@ -165,4 +165,4 @@ certificate reads it after the eight.
 (the engine's blanks hold only the engine); `poleis/door/tests/page.rs` (the update naming the list's validators); and
 `poleis/program/poleis_treasury/tests/council.rs`'s ninth-act test (it says so and passes without `ENGINE_STAKE_POOL_SO`). The live half runs under `poleis/ceremony/the-engine-rehearsal.sh` (it says so and passes without
 `ENGINE_VALIDATOR`). No gate yet on the live engine: the measure it waits for is an epoch's fee minted into root 0's vault of her pool's mint on
-mainnet, read by `embertide-stake`.
+mainnet, read by `poleis-stake`.

@@ -10,10 +10,10 @@ use solana_pubkey::Pubkey;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
-/// What is copied, from the house into the sitting's copy, at the same places (the market's program reaches `embertide-futarchy` by
-/// `../../../embertide-futarchy`; the mint door's seat law, `poleis/seat-wasm`, speaks the Poleis it is built against: THE FLASK TAKES ITS SEAT; the press itself reads the door's law, `poleis/door`, since STAKE IN HER, SEND YOUR LIGHT,
-/// and the stake book's law, `embertide-stake`, since THE LIGHT PAYS A WISH: the first launch rehearsal after it stopped at the sitting's press build without it).
-pub const PARTS: [&str; 9] = ["poleis/program/poleis_treasury", "poleis/program/poleis_roads", "poleis/program/warm_mine", "poleis/client", "poleis/door", "poleis/press", "poleis/seat-wasm", "embertide-futarchy", "embertide-stake"];
+/// What is copied, from the house into the sitting's copy, at the same places (the market's program reaches `poleis-futarchy` by
+/// `../../../poleis-futarchy`; the mint door's seat law, `poleis/seat-wasm`, speaks the Poleis it is built against: THE FLASK TAKES ITS SEAT; the press itself reads the door's law, `poleis/door`, since STAKE IN HER, SEND YOUR LIGHT,
+/// and the stake book's law, `poleis-stake`, since THE LIGHT PAYS A WISH: the first launch rehearsal after it stopped at the sitting's press build without it).
+pub const PARTS: [&str; 9] = ["poleis/program/poleis_treasury", "poleis/program/poleis_roads", "poleis/program/warm_mine", "poleis/client", "poleis/door", "poleis/press", "poleis/seat-wasm", "poleis-futarchy", "poleis-stake"];
 
 /// The three programs: their name in the record, their crate folder, the binary the build tool writes, and the folder it goes into (under
 /// Poleis's crate, beside the tests' own). The deploy's order: the market and the $WARM program first, Poleis last, so root 0 is founded

@@ -19,7 +19,7 @@ each staker's light reaches the wish they chose, and the well pays its Snowtrace
 | --- | --- | --- |
 | a staker's light reaching a wish | the choice is a memo (`embertide.light/1 wish <unit>`); nothing reads it, and the yield stays in root 0's vault | `press light`: the reader (the stake book's epoch, each staker's newest choice) and the pour, a crank with no vote per epoch |
 | a well paying a rider | the mechanism stands (the launch's act 8, root 0's allowance to one key); no wish has one, no code admits a rider | `press rider`: the wish's own decisions, its plan of her token and its allowance to the rider's key; `poleis_door::draw` and `draw_to_sol`, the rider's own signature |
-| code | | Rust: `poleis/press/src/light.rs`, `src/rider.rs`, `tests/light.rs` (4 pure tests and the live half), `tests/rider.rs` (4); `poleis/door` +71 lines and 1 test; sh: `poleis/ceremony/the-light-rehearsal.sh`. **0 lines of JavaScript.** No on-chain program touched. No new dependency: the press links `embertide-stake`'s law (already in the tree) with its hand's HTTP behind a default feature, so the press's lock gains one entry and the seal's (which links the press) bs58 and tinyvec, both already in the cache |
+| code | | Rust: `poleis/press/src/light.rs`, `src/rider.rs`, `tests/light.rs` (4 pure tests and the live half), `tests/rider.rs` (4); `poleis/door` +71 lines and 1 test; sh: `poleis/ceremony/the-light-rehearsal.sh`. **0 lines of JavaScript.** No on-chain program touched. No new dependency: the press links `poleis-stake`'s law (already in the tree) with its hand's HTTP behind a default feature, so the press's lock gains one entry and the seal's (which links the press) bs58 and tinyvec, both already in the cache |
 | the page's module | 105,697 bytes | 110,446 bytes (`door_draw` added) |
 | a build | | `cargo test --offline --locked --test light --test rider`: about 10 s incremental on a shared target, this Mac at load 40 to 100 |
 | the rehearsal | | **74 s wall** (the validator up in 2 s, the live test 71.5 s), nice 19, this Mac; nothing on the serving Mac |
@@ -61,7 +61,7 @@ memo, and the pour's `choice_of` is the same call; `light_of_listed` remains a c
 
 ## The reader (`poleis/press/src/light.rs`)
 
-- **The epoch's lights** (`lights_of`): her book before one count and after it (`embertide-stake`'s files, its own law), each staker's light the
+- **The epoch's lights** (`lights_of`): her book before one count and after it (`poleis-stake`'s files, its own law), each staker's light the
   difference; refused unless the two books are one count apart and the lights and the book's dust sum to the fee.
 - **The choice** (`choice_of`): the newest light memo signed before the first slot of the epoch whose fee is poured (the choice that stood when the yield
   was minted). A memo counts only when the memo program names the staker among its accounts and the staker signed: the door's existing `light_of_listed`
@@ -90,7 +90,7 @@ founds root 0 (ONLY THE DEPLOYER FOUNDS ROOT 0). Read back:
 - Two stakers: 10 SOL with `embertide.light/1 wish 8405527522246845140`, 5 SOL with no choice.
 - **The yield**: 1,500,000,000 lamports sent into her reserve before the epoch's update. **The rehearsal's yield is that plain transfer**: a pool's reward
   is the growth of its total, so the program counted it as epoch 5's reward and minted it as fee, 1,500,000,000 tokens into root 0's vault (the engine that
-  places her stake on validators is lane/the-stake-earns). The book, read twice by its own hand (`embertide-stake count --write`), counted the same
+  places her stake on validators is lane/the-stake-earns). The book, read twice by its own hand (`poleis-stake count --write`), counted the same
   1,500,000,000 for epochs 4 to 5, 2 holders, 0 dust; the chain's mints read by the reader: 1,500,000,000. They agree.
 - **Each staker's light**: staker 1, 1,000,000,000 lamports, to the wish; staker 2, 500,000,000, no choice.
 - **The pour**: 1,000,000,000 tokens reached the wish's well; 500,000,000 stayed in root 0's vault. One transaction.
@@ -101,7 +101,7 @@ founds root 0 (ONLY THE DEPLOYER FOUNDS ROOT 0). Read back:
   lamports from her reserve at par. The rider held 1,000,000,000 lamports before and 1,997,955,720 after (the fee 5,000 and its receipts account's
   rent 2,039,280 out). The well holds 0. A second draw past the period's cap: refused by Poleis, its error 54 (AllowanceBreached).
 - `cargo test --offline --locked` of the press: every test green; `tests/light.rs` 5, `tests/rider.rs` 4; `poleis/door`'s tests 9 + 4 (+1:
-  `the_rider_draws_as_the_law_does`); `embertide-stake` 24; the seal's tests and examples build on its new lock.
+  `the_rider_draws_as_the_law_does`); `poleis-stake` 24; the seal's tests and examples build on its new lock.
 
 ## The second pass, proven (Nov 25 2026 ~14:08 UTC)
 
@@ -140,11 +140,11 @@ founds root 0 (ONLY THE DEPLOYER FOUNDS ROOT 0). Read back:
 ## Shared files touched
 
 `poleis/press/Cargo.toml` (+2: the stake book's law), `poleis/press/Cargo.lock` (+9), `poleis/seal/Cargo.lock` (+24), `poleis/press/src/lib.rs` (+2:
-`pub mod light; pub mod rider;`), `poleis/press/src/main.rs` (+8: the three steps and `--send` as a flag), `embertide-stake/Cargo.toml` (its hand behind
+`pub mod light; pub mod rider;`), `poleis/press/src/main.rs` (+8: the three steps and `--send` as a flag), `poleis-stake/Cargo.toml` (its hand behind
 a default feature, `hand`), `poleis/door/src/lib.rs`, `poleis/door/src/page.rs`, the module `embertide-app/ui/intro/dyson-society/app/wasm/poleis-door.wasm`.
 
 ## The gate
 
-At the ship (THE CRATES GATE THE SHIP): `poleis/press` (`tests/light.rs`, `tests/rider.rs`), `poleis/door` (`tests/page.rs`), `embertide-stake`.
+At the ship (THE CRATES GATE THE SHIP): `poleis/press` (`tests/light.rs`, `tests/rider.rs`), `poleis/door` (`tests/page.rs`), `poleis-stake`.
 No gate yet on the live road: the measure it waits for is `sh poleis/ceremony/the-light-rehearsal.sh <the .so>` ending 0, and on mainnet the lamports
 poured into each wish's well by its stakers' light and the lamports a well paid a Snowtracer each epoch, read from the chain (the hypertrace's section 7).

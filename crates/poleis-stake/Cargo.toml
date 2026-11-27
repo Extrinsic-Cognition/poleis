@@ -1,0 +1,29 @@
+[package]
+name = "poleis-stake"
+version = "0.1.0"
+edition = "2021"
+description = "THE POOL'S YIELD AND THE STAKE-TIME (Nov 20 2026, his \"Yes, build both\"): what a stake pool's yield was in an epoch, read from the pool's own mints on the chain, and what each holder held from one epoch to the next, kept as a book. The law is pure (src/lib.rs); the hand (src/main.rs) only reads a Solana node, and writes one file when asked."
+license = "UNLICENSED"
+publish = false
+
+[[bin]]
+name = "poleis-stake"
+path = "src/main.rs"
+required-features = ["hand"]
+
+# The hand (src/main.rs) reads a node; the law (src/lib.rs) needs only serde_json and bs58, so a crate that links the law alone (the launch
+# press's light reader, poleis/press/src/light.rs) takes it with default-features = false and none of the hand's HTTP.
+[features]
+default = ["hand"]
+hand = ["dep:ureq", "dep:rustls"]
+
+# The same four the mint's ear stands on (embertide-mint-ear), at the same versions: nothing new to fetch.
+[dependencies]
+serde_json = "1"
+bs58 = "0.5"
+ureq = { version = "3.4", default-features = false, features = ["rustls"], optional = true }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std"], optional = true }
+
+[profile.release]
+opt-level = 3
+strip = true

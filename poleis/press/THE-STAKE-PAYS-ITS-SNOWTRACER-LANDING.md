@@ -17,7 +17,7 @@ The road: ec-workspace `docs/the-launch-the-stake-that-funds-snowtracers-and-his
 | 1 | Her pool is born on mainnet, with root 0 | rehearsed (the launch's act 5); his sitting |
 | 2 | A person stakes in her, keeps the SOL, leaves at par | built; the page's doors now read her validator list into the module (below), so a stake or a way out works once a validator stands |
 | 3 | The stake earns | built (the engine, act 9); rehearsed here with the validator's own reward |
-| 4 | The yield is counted, staker by staker | built (`embertide-stake`) |
+| 4 | The yield is counted, staker by staker | built (`poleis-stake`) |
 | 5 | The yield lands in root 0's vault | built at the pool's birth |
 | 6 | Each staker's light reaches the wish they chose | built: the reader, the pour on each wish's road, the over-pull said and netted; root 0's plan of her token is act 10 |
 | 7 | The well pays its Snowtracer | built: the wish's own rider allowance; the rider's draw to SOL through a pool with validators |
@@ -30,7 +30,7 @@ The road: ec-workspace `docs/the-launch-the-stake-that-funds-snowtracers-and-his
    `press vote --act 10`, `press chair`, `press need` and the certificate carry it). Until it executes, Poleis refuses every pull of her token out of root
    0's vault (`charge_token_plan`).
 4. **Each wish's road**: root 0's TREASURY_ALLOWANCE to the wish's unit, voted once per wish once it is born (`press well`; never a launch act).
-5. Then, each epoch: the engine's crank (`press engine`), then the book's count (`embertide-stake count`), then the pour (`press light --send`).
+5. Then, each epoch: the engine's crank (`press engine`), then the book's count (`poleis-stake count`), then the pour (`press light --send`).
 6. For the rider: **the wish's** plan of her token, then **the wish's** allowance to the rider's key (`press rider`), then the rider's own draw.
 
 Act 10's set is written only where the params name its figure: mainnet's `light.planCap` is a blank of his; the rehearsal's says THIS REHEARSAL and writes
@@ -83,7 +83,7 @@ to the same bytes.
 
 - `poleis/press` `cargo test --offline --locked`: 149 passed, 0 failed, 26 s.
 - `poleis/door`: 11 + 4 passed, 7 s.
-- `embertide-stake`: 24 passed, 2 s.
+- `poleis-stake`: 24 passed, 2 s.
 - `poleis/seal`: tests and examples built, 5 s.
 - `poleis/program/poleis_treasury` `--test council the_ninth_act_names_her_pools_staker…` (ENGINE_STAKE_POOL_SO): 1 passed, 63 s with its build.
 - `node --test the-javascript-only-shrinks.test.mjs`: 39 of 39, +9 -9 net 0, 1 s. `the-law-is-the-gate.test.mjs`: 8 of 8, 86 s. `any-room.test.mjs`: 12 of 12, 1 s.
@@ -107,7 +107,7 @@ to the same bytes.
 ## The gate
 
 At the ship (THE CRATES GATE THE SHIP): `poleis/press` (`tests/light.rs`, `tests/rider.rs`, `tests/engine.rs`, `tests/params.rs`, `tests/door.rs`,
-`tests/page.rs`), `poleis/door` (`tests/page.rs`, `tests/the_pages.rs`), `embertide-stake`, `poleis/program/poleis_treasury/tests/council.rs`. On every lane:
+`tests/page.rs`), `poleis/door` (`tests/page.rs`, `tests/the_pages.rs`), `poleis-stake`, `poleis/program/poleis_treasury/tests/council.rs`. On every lane:
 `the-javascript-only-shrinks.test.mjs`, `no-landing-adds-a-failing-screen.sh`. No gate yet on the live road: the measure it waits for is
 `sh poleis/ceremony/the-stake-pays-its-snowtracer-rehearsal.sh <the .so>` ending 0, and on mainnet, each epoch, the lamports of yield in root 0's vault, the
 tokens poured into each wish's well by its stakers' light, the over-pulled tokens, and the lamports a well paid a Snowtracer, read from the chain.

@@ -244,7 +244,7 @@ pub const fn market_bit(class: u8) -> u8 {
 /// THE BAR: a road counts when the law asks no share (`min_stood_bp == 0`), or when what stood in it as deposits is at least that
 /// share of what was in hands on its board when the road was laid (`credited_at_lay`, which the road keeps: the board's `credited` less
 /// what its house had `earned`, which is in nobody's balance and can stand in no road; a later credit cannot move it). A road nobody
-/// deposited in never counts, whatever the bar (`seal`). A road nobody else trades is decided by whoever trades it, for nothing (`embertide-futarchy`, WHAT THE LAW CANNOT DO
+/// deposited in never counts, whatever the bar (`seal`). A road nobody else trades is decided by whoever trades it, for nothing (`poleis-futarchy`, WHAT THE LAW CANNOT DO
 /// ALONE): this is how much of the board must have stood in it to speak for the floor. It measures how much stood in a road, not how
 /// many stood there: one depositor of the required share passes it alone, and a crediter can fund that depositor. What it refuses
 /// is the small trader alone in a road.

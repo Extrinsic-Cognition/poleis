@@ -59,7 +59,7 @@ sent then waits; the wait on mainnet is not measured here.
 - **The page's doors**: the Pantheon's "Stake SOL in her", the choice, a wish's "Send your light here" (the next lane, drawn on the Canvas:
   `harmony-claude:widget-b2066c0e-cde9-4ea7-8bff-f9a1ae3a7fa4`). The site's wallet road (`dl-direct.js`) signs a transaction today; these instructions
   reach the page as WASM, not as new JavaScript.
-- **The reader that pays a wish its light**: `embertide-stake`'s book counts each staker's light; reading each staker's choice from these memos and the
+- **The reader that pays a wish its light**: `poleis-stake`'s book counts each staker's light; reading each staker's choice from these memos and the
   refill into a wish's well are owed; the refill is his hand.
 - **Mainnet**: the pool is born at his sitting; until then the door has no pool to open.
 - **The program's bytes** stay pinned to the fingerprint: the rehearsal refuses to start on other bytes, and the launch refuses to birth the pool on them.

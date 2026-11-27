@@ -6,7 +6,7 @@
 
 use crate::error::RoadsError;
 use crate::util::ms_of;
-use embertide_futarchy::law::{Branch, Purse, Terms, AMOUNT_MAX};
+use poleis_futarchy::law::{Branch, Purse, Terms, AMOUNT_MAX};
 use pinocchio::{
     account::{Ref, RefMut},
     error::ProgramError,

@@ -2,7 +2,7 @@
 name = "poleis-roads"
 version = "0.1.0"
 edition = "2021"
-description = "The house's decision market on a chain: boards, balances of play $WARM, roads and positions, beside Poleis and never inside it. The arithmetic is embertide-futarchy's core, called whole; this program keeps the accounts, the checks and the clock."
+description = "The house's decision market on a chain: boards, balances of play $WARM, roads and positions, beside Poleis and never inside it. The arithmetic is poleis-futarchy's core, called whole; this program keeps the accounts, the checks and the clock."
 license = "UNLICENSED"
 publish = false
 
@@ -19,7 +19,7 @@ pinocchio = "0.11"
 pinocchio-system = "0.6"
 solana-address = { version = "2.6", features = ["decode"] }
 # the market's one law, its core alone: no allocation, no std. The same bytes the fold on a Nest runs.
-embertide-futarchy = { path = "../../../crates/embertide-futarchy", default-features = false }
+poleis-futarchy = { path = "../../../crates/poleis-futarchy", default-features = false }
 
 # PDA derivation off-chain needs the curve check; on-chain it is a syscall.
 # Scoped to host targets so the SBF binary never carries curve25519-dalek.
@@ -28,7 +28,7 @@ solana-address = { version = "2.6", features = ["decode", "curve25519"] }
 
 [dev-dependencies]
 # the fold, to hold the program against it trade by trade
-embertide-futarchy = { path = "../../../crates/embertide-futarchy", default-features = false, features = ["fold"] }
+poleis-futarchy = { path = "../../../crates/poleis-futarchy", default-features = false, features = ["fold"] }
 mollusk-svm = "0.15"
 solana-account = "4.3"
 solana-instruction = "3.2"

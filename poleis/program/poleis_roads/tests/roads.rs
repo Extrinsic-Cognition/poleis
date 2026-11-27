@@ -2,7 +2,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_futarchy::law::{back_of, decide as fold_decide, market_with, pool_result, settle_of, world_of, Receipts, Which, PRICE, UNIT};
+use poleis_futarchy::law::{back_of, decide as fold_decide, market_with, pool_result, settle_of, world_of, Receipts, Which, PRICE, UNIT};
 use poleis_roads::error::RoadsError;
 use solana_pubkey::Pubkey;
 

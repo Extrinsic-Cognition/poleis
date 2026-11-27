@@ -1,6 +1,6 @@
 #!/bin/sh
 # rehearse-on-a-local-validator.sh [receipt.json] · THE WAR ON A REAL LOCAL VALIDATOR (Nov 24 2026, lane/the-war-is-its-own-program). The
-# first reference war of embertide-war/tests/reference/reference-in-sol.json played on a fresh solana-test-validator: poleis_wars built from
+# first reference war of poleis-war/tests/reference/reference-in-sol.json played on a fresh solana-test-validator: poleis_wars built from
 # this tree as its tests build it and loaded at genesis at its declared id (--bpf-program), the rehearsal (rehearsal/, binary war-rehearsal)
 # run against it over loopback, and the validator stopped with every child and its ledger removed, whatever happened.
 # What the rehearsal does (rehearsal/src/main.rs): stand-in keys made in memory from a seed it draws and holds, funded by the validator's
@@ -36,7 +36,7 @@ say() { echo "war: $*"; }
 here=$(cd "$(dirname "$0")" && pwd)
 tree=$(cd "$here/../../.." && pwd)
 rehearsal="$here/rehearsal"
-reference="$tree/embertide-war/tests/reference/reference-in-sol.json"
+reference="$tree/poleis-war/tests/reference/reference-in-sol.json"
 receipt=${1:-"$rehearsal/receipts/war-rehearsal-$(date -u +%Y-%m-%dT%H%M%SZ).json"}
 case "$receipt" in /*) ;; *) receipt="$(pwd)/$receipt" ;; esac
 genesis_mint=6Hq1wb8amQhMpPrB7qzXxhLoACsrBFqVqTTxehgP7X8d

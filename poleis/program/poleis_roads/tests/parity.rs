@@ -12,7 +12,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_futarchy::law::{back_of, decide as fold_decide, decide_at, market_with, pool_result, settle_of, world_of, Deposit, Entry, Receipts, Terms, Which, PRICE, UNIT};
+use poleis_futarchy::law::{back_of, decide as fold_decide, decide_at, market_with, pool_result, settle_of, world_of, Deposit, Entry, Receipts, Terms, Which, PRICE, UNIT};
 use poleis_roads::error::RoadsError;
 use poleis_roads::MOST;
 use solana_pubkey::Pubkey;
@@ -51,7 +51,7 @@ fn holds(w: &World, t: &Terms, ros: &[Deposit], entries: &[Entry], road: &Pubkey
 fn carry_held(w: &mut World, t: &Terms, road: &Pubkey) -> bool {
     let r = w.road(road);
     let (mut p, mut f) = (r.pass, r.fail);
-    let answered = embertide_futarchy::law::carry(t, &mut p, &mut f, w.now_ms(), MOST);
+    let answered = poleis_futarchy::law::carry(t, &mut p, &mut f, w.now_ms(), MOST);
     w.ok(&carry(*road), "carry");
     let after = w.road(road);
     assert_eq!((after.pass, after.fail), (p, f), "the carry instruction wrote the law's carry");
@@ -98,7 +98,7 @@ fn the_program_is_the_fold_trade_by_trade() {
             let o = w.wallet(SOL);
             let d = loop {
                 let d = 10 * U + rng.below(50_000 * U);
-                if embertide_futarchy::law::deposit_check(&t, d as u128).is_ok() { break d; }
+                if poleis_futarchy::law::deposit_check(&t, d as u128).is_ok() { break d; }
             };
             w.ok(&credit(crediter, BOARD, o, d + rng.below(1_000 * U)), "credit");
             w.ok(&deposit(o, BOARD, road, d), "deposit");

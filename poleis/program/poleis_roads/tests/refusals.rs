@@ -4,7 +4,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_futarchy::law::{PRICE, UNIT};
+use poleis_futarchy::law::{PRICE, UNIT};
 use poleis_roads::error::RoadsError::{self, *};
 use poleis_roads::state::{Balance, Board, Position, Road};
 use solana_account::Account;
@@ -179,7 +179,7 @@ fn lay_refusals() {
     w.ok(&lay(auth, BOARD, &Lay { opens_slot: w.slot(), ..l }), "a road opening now");
 
     // no span longer than the law's longest window: refused a slot past the bound, taken at it
-    let span = embertide_futarchy::law::WINDOW_MAX_MS / poleis_roads::SLOT_MS;
+    let span = poleis_futarchy::law::WINDOW_MAX_MS / poleis_roads::SLOT_MS;
     let far = |opens: u64, road_id: u8| Lay { road_id: [road_id; 32], opens_slot: opens, closes_slot: opens + 120 * MIN, judge_by_slot: opens + 180 * MIN, ..l };
     w.refuse(&lay(auth, BOARD, &far(w.slot() + span + 1, 40)), e(InvalidTerms), "a road opening a slot past the law's longest window from now");
     w.ok(&lay(auth, BOARD, &far(w.slot() + span, 40)), "a road opening the law's longest window from now");

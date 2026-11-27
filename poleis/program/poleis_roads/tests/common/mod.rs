@@ -3,7 +3,7 @@
 #![allow(dead_code)]
 
 use crate::built;
-use embertide_futarchy::law::{Branch, Purse, Terms};
+use poleis_futarchy::law::{Branch, Purse, Terms};
 use mollusk_svm::{program::keyed_account_for_system_program, result::ProgramResult, Mollusk};
 use poleis_roads::error::RoadsError;
 use poleis_roads::state::{terms_of, Balance, Board, Position, Road, SEED_BALANCE, SEED_BOARD, SEED_POSITION, SEED_ROAD};
@@ -409,17 +409,17 @@ pub fn position_view(d: &[u8]) -> PositionView {
 
 // ---- the fold's side ----
 /// The law's trade of a `trade` instruction's bytes (branch 0 pass, 1 fail; side 0 buy, 1 sell).
-pub fn law_trade(branch: u8, side: u8, amount: u64, min_out: u64) -> embertide_futarchy::law::Trade {
-    use embertide_futarchy::law::{Side, Trade, Which};
+pub fn law_trade(branch: u8, side: u8, amount: u64, min_out: u64) -> poleis_futarchy::law::Trade {
+    use poleis_futarchy::law::{Side, Trade, Which};
     Trade { branch: if branch == 0 { Which::Pass } else { Which::Fail }, side: if side == 0 { Side::Buy } else { Side::Sell }, amount: amount as u128, min_out: min_out as u128 }
 }
 /// One signed entry of the fold, stamped `ts`, by `key`.
-pub fn entry(seq: u64, ts: u64, key: &Pubkey, trade: embertide_futarchy::law::Trade) -> embertide_futarchy::law::Entry {
-    embertide_futarchy::law::Entry { seq, ts, key: key.to_string(), seat: key.to_string(), ok: true, trade: Some(trade) }
+pub fn entry(seq: u64, ts: u64, key: &Pubkey, trade: poleis_futarchy::law::Trade) -> poleis_futarchy::law::Entry {
+    poleis_futarchy::law::Entry { seq, ts, key: key.to_string(), seat: key.to_string(), ok: true, trade: Some(trade) }
 }
 /// A roster of the fold from (owner, deposit) pairs, in the order of its keys.
-pub fn roster(deposits: &[(Pubkey, u64)]) -> Vec<embertide_futarchy::law::Deposit> {
-    let mut r: Vec<embertide_futarchy::law::Deposit> = deposits.iter().map(|(k, a)| embertide_futarchy::law::Deposit { key: k.to_string(), amount: *a as u128 }).collect();
+pub fn roster(deposits: &[(Pubkey, u64)]) -> Vec<poleis_futarchy::law::Deposit> {
+    let mut r: Vec<poleis_futarchy::law::Deposit> = deposits.iter().map(|(k, a)| poleis_futarchy::law::Deposit { key: k.to_string(), amount: *a as u128 }).collect();
     r.sort_by(|a, b| a.key.cmp(&b.key));
     r
 }
@@ -428,7 +428,7 @@ pub fn law_code(why: &'static str) -> ProgramError {
     code(poleis_roads::error::of_law(why))
 }
 
-/// xorshift: a seeded sweep with no dependency (embertide-futarchy's tests' own)
+/// xorshift: a seeded sweep with no dependency (poleis-futarchy's tests' own)
 pub struct Rng(pub u64);
 impl Rng {
     pub fn next(&mut self) -> u64 {

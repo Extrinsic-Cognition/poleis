@@ -1,0 +1,27 @@
+[package]
+name = "poleis-futarchy"
+version = "0.1.0"
+edition = "2021"
+description = "How the swarm decides (Nov 11 2026; his \"i think we should get into ai futarchy with formal verification for governance\"): the decision market's one law in integers, the same answer on every reader, with its proofs beside it (proofs/*.smt2, checked by z3). A road opens two conditional pools, PASS and FAIL, priced in $WARM; the average of a lag-limited observation decides at the close. The law (src/law.rs) is pure and has no dependency; the Nest's side and the command (feature nest, on by default) bring the two below."
+license = "UNLICENSED"
+publish = false
+
+[[bin]]
+name = "poleis-futarchy"
+path = "src/main.rs"
+required-features = ["nest"]
+
+[features]
+default = ["nest"]
+# the law's core alone needs neither: no allocation, no std (what a program on a chain depends on, with default-features = false)
+std = []
+fold = []
+nest = ["std", "fold", "dep:serde_json", "dep:ed25519-dalek"]
+
+[dependencies]
+# the Nest's side only (src/nest.rs): its words are JSON, and a trade is checked under its trader's Ed25519 key. Both are already built by the pad's crate.
+serde_json = { version = "1", optional = true }
+ed25519-dalek = { version = "2", optional = true }
+
+[profile.release]
+opt-level = 3

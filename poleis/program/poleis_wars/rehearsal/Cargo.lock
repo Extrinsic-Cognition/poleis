@@ -209,7 +209,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "embertide-war"
+name = "poleis-war"
 version = "0.1.0"
 
 [[package]]
@@ -399,7 +399,7 @@ dependencies = [
 name = "poleis-wars"
 version = "0.1.0"
 dependencies = [
- "embertide-war",
+ "poleis-war",
  "pinocchio",
  "pinocchio-system",
  "solana-address",
@@ -411,7 +411,7 @@ version = "0.1.0"
 dependencies = [
  "base64",
  "ed25519-dalek",
- "embertide-war",
+ "poleis-war",
  "poleis-wars",
  "serde_json",
  "sha2",

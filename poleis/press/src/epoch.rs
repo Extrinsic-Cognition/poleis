@@ -6,9 +6,9 @@
 //!
 //! 1. THE ENGINE (engine.rs `run`, its key the pool's staker act 9 named): her pool brought to the chain's epoch, its validators added, the reserve
 //!    placed and stake brought back by the params' rule. It waits, and the pass with it, while the epoch's rewards are being paid.
-//! 2. THE BOOK (the stake book's own law, `embertide_stake::count`): one read of her holders a pool-updated epoch, laid on the last. The only state the
+//! 2. THE BOOK (the stake book's own law, `poleis_stake::count`): one read of her holders a pool-updated epoch, laid on the last. The only state the
 //!    runner keeps, beside the sitting's keys: D/epoch/book.json (the book after its last read, as the book's own hand keeps it for its caller,
-//!    `embertide-stake count --book F`), and A MISSED EPOCH'S LIGHT IS POURED LATER, NEVER DROPPED: each counted epoch's two books in
+//!    `poleis-stake count --book F`), and A MISSED EPOCH'S LIGHT IS POURED LATER, NEVER DROPPED: each counted epoch's two books in
 //!    D/epoch/owed/<epoch>.json, written before the book moves and removed only once the chain holds its pour's record (at most OWED_BOUND).
 //! 3. THE POUR (light.rs `crank` and `send`, its key the pourer's): every owed epoch, oldest first, read staker by staker and each wish's share sent
 //!    down its road, netted against what the wish already took; the crank's memos on the chain are the record, so a pour is never sent twice. A count
@@ -34,7 +34,7 @@ use crate::door::{self, Keys};
 use crate::params::Params;
 use crate::rpc::Rpc;
 use crate::{engine, light, wire, Res};
-use embertide_stake::{self as stake, Book, Snapshot};
+use poleis_stake::{self as stake, Book, Snapshot};
 use serde_json::{json, Value};
 use solana_instruction::Instruction;
 use solana_pubkey::Pubkey;

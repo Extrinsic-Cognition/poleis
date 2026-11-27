@@ -2,7 +2,7 @@
 name = "poleis-wars"
 version = "0.1.0"
 edition = "2021"
-description = "The price wars on a chain (Nov 24 2026, lane/the-war-is-its-own-program): houses on pump.fun's curve priced in SOL, a raid opened by a stake, the minute's crank, his burn for deserters and those who change sides, the settlement that converts the loser's holders, and the dump tax. Every number is embertide-war's core, called whole; this program keeps the accounts, the lamports, the checks and the clock."
+description = "The price wars on a chain (Nov 24 2026, lane/the-war-is-its-own-program): houses on pump.fun's curve priced in SOL, a raid opened by a stake, the minute's crank, his burn for deserters and those who change sides, the settlement that converts the loser's holders, and the dump tax. Every number is poleis-war's core, called whole; this program keeps the accounts, the lamports, the checks and the clock."
 license = "UNLICENSED"
 publish = false
 
@@ -18,8 +18,8 @@ unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("solana"
 pinocchio = "0.11"
 pinocchio-system = "0.6"
 solana-address = { version = "2.6", features = ["decode"] }
-# the war's one law, its core alone: no allocation, no std. The same arithmetic the whole war in embertide-war's std feature runs.
-embertide-war = { path = "../../../crates/embertide-war", default-features = false }
+# the war's one law, its core alone: no allocation, no std. The same arithmetic the whole war in poleis-war's std feature runs.
+poleis-war = { path = "../../../crates/poleis-war", default-features = false }
 
 # PDA derivation off-chain needs the curve check; on-chain it is a syscall.
 # Scoped to host targets so the SBF binary never carries curve25519-dalek.
@@ -28,7 +28,7 @@ solana-address = { version = "2.6", features = ["decode", "curve25519"] }
 
 [dev-dependencies]
 # the whole war (feature std), to hold the program against it instruction by instruction
-embertide-war = { path = "../../../crates/embertide-war" }
+poleis-war = { path = "../../../crates/poleis-war" }
 mollusk-svm = "0.15"
 solana-account = "4.3"
 solana-instruction = "3.2"

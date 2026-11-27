@@ -6,7 +6,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_futarchy::law::{UNIT, WINDOW_MAX_MS};
+use poleis_futarchy::law::{UNIT, WINDOW_MAX_MS};
 use poleis_roads::error::RoadsError::{self, *};
 use poleis_roads::polis::{CLASS_MARKET, CLASS_PLAN, STATE_VOTING};
 use poleis_roads::state::{VERDICT_FAILED, VERDICT_PASSED};

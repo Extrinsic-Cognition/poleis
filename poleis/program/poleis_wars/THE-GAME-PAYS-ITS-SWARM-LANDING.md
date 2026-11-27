@@ -23,10 +23,10 @@ whoever launched it. The rules are a generation the swarm founds, evolved by fou
 | compute units (Mollusk) | init_config 9,050; settle 40,271 to 42,069 | pay_creator 2,189; pay_publisher 2,623; init_config 10,611; settle 41,245, still the dearest of the 200,000 an instruction may use |
 | account sizes | Config 183 B, House 200 B | Config 223 B, House 240 B (40 more bytes each, the treasury and generation, the creator and what it is owed); Fees 67 B |
 | the program | 140,112 bytes | 143,792 bytes |
-| his four reference wars | equal to his model to the lamport | unchanged to the lamport (`tests/wars.rs`, `embertide-war` `tests/reference.rs`); paid in the first: the crow's creator 117,786,929 lamports, the wolf's 59,259,260, the publisher 560,646,291 |
+| his four reference wars | equal to his model to the lamport | unchanged to the lamport (`tests/wars.rs`, `poleis-war` `tests/reference.rs`); paid in the first: the crow's creator 117,786,929 lamports, the wolf's 59,259,260, the publisher 560,646,291 |
 | the publisher's share into Poleis | | Mollusk with Poleis's own `poleis_treasury.so` beside the war (`tests/publisher.rs`): the game swarm's tree and treasury founded, the share paid in and booked by Poleis's own `sync_endowment`, to the lamport (112,592,597) |
 | on a local chain | his first war on solana-test-validator, the war alone | PASS (`rehearsal/receipts/war-rehearsal-2026-11-24T142205Z.json`; solana-test-validator 4.2.0, Poleis's `poleis_treasury` and the war at genesis): 184 transactions in 621.5 s, 151 minutes at 4 s, none missed; the crow beat its line at 148 and won at 150; 40 fighters, 10 deserters, 10 converts, 0 differences from his model. Paid: the crow's creator 117,786,929 lamports and the wolf's 59,259,260, exactly the law's; the game swarm's treasury 560,646,291, booked by Poleis's own `sync_endowment` to the lamport: every lamport of the war's fees reached the creators and the publisher (737,692,480 of 737,692,480; section 36's measure, 0 on the first devnet war). Units on the chain: pay_creator 2,189, pay_publisher 2,623, Poleis's sync_endowment 1,962, settle 40,324 |
-| tests (the new Mac, nice 19) | embertide-war 18, poleis_wars 19 | embertide-war 18, poleis_wars 22 (refusals 14, publisher 1, wars 2, brought 3, cost 1, the id 1) |
+| tests (the new Mac, nice 19) | poleis-war 18, poleis_wars 19 | poleis-war 18, poleis_wars 22 (refusals 14, publisher 1, wars 2, brought 3, cost 1, the id 1) |
 | JavaScript | | none |
 | at rest | | nothing runs; no new store (the rehearsal's only file on disk stays the devnet run's seed, already in `embertide-at-rest/stores.json`) |
 
@@ -82,7 +82,7 @@ whoever launched it. The rules are a generation the swarm founds, evolved by fou
 
 ## The gates
 
-- At the ship (THE CRATES GATE THE SHIP): `embertide-war`, `poleis/program/poleis_wars`, its `rehearsal`.
+- At the ship (THE CRATES GATE THE SHIP): `poleis-war`, `poleis/program/poleis_wars`, its `rehearsal`.
 - `tools/embertide-mesh/tests/the-law-is-the-gate.test.mjs`: green on this lane, 8 of 8.
 - No gate yet on the chain: the measure it waits for is the program's bytes on devnet against main's build, and the rehearsal's receipt held to
   the reference with every payment equal to the law's, read at the ship; today both are read by hand.

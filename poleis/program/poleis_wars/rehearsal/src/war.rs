@@ -1,7 +1,7 @@
 //! The war's instructions, built as the program's tests build them (poleis/program/poleis_wars/tests/common/mod.rs), and its accounts read by
 //! the program's own offsets (poleis_wars::state).
 
-use embertide_war::law::{Curve, How, Phase, Rules, Side};
+use poleis_war::law::{Curve, How, Phase, Rules, Side};
 use poleis_wars::state::*;
 use solana_instruction::{AccountMeta, Instruction};
 use solana_pubkey::Pubkey;

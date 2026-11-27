@@ -6,7 +6,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_war::law::{buy_on, Curve, Rules, SOL as LAW_SOL};
+use poleis_war::law::{buy_on, Curve, Rules, SOL as LAW_SOL};
 use solana_instruction::{AccountMeta, Instruction};
 use solana_pubkey::Pubkey;
 

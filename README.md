@@ -31,10 +31,10 @@ poleis/
   charters/            Founding charters (the-dyson-society.txt, nefertiti.txt)
   ceremony/            Devnet & localnet rehearsal receipts
 crates/
-  embertide-war/       Pure game/war math (zero external runtime deps)
-  embertide-futarchy/  Pure integer futarchy math
-  embertide-stake/     Stake book math
-  embertide-wallet/    Wallet keygen & derivation helpers
+  poleis-war/       Pure game/war math (zero external runtime deps)
+  poleis-futarchy/  Pure integer futarchy math
+  poleis-stake/     Stake book math
+  poleis-wallet/    Wallet keygen & derivation helpers
 tools/
   solana-pda.mjs       Zero-dependency Base58 / Ed25519 curve / PDA helper
   warm-launch/         $WARM token & Meteora DLMM launch builder + tests
@@ -50,9 +50,9 @@ None of the four Solana programs bake legacy brand strings into on-chain PDA see
 
 ```bash
 # Pure-Rust & protocol tests
-cargo test --manifest-path crates/embertide-war/Cargo.toml
-cargo test --manifest-path crates/embertide-futarchy/Cargo.toml
-cargo test --manifest-path crates/embertide-stake/Cargo.toml
+cargo test --manifest-path crates/poleis-war/Cargo.toml
+cargo test --manifest-path crates/poleis-futarchy/Cargo.toml
+cargo test --manifest-path crates/poleis-stake/Cargo.toml
 cargo test --manifest-path poleis/client/Cargo.toml
 cargo test --manifest-path poleis/door/Cargo.toml --lib
 cargo test --manifest-path poleis/seal/Cargo.toml --lib

@@ -3,7 +3,7 @@
 use crate::error::WarsError;
 use crate::state::{Config, Fees, House, HOUSE_ACTIVE, SEED_CONFIG, SEED_FEES, SEED_HOUSE};
 use crate::util::{create_pda, expect_signer, expect_writable, find_and_expect_pda, now_ts, stands, Data};
-use embertide_war::law::Curve;
+use poleis_war::law::Curve;
 use pinocchio::{error::ProgramError, AccountView, Address, ProgramResult};
 
 /// data: [generation:8][treasury:32][vt:8][vq:8][rt:8][the law's eighteen u32 rules, in its order][shield_age_s:8][shield_mcap:8]

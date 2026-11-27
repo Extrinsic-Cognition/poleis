@@ -6,7 +6,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_war::law::{brought_after_sale, burn_on, Rules, BPS};
+use poleis_war::law::{brought_after_sale, burn_on, Rules, BPS};
 use poleis_wars::state::RAID_ACTIVE;
 use solana_pubkey::Pubkey;
 

@@ -87,7 +87,7 @@ they decide nothing."
 
 - It keeps his authority: the reader signs nothing, the practice keys are stand-ins, and mainnet, his keys and production are untouched (the ship
   ran on a scratch clone). Nothing of the room goes to the chain; a proposal carries only a commit's hash. It adds no new door: the reader is a
-  client of a Solana node, like `embertide-stake`'s.
+  client of a Solana node, like `poleis-stake`'s.
 - **Say-only until a road is named** (his ~13:15 UTC "dude i dont fucking know, do whatever, we have nothing live no users fucking deliver on shit",
   ruled by the seat that started this lane). With no `LANDER_SEAL_ROAD`, the ship goes on as before to its crates and says `not sealed: <commit>
   (why)` on the run's log, the ledger, `spool/ship` (`tests.seal`) and the shipped row (`house/green`'s `seal.not`, the changelog's `shipped[0].seal`).

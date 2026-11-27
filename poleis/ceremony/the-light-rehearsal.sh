@@ -2,7 +2,7 @@
 # THE LIGHT PAYS A WISH AND ITS RIDER, rehearsed (Nov 25 2026, lane/the-light-pays-a-wish-and-its-rider; his "Yes, build them" at 13:25 UTC to
 # "Build the three missing links now?"). A local validator holding this tree's Poleis and mainnet's stake pool program, its epochs 32 slots long, then
 # the live half of poleis/press/tests/light.rs: root 0 and her pool as the launch births them, a wish founded as the wish walker founds one, two stakers
-# (one light sent to the wish, one left unchosen), an epoch's yield, her book read twice by its own hand (embertide-stake count), the reader, the pour
+# (one light sent to the wish, one left unchosen), an epoch's yield, her book read twice by its own hand (poleis-stake count), the reader, the pour
 # and the pour again, the wish's vote of a rider, the rider's draw and its way out to SOL.
 #   sh poleis/ceremony/the-light-rehearsal.sh <the stake pool program's .so> [the certificate's path]
 # The yield here is a plain transfer of lamports into her reserve before the epoch's update: a pool's reward is the growth of its total, so the program
@@ -61,9 +61,9 @@ say "building Poleis as its tests build it, and the book's hand"
   nice -n 19 cargo-build-sbf --offline --manifest-path "$poleis/Cargo.toml" --sbf-out-dir "$work/deploy") > "$work/build.out" 2>&1 \
   || { tail -n 20 "$work/build.out"; say "Poleis's build failed: not started"; exit 2; }
 rm -f "$work"/deploy/*-keypair.json
-nice -n 19 cargo build --offline --locked --manifest-path "$here/embertide-stake/Cargo.toml" > "$work/book.out" 2>&1 \
+nice -n 19 cargo build --offline --locked --manifest-path "$here/poleis-stake/Cargo.toml" > "$work/book.out" 2>&1 \
   || { tail -n 20 "$work/book.out"; say "the book's build failed: not started"; exit 2; }
-book="${CARGO_TARGET_DIR:-$here/embertide-stake/target}/debug/embertide-stake"
+book="${CARGO_TARGET_DIR:-$here/poleis-stake/target}/debug/poleis-stake"
 [ -x "$book" ] || { say "no book's hand at $book: not started"; exit 2; }
 
 # ONLY THE DEPLOYER FOUNDS ROOT 0: Poleis is loaded upgradeable, its upgrade authority a stand-in made here, which founds root 0 as the launch's

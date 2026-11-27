@@ -3,7 +3,7 @@
 use crate::error::RoadsError;
 use crate::state::{terms_of, Balance, Board, Law, SEED_BALANCE, SEED_BOARD};
 use crate::util::{create_pda, expect_signer, expect_writable, find_and_expect_pda, ms_of, stands, Data};
-use embertide_futarchy::law::WINDOW_MAX_MS;
+use poleis_futarchy::law::WINDOW_MAX_MS;
 use pinocchio::{error::ProgramError, AccountView, Address, ProgramResult};
 
 /// data: [board_id:8][authority:32] · accounts: [payer (s,w), board (w), system]

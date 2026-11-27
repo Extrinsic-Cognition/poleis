@@ -15,14 +15,14 @@
 
 | | before (main 24bee35b0c) | after (this lane) |
 |---|---|---|
-| the war's rules | a Python model (`meme-royale-rulebook-sim.py`), floats and ints mixed, on no chain | one law in integers, `embertide-war/src/law.rs`: no_std, no allocation, no dependency; the program and the replay call the same functions |
+| the war's rules | a Python model (`meme-royale-rulebook-sim.py`), floats and ints mixed, on no chain | one law in integers, `poleis-war/src/law.rs`: no_std, no allocation, no dependency; the program and the replay call the same functions |
 | his model's four reference wars | Python only | replayed by the law (its replay, feature std) and by the program's own SBF bytes instruction by instruction (Mollusk), every lamport and coin equal to `reference-in-sol.json` (byte-identical to the model's output) |
 | the war on a chain | none: pump.fun's program cannot burn a deserter's coins or convert holders | `poleis_wars`, 12 instructions, 140,112 bytes of SBF, sha256 `bc8bdcad58c58cbe829b6e8c23e442cf495cc3565fbc40cca9237027f52ec9e5` |
 | the first reference war on a real validator | never | run whole on `solana-test-validator` 4.2.0 (Agave, feature set 565236538): 178 transactions, 151 minutes played and none missed, the crow beating its line at minute 148 and the wolf's last stand failing at 150 as the reference says, 40 fighters, 10 deserters paid, 10 converts, 0 differences; 615.5 s at 4 s a minute; the application firewall saw 0 inbound flows |
 | the dearest instruction | | `settle`, 41,195 CU on Mollusk and 40,274 on the validator (a binary search for the most the winner's curve takes), of the 200,000 an instruction may ask |
 | a trade (Mollusk) | | `buy` 7,752 (8,802 to 17,803 when it births the position), `sell` 7,257 (7,474 under the dump tax), `desert` 6,596, `change_sides` 12,840 to 13,890, `crank` 5,718 to 5,974, `stake` 12,457 to 13,345, `unstake` 4,498, `convert` 8,310 to 9,360, `unlock` 4,002; on the validator (its receipt) each kind is within a few units of these or above them by multiples of about 1,500 (a PDA's bump search taking more tries: the run's keys are its own), the most a buy of the forty, 22,303 |
 | the accounts | | Config 183 B, Fees 67 B, House 200 B, Position 123 B, Raid 255 B; a position's rent is its owner's, once |
-| tests (the new Mac, nice 19) | | embertide-war 18 (law 16, reference 2); poleis_wars 19 (id 1, brought 3, cost 1, refusals 12, wars 2); green |
+| tests (the new Mac, nice 19) | | poleis-war 18 (law 16, reference 2); poleis_wars 19 (id 1, brought 3, cost 1, refusals 12, wars 2); green |
 | the diff | | 39 files: 3,846 lines of Rust source, 2,168 of tests, 527 copied whole from `poleis/press` (rpc.rs, wire.rs, with a provenance line), 2,143 of the reference as JSON, 721 of the model as data (the two `.py`, run by nobody at run time), 170 of the script, 200 of receipts, 4,248 of `Cargo.lock` |
 | JavaScript | | none |
 | at rest | | nothing: no process, no deploy; a program on a chain costs nothing until a transaction comes |
@@ -30,7 +30,7 @@
 
 ## What stands now
 
-**The law** (`embertide-war/src/law.rs`): pump.fun's curve (vt, vq, rt, rq, rt0; fees 95 and 30 bps, rounded up) priced in SOL; the stake that opens
+**The law** (`poleis-war/src/law.rs`): pump.fun's curve (vt, vq, rt, rq, rt0; fees 95 and 30 bps, rounded up) priced in SOL; the stake that opens
 a raid (Meme Royale's need: the larger of 5 % of the attacker's market cap and 2 % of the gap, at most 20 % staked, an opponent between half and
 twice); the raid's length (15 minutes to 6 hours by the coins both houses sold); the line (the market cap holding both reserves and both chests),
 met when the climb beats what is left times the time left; the last stand (2 minutes, revival at the line and a ninth more); the clock (the further
@@ -93,7 +93,7 @@ unlocks, every account read back and held to the reference. The receipts are in 
 
 ## The gates
 
-- At the ship (THE CRATES GATE THE SHIP): `embertide-war`, `poleis/program/poleis_wars` and its `rehearsal`, their whole `cargo test`: the law's units,
+- At the ship (THE CRATES GATE THE SHIP): `poleis-war`, `poleis/program/poleis_wars` and its `rehearsal`, their whole `cargo test`: the law's units,
   the four reference wars equal to `reference-in-sol.json` (the law's replay and the program's), every refusal, the costs, what a deserter brought.
 - No gate yet on the chain: the measure it waits for is the rehearsal's receipt, every amount equal to the reference on a validator, read at the
   ship once the lander runs a validator; today it runs by hand, about 11 minutes.

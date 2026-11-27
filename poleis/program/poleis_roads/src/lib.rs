@@ -1,7 +1,7 @@
 //! poleis_roads: the house's decision market on a chain (Nov 20 2026, lane/the-market-is-its-own-program).
 //!
 //! A road is a question the swarm decides by a market: two pools, PASS and FAIL, two worlds; the road passes when PASS's average price beats
-//! FAIL's by a threshold at the close. Off chain this runs as a fold over signed entries (embertide-futarchy's fold.rs). Here it is the same
+//! FAIL's by a threshold at the close. Off chain this runs as a fold over signed entries (poleis-futarchy's fold.rs). Here it is the same
 //! arithmetic one trade at a time, with the pools and each trader's purses in accounts. THE LAW IS NOT THIS PROGRAM'S: every number it moves is
 //! moved by one of the core's whole calls (`carry`, `stamp_check`, `trade_on`, `decide_at`, `happened`, `settle_at`, `pool_at`, `deposit_check`,
 //! `purse_of`, `back_of`, `world_of`), never by a copy or a reordering of their arithmetic. This program keeps the accounts, the checks and the clock.

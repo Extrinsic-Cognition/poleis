@@ -11,7 +11,7 @@
 //! winner's stakers then unlock their coins, and the winners who sell pay a dump tax that falls to nothing. A stake in a raid that never
 //! opened is its staker's to take back (`unstake`).
 //!
-//! THE LAW IS NOT THIS PROGRAM'S: every number it moves is moved by one whole call of embertide-war's core (`buy_on`, `sell_on`, `burn_on`,
+//! THE LAW IS NOT THIS PROGRAM'S: every number it moves is moved by one whole call of poleis-war's core (`buy_on`, `sell_on`, `burn_on`,
 //! `stake_on`, `minute_on`, `trades_until`, `settle_on`, `weights_of`, `weight_of`, `share_of`, `dump_tax_of`, `dump_rate_at`, `tax_split`,
 //! `mcap`, `Rules::check`), never by a copy of its arithmetic. This program keeps the accounts, the lamports, the checks and the clock.
 //!

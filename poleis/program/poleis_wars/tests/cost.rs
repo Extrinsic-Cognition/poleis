@@ -5,7 +5,7 @@
 mod built;
 mod common;
 use common::*;
-use embertide_war::law::Rules;
+use poleis_war::law::Rules;
 use poleis_wars::state::{Config, Fees, House, Position, Raid, RAID_ACTIVE, RAID_DECIDED, RAID_PROPOSED, RAID_STAND};
 use solana_pubkey::Pubkey;
 

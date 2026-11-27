@@ -23,7 +23,7 @@
 //! (`rewards_paying`), and the door waits. The instructions are the stake pool program's own, by its instruction indices and its account orders.
 //!
 //! Not here: a validator in the pool and the stake placed on it (the engine, owed), so the reserve holds every staked lamport and the way out
-//! is at once; the reader that pays a wish its light (the light is counted per staker by `embertide-stake`'s book, the choice read from these
+//! is at once; the reader that pays a wish its light (the light is counted per staker by `poleis-stake`'s book, the choice read from these
 //! memos, the refill his hand).
 
 pub mod page;

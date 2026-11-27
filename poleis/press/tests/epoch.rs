@@ -74,15 +74,15 @@ fn the_runner_refuses_without_its_rules_or_its_keys() {
     let _ = std::fs::remove_dir_all(&dir);
 }
 
-fn snap(epoch: u64, holders: &[(&str, u64)]) -> embertide_stake::Snapshot {
-    embertide_stake::Snapshot { epoch, total_lamports: 100, pool_token_supply: 100, holders: holders.iter().map(|(o, t)| (o.to_string(), *t)).collect() }
+fn snap(epoch: u64, holders: &[(&str, u64)]) -> poleis_stake::Snapshot {
+    poleis_stake::Snapshot { epoch, total_lamports: 100, pool_token_supply: 100, holders: holders.iter().map(|(o, t)| (o.to_string(), *t)).collect() }
 }
 
 /// A MISSED EPOCH'S LIGHT IS POURED LATER, NEVER DROPPED: an epoch counted whose pour failed stays owed, and the next pass pours it before the newer
 /// one, oldest first; each is removed only once the chain's record of its pour is read (settled).
 #[test]
 fn a_counted_epoch_stays_owed_until_its_pour_is_recorded() {
-    use embertide_stake::{count, Book};
+    use poleis_stake::{count, Book};
     use poleis_press::door::Light;
     use poleis_press::epoch::{owed_list, remove_owed, settled, write_owed, Owed};
     use poleis_press::light::{self, Held};
@@ -120,7 +120,7 @@ fn a_counted_epoch_stays_owed_until_its_pour_is_recorded() {
 /// the whole fee stays in root 0's vault, named with its epochs and its amount.
 #[test]
 fn a_gap_is_the_books_one_count_and_is_said_by_name() {
-    use embertide_stake::{count, Book};
+    use poleis_stake::{count, Book};
     use poleis_press::epoch::gap_words;
     let b7 = count(&Book::new("p"), &snap(7, &[("a", 60), ("b", 40)]), 0).unwrap();
     // read at 7, the runner down through 8 and 9, read again at 10: one count of epochs 8 to 10, the fee of all three
